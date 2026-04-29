@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub cron as last-resort fallback (unreliable for new repos).
     # Primary trigger: cron-job.org calls the GitHub API at 08:05 Beijing time.
-    - cron: '0 2 * * *'  # UTC 02:00 = Beijing 10:00, far-fallback only
+    - cron: '0 22 * * *'  # UTC 22:00 (prev day) = Beijing 06:00, +3-4h GitHub delay → ~09:00-10:00 Beijing
   workflow_dispatch: # Allow manual trigger (also used by cron-job.org)
 
 jobs:
