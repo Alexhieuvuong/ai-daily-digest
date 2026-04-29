@@ -267,33 +267,23 @@ def fetch_hacker_news():
 # RSS sources format: (url, name, max_items, cutoff_days)
 # cutoff_days=2 for daily news, cutoff_days=7 for weekly newsletters
 RSS_SOURCES = [
-    # ── 中文资讯 ────────────────────────────────────────────────────────────
-    ("https://rsshub.rssforever.com/36kr/search/articles/ai",  "36Kr AI",     10, 2),
-    ("https://rsshub.rssforever.com/sspai/tag/AI",             "SSPAI AI",    10, 2),
+    # ── 中文 AI 媒体 ─────────────────────────────────────────────────────────
+    ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 2),
+    ("https://www.jiqizhixin.com/rss",                               "机器之心",   10, 2),
+    ("https://www.qbitai.com/rss",                                   "量子位",     10, 2),
+    ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  2),
 
     # ── 英文科技媒体 ─────────────────────────────────────────────────────────
-    ("https://venturebeat.com/category/ai/feed/",                             "VentureBeat AI",  10, 2),
-    ("https://techcrunch.com/category/artificial-intelligence/feed/",         "TechCrunch AI",   10, 2),
-    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",     "The Verge AI",    10, 2),
-    ("https://www.wired.com/feed/tag/artificial-intelligence/latest/rss",     "Wired AI",         8, 2),
-    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",     "IEEE Spectrum AI", 8, 2),
+    ("https://venturebeat.com/category/ai/feed/",                    "VentureBeat AI",   10, 2),
+    ("https://techcrunch.com/category/artificial-intelligence/feed/","TechCrunch AI",    10, 2),
+    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI",10, 2),
+    ("https://www.wired.com/feed/tag/ai/latest/rss",                 "Wired AI",          8, 2),
+    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "IEEE Spectrum AI", 8, 2),
+    ("https://feeds.arstechnica.com/arstechnica/technology-lab",     "Ars Technica AI",   8, 2),
 
     # ── AI 研究者 Newsletter（周更为主，回溯7天）─────────────────────────────
-    ("https://www.oneusefulthing.org/feed",        "One Useful Thing (Mollick)",    5, 7),
-    ("https://www.deeplearning.ai/the-batch/rss/", "The Batch (Andrew Ng)",         5, 7),
-    ("https://every.to/chain-of-thought/feed",     "Every · Chain of Thought",      5, 7),
-    ("https://www.lennysnewsletter.com/feed",      "Lenny's Newsletter",            5, 7),
-    ("https://www.creatoreconomy.so/feed",         "Creator Economy (Peter Yang)",  5, 7),
-
-    # ── Twitter/X 精选账号 via rsshub（best-effort，失败静默跳过）────────────
-    ("https://rsshub.rssforever.com/twitter/user/karpathy",       "Karpathy (X)",        15, 2),
-    ("https://rsshub.rssforever.com/twitter/user/AndrewYNg",      "Andrew Ng (X)",       10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/GoogleDeepMind", "Google DeepMind (X)", 10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/GoogleAI",       "Google AI (X)",       10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/huggingface",    "HuggingFace (X)",     10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/emollick",       "Ethan Mollick (X)",   10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/ShunyuYao12",    "Shunyu Yao (X)",      10, 2),
-    ("https://rsshub.rssforever.com/twitter/user/lijigang_com",   "李继刚 (X)",           10, 2),
+    ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 7),
+    ("https://www.lennysnewsletter.com/feed", "Lenny's Newsletter",         5, 7),
 ]
 
 
