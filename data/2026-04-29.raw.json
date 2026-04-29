@@ -1,13 +1,169 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-04-29T10:23:29.022025+08:00",
+  "generated_at": "2026-04-29T15:18:36.592346+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 31
+    "news": 41
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "MAIC-UI: Making Interactive Courseware with Generative UI",
+        "url": "https://huggingface.co/papers/2604.25806",
+        "normalized_url": "https://huggingface.co/papers/2604.25806",
+        "summary": "Creating interactive STEM courseware traditionally requires HTML/CSS/JavaScript expertise, leaving barriers for educators. While generative AI can produce HTML codes, existing tools generate static presentations rather than interactive simulations, struggle with long documents, and lack pedagogical accuracy mechanisms. Furthermore, full regeneration for modifications requires 200--600 seconds, disrupting creative flow. We present MAIC-UI, a zero-code authoring system that enables educators to cr",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2604.25806"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+        "url": "https://huggingface.co/papers/2604.25256",
+        "normalized_url": "https://huggingface.co/papers/2604.25256",
+        "summary": "Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing knowledge for a research problem, or to acquire evidence for verifying assumptions and supporting claims. To assess AI agents' capability in driving this process, we present AutoResearchBench, a dedicated benchmark for autonomous scientific literature discovery. AutoResearchBench consists of two compl",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25256"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference Analysis for TTS in Indian Languages",
+        "url": "https://huggingface.co/papers/2604.21481",
+        "normalized_url": "https://huggingface.co/papers/2604.21481",
+        "summary": "Crowdsourced pairwise evaluation has emerged as a scalable approach for assessing foundation models. However, applying it to Text to Speech(TTS) introduces high variance due to linguistic diversity and multidimensional nature of speech perception. We present a controlled multidimensional pairwise evaluation framework for multilingual TTS that combines linguistic control with perceptually grounded annotation. Using 5K+ native and code-mixed sentences across 10 Indic languages, we evaluate 7 state",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.21481"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Seeing Isn't Believing: Uncovering Blind Spots in Evaluator Vision-Language Models",
+        "url": "https://huggingface.co/papers/2604.21523",
+        "normalized_url": "https://huggingface.co/papers/2604.21523",
+        "summary": "Large Vision-Language Models (VLMs) are increasingly used to evaluate outputs of other models, for image-to-text (I2T) tasks such as visual question answering, and text-to-image (T2I) generation tasks. Despite this growing reliance, the reliability of these Evaluator VLMs remains under explored. In this work, we systematically evaluate the reliability of Evaluator VLMs across both I2T and T2I tasks. We introduce targeted perturbations that degrade output quality along key error dimensions, inclu",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.21523"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+        "url": "https://huggingface.co/papers/2604.24005",
+        "normalized_url": "https://huggingface.co/papers/2604.24005",
+        "summary": "On-policy distillation (OPD) has shown strong potential for transferring reasoning ability from frontier or domain-specific models to smaller students. While effective on static single-turn tasks, its behavior in multi-turn agent settings remains underexplored. In this work, we identify a key limitation of vanilla OPD in such settings, which we term Trajectory-Level KL Instability. Specifically, we observe that KL divergence increases together with a drop in success rate, and even after converge",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.24005"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+        "url": "https://huggingface.co/papers/2604.23941",
+        "normalized_url": "https://huggingface.co/papers/2604.23941",
+        "summary": "Graphical User Interface (GUI) element grounding (precisely locating elements on screenshots based on natural language instructions) is fundamental for agents interacting with GUIs. Deploying this capability directly on resource-constrained devices like mobile phones is increasingly critical for GUI agents requiring low latency. However, this goal faces a significant challenge, as current visual grounding methods typically employ large vision-language model (VLM) (more than 2.5B parameters), mak",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.23941"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark",
+        "url": "https://huggingface.co/papers/2604.24441",
+        "normalized_url": "https://huggingface.co/papers/2604.24441",
+        "summary": "Autonomous agents capable of navigating Graphical User Interfaces (GUIs) hold the potential to revolutionize digital productivity. However, achieving true digital autonomy extends beyond reactive element matching; it necessitates a predictive mental model of interface dynamics and the ability to foresee the \"digital world state\" resulting from interactions. Despite the perceptual capabilities of modern Vision-Language Models (VLMs), existing benchmarks remain bifurcated (focusing either on black",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.24441"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate",
+        "url": "https://huggingface.co/papers/2604.25203",
+        "normalized_url": "https://huggingface.co/papers/2604.25203",
+        "summary": "Deploying guardrails for custom policies remains challenging, as generic safety models fail to capture task-specific requirements, while prompting LLMs suffers from inconsistent boundary-case performance and high inference costs. Training custom classifiers achieves both accuracy and efficiency, yet demands substantial labeled data that is costly to obtain. We present BARRED (Boundary Alignment Refinement through REflection and Debate), a framework for generating faithful and diverse synthetic t",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25203"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Co-Director: Agentic Generative Video Storytelling",
+        "url": "https://huggingface.co/papers/2604.24842",
+        "normalized_url": "https://huggingface.co/papers/2604.24842",
+        "summary": "While diffusion models generate high-fidelity video clips, transforming them into coherent storytelling engines remains challenging. Current agentic pipelines automate this via chained modules but suffer from semantic drift and cascading failures due to independent, handcrafted prompting. We present Co-Director, a hierarchical multi-agent framework formalizing video storytelling as a global optimization problem. To ensure semantic coherence, we introduce hierarchical parameterization: a multi-ar",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.24842"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation",
+        "url": "https://huggingface.co/papers/2604.25819",
+        "normalized_url": "https://huggingface.co/papers/2604.25819",
+        "summary": "In this work, we propose Mutual Forcing, a framework for fast autoregressive audio-video generation with long-horizon audio-video synchronization. Our approach addresses two key challenges: joint audio-video modeling and fast autoregressive generation. To ease joint audio-video optimization, we adopt a two-stage training strategy: we first train uni-modal generators and then couple them into a unified audio-video model for joint training on paired data. For streaming generation, we ask whether a",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25819"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+        "url": "https://huggingface.co/papers/2604.25636",
+        "normalized_url": "https://huggingface.co/papers/2604.25636",
+        "summary": "Unified multimodal models (UMMs) integrate visual understanding and generation within a single framework. For text-to-image (T2I) tasks, this unified capability allows UMMs to refine outputs after their initial generation, potentially extending the performance upper bound. Current UMM-based refinement methods primarily follow a refinement-via-editing (RvE) paradigm, where UMMs produce editing instructions to modify misaligned regions while preserving aligned content. However, editing instruction",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25636"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IAM: Identity-Aware Human Motion and Shape Joint Generation",
+        "url": "https://huggingface.co/papers/2604.25164",
+        "normalized_url": "https://huggingface.co/papers/2604.25164",
+        "summary": "Recent advances in text-driven human motion generation enable models to synthesize realistic motion sequences from natural language descriptions. However, most existing approaches assume identity-neutral motion and generate movements using a canonical body representation, ignoring the strong influence of body morphology on motion dynamics. In practice, attributes such as body proportions, mass distribution, and age significantly affect how actions are performed, and neglecting this coupling ofte",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25164"
+        }
+      },
       {
         "category": "papers",
         "title": "A Systematic Post-Train Framework for Video Generation",
@@ -110,162 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2604.23446"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
-        "url": "https://huggingface.co/papers/2604.15574",
-        "normalized_url": "https://huggingface.co/papers/2604.15574",
-        "summary": "Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information through supervised fine-tuning (SFT), which can increase hallucinations w.r.t. knowledge acquired during pre-training. In this work, we explore whether SFT-induced hallucinations can be mitigated using established tools from the continual learning literature, since they arise as a by-product of knowledge degradation during training. We propose a sel",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.15574"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Improving Robustness of Tabular Retrieval via Representational Stability",
-        "url": "https://huggingface.co/papers/2604.24040",
-        "normalized_url": "https://huggingface.co/papers/2604.24040",
-        "summary": "Transformer-based table retrieval systems flatten structured tables into token sequences, making retrieval sensitive to the choice of serialization even when table semantics remain unchanged. We show that semantically equivalent serializations, such as csv, tsv, html, markdown, and ddl, can produce substantially different embeddings and retrieval results across multiple benchmarks and retriever families. To address this instability, we treat serialization embedding as noisy views of a shared sem",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-27T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.24040"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Sapiens2",
-        "url": "https://huggingface.co/papers/2604.21681",
-        "normalized_url": "https://huggingface.co/papers/2604.21681",
-        "summary": "We present Sapiens2, a model family of high-resolution transformers for human-centric vision focused on generalization, versatility, and high-fidelity outputs. Our model sizes range from 0.4 to 5 billion parameters, with native 1K resolution and hierarchical variants that support 4K. Sapiens2 substantially improves over its predecessor in both pretraining and post-training. First, to learn features that capture low-level details (for dense prediction) and high-level semantics (for zero-shot or f",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-23T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.21681"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Personality Shapes Gender Bias in Persona-Conditioned LLM Narratives Across English and Hindi: An Empirical Investigation",
-        "url": "https://huggingface.co/papers/2604.23600",
-        "normalized_url": "https://huggingface.co/papers/2604.23600",
-        "summary": "Large Language Models (LLMs) are increasingly deployed in persona-driven applications such as education, customer service, and social platforms, where models are prompted to adopt specific personas when interacting with users. While persona conditioning can improve user experience and engagement, it also raises concerns about how personality cues may interact with gender biases and stereotypes. In this work, we present a controlled study of persona-conditioned story generation in English and Hin",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-26T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.23600"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Credal Concept Bottleneck Models for Epistemic-Aleatoric Uncertainty Decomposition",
-        "url": "https://huggingface.co/papers/2604.24170",
-        "normalized_url": "https://huggingface.co/papers/2604.24170",
-        "summary": "Concept Bottleneck Models (CBMs) predict through human-interpretable concepts, but they typically output point concept probabilities that conflate epistemic uncertainty (reducible model underspecification) with aleatoric uncertainty (irreducible input ambiguity). This makes concept-level uncertainty hard to interpret and, more importantly, hard to act upon. We introduce CREDENCE (Credal Ensemble Concept Estimation), a CBM framework that decomposes concept uncertainty by construction. CREDENCE re",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-27T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.24170"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "PageGuide: Browser extension to assist users in navigating a webpage and locating information",
-        "url": "https://huggingface.co/papers/2604.23772",
-        "normalized_url": "https://huggingface.co/papers/2604.23772",
-        "summary": "Users browsing the web daily struggle to quickly locate relevant information in cluttered pages, complete unfamiliar multi-step tasks, and stay focused amid distracting content. State-of-the-art AI assistants (e.g., ChatGPT, Gemini, Claude) and browser agents (e.g., OpenAI Operator, Browser Use) can answer questions and automate actions, yet they return answers without showing where the information comes from on the page, forcing users to manually verify results and blindly trust every automated",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-26T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.23772"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "RaV-IDP: A Reconstruction-as-Validation Framework for Faithful Intelligent Document Processing",
-        "url": "https://huggingface.co/papers/2604.23644",
-        "normalized_url": "https://huggingface.co/papers/2604.23644",
-        "summary": "Intelligent document processing pipelines extract structured entities (tables, images, and text) from documents for use in downstream systems such as knowledge bases, retrieval-augmented generation, and analytics. A persistent limitation of existing pipelines is that extraction output is produced without any intrinsic mechanism to verify whether it faithfully represents the source. Model-internal confidence scores measure inference certainty, not correspondence to the document, and extraction er",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-26T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.23644"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation",
-        "url": "https://huggingface.co/papers/2604.23604",
-        "normalized_url": "https://huggingface.co/papers/2604.23604",
-        "summary": "Understanding the surrounding environment is fundamental in autonomous driving and robotic perception. Distinguishing between known classes and previously unseen objects is crucial in real-world environments, as done in Anomaly Segmentation. However, research in the 3D field remains limited, with most existing approaches applying post-processing techniques from 2D vision. To cover this lack, we propose a new efficient approach that directly operates in the feature space, modeling the feature dis",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-26T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.23604"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining",
-        "url": "https://huggingface.co/papers/2604.16391",
-        "normalized_url": "https://huggingface.co/papers/2604.16391",
-        "summary": "Vision-language-action (VLA) models have shown great potential in building generalist robots, but still face a dilemma-misalignment of 2D image forecasting and 3D action prediction. Besides, such a vision-action entangled training manner limits model learning from large-scale, action-free web video data. To address these issues, we propose DeFI, a novel framework that Decouples visual Forward and Inverse dynamics pretraining to exploit respective data sources, wherein video generation and action",
-        "source": "HuggingFace Papers",
-        "published": "2026-03-27T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.16391"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "UniGeo: Unifying Geometric Guidance for Camera-Controllable Image Editing via Video Models",
-        "url": "https://huggingface.co/papers/2604.17565",
-        "normalized_url": "https://huggingface.co/papers/2604.17565",
-        "summary": "Camera-controllable image editing aims to synthesize novel views of a given scene under varying camera poses while strictly preserving cross-view geometric consistency. However, existing methods typically rely on fragmented geometric guidance, such as only injecting point clouds at the representation level despite models containing multiple levels, and are mainly based on image diffusion models that operate on discrete view mappings. These two limitations jointly lead to geometric drift and stru",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-19T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.17565"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings",
-        "url": "https://huggingface.co/papers/2604.24597",
-        "normalized_url": "https://huggingface.co/papers/2604.24597",
-        "summary": "We provide evidence of quantum kernel advantage under noiseless simulation in binary insurance classification on MIMIC-CXR chest radiographs using quantum support vector machines (QSVM) with frozen embeddings from three medical foundation models (MedSigLIP-448, RAD-DINO, ViT-patch32). We propose a two-tier fair comparison framework in which both classifiers receive identical PCA-q features. At Tier 1 (untuned QSVM vs. untuned linear SVM, C = 1 both sides), QSVM wins minority-class F1 in all 18 t",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-27T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.24597"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "TexOCR: Advancing Document OCR Models for Compilable Page-to-LaTeX Reconstruction",
-        "url": "https://huggingface.co/papers/2604.22880",
-        "normalized_url": "https://huggingface.co/papers/2604.22880",
-        "summary": "Existing document OCR largely targets plain text or Markdown, discarding the structural and executable properties that make LaTeX essential for scientific publishing. We study page-level reconstruction of scientific PDFs into compilable LaTeX and introduce TexOCR-Bench, a benchmark, and TexOCR-Train, a large-scale training corpus, for this task. TexOCR-Bench features a multi-dimensional evaluation suite that jointly assesses transcription fidelity, structural faithfulness, and end-to-end compila",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-24T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.22880"
         }
       }
     ],
@@ -484,12 +484,12 @@
     "news": [
       {
         "category": "news",
-        "title": "北京车展暴走2万步，我们总结出汽车营销6大变化",
-        "url": "https://www.36kr.com/p/3786506023361794",
-        "normalized_url": "https://www.36kr.com/p/3786506023361794",
-        "summary": "1451台展车亮相、181款新车首发，2026北京国际车展究竟是夯还是拉？",
+        "title": "杨斌：我为什么要提“AI次方变革”",
+        "url": "https://www.36kr.com/p/3787501741497606",
+        "normalized_url": "https://www.36kr.com/p/3787501741497606",
+        "summary": "当组织的中年撞上技术的青春期。",
         "source": "36Kr AI",
-        "published": "2026-04-29T02:16:33+00:00",
+        "published": "2026-04-29T07:16:18+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -497,12 +497,12 @@
       },
       {
         "category": "news",
-        "title": "数百大主播压阵，遥望科技为何走不出巨亏黑洞？",
-        "url": "https://www.36kr.com/p/3787142125837316",
-        "normalized_url": "https://www.36kr.com/p/3787142125837316",
-        "summary": "连续亏五年，累计亏损超36亿元",
+        "title": "年季报剖析：净利率暴跌至3.41%，影石创新\"增收不增利\"困局透视",
+        "url": "https://www.36kr.com/p/3787449651502086",
+        "normalized_url": "https://www.36kr.com/p/3787449651502086",
+        "summary": "为什么“越卖越不赚钱”？",
         "source": "36Kr AI",
-        "published": "2026-04-29T02:10:25+00:00",
+        "published": "2026-04-29T07:15:25+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -510,12 +510,12 @@
       },
       {
         "category": "news",
-        "title": "使用AI的创业者，变相成了智谱、Kimi“打工人”？",
-        "url": "https://www.36kr.com/p/3787259789516039",
-        "normalized_url": "https://www.36kr.com/p/3787259789516039",
-        "summary": "算力成了“绊脚石”",
+        "title": "拍食物AI算卡路里，18岁中学生开发的App如何年入2亿？",
+        "url": "https://www.36kr.com/p/3787445432720393",
+        "normalized_url": "https://www.36kr.com/p/3787445432720393",
+        "summary": "一个小切口撬动十亿级市场，从Cal AI并购案看饮食健康管理APP赛道的生意与AI革命",
         "source": "36Kr AI",
-        "published": "2026-04-29T02:09:59+00:00",
+        "published": "2026-04-29T07:14:48+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -523,90 +523,12 @@
       },
       {
         "category": "news",
-        "title": "Momenta的“物理AI”野望，需迈过“含摩量”这道关",
-        "url": "https://www.36kr.com/p/3786510274632706",
-        "normalized_url": "https://www.36kr.com/p/3786510274632706",
-        "summary": "要么定义规则，要么黯然退场。",
+        "title": "Soul App发布五一出行图鉴：年轻人正在用旅行治愈自己",
+        "url": "https://www.36kr.com/p/3787564290612226",
+        "normalized_url": "https://www.36kr.com/p/3787564290612226",
+        "summary": "不打卡、只取悦自己",
         "source": "36Kr AI",
-        "published": "2026-04-29T02:09:14+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "影石联合字节推出无线麦，主攻Vibe Coding场景，要让程序员用嘴编程？",
-        "url": "https://www.36kr.com/p/3786479381574151",
-        "normalized_url": "https://www.36kr.com/p/3786479381574151",
-        "summary": "“嘘！请你说话小声点，别影响我Vibe Coding。”",
-        "source": "36Kr AI",
-        "published": "2026-04-29T02:09:03+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "a16z Speedrun SR006 全解析：AI创业的“高密度样本池” （上篇）",
-        "url": "https://www.36kr.com/p/3786499459685632",
-        "normalized_url": "https://www.36kr.com/p/3786499459685632",
-        "summary": "Speedrun旗下SR006路演日：一份观察当下 AI 创业范式与早期项目密度的硅谷样本。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T02:05:15+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI 写代码太烧钱了：Copilot、Claude 一起涨价，不如把程序员请回来？",
-        "url": "https://www.36kr.com/p/3787252419681280",
-        "normalized_url": "https://www.36kr.com/p/3787252419681280",
-        "summary": "程序员们，先别忙着焦虑 AI 会抢走你的饭碗。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T02:01:05+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "英特尔，又赌对了？",
-        "url": "https://www.36kr.com/p/3787198610349061",
-        "normalized_url": "https://www.36kr.com/p/3787198610349061",
-        "summary": "玻璃基板，势在必行。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T01:57:50+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "胖东来模式，是否可复制？",
-        "url": "https://www.36kr.com/p/3787205923265541",
-        "normalized_url": "https://www.36kr.com/p/3787205923265541",
-        "summary": "拆解胖东来的底层逻辑，探寻“可复制性”的边界。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T01:54:16+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "商汤新融资超32亿港元，AI龙头盈利魔咒为何难破？",
-        "url": "https://www.36kr.com/p/3787064853797890",
-        "normalized_url": "https://www.36kr.com/p/3787064853797890",
-        "summary": "资本还能为“烧钱”换增长的故事买多少次单？",
-        "source": "36Kr AI",
-        "published": "2026-04-29T01:42:21+00:00",
+        "published": "2026-04-29T07:10:46+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -614,15 +536,80 @@
       },
       {
         "category": "news",
-        "title": "移动端Agent的井喷或许近在眼前——以ColorOS抛砖引玉",
-        "url": "https://sspai.com/post/109062",
-        "normalized_url": "https://sspai.com/post/109062",
-        "summary": "契机也是上一期具透中有关Android 17的功能更新上，克莱德和我都提到了一些谷歌官方下场为了拥抱AI做出的改变——新的API，新的权限整合，似乎都是在为Universal Agent在移动端的落地做准备。而另一个角度之下，Gemma 4和Xiaomi MiMo V2.5这样的针对低功耗、移动端、算力敏感设备推出的小模型也不断在Agent的具体场景下开疆拓土，性能提升明显。这里就拿目前我认为国产UI中Agent功能做的比较好的厂商：ColorOS，总结一下我认为目前可用性已经很强的一些Agent功能，并展望也许几个月后会初具雏形的系统级多功能Agent会是什么样子。 本短文所有内容基于一加15T，系统版本ColorOS 16.0.5.703(CN01B60P01)，限于篇幅将不会涵盖OPPO AI的全部功能。由于新一代ColorOS16除旅游攻略AI Agent并没有大幅更新其它功能，本文大部分内容仍具有时效性。 好用但并不统一——现阶段移动端Agent的通病 首先我个人用的最多的肯定是小布记忆，作为AI专业的学生，无论是看到好的文章/视频，还是在帖子里看到不错的idea或者论文创新",
-        "source": "SSPAI AI",
-        "published": "2026-04-28T09:05:28+00:00",
+        "title": "被Anthropic超车的OpenAI，正在远离微软、靠近亚马逊",
+        "url": "https://www.36kr.com/p/3787391989226499",
+        "normalized_url": "https://www.36kr.com/p/3787391989226499",
+        "summary": "美国市场上，两个巨头和两个超级AI独角兽的竞争格局正在发生微妙的变化",
+        "source": "36Kr AI",
+        "published": "2026-04-29T07:06:47+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "400亿，潮汕中专生去敲钟了",
+        "url": "https://www.36kr.com/p/3787403901984006",
+        "normalized_url": "https://www.36kr.com/p/3787403901984006",
+        "summary": "“潮汕帮”，加速集聚。",
+        "source": "36Kr AI",
+        "published": "2026-04-29T06:23:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "量子计算掀起上市潮，黄仁勋的“野心”藏不住了",
+        "url": "https://www.36kr.com/p/3787438403334657",
+        "normalized_url": "https://www.36kr.com/p/3787438403334657",
+        "summary": "量子计算上市了，投资人却在用脚投票",
+        "source": "36Kr AI",
+        "published": "2026-04-29T06:23:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "马斯克当庭控诉奥特曼：偷走一家慈善机构是不对的",
+        "url": "https://www.36kr.com/p/3787441045647877",
+        "normalized_url": "https://www.36kr.com/p/3787441045647877",
+        "summary": "已进入开庭陈述阶段",
+        "source": "36Kr AI",
+        "published": "2026-04-29T06:22:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI撑爆GitHub，天天宕机，18年老兵带5万星项目「决裂出逃」",
+        "url": "https://www.36kr.com/p/3787501806935299",
+        "normalized_url": "https://www.36kr.com/p/3787501806935299",
+        "summary": "GitHub老用户携5万星项目出逃，AI压垮平台。",
+        "source": "36Kr AI",
+        "published": "2026-04-29T06:22:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+        "url": "https://www.36kr.com/p/3787501855136774",
+        "normalized_url": "https://www.36kr.com/p/3787501855136774",
+        "summary": "“全球最强开源”的含金量还在上升",
+        "source": "36Kr AI",
+        "published": "2026-04-29T06:22:25+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
       },
       {
@@ -883,6 +870,149 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Better Hardware Could Turn Zeros into AI Heroes",
+        "url": "https://spectrum.ieee.org/sparse-ai",
+        "normalized_url": "https://spectrum.ieee.org/sparse-ai",
+        "summary": "When it comes to AI models, size matters. Even though some artificial-intelligence experts warn that scaling up large language models (LLMs) is hitting diminishing performance returns, companies are still coming out with ever larger AI tools. Meta’s latest Llama release had a staggering 2 trillion parameters that define the model. As models grow in size, their capabilities increase. But so do the energy demands and the time it takes to run the models, which increases their carbon footprint . To ",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-04-28T18:03:40+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“Entanglement: A Brief History of Human Connection”",
+        "url": "https://spectrum.ieee.org/entanglement-poem",
+        "normalized_url": "https://spectrum.ieee.org/entanglement-poem",
+        "summary": "It started with word, cave, and storytelling, A line scratched on stone walls: “Meet me when the young moon rises.” The first protocol for connection. Coyote tales, forbidden scripts, Medieval texts hidden from flame. What lived in Aristotle’s lost Poetics II ? Was it God who laughed last, or we who made God laugh? Letters carried by doves, telepathic waves. Then Nikola Tesla conjured radio, electromagnetic pulses across the void, the founding signal of our networked age. Wiener dreamed in feedb",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-04-28T14:00:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude Mythos Preview Requires New Ways to Keep Code Secure",
+        "url": "https://spectrum.ieee.org/anthropic-claude-mythos-preview-code",
+        "normalized_url": "https://spectrum.ieee.org/anthropic-claude-mythos-preview-code",
+        "summary": "Malicious actors are now exploiting generative AI to carry out cyberattacks: scamming victims using AI-generated deepfakes , deploying malware developed with the help of AI coding tools , using chatbots to pull off phishing campaigns , and hacking widely used open-source code repositories with AI agents. And these AI-driven threats are rising . In early April, Anthropic’s Frontier Red Team, which evaluates the potential safety and security risks posed by the company’s AI models, announced that t",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-04-27T15:18:34+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Engineering Collisions: How NYU Is Remaking Health Research",
+        "url": "https://spectrum.ieee.org/nyu-health-research",
+        "normalized_url": "https://spectrum.ieee.org/nyu-health-research",
+        "summary": "This sponsored article is brought to you by NYU Tandon School of Engineering . The traditional approach to academic research goes something like this: Assemble experts from a discipline, put them in a building, and hope something useful emerges. Biology departments do biology. Engineering departments do engineering. Medical schools treat patients. NYU is turning that model inside out. At its new Institute for Engineering Health , the organizing principle centers around disease states rather than",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-04-27T12:45:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Modeling and Simulation Approaches for Modern Power System Studies",
+        "url": "https://content.knowledgehub.wiley.com/power-systems-studies-with-simulink-and-simscape-electrical/",
+        "normalized_url": "https://content.knowledgehub.wiley.com/power-systems-studies-with-simulink-and-simscape-electrical",
+        "summary": "This webinar covers power system modeling and simulation across multiple timescales, from quasi-static 8760 analysis through EMT studies, fault classification, and inverter-based resource grid integration. What Attendees will Learn Programmatic network construction and multi-fidelity modeling — Learn how to build power system networks programmatically from standard data formats, configure models for specific engineering objectives, and work across fidelity levels from quasi-static phasor simulat",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-04-27T10:00:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Sign of the future: GPT-5.5",
+        "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+        "normalized_url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+        "summary": "One impressive step on the curve",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-04-23T20:00:38+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Your Couch-to-5K for AI",
+        "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
+        "normalized_url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
+        "summary": "A step-by-step guide to building an AI habit that sticks",
+        "source": "Lenny's Newsletter",
+        "published": "2026-04-28T15:31:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
+        "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
+        "normalized_url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-04-27T15:02:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
+        "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
+        "normalized_url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
+        "summary": "Listen now | 🎙️Jason Levin (CEO of Memelord) shows how he built a $100K ARR meme company without coding—plus why every marketer should vibe code and how agents are becoming his primary users",
+        "source": "Lenny's Newsletter",
+        "published": "2026-04-27T12:03:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
+        "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
+        "normalized_url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
+        "summary": "Listen now | Snap's co-founder on why only two consumer apps broke through in 15 years, how every major Snapchat feature was cloned, why hardware is the only real moat, and why distribution beats product",
+        "source": "Lenny's Newsletter",
+        "published": "2026-04-26T12:31:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
+        "summary": "Community Wisdom 182",
+        "source": "Lenny's Newsletter",
+        "published": "2026-04-25T19:51:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
         }
       }
     ]
