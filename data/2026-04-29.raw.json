@@ -1,13 +1,26 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-04-29T15:18:36.592346+08:00",
+  "generated_at": "2026-04-29T16:11:14.354255+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 41
+    "news": 61
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Step-Audio-R1.5 Technical Report",
+        "url": "https://huggingface.co/papers/2604.25719",
+        "normalized_url": "https://huggingface.co/papers/2604.25719",
+        "summary": "Recent advancements in large audio language models have extended Chain-of-Thought (CoT) reasoning into the auditory domain, enabling models to tackle increasingly complex acoustic and spoken tasks. To elicit and sustain these extended reasoning chains, the prevailing paradigm -- driven by the success of text-based reasoning models -- overwhelmingly relies on Reinforcement Learning with Verified Rewards (RLVR). However, as models are strictly optimized to distill rich, continuous auditory context",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.25719"
+        }
+      },
       {
         "category": "papers",
         "title": "MAIC-UI: Making Interactive Courseware with Generative UI",
@@ -254,25 +267,26 @@
         "metadata": {
           "paper_id": "2604.18756"
         }
-      },
-      {
-        "category": "papers",
-        "title": "IndustryAssetEQA: A Neurosymbolic Operational Intelligence System for Embodied Question Answering in Industrial Asset Maintenance",
-        "url": "https://huggingface.co/papers/2604.23446",
-        "normalized_url": "https://huggingface.co/papers/2604.23446",
-        "summary": "Industrial maintenance environments increasingly rely on AI systems to assist operators in understanding asset behavior, diagnosing failures, and evaluating interventions. Although large language models (LLMs) enable fluent natural-language interaction, deployed maintenance assistants routinely produce generic explanations that are weakly grounded in telemetry, omit verifiable provenance, and offer no testable support for counterfactual or action-oriented reasoning that undermine trust in safety",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-25T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.23446"
-        }
       }
     ],
     "projects": [
       {
         "category": "projects",
-        "title": "mattpocock/skills ⭐564",
+        "title": "warpdotdev/warp ⭐1153",
+        "url": "https://github.com/warpdotdev/warp",
+        "normalized_url": "https://github.com/warpdotdev/warp",
+        "summary": "Warp is an agentic development environment, born out of the terminal.",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "1153",
+          "language": ""
+        }
+      },
+      {
+        "category": "projects",
+        "title": "mattpocock/skills ⭐608",
         "url": "https://github.com/mattpocock/skills",
         "normalized_url": "https://github.com/mattpocock/skills",
         "summary": "My personal directory of skills, straight from my .claude directory.",
@@ -280,27 +294,13 @@
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars": "564",
+          "stars": "608",
           "language": "Shell"
         }
       },
       {
         "category": "projects",
-        "title": "Alishahryar1/free-claude-code ⭐181",
-        "url": "https://github.com/Alishahryar1/free-claude-code",
-        "normalized_url": "https://github.com/Alishahryar1/free-claude-code",
-        "summary": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "181",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "openai/symphony ⭐134",
+        "title": "openai/symphony ⭐143",
         "url": "https://github.com/openai/symphony",
         "normalized_url": "https://github.com/openai/symphony",
         "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
@@ -308,22 +308,8 @@
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars": "134",
+          "stars": "143",
           "language": "Elixir"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "abhigyanpatwari/GitNexus ⭐130",
-        "url": "https://github.com/abhigyanpatwari/GitNexus",
-        "normalized_url": "https://github.com/abhigyanpatwari/GitNexus",
-        "summary": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "130",
-          "language": "TypeScript"
         }
       },
       {
@@ -342,7 +328,21 @@
       },
       {
         "category": "projects",
-        "title": "JuliusBrussee/caveman ⭐87",
+        "title": "Alishahryar1/free-claude-code ⭐105",
+        "url": "https://github.com/Alishahryar1/free-claude-code",
+        "normalized_url": "https://github.com/Alishahryar1/free-claude-code",
+        "summary": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 4,
+        "metadata": {
+          "stars": "105",
+          "language": "Python"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "JuliusBrussee/caveman ⭐76",
         "url": "https://github.com/JuliusBrussee/caveman",
         "normalized_url": "https://github.com/JuliusBrussee/caveman",
         "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
@@ -350,13 +350,13 @@
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars": "87",
+          "stars": "76",
           "language": "Python"
         }
       },
       {
         "category": "projects",
-        "title": "addyosmani/agent-skills ⭐78",
+        "title": "addyosmani/agent-skills ⭐73",
         "url": "https://github.com/addyosmani/agent-skills",
         "normalized_url": "https://github.com/addyosmani/agent-skills",
         "summary": "Production-grade engineering skills for AI coding agents.",
@@ -364,13 +364,55 @@
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars": "78",
+          "stars": "73",
           "language": "Shell"
         }
       },
       {
         "category": "projects",
-        "title": "safishamsi/graphify ⭐85",
+        "title": "KKKKhazix/khazix-skills ⭐71",
+        "url": "https://github.com/KKKKhazix/khazix-skills",
+        "normalized_url": "https://github.com/KKKKhazix/khazix-skills",
+        "summary": "数字生命卡兹克开源的 AI Skills 合集",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "71",
+          "language": "Python"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "abhigyanpatwari/GitNexus ⭐72",
+        "url": "https://github.com/abhigyanpatwari/GitNexus",
+        "normalized_url": "https://github.com/abhigyanpatwari/GitNexus",
+        "summary": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "72",
+          "language": "TypeScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "fspecii/ace-step-ui ⭐65",
+        "url": "https://github.com/fspecii/ace-step-ui",
+        "normalized_url": "https://github.com/fspecii/ace-step-ui",
+        "summary": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+        "source": "GitHub Trending",
+        "published": null,
+        "importance_hint": 5,
+        "metadata": {
+          "stars": "65",
+          "language": "JavaScript"
+        }
+      },
+      {
+        "category": "projects",
+        "title": "safishamsi/graphify ⭐63",
         "url": "https://github.com/safishamsi/graphify",
         "normalized_url": "https://github.com/safishamsi/graphify",
         "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
@@ -378,27 +420,13 @@
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars": "85",
+          "stars": "63",
           "language": "Python"
         }
       },
       {
         "category": "projects",
-        "title": "basketikun/chatgpt2api ⭐61",
-        "url": "https://github.com/basketikun/chatgpt2api",
-        "normalized_url": "https://github.com/basketikun/chatgpt2api",
-        "summary": "No description",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "61",
-          "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "rtk-ai/rtk ⭐76",
+        "title": "rtk-ai/rtk ⭐59",
         "url": "https://github.com/rtk-ai/rtk",
         "normalized_url": "https://github.com/rtk-ai/rtk",
         "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
@@ -406,13 +434,13 @@
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars": "76",
+          "stars": "59",
           "language": "Rust"
         }
       },
       {
         "category": "projects",
-        "title": "badlogic/pi-mono ⭐65",
+        "title": "badlogic/pi-mono ⭐46",
         "url": "https://github.com/badlogic/pi-mono",
         "normalized_url": "https://github.com/badlogic/pi-mono",
         "summary": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
@@ -420,27 +448,27 @@
         "published": null,
         "importance_hint": 5,
         "metadata": {
-          "stars": "65",
+          "stars": "46",
           "language": "TypeScript"
         }
       },
       {
         "category": "projects",
-        "title": "heygen-com/hyperframes ⭐62",
-        "url": "https://github.com/heygen-com/hyperframes",
-        "normalized_url": "https://github.com/heygen-com/hyperframes",
-        "summary": "Write HTML. Render video. Built for agents.",
+        "title": "caamer20/Telegram-Drive ⭐43",
+        "url": "https://github.com/caamer20/Telegram-Drive",
+        "normalized_url": "https://github.com/caamer20/Telegram-Drive",
+        "summary": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
         "source": "GitHub Trending",
         "published": null,
-        "importance_hint": 5,
+        "importance_hint": 4,
         "metadata": {
-          "stars": "62",
+          "stars": "43",
           "language": "TypeScript"
         }
       },
       {
         "category": "projects",
-        "title": "Fincept-Corporation/FinceptTerminal ⭐80",
+        "title": "Fincept-Corporation/FinceptTerminal ⭐76",
         "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
         "normalized_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
         "summary": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
@@ -448,48 +476,20 @@
         "published": null,
         "importance_hint": 4,
         "metadata": {
-          "stars": "80",
+          "stars": "76",
           "language": "Python"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "nashsu/llm_wiki ⭐52",
-        "url": "https://github.com/nashsu/llm_wiki",
-        "normalized_url": "https://github.com/nashsu/llm_wiki",
-        "summary": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 4,
-        "metadata": {
-          "stars": "52",
-          "language": "TypeScript"
-        }
-      },
-      {
-        "category": "projects",
-        "title": "multica-ai/multica ⭐49",
-        "url": "https://github.com/multica-ai/multica",
-        "normalized_url": "https://github.com/multica-ai/multica",
-        "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-        "source": "GitHub Trending",
-        "published": null,
-        "importance_hint": 5,
-        "metadata": {
-          "stars": "49",
-          "language": "TypeScript"
         }
       }
     ],
     "news": [
       {
         "category": "news",
-        "title": "杨斌：我为什么要提“AI次方变革”",
-        "url": "https://www.36kr.com/p/3787501741497606",
-        "normalized_url": "https://www.36kr.com/p/3787501741497606",
-        "summary": "当组织的中年撞上技术的青春期。",
+        "title": "挪瓦咖啡官宣全球品牌代言人 同步启动5亿“生意增长基金”",
+        "url": "https://www.36kr.com/p/3787616595614976",
+        "normalized_url": "https://www.36kr.com/p/3787616595614976",
+        "summary": "加码供应链与数字化。",
         "source": "36Kr AI",
-        "published": "2026-04-29T07:16:18+00:00",
+        "published": "2026-04-29T08:04:09+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -497,12 +497,12 @@
       },
       {
         "category": "news",
-        "title": "年季报剖析：净利率暴跌至3.41%，影石创新\"增收不增利\"困局透视",
-        "url": "https://www.36kr.com/p/3787449651502086",
-        "normalized_url": "https://www.36kr.com/p/3787449651502086",
-        "summary": "为什么“越卖越不赚钱”？",
+        "title": "影石创新营收猛增83%利润却腰斩，创始人首发股东信解释原因",
+        "url": "https://www.36kr.com/p/3787521613421828",
+        "normalized_url": "https://www.36kr.com/p/3787521613421828",
+        "summary": "刘靖康称，“看到了广泛且远未被满足的客户需求”。",
         "source": "36Kr AI",
-        "published": "2026-04-29T07:15:25+00:00",
+        "published": "2026-04-29T08:03:02+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -510,25 +510,12 @@
       },
       {
         "category": "news",
-        "title": "拍食物AI算卡路里，18岁中学生开发的App如何年入2亿？",
-        "url": "https://www.36kr.com/p/3787445432720393",
-        "normalized_url": "https://www.36kr.com/p/3787445432720393",
-        "summary": "一个小切口撬动十亿级市场，从Cal AI并购案看饮食健康管理APP赛道的生意与AI革命",
+        "title": "OpenAI麻烦不断：被指多项数据未达标，马斯克起诉或重创IPO计划",
+        "url": "https://www.36kr.com/p/3787521530535170",
+        "normalized_url": "https://www.36kr.com/p/3787521530535170",
+        "summary": "随着马斯克与OpenAI诉讼案开庭，以及后者在AI领域面临的竞争进一步加剧，其商业化前景面临更多不确定性。",
         "source": "36Kr AI",
-        "published": "2026-04-29T07:14:48+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Soul App发布五一出行图鉴：年轻人正在用旅行治愈自己",
-        "url": "https://www.36kr.com/p/3787564290612226",
-        "normalized_url": "https://www.36kr.com/p/3787564290612226",
-        "summary": "不打卡、只取悦自己",
-        "source": "36Kr AI",
-        "published": "2026-04-29T07:10:46+00:00",
+        "published": "2026-04-29T08:02:42+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -536,25 +523,12 @@
       },
       {
         "category": "news",
-        "title": "被Anthropic超车的OpenAI，正在远离微软、靠近亚马逊",
-        "url": "https://www.36kr.com/p/3787391989226499",
-        "normalized_url": "https://www.36kr.com/p/3787391989226499",
-        "summary": "美国市场上，两个巨头和两个超级AI独角兽的竞争格局正在发生微妙的变化",
+        "title": "以假乱真的AI造图，却让人后背一凉",
+        "url": "https://www.36kr.com/p/3787503827655936",
+        "normalized_url": "https://www.36kr.com/p/3787503827655936",
+        "summary": "从玩具，变成生产力工具。",
         "source": "36Kr AI",
-        "published": "2026-04-29T07:06:47+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "400亿，潮汕中专生去敲钟了",
-        "url": "https://www.36kr.com/p/3787403901984006",
-        "normalized_url": "https://www.36kr.com/p/3787403901984006",
-        "summary": "“潮汕帮”，加速集聚。",
-        "source": "36Kr AI",
-        "published": "2026-04-29T06:23:49+00:00",
+        "published": "2026-04-29T08:01:32+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -562,12 +536,12 @@
       },
       {
         "category": "news",
-        "title": "量子计算掀起上市潮，黄仁勋的“野心”藏不住了",
-        "url": "https://www.36kr.com/p/3787438403334657",
-        "normalized_url": "https://www.36kr.com/p/3787438403334657",
-        "summary": "量子计算上市了，投资人却在用脚投票",
+        "title": "7006万补助带来首季盈利，摩尔线程继续等待商业化拐点",
+        "url": "https://www.36kr.com/p/3787522289676804",
+        "normalized_url": "https://www.36kr.com/p/3787522289676804",
+        "summary": "成为“英伟达平替”，道阻且长。",
         "source": "36Kr AI",
-        "published": "2026-04-29T06:23:09+00:00",
+        "published": "2026-04-29T08:00:26+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -575,12 +549,12 @@
       },
       {
         "category": "news",
-        "title": "马斯克当庭控诉奥特曼：偷走一家慈善机构是不对的",
-        "url": "https://www.36kr.com/p/3787441045647877",
-        "normalized_url": "https://www.36kr.com/p/3787441045647877",
-        "summary": "已进入开庭陈述阶段",
+        "title": "5.2万星项目Ghostty逃离GitHub",
+        "url": "https://www.36kr.com/p/3787505378876681",
+        "normalized_url": "https://www.36kr.com/p/3787505378876681",
+        "summary": "18 年老用户哭着离开 GitHub",
         "source": "36Kr AI",
-        "published": "2026-04-29T06:22:52+00:00",
+        "published": "2026-04-29T07:57:18+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -588,12 +562,51 @@
       },
       {
         "category": "news",
-        "title": "AI撑爆GitHub，天天宕机，18年老兵带5万星项目「决裂出逃」",
-        "url": "https://www.36kr.com/p/3787501806935299",
-        "normalized_url": "https://www.36kr.com/p/3787501806935299",
-        "summary": "GitHub老用户携5万星项目出逃，AI压垮平台。",
+        "title": "开个脑洞：如果DeepSeek和Kimi们合并",
+        "url": "https://www.36kr.com/p/3787493699984387",
+        "normalized_url": "https://www.36kr.com/p/3787493699984387",
+        "summary": "会发生什么？",
         "source": "36Kr AI",
-        "published": "2026-04-29T06:22:34+00:00",
+        "published": "2026-04-29T07:57:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从中国走向硅谷，斑陌易行端到端无人车开启无人车配送革命",
+        "url": "https://www.36kr.com/p/3787601522908165",
+        "normalized_url": "https://www.36kr.com/p/3787601522908165",
+        "summary": "无人配送进入智能新时代",
+        "source": "36Kr AI",
+        "published": "2026-04-29T07:50:21+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "6000亿美元砸向AI，没人能说清楚什么时候挣回来",
+        "url": "https://www.36kr.com/p/3787490025206280",
+        "normalized_url": "https://www.36kr.com/p/3787490025206280",
+        "summary": "6000亿美元砸下去，钱从哪里挣回来？",
+        "source": "36Kr AI",
+        "published": "2026-04-29T07:43:40+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从实验室到生产线，机器人量产竞速全面开启",
+        "url": "https://www.36kr.com/p/3787590097361922",
+        "normalized_url": "https://www.36kr.com/p/3787590097361922",
+        "summary": "嘉立创试图解决的并不是单一零部件交付问题，而是机器人企业在研发阶段最典型的“链条割裂”问题。",
+        "source": "36Kr AI",
+        "published": "2026-04-29T07:36:08+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -602,14 +615,144 @@
       {
         "category": "news",
         "title": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
-        "url": "https://www.36kr.com/p/3787501855136774",
-        "normalized_url": "https://www.36kr.com/p/3787501855136774",
+        "url": "https://www.qbitai.com/2026/04/411133.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/411133.html",
         "summary": "“全球最强开源”的含金量还在上升",
-        "source": "36Kr AI",
-        "published": "2026-04-29T06:22:25+00:00",
+        "source": "量子位",
+        "published": "2026-04-29T06:56:15+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "不卷参数卷架构，这个开源模型把图像理解和生成统一了",
+        "url": "https://www.qbitai.com/2026/04/410937.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410937.html",
+        "summary": "全网开源，即刻可用",
+        "source": "量子位",
+        "published": "2026-04-29T04:27:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "10万引普林斯顿刘壮最新访谈：架构没那么重要，数据才是王道",
+        "url": "https://www.qbitai.com/2026/04/410791.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410791.html",
+        "summary": "记忆才是AI最大瓶颈，智能体只是权宜之计",
+        "source": "量子位",
+        "published": "2026-04-29T04:20:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "百度GenFlow 4.0发布，Office三件套全包了，还能养「牛马虾」",
+        "url": "https://www.qbitai.com/2026/04/410738.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410738.html",
+        "summary": "十分钟干完一周活",
+        "source": "量子位",
+        "published": "2026-04-29T04:12:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台",
+        "url": "https://www.qbitai.com/2026/04/410772.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410772.html",
+        "summary": "GPT-5.5马上也能用了",
+        "source": "量子位",
+        "published": "2026-04-29T04:10:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "吨级重载新纪元开启｜大咖机器人全球首发“吨级重载机器马”",
+        "url": "https://www.qbitai.com/2026/04/410732.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410732.html",
+        "summary": "覆盖安防巡检、消防救援、工程基建、智能物流、民生养老、个人出行等六大核心场景",
+        "source": "量子位",
+        "published": "2026-04-29T03:06:21+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "银河通用LDA定义全域数据利用范式，跨本体世界动作大模型开启具身GPT-2时刻",
+        "url": "https://www.qbitai.com/2026/04/410653.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410653.html",
+        "summary": "开启具身规模化时代",
+        "source": "量子位",
+        "published": "2026-04-29T02:23:06+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪",
+        "url": "https://www.qbitai.com/2026/04/410519.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410519.html",
+        "summary": "百万亿token免费发放，新兴Agent框架免费接入",
+        "source": "量子位",
+        "published": "2026-04-29T00:52:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "消费级显卡可以快速上手跑！面壁智能MiniCPM-o 4.5发技术报告",
+        "url": "https://www.qbitai.com/2026/04/410506.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410506.html",
+        "summary": "下载量突破25万",
+        "source": "量子位",
+        "published": "2026-04-28T14:50:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了",
+        "url": "https://www.qbitai.com/2026/04/410463.html",
+        "normalized_url": "https://www.qbitai.com/2026/04/410463.html",
+        "summary": "《近似算法》作者都来了",
+        "source": "量子位",
+        "published": "2026-04-28T11:15:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "移动端 Agent 的井喷或许近在眼前：以 ColorOS 抛砖引玉",
+        "url": "https://sspai.com/post/109062",
+        "normalized_url": "https://sspai.com/post/109062",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 契机也是上一期具透中有关 Android 17 的功能更新上，克莱德和我都提到了一些谷歌官方下场为了拥抱 AI 做出的改变——新的 API，新的权限整合，似乎都是在为 Universal Agent 在移动端的落地做准备。而另一个角度之下，Gemma 4 和 Xiaomi MiMo V2.5 这样的针对低功耗、移动端、算力敏感设备推出的小模型也不断在 Agent 的具体场景下开疆拓土，性能提升明显。这里就拿目前我认为国产 UI 中 Agent 功能做的比较好的厂商：ColorOS，总结一下我认为目前可用性已经很强的一些 Agent 功能，并展望也许几个月后会初具雏形的系统级多功能 Agent 会是什么样子。 本短文所有内容基于一加 15T，系统版本 ColorOS 16.0.5.703(CN01B60P01)，限于篇幅将不会涵盖 OPPO AI",
+        "source": "SSPAI AI",
+        "published": "2026-04-29T07:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
@@ -874,6 +1017,110 @@
       },
       {
         "category": "news",
+        "title": "OpenAI Really Wants Codex to Shut Up About Goblins",
+        "url": "https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/",
+        "normalized_url": "https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins",
+        "summary": "“Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant,” reads OpenAI’s coding agent instructions.",
+        "source": "Wired AI",
+        "published": "2026-04-28T23:45:05+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Elon Musk Testifies That He Started OpenAI to Prevent a ‘Terminator Outcome’",
+        "url": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/",
+        "normalized_url": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial",
+        "summary": "The judge also warned Musk and Sam Altman to curb their “propensity to use social media to make things worse outside the courtroom” after both sides traded attacks online.",
+        "source": "Wired AI",
+        "published": "2026-04-28T21:35:17+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "‘It’s Undignified’: Hundreds of Workers Training Meta’s AI Could Be Laid Off",
+        "url": "https://www.wired.com/story/meta-covalen-ai-workers-layoffs/",
+        "normalized_url": "https://www.wired.com/story/meta-covalen-ai-workers-layoffs",
+        "summary": "More than 700 people working for a Meta contractor in Ireland are at risk of losing their jobs, documents show.",
+        "source": "Wired AI",
+        "published": "2026-04-28T18:36:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Race Is on to Keep AI Agents From Running Wild With Your Credit Cards",
+        "url": "https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards/",
+        "normalized_url": "https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards",
+        "summary": "AI agents may soon be buying your stuff for you. The FIDO Alliance has teamed up with Google and Mastercard to try to ensure that shopping in the near future isn't a complete disaster.",
+        "source": "Wired AI",
+        "published": "2026-04-28T13:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Bloomberg Terminal Is Getting an AI Makeover, Like It or Not",
+        "url": "https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not/",
+        "normalized_url": "https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not",
+        "summary": "WIRED spoke with Bloomberg’s chief technology officer about the big, chatbot-style changes coming to the iconic platform for traders.",
+        "source": "Wired AI",
+        "published": "2026-04-28T08:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Some Musk v. Altman Jurors Don't Like Elon Musk",
+        "url": "https://www.wired.com/story/some-musk-v-altman-jurors-dont-like-elon-musk/",
+        "normalized_url": "https://www.wired.com/story/some-musk-v-altman-jurors-dont-like-elon-musk",
+        "summary": "Musk’s lawsuit challenges OpenAI’s evolution under Sam Altman. But during jury selection, several potential jurors voiced negative views of Musk himself.",
+        "source": "Wired AI",
+        "published": "2026-04-28T00:39:30+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Elon Musk Boosts New Yorker’s Sam Altman Exposé on X as Trial Begins",
+        "url": "https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/",
+        "normalized_url": "https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x",
+        "summary": "The move comes as the trial for Elon Musk’s lawsuit against OpenAI kicks off in federal court in Oakland.",
+        "source": "Wired AI",
+        "published": "2026-04-27T20:08:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Man Behind AlphaGo Thinks AI Is Taking the Wrong Path",
+        "url": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/",
+        "normalized_url": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning",
+        "summary": "David Silver has a new billion-dollar company that aims to build AI “superlearners.”",
+        "source": "Wired AI",
+        "published": "2026-04-27T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "Better Hardware Could Turn Zeros into AI Heroes",
         "url": "https://spectrum.ieee.org/sparse-ai",
         "normalized_url": "https://spectrum.ieee.org/sparse-ai",
@@ -935,6 +1182,19 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Open source package with 1 million monthly downloads stole user credentials",
+        "url": "https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/",
+        "normalized_url": "https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials",
+        "summary": "If you're one of millions using element-data, it's time to check for compromise.",
+        "source": "Ars Technica AI",
+        "published": "2026-04-27T21:04:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
