@@ -1,13 +1,39 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T05:36:49.213363+08:00",
+  "generated_at": "2026-05-05T07:00:52.818152+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 28
+    "news": 38
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+        "url": "https://huggingface.co/papers/2605.00347",
+        "normalized_url": "https://huggingface.co/papers/2605.00347",
+        "summary": "Given the rapidly growing capabilities of vision-language models (VLMs), extending them to interactive decision-making tasks such as video games has emerged as a promising frontier. However, existing approaches either rely on large-scale supervised fine-tuning (SFT) on human trajectories or apply reinforcement learning (RL) only in relatively short-horizon settings (typically around 20--30 turns). In this work, we study RL-based training of VLMs for long-horizon decision-making in Super Mario La",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.00347"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Soft Anisotropic Diagrams for Differentiable Image Representation",
+        "url": "https://huggingface.co/papers/2604.21984",
+        "normalized_url": "https://huggingface.co/papers/2604.21984",
+        "summary": "We introduce Soft Anisotropic Diagrams (SAD), an explicit and differentiable image representation parameterized by a set of adaptive sites in the image plane. In SAD, each site specifies an anisotropic metric and an additively weighted distance score, and we compute pixel colors as a softmax blend over a small per-pixel top-K subset of sites. We induce a soft anisotropic additively weighted Voronoi partition (i.e., an Apollonius diagram) with learnable per-site temperatures, preserving informati",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-27T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2604.21984"
+        }
+      },
       {
         "category": "papers",
         "title": "MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks",
@@ -241,32 +267,6 @@
         "metadata": {
           "paper_id": "2605.00503"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Let ViT Speak: Generative Language-Image Pre-training",
-        "url": "https://huggingface.co/papers/2605.00809",
-        "normalized_url": "https://huggingface.co/papers/2605.00809",
-        "summary": "In this paper, we present Generative Language-Image Pre-training (GenLIP), a minimalist generative pretraining framework for Vision Transformers (ViTs) designed for multimodal large language models (MLLMs). To better align vision encoders with the autoregressive nature of LLMs, GenLIP trains a ViT to predict language tokens directly from visual tokens using a standard language modeling objective, without contrastive batch construction or an additional text decoder. This design offers three key a",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-01T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.00809"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
-        "url": "https://huggingface.co/papers/2604.24954",
-        "normalized_url": "https://huggingface.co/papers/2604.24954",
-        "summary": "We introduce Nemotron 3 Nano Omni, the latest model in the Nemotron multimodal series and the first to natively support audio inputs alongside text, images, and video. Nemotron 3 Nano Omni delivers consistent accuracy improvements over its predecessor, Nemotron Nano V2 VL, across all modalities, enabled by advances in architecture, training data and recipes. In particular, Nemotron 3 delivers leading results in real-world document understanding, long audio-video comprehension, and agentic comput",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-27T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.24954"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,136 @@
     "news": [
       {
         "category": "news",
+        "title": "五月，适合想清楚一件事｜幕启",
+        "url": "https://www.36kr.com/p/3794961189821698",
+        "normalized_url": "https://www.36kr.com/p/3794961189821698",
+        "summary": "在标准轨道之外",
+        "source": "36Kr AI",
+        "published": "2026-05-04T12:41:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“今日头条鼻祖”BuzzFeed要破产了",
+        "url": "https://www.36kr.com/p/3794644097424645",
+        "normalized_url": "https://www.36kr.com/p/3794644097424645",
+        "summary": "最后致命一击，来自AI。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T07:49:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic搞了个全是AI的闲鱼群，大模型在里面互割起了韭菜",
+        "url": "https://www.36kr.com/p/3794465919704322",
+        "normalized_url": "https://www.36kr.com/p/3794465919704322",
+        "summary": "AI时代的算力代差，是最高昂的智商税。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T04:35:44+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“失速”的高通，正在重新定义自己",
+        "url": "https://www.36kr.com/p/3794426866605056",
+        "normalized_url": "https://www.36kr.com/p/3794426866605056",
+        "summary": "想参与下一轮计算平台搭建，高通需要重新证明自己。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T03:36:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "梁文锋留住97%员工",
+        "url": "https://www.36kr.com/p/3793285352152325",
+        "normalized_url": "https://www.36kr.com/p/3793285352152325",
+        "summary": "稳定军心。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T03:06:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic救场，MAG7轮到亚马逊表演了？",
+        "url": "https://www.36kr.com/p/3793457006009605",
+        "normalized_url": "https://www.36kr.com/p/3793457006009605",
+        "summary": "AWS大踏步加速增长，泛零售板块也稳中有升",
+        "source": "36Kr AI",
+        "published": "2026-05-04T01:36:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "北大系，批量制造硬科技富豪",
+        "url": "https://www.36kr.com/p/3794297445178368",
+        "normalized_url": "https://www.36kr.com/p/3794297445178368",
+        "summary": "实验室里长出的，不只是论文还有独角兽。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T01:30:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "华尔街不再为赚钱鼓掌",
+        "url": "https://www.36kr.com/p/3793704533094918",
+        "normalized_url": "https://www.36kr.com/p/3793704533094918",
+        "summary": "硅谷财报季，市场只信回本，不信故事。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T00:52:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "科技发展史，从来都是幸存者写下的",
+        "url": "https://www.36kr.com/p/3752193391018752",
+        "normalized_url": "https://www.36kr.com/p/3752193391018752",
+        "summary": "深度剖析AI对工作的影响。",
+        "source": "36Kr AI",
+        "published": "2026-05-04T00:00:50+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "CTO不香了？百亿公司高管们为何集体转身，去Anthropic当工程师",
+        "url": "https://www.36kr.com/p/3793138446179585",
+        "normalized_url": "https://www.36kr.com/p/3793138446179585",
+        "summary": "谁距离一线模型更近，谁就拥有更多更大的权力？",
+        "source": "36Kr AI",
+        "published": "2026-05-03T06:01:13+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "“DeepSeek版Claude Code”，Github 2.3k星",
         "url": "https://www.qbitai.com/2026/05/412914.html",
         "normalized_url": "https://www.qbitai.com/2026/05/412914.html",
@@ -545,6 +675,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+        "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+        "normalized_url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo",
+        "summary": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-04T21:53:21+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
@@ -660,19 +803,6 @@
         "source": "TechCrunch AI",
         "published": "2026-05-03T18:00:09+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI-generated actors and scripts are now ineligible for Oscars",
-        "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
-        "normalized_url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars",
-        "summary": "The Academy of Motion Picture Arts and Sciences said that only performances “credited in the film’s legal billing and demonstrably performed by humans with their consent” will be eligible for Academy Awards.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-02T21:54:58+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
