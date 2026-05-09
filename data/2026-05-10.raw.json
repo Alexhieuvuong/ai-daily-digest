@@ -1,10 +1,10 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T05:09:07.716298+08:00",
+  "generated_at": "2026-05-10T06:54:44.510090+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 45
+    "news": 44
   },
   "items": {
     "papers": [
@@ -744,6 +744,19 @@
       },
       {
         "category": "news",
+        "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+        "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "normalized_url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+        "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-09T21:45:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Nvidia has already committed $40B to equity AI deals this year",
         "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
         "normalized_url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year",
@@ -829,19 +842,6 @@
         "source": "TechCrunch AI",
         "published": "2026-05-08T04:42:29+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "OpenAI launches new voice intelligence features in its API",
-        "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-        "normalized_url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api",
-        "summary": "The new features could be handy for customer service systems, but OpenAI says they have applications that work across a variety of other fields, including education and creator platforms.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-07T22:24:50+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -971,19 +971,6 @@
         "summary": "Leaders at the tech giant were skeptical of OpenAI—but wary of pushing it into the arms of Amazon, according to emails dating back to 2018.",
         "source": "Wired AI",
         "published": "2026-05-08T01:42:14+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Trump Pivots on AI Regulation, Worker Ousted by DOGE Runs for Office, and Hantavirus Explained",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/",
-        "normalized_url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained",
-        "summary": "Today on Uncanny Valley, we’re diving into recent reports that the Trump administration is considering an executive order that would establish some sort of federal oversight over new AI models.",
-        "source": "Wired AI",
-        "published": "2026-05-07T21:37:20+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
