@@ -1,10 +1,10 @@
 {
   "date": "2026-05-11",
-  "generated_at": "2026-05-11T05:11:45.932918+08:00",
+  "generated_at": "2026-05-11T06:55:50.218072+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 33
+    "news": 34
   },
   "items": {
     "papers": [
@@ -740,6 +740,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Get ready for the whisper-filled office of the future",
+        "url": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
+        "normalized_url": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future",
+        "summary": "How will work setups change if we spend more and more time talking to our computers?",
+        "source": "TechCrunch AI",
+        "published": "2026-05-10T21:15:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
