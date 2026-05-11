@@ -1,13 +1,26 @@
 {
   "date": "2026-05-12",
-  "generated_at": "2026-05-12T05:49:06.614505+08:00",
+  "generated_at": "2026-05-12T07:01:18.052735+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 36
+    "news": 37
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Rubric-based On-policy Distillation",
+        "url": "https://huggingface.co/papers/2605.07396",
+        "normalized_url": "https://huggingface.co/papers/2605.07396",
+        "summary": "On-policy distillation (OPD) is a powerful paradigm for model alignment, yet its reliance on teacher logits restricts its application to white-box scenarios. We contend that structured semantic rubrics can serve as a scalable alternative to teacher logits, enabling OPD using only teacher-generated responses. To prove it, we introduce ROPD, a simple yet foundational framework for rubric-based OPD. Specifically, ROPD induces prompt-specific rubrics from teacher-student contrasts, and then utilizes",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.07396"
+        }
+      },
       {
         "category": "papers",
         "title": "ModelLens: Finding the Best for Your Task from Myriads of Models",
@@ -253,19 +266,6 @@
         "importance_hint": 5,
         "metadata": {
           "paper_id": "2605.07755"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Shallow Prefill, Deep Decoding: Efficient Long-Context Inference via Layer-Asymmetric KV Visibility",
-        "url": "https://huggingface.co/papers/2605.06105",
-        "normalized_url": "https://huggingface.co/papers/2605.06105",
-        "summary": "Long-context inference in decoder-only language models is costly because long prompts are processed during Prefill, cached at every layer, and repeatedly attended to during autoregressive Decode. We introduce Shallow Prefill, dEEp Decode (SPEED), a phase-asymmetric KV-visibility policy that materializes non-anchor prompt-token KV states only in lower layers while keeping Decode-phase tokens full-depth. Unlike previous approaches that make upper-layer prompt KV states cheaper to store or construc",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-07T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.06105"
         }
       }
     ],
@@ -805,6 +805,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Here’s what Mira Murati’s AI company is up to",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+        "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collaborate with each other - they continuously take in audio, video, […]",
+        "source": "The Verge AI",
+        "published": "2026-05-11T22:19:15+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
