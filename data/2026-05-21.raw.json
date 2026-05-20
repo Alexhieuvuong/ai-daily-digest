@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "generated_at": "2026-05-21T06:10:20.968663+08:00",
+  "generated_at": "2026-05-21T07:18:57.445927+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,19 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Interactive Evaluation Requires a Design Science",
+        "url": "https://huggingface.co/papers/2605.17829",
+        "normalized_url": "https://huggingface.co/papers/2605.17829",
+        "summary": "AI evaluation is undergoing a structural change. Large language models (LLMs) are increasingly deployed as systems that act over time through tools, environments, users, and other agents, while many evaluation practices still inherit assumptions from response-centered benchmarks (e.g., fixed inputs, isolated outputs, and outcome judgments that can be made from a single response). The field has begun to build interactive benchmarks, but the resulting landscape is fragmented: benchmarks differ in ",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.17829"
+        }
+      },
       {
         "category": "papers",
         "title": "Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR",
@@ -254,19 +267,6 @@
         "metadata": {
           "paper_id": "2605.20150"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Language-Switching Triggers Take a Latent Detour Through Language Models",
-        "url": "https://huggingface.co/papers/2605.18646",
-        "normalized_url": "https://huggingface.co/papers/2605.18646",
-        "summary": "Backdoor attacks on language models pose a growing security concern, yet the internal mechanisms by which a trigger sequence hijacks model computations remain poorly understood. We identify a circuit underlying a language-switching backdoor in an 8B-parameter autoregressive language model, where a three-word Latin trigger (nine tokens) redirects English output to French. We decompose the circuit into three phases: (1) distributed attention heads at early layers compose the trigger tokens into th",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-18T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.18646"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,45 @@
     "news": [
       {
         "category": "news",
+        "title": "新一代软件：命令行（CLI）、技能（Skills）与垂直模型",
+        "url": "https://www.36kr.com/p/3780988548094979",
+        "normalized_url": "https://www.36kr.com/p/3780988548094979",
+        "summary": "在智能体体验（Agent Experience）时代，性能将成为顶尖 SaaS 公司的新型竞争优势。",
+        "source": "36Kr AI",
+        "published": "2026-05-20T23:12:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "2026政府工作报告点名“未来能源”，为什么和你我有关？",
+        "url": "https://www.36kr.com/p/3817260513362818",
+        "normalized_url": "https://www.36kr.com/p/3817260513362818",
+        "summary": "我国未来能源发展需提升电力系统灵活性应对供需失衡",
+        "source": "36Kr AI",
+        "published": "2026-05-20T23:06:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "网易520发布会：质量为先，狙击细分赛道",
+        "url": "https://www.36kr.com/p/3817849322964098",
+        "normalized_url": "https://www.36kr.com/p/3817849322964098",
+        "summary": "转变并非一朝一夕。",
+        "source": "36Kr AI",
+        "published": "2026-05-20T23:00:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "不跟风大疆，“飞行机器人”来了",
         "url": "https://www.36kr.com/p/3817574279463814",
         "normalized_url": "https://www.36kr.com/p/3817574279463814",
@@ -569,45 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-05-20T12:27:22+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "苹果转身，三星入局：AI眼镜为何成为巨头必争之地？",
-        "url": "https://www.36kr.com/p/3817523788914952",
-        "normalized_url": "https://www.36kr.com/p/3817523788914952",
-        "summary": "AI眼镜赛道爆发，上游核心环节更具确定性价值。",
-        "source": "36Kr AI",
-        "published": "2026-05-20T12:23:24+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "武汉国产存储“巨无霸”，IPO也要来了",
-        "url": "https://www.36kr.com/p/3817511231603843",
-        "normalized_url": "https://www.36kr.com/p/3817511231603843",
-        "summary": "国内3D NAND闪存领域“龙头”。",
-        "source": "36Kr AI",
-        "published": "2026-05-20T12:20:37+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI生成视频“三国杀”：Seedance领跑，可灵分拆拟IPO，阿里紧跟入局",
-        "url": "https://www.36kr.com/p/3817497977455492",
-        "normalized_url": "https://www.36kr.com/p/3817497977455492",
-        "summary": "大模型只是\"工具\"， 业内从业者更关注工作流",
-        "source": "36Kr AI",
-        "published": "2026-05-20T12:19:22+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -783,7 +783,33 @@
       },
       {
         "category": "news",
-        "title": "Nvidia posts another record quarter, reveals $43 billion of holdings in startups",
+        "title": "Clouted wants to take the guesswork out of making short videos go viral",
+        "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+        "normalized_url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral",
+        "summary": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-20T22:30:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "xAI burned $6.4B last year. SpaceX’s IPO filing shows why the spending is far from over",
+        "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+        "normalized_url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over",
+        "summary": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-20T22:26:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
         "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
         "normalized_url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups",
         "summary": "Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.",
@@ -796,10 +822,10 @@
       },
       {
         "category": "news",
-        "title": "Musk’s xAI is being sued over its data center generators. Now, it’s buying $2.8B more.",
+        "title": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
         "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
         "normalized_url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more",
-        "summary": "Elon Muks's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
+        "summary": "Elon Musk's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
         "source": "TechCrunch AI",
         "published": "2026-05-20T21:55:49+00:00",
         "importance_hint": 3,
@@ -809,7 +835,7 @@
       },
       {
         "category": "news",
-        "title": "Anthropic will pay xAI $1.25 billion per month for compute",
+        "title": "Anthropic will pay xAI $1.25B per month for compute",
         "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
         "normalized_url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute",
         "summary": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
@@ -880,32 +906,6 @@
         "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
         "source": "TechCrunch AI",
         "published": "2026-05-20T15:00:00+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27",
-        "url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
-        "normalized_url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27",
-        "summary": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup today.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-20T14:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
-        "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
-        "normalized_url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead",
-        "summary": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work. But instead of running directly on a computer, NanoClaw runs sandboxed in a container.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-20T14:00:00+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
