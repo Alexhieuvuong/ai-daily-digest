@@ -1,13 +1,26 @@
 {
   "date": "2026-05-27",
-  "generated_at": "2026-05-27T06:05:27.670119+08:00",
+  "generated_at": "2026-05-27T07:14:40.688294+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 54
+    "news": 55
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning",
+        "url": "https://huggingface.co/papers/2605.22818",
+        "normalized_url": "https://huggingface.co/papers/2605.22818",
+        "summary": "Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we introduce MotiMotion, a novel framework that reformulates motion control as a reasoning-then-generation problem. To encourage causally grounded and commonsense-consistent interactions, we leverage a traini",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.22818"
+        }
+      },
       {
         "category": "papers",
         "title": "Towards Evaluation Engineering: An Empirical Study of ML Evaluation Harnesses in the Wild",
@@ -253,19 +266,6 @@
         "importance_hint": 4,
         "metadata": {
           "paper_id": "2605.23264"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Decoding the Critique Mechanism in Large Reasoning Models",
-        "url": "https://huggingface.co/papers/2603.16331",
-        "normalized_url": "https://huggingface.co/papers/2603.16331",
-        "summary": "Large Reasoning Models (LRMs) exhibit backtracking and self-verification mechanisms that enable them to revise intermediate steps and reach correct solutions, yielding strong performance on complex logical benchmarks. We hypothesize that such behaviors are beneficial only when the model has sufficiently strong ``critique'' ability to detect its own mistakes. This work systematically investigates how current LRMs recover from errors by inserting arithmetic mistakes in their intermediate reasoning",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-22T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2603.16331"
         }
       }
     ],
@@ -770,6 +770,19 @@
       },
       {
         "category": "news",
+        "title": "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
+        "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+        "normalized_url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search",
+        "summary": "Google overhauled Search at I/O 2026, replacing blue links with AI agents. The backlash has been swift. DuckDuckGo app installs spiked 30% as users seek a way out.",
+        "source": "TechCrunch AI",
+        "published": "2026-05-26T22:32:56+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "OpenRouter more than doubles valuation to $1.3B in a year",
         "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
         "normalized_url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year",
@@ -965,6 +978,19 @@
       },
       {
         "category": "news",
+        "title": "AI Agents Plunged the Tech World Into Chaos. Here’s Exactly How That Happened",
+        "url": "https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos/",
+        "normalized_url": "https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos",
+        "summary": "The definitive story of how Claude Code and OpenClaw kicked off computing’s biggest transformation possibly ever.",
+        "source": "Wired AI",
+        "published": "2026-05-26T10:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
         "title": "Quiz: Will AI Destroy Your Career?",
         "url": "https://www.wired.com/story/quiz-will-ai-destroy-your-career/",
         "normalized_url": "https://www.wired.com/story/quiz-will-ai-destroy-your-career",
@@ -998,19 +1024,6 @@
         "source": "Wired AI",
         "published": "2026-05-26T10:00:00+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI Agents Plunged the Tech World Into Chaos. Here’s Exactly How That Happened",
-        "url": "https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos/",
-        "normalized_url": "https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos",
-        "summary": "The definitive story of how Claude Code and OpenClaw kicked off computing’s biggest transformation possibly ever.",
-        "source": "Wired AI",
-        "published": "2026-05-26T10:00:00+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
         }
