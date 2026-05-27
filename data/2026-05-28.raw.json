@@ -1,10 +1,10 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-28T06:17:12.849183+08:00",
+  "generated_at": "2026-05-28T07:22:03.823775+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 58
+    "news": 59
   },
   "items": {
     "papers": [
@@ -484,6 +484,19 @@
     "news": [
       {
         "category": "news",
+        "title": "腾讯游戏的One More Thing，是AI",
+        "url": "https://www.36kr.com/p/3827658881323649",
+        "normalized_url": "https://www.36kr.com/p/3827658881323649",
+        "summary": "AI已然成为未来游戏行业发展的必选项。",
+        "source": "36Kr AI",
+        "published": "2026-05-27T23:00:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "从「婴儿期」到「青年期」：四位开发者眼中的中国算力生态",
         "url": "https://www.36kr.com/p/3827372237394566",
         "normalized_url": "https://www.36kr.com/p/3827372237394566",
@@ -595,19 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-05-27T12:34:35+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI商业化的十字路口：为什么广告与订阅都难以单独走通？",
-        "url": "https://www.36kr.com/p/3827388168360833",
-        "normalized_url": "https://www.36kr.com/p/3827388168360833",
-        "summary": "这可能才是AI Agent商业模式真正成熟的起点。",
-        "source": "36Kr AI",
-        "published": "2026-05-27T12:31:11+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -740,6 +740,19 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "「生成」的「反刍」",
+        "url": "https://sspai.com/post/110172",
+        "normalized_url": "https://sspai.com/post/110172",
+        "summary": "影视飓风发布了一条偏议论散文风格的 片子 ，简单来说就是在视频社交媒体上，越来越多的人对于看到的视频产生越来越多的「是AI吗」的质疑，最终这些质问伤害了创作者。不过，包括影视飓风的这条视频在内，大家似乎对于生成式人工智能的抱怨最终都会被杂糅成两个问题：一个是创作者对于工作流使用生成式人工智能的隐瞒；另一个则更为隐蔽：生成式人工智能的工具，究竟会如何影响我们的审美。 前一个问题当然是更紧迫的问题，毕竟这涉及到互联网的信任机制正在迅速地被打破，造成对舆论和意识的话语权问题。但我并不想在这篇文章涉及这个问题，我更想来谈谈的是后一个问题：生成式人工智能会对我们的审美造成什么样的影响。 先来讨论一下，我们在使用生成式人工智能创建图像、音频和视频等多媒体（多模态）内容的时候，会发生什么吧。在用户这一侧面，我们所做的事情是：将想要的东西以语言（提示词）的形式描述出来，然后模型根据这份文本生成对应的视频。那么我们估算一下：文本的语言容量通常是几十到几百kB；但生成出的视频从几兆（MB）到几百兆不等，前后相差几百到上千倍。按照 信息熵 的理论来说，信息不可能以如此大的压缩率无损缩放，过程必然涉及对原本信",
+        "source": "SSPAI AI",
+        "published": "2026-05-26T00:46:33+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
