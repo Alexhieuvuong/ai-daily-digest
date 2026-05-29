@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-04-29</title>
+  <meta name="description" content="AI领域2026-04-29每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周三 · 2026-04-29</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Anthropic发布Claude Creative Connectors，直接接入Photoshop、Blender等创意软件</div>
+      <div class='item-desc'>Claude现可直连Adobe Creative Cloud、Blender、Ableton等工具，标志着AI深入创意工作流。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">开发者可直接在创意工具中调用Claude能力，降低集成门槛。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">OpenAI与微软达成协议，终结独家云合作，AWS即日上线OpenAI产品</div>
+      <div class='item-desc'>微软同意终止与OpenAI的独家云权利，AWS宣布提供包括新Agent服务在内的OpenAI模型。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">OpenAI云服务全面开放，开发者可在AWS直接使用，多云部署成为现实。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Google与五角大楼签署机密AI协议，允许“任何合法政府用途”</div>
+      <div class='item-desc'>继Anthropic拒绝国防部用于大规模监控和自主武器后，Google签署新合同，引发员工抗议。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI军事化应用加速，Google与Anthropic在伦理立场上出现明显分歧。</span>
+        <div class="item-sources"><a href="https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">马斯克诉OpenAI案开庭，马斯克作证称创办OpenAI是为了防止“终结者结局”</div>
+      <div class='item-desc'>马斯克在法庭上声称OpenAI背离非营利使命，转向盈利，法官警告双方停止社交媒体互喷。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">案件结果可能影响OpenAI公司结构及IPO计划，对AI行业治理模式产生深远影响。</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">小米双模型MiMo-V2.5-Pro正式开源，实现54个应用同时运行</div>
+      <div class='item-desc'>模型可在消费级设备上无中断运行，支持浏览器真冲浪，免费发放百万亿token。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">开源多模态Agent模型性能突破，支持复杂跨应用操作，开发者可免费接入。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/04/410519.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Kimi K2.6设计能力超越Claude Design，被称“全球最强开源”</div>
+      <div class='item-desc'>月之暗面发布的新模型在设计任务上超越Anthropic的Claude Design。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">开源模型在设计领域首次超越闭源标杆，推动创意AI竞争格局变化。</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/04/411133.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">OpenAI被曝Codex Agent指令禁止谈论地精、浣熊等“无关生物”</div>
+      <div class='item-desc'>内部指令明确要求Codex“除非绝对必要，否则绝不谈论地精、小妖精、浣熊等生物”。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">揭示AI Agent行为约束的极端案例，反映模型安全对齐的细节挑战。</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Red Hat发布OpenClaw容器化方案Tank OS，企业级Agent部署更安全</div>
+      <div class='item-desc'>将OpenClaw AI Agent放入容器，实现可靠、安全的批量部署。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">企业可安全大规模部署AI Agent，降低运维风险。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">FIDO联盟联合Google和Mastercard，防止AI Agent滥用信用卡</div>
+      <div class='item-desc'>随着AI Agent可能代用户购物，行业联合制定安全标准。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI Agent金融安全标准初步建立，影响所有涉及支付的Agent应用。</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/the-race-is-on-to-keep-ai-agents-from-running-wild-with-your-credit-cards/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Otter推出跨企业工具搜索功能，连接Gmail、Notion、Jira等</div>
+      <div class='item-desc'>用户可跨会议数据、邮件、文档和项目管理工具进行统一查询。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">企业AI助手从单一场景走向全工作流整合，提升信息检索效率。</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Recursive Multi-Agent Systems（递归多智能体系统）</div>
+      <div class='item-desc'>将递归扩展从单模型推广到多智能体系统，实现Agent协作的深度扩展。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提供Agent协作新的扩展维度，可构建更深层的推理系统。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.25917" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction</div>
+      <div class='item-desc'>轻量级GUI元素定位模型，可在手机等资源受限设备上运行。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">移动端GUI Agent部署的关键技术突破，参数小于2.5B。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.23941" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Step-Audio-R1.5 Technical Report</div>
+      <div class='item-desc'>将CoT推理扩展到听觉领域的大音频语言模型技术报告。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">音频推理新范式，突破语音AI能力边界。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.25719" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery</div>
+      <div class='item-desc'>评估AI Agent在科学文献发现能力的专用基准。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为科研Agent提供标准化评测，推动AI辅助科研发展。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.25256" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate</div>
+      <div class='item-desc'>通过非对称辩论生成高质量合成数据，训练自定义政策护栏。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">低成本生成高质量安全训练数据，解决定制化AI安全难题。</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.25203" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">openai/symphony</div>
+      <div class='item-desc'>OpenAI开源的项目管理工具，将项目工作转为隔离的自主执行运行，团队管理而非监督编码Agent。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">企业级AI Agent工作流管理方案，提升团队协作效率。</span>
+        <div class="item-sources"><a href="https://github.com/openai/symphony" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">microsoft/VibeVoice</div>
+      <div class='item-desc'>微软开源的前沿语音AI模型。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">微软在语音AI领域的最新开源成果，可直接用于语音应用开发。</span>
+        <div class="item-sources"><a href="https://github.com/microsoft/VibeVoice" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">addyosmani/agent-skills</div>
+      <div class='item-desc'>生产级工程技能集合，面向AI编码Agent。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提供可直接复用的Agent技能库，加速AI编码工具开发。</span>
+        <div class="item-sources"><a href="https://github.com/addyosmani/agent-skills" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">warpdotdev/warp</div>
+      <div class='item-desc'>基于终端的Agent化开发环境。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">下一代AI原生开发环境，将Agent深度集成到开发流程。</span>
+        <div class="item-sources"><a href="https://github.com/warpdotdev/warp" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">abhigyanpatwari/GitNexus</div>
+      <div class='item-desc'>零服务器代码智能引擎，在浏览器中创建代码知识图谱并内置Graph RAG Agent。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">无需服务器即可进行代码探索和RAG查询，适合本地代码分析。</span>
+        <div class="item-sources"><a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">fspecii/ace-step-ui</div>
+      <div class='item-desc'>开源Suno替代品，专业ACE-Step 1.5 AI音乐生成界面，免费本地运行。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">免费、本地运行的AI音乐生成方案，替代商业Suno服务。</span>
+        <div class="item-sources"><a href="https://github.com/fspecii/ace-step-ui" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+        </div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天最值得关注的信号是**AI Agent生态正在经历基础设施级重构**：从OpenAI的Symphony（项目管理）、Red Hat的Tank OS（容器化部署）到GitNexus（代码知识图谱），整个Agent开发、部署和安全链路正在快速标准化。与此同时，**开源Agent技能库（addyosmani/agent-skills、khazix-skills等）的爆发式增长**表明行业正从“训练模型”转向“定义Agent行为”——开发者不再需要从零构建，而是通过组合预定义技能快速组装生产级Agent。最后，**Google与五角大楼的AI协议**与**Anthropic的拒绝**形成鲜明对比，AI伦理分歧正在从口头争论变为实际商业选择，这将深刻影响未来AI企业的客户结构和市场定位。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-04-28.html">← 2026-04-28</a><a class="nav-btn" href="2026-04-30.html">2026-04-30 →</a></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>

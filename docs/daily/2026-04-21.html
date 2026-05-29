@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-04-21</title>
+  <meta name="description" content="AI领域2026-04-21每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周二 · 2026-04-21</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今日AI领域呈现出“顶层竞合”与“基层创新”并行的鲜明态势。一方面，产业巨头动作频频：**亚马逊与Anthropic的千亿级深度绑定**，以及**谷歌Gemini的全球范围扩张**，标志着基础设施与核心模型之间的战略联盟正在重塑行业格局，资源进一步向头部集中。另一方面，开源社区与学术界异常活跃，焦点明确指向**智能体的进化与评估**。多篇重要论文（如EvoMaster、WebCompass）和开源项目（如多智能体游戏工作室）共同描绘出一个趋势：AI正从执行单一任务的工具，向能够**长期学习、复杂协作、在模拟或真实环境中自主进化**的“准生命体”迈进。同时，对模型能力（特别是数学、推理、调试）的评估也朝着**更严谨、更贴近实际应用场景（如多模态网页编码）** 的方向发展。开发者生态则持续关注**降本增效**（如令牌优化工具rtk）和**主权掌控**（如开源平台thunderbolt），在巨头制定的游戏规则下寻找灵活性与自主性的空间。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-04-20.html">← 2026-04-20</a><a class="nav-btn" href="2026-04-22.html">2026-04-22 →</a></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>

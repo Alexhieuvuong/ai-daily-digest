@@ -13,6 +13,7 @@ import requests
 
 from sources import fetch_all
 from summarize import summarize
+from generate_site import generate_site
 
 
 def send_to_buttondown(subject: str, markdown: str) -> None:
@@ -89,8 +90,13 @@ def main():
     output_file.write_text(markdown, encoding="utf-8")
     print(f"\n[Step 4] Saved to {output_file}")
 
-    # Step 5: Send to Buttondown subscribers
-    print("\n[Step 5] Sending to Buttondown subscribers...")
+    # Step 5: Rebuild static site
+    print("\n[Step 5] Rebuilding static site...")
+    generate_site(root=Path(__file__).parent.parent)
+    print("  Site rebuilt → docs/")
+
+    # Step 6: Send to Buttondown subscribers
+    print("\n[Step 6] Sending to Buttondown subscribers...")
     subject = f"AI Daily Digest · {date_str}"
     send_to_buttondown(subject, markdown)
 

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-05-04</title>
+  <meta name="description" content="AI领域2026-05-04每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周一 · 2026-05-04</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">硅谷大厂高管集体跳槽Anthropic</div>
+      <div class='item-desc'>多位百亿公司CTO级高管放弃原有职位，前往Anthropic担任工程师，反映一线模型公司的人才虹吸效应加剧。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">预示AI人才市场从管理岗向技术一线回流趋势</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3793138446179585" target="_blank">36Kr</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">哈佛研究：AI急诊诊断准确率超过人类医生</div>
+      <div class='item-desc'>最新研究表明，在真实急诊场景中，大语言模型的诊断准确率高于两名人类医生。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">为AI医疗落地提供关键循证依据</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">苹果误将Claude.md打包进官方App</div>
+      <div class='item-desc'>苹果官方应用意外包含Claude配置文件，暴露其内部使用定制版Claude模型。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">揭示苹果AI内部工具链与Claude深度绑定</span>
+        <div class="item-sources"><a href="https://www.36kr.com/p/3791662444911617" target="_blank">36Kr</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">DeepSeek V4最大遗憾：Engram架构未落地</div>
+      <div class='item-desc'>DeepSeek V4发布后引发讨论，其备受期待的Engram架构最终未出现在正式版本中。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        <span class="item-value">关注前沿架构从论文到产品的落地障碍</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/412737.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AI生成内容被奥斯卡拒之门外</div>
+      <div class='item-desc'>美国电影艺术与科学学院宣布，AI生成的演员和剧本将不具备奥斯卡参评资格。</div>
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        <span class="item-value">定义AI在创意产业中的边界和伦理标准</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">迪士尼乐园全面启用面部识别</div>
+      <div class='item-desc'>迪士尼乐园开始对游客使用面部识别技术，NSA同时测试Anthropic的Mythos模型进行漏洞检测。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI安全与隐私技术从实验室走向大规模部署</span>
+        <div class="item-sources"><a href="https://www.wired.com/story/security-news-this-week-disneyland-now-uses-face-recognition-on-visitors/" target="_blank">Wired</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Nemotron 3 Nano Omni</div>
+      <div class='item-desc'>NVIDIA发布首个原生支持音频输入的多模态小模型，在文档理解、长音视频理解等任务上取得领先。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">开源多模态小模型的新标杆，适合端侧部署</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.24954" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">计算机使用Agent的步级优化</div>
+      <div class='item-desc'>提出非均匀计算分配策略，在保持性能的同时大幅降低Agent交互成本。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">解决Agent落地中的推理效率瓶颈</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.27151" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">微调后的安全漂移：来自高风险领域的证据</div>
+      <div class='item-desc'>分析100个模型后发现，领域微调会显著削弱基础模型的安全对齐能力。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">对医疗、法律等高风险领域微调提出警示</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.24902" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">FlashRT：高效的提示注入与知识破坏红队测试</div>
+      <div class='item-desc'>提出计算和内存高效的LLM红队测试方法，针对长上下文模型的安全威胁。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为长上下文LLM安全评估提供实用工具</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.28157" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Claw-Eval-Live：实时演化工作流Agent评测</div>
+      <div class='item-desc'>提出可刷新的实时Agent评测基准，解决传统静态评测与真实需求脱节的问题。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">推动Agent评测从静态走向动态、真实</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.28139" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">RoundPipe：多消费级GPU高效训练</div>
+      <div class='item-desc'>提出新的流水线并行调度方法，解决权重绑定问题，在消费级GPU上高效微调LLM。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">降低大模型训练硬件门槛，普惠开发者</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.27085" target="_blank">HuggingFace</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">TradingAgents](https://github.com/TauricResearch/TradingAgents)</div>
+      <div class='item-desc'>多智能体LLM金融交易框架，支持复杂交易策略的协作执行。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">Agent在金融领域的端到端落地框架</span>
+        
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">ruflo](https://github.com/ruvnet/ruflo)</div>
+      <div class='item-desc'>Claude原生Agent编排平台，支持多智能体集群、RAG集成和Claude Code/Codex原生对接。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">企业级Agent编排基础设施，降低多Agent部署门槛</span>
+        
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">warp](https://github.com/warpdotdev/warp)</div>
+      <div class='item-desc'>基于终端的Agentic开发环境，将AI能力深度集成到终端工作流。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">下一代AI原生开发环境参考实现</span>
+        
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">free-claude-code](https://github.com/Alishahryar1/free-claude-code)</div>
+      <div class='item-desc'>免费使用Claude Code的终端、VSCode扩展和Discord集成方案。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">降低Claude Code使用门槛，惠及更多开发者</span>
+        
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">rtk](https://github.com/rtk-ai/rtk)</div>
+      <div class='item-desc'>CLI代理工具，可将常见开发命令的Token消耗降低60-90%，单Rust二进制文件，零依赖。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">显著降低AI开发工具使用成本</span>
+        
+      </div>
+    </div>
+        </div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天最值得关注的信号是**AI人才流动方向根本性转变**：硅谷大厂高管集体选择降级去Anthropic当一线工程师，这不仅是薪酬问题，更反映"谁离模型最近谁就拥有最大权力"的新规则。同时，**安全与效率成为AI落地双主线**——微调后安全漂移研究、FlashRT红队工具、以及rtk Token压缩工具，都指向同一个方向：模型能力已足够强，当前瓶颈在如何安全、高效地部署。最后，**Agent评测正在经历范式转变**：Claw-Eval-Live等动态评测基准的出现，意味着行业已意识到传统静态benchmark无法反映真实世界Agent的复杂需求。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-05-03.html">← 2026-05-03</a><a class="nav-btn" href="2026-05-05.html">2026-05-05 →</a></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>
