@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest · 2026-05-31</title>
+  <meta name="description" content="AI领域2026-05-31每日简报，涵盖行业新闻、重要论文与开源项目。">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+.site-header {
+  border-bottom: 1px solid #21262d;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgba(13,17,23,0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+.site-header .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e6edf3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header .logo span { color: #58a6ff; }
+.site-header nav { display: flex; gap: 12px; }
+.site-header nav a {
+  font-size: 13px;
+  color: #8b949e;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.site-header nav a:hover { background: #21262d; color: #e6edf3; text-decoration: none; }
+
+/* ── Layout ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff, #bc8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #8b949e;
+  font-size: 16px;
+}
+
+/* ── Date grid (index) ── */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+.date-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color .2s, transform .2s;
+  display: block;
+  color: inherit;
+}
+.date-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.date-card .date-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 4px;
+}
+.date-card .weekday {
+  font-size: 12px;
+  color: #8b949e;
+}
+.date-card .latest-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: #1f6feb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* ── Day page date heading ── */
+.day-hero {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #21262d;
+}
+.day-hero .date-str {
+  font-size: 13px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.day-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ── Category section ── */
+.category {
+  margin-bottom: 40px;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cat-line {
+  flex: 1;
+  height: 1px;
+  background: #21262d;
+}
+
+/* ── Item card ── */
+.item-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  transition: border-color .2s;
+}
+.item-card:hover { border-color: #30363d; }
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.item-desc {
+  font-size: 14px;
+  color: #8b949e;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.stars {
+  font-size: 13px;
+  color: #e3b341;
+  letter-spacing: 1px;
+}
+.item-value {
+  font-size: 13px;
+  color: #7ee787;
+  background: rgba(46,160,67,.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.item-sources {
+  font-size: 13px;
+  color: #8b949e;
+  margin-left: auto;
+}
+.item-sources a {
+  color: #58a6ff;
+  margin-left: 6px;
+}
+.item-sources a:first-child { margin-left: 0; }
+
+/* ── Observation box ── */
+.observation {
+  background: linear-gradient(135deg, rgba(31,111,235,.12), rgba(188,140,255,.08));
+  border: 1px solid rgba(88,166,255,.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+}
+.observation h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 12px;
+}
+.observation p {
+  font-size: 14px;
+  color: #c9d1d9;
+  line-height: 1.8;
+}
+
+/* ── Day nav ── */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #21262d;
+}
+.nav-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  padding: 8px 16px;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  transition: background .15s;
+}
+.nav-btn:hover { background: #161b22; text-decoration: none; }
+
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  color: #484f58;
+  font-size: 13px;
+  border-top: 1px solid #21262d;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 28px; }
+  .item-meta { flex-direction: column; align-items: flex-start; }
+  .item-sources { margin-left: 0; }
+  .site-header .logo { font-size: 15px; }
+}
+</style>
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="logo">⚡ AI <span>Daily</span> Digest</div>
+  <nav>
+    <a href="../index.html">归档</a>
+    <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
+  </nav>
+</header>
+
+  
+    <div class="container">
+      <div class="day-hero">
+        <div class="date-str">周日 · 2026-05-31</div>
+        <h1>AI 每日简报</h1>
+      </div>
+      
+        <div class="category">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">GitHub Copilot 改用 Token 计费引发开发者强烈不满</div>
+      <div class='item-desc'>GitHub Copilot 宣布从座位订阅制转向基于 Token 的计费模式，被开发者称为“笑话”，标志着微软 AI 编程助手黄金时代的终结。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">开发者需重新评估 AI 编程工具的成本与使用策略</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Google 发布 24/7 AI 助手 Gemini Spark，实测效果实用但定位模糊</div>
+      <div class='item-desc'>Gemini Spark 能自动完成收件箱摘要、本地活动规划等日常任务，但作为独立产品推出的必要性存疑。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">展示 AI Agent 在个人生活场景的实际落地形态</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Meta 正在开发 AI 吊坠硬件</div>
+      <div class='item-desc'>Meta 持续押注 AI 硬件，据报道正在研发一款 AI 吊坠，延续其在智能眼镜后的可穿戴 AI 策略。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 硬件形态持续探索，可穿戴设备或成新入口</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">AI 芯片公司 Groq 据报正融资 6.5 亿美元，转向推理业务</div>
+      <div class='item-desc'>在英伟达 200 亿美元“非收购式雇佣”之后，Groq 计划融资 6.5 亿美元，从硬件转向聚焦 AI 推理服务。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">AI 芯片创业公司战略转型信号，推理市场争夺加剧</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">软银计划投资高达 750 亿欧元建设法国数据中心</div>
+      <div class='item-desc'>软银宣布在法国开发和运营高达 5 GW 的数据中心容量，这是欧洲最大规模的 AI 基础设施投资之一。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">全球 AI 算力军备竞赛加速，欧洲成为新战场</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Cognition 创始人称 AI 编程代理不应取代人类</div>
+      <div class='item-desc'>Devin 的创造者 Scott Wu 表示，AI 编程代理的设计初衷是辅助而非替代人类程序员。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 编程工具定位的行业共识正在形成</span>
+        <div class="item-sources"><a href="https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/" target="_blank">TechCrunch</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Adobe 推出对话式 AI 设计助手，体验相当于“平庸的设计实习生”</div>
+      <div class='item-desc'>Adobe 最新 AI 图像助手定位为创意过程中的协作工具，而非替代设计师的自动化方案。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">AI 创意工具从“替代”转向“协作”的产品思路</span>
+        <div class="item-sources"><a href="https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern" target="_blank">The Verge</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">比亚迪自研 4nm AI 芯片亮相，制程对齐英伟达</div>
+      <div class='item-desc'>比亚迪发布自研 4nm 智驾芯片，宣称算力超越特斯拉，为智能驾驶领域带来国产替代新变量。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">中国车企自研 AI 芯片突破，智驾供应链格局生变</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/426557.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">面壁智能“开源周”发布端侧 AI 系统性方案</div>
+      <div class='item-desc'>面壁智能通过系列开源发布，展示端侧 AI 从模型到部署的全链路能力。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">端侧 AI 从单点突破走向系统化工程</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/426542.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">英伟达清华团队提出 Gamma-World：多智能体世界模型</div>
+      <div class='item-desc'>该工作将世界模型从单智能体扩展至多智能体交互仿真，为机器人学习和游戏 AI 提供新范式。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">世界模型研究从“一个人玩”迈向“多人共处”</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/426662.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">Reflective Prompt Tuning：通过函数调用实现提示自动优化</div>
+      <div class='item-desc'>提出一种利用 LLM 自身函数调用能力进行反思式提示调优的方法，无需参数更新即可自动优化提示设计。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">自动化提示工程新范式，降低手动调优成本</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.21781" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">CONF-KV：基于置信度的 KV 缓存淘汰策略</div>
+      <div class='item-desc'>利用解码过程中模型的不确定性信号动态管理 KV 缓存预算，实现长上下文推理的高效内存使用。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">长上下文 LLM 推理的内存优化新方案</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.24786" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">PANDO：通过在线技能蒸馏实现高效多模态 AI Agent</div>
+      <div class='item-desc'>提出一种让多模态 Web Agent 随经验积累变得更高效而非更昂贵的在线蒸馏框架。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">解决 AI Agent 部署成本随使用增长的核心痛点</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.24785" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">REPOT：可恢复的程序式思维链推理</div>
+      <div class='item-desc'>通过确定性验证回放机制，在程序式思维链失败时仅需一次额外 LLM 调用即可恢复推理轨迹。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提升代码生成推理的鲁棒性，成本极低</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.30052" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">PRISM：评估 LLM 作为论文审稿人的多维基准</div>
+      <div class='item-desc'>从深度、严谨性、建设性和可操作性四个维度评估 AI 审稿质量，揭示 LLM 与人类审稿人的差距。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">为 AI 辅助学术评审提供系统化评估框架</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.26730" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">Alignment Tampering：RLHF 可能被利用来放大不良行为</div>
+      <div class='item-desc'>揭示 RLHF 中偏好数据集可能被 LLM 自身输出的数据所影响，导致对齐机制被逆向利用。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">发现 RLHF 安全对齐的关键漏洞</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.27355" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card">
+      <div class="item-title">腾讯发布智能体创意工作室 Miora</div>
+      <div class='item-desc'>一个创意设计版的 WorkBuddy，让用户拥有整个 AI 驱动的创意工作室。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        <span class="item-value">降低创意设计门槛，一人即可完成团队级工作流</span>
+        <div class="item-sources"><a href="https://www.qbitai.com/2026/05/426400.html" target="_blank">量子位</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">DynaFLIP：面向机器人操作的三模态动态感知预训练框架</div>
+      <div class='item-desc'>结合图像-语言-3D 流三种模态，将运动理解前置到感知阶段，提升机器人操作性能。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">机器人感知预训练新范式，开源推动研究进展</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.30350" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">ViGeo：面向视频的一致几何估计基础模型</div>
+      <div class='item-desc'>基于纯 Transformer 架构，支持流式、全序列和长视频推理，实现时空一致的深度估计。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">视频几何估计的通用基础模型，开源可复现</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.30060" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card">
+      <div class="item-title">CoHyDE：LLM 改写器与稠密编码器协同训练用于工具检索</div>
+      <div class='item-desc'>迭代协同训练框架，解决用户自然语言查询与 API 技术词汇之间的语义鸿沟。</div>
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        <span class="item-value">提升 LLM Agent 工具调用的准确率</span>
+        <div class="item-sources"><a href="https://huggingface.co/papers/2605.29271" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+      
+        <div class="observation">
+          <h2>💡 今日观察</h2>
+          <p>今天最值得关注的信号是 **AI 基础设施正在经历从“算力军备”到“推理效率”的关键转折**。Groq 从硬件转向推理服务、CONF-KV 论文提出的置信度感知缓存淘汰、以及 PANDO 的在线技能蒸馏，都在指向同一个方向：随着模型能力趋于成熟，如何以更低成本、更高效率地运行 AI 正成为行业主战场。同时，GitHub Copilot 的 Token 计费风波和开发者对“没有 AI 就不工作”现象的反思，预示着 AI 工具的商业化和使用边界正在被重新审视——技术可行性与经济合理性之间的张力正在加剧。</p>
+        </div>
+      <div class="day-nav"><a class="nav-btn" href="2026-05-29.html">← 2026-05-29</a><span></span></div>
+    </div>
+  
+<footer class="site-footer">
+  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+</footer>
+
+</body>
+</html>
