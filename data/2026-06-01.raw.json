@@ -1,10 +1,10 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T05:31:59.214141+08:00",
+  "generated_at": "2026-06-01T07:07:57.936367+08:00",
   "counts": {
     "papers": 20,
     "projects": 0,
-    "news": 41
+    "news": 40
   },
   "items": {
     "papers": [
@@ -630,19 +630,6 @@
         "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
         "source": "TechCrunch AI",
         "published": "2026-05-30T13:00:00+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Coders are refusing to work without AI — and that could come back to bite them",
-        "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
-        "normalized_url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them",
-        "summary": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
-        "source": "TechCrunch AI",
-        "published": "2026-05-29T22:14:22+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
