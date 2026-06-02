@@ -1,13 +1,274 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T06:33:51.323110+08:00",
+  "generated_at": "2026-06-03T07:52:46.073389+08:00",
   "counts": {
-    "papers": 0,
+    "papers": 20,
     "projects": 15,
     "news": 53
   },
   "items": {
-    "papers": [],
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Show, Don't TELL: Explainable AI-Generated Text Detection",
+        "url": "https://huggingface.co/papers/2605.27921",
+        "normalized_url": "https://huggingface.co/papers/2605.27921",
+        "summary": "Research on AI-generated text detection has presented a number of approaches to discern human from AI prose, some of which achieving high in-distribution performance. However, real-world applicability has stalled because their outputs are misaligned with the needs of users, such as professors, who are presented with a numeric score that has no attached explanation. We tackle this issue with a novel architecture, TELL, that bakes explainability from the ground-up. While our system still offers a ",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-27T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2605.27921"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MindZero: Learning Online Mental Reasoning With Zero Annotations",
+        "url": "https://huggingface.co/papers/2606.00240",
+        "normalized_url": "https://huggingface.co/papers/2606.00240",
+        "summary": "Effective real-world assistance requires AI agents with robust Theory of Mind (ToM): inferring human mental states from their behavior. Despite recent advances, several key challenges remain, including (1) online inference with robust uncertainty updates over multiple hypotheses; (2) efficient reasoning suitable for real-time assistance; and (3) the lack of ground-truth mental state annotations in real-world domains. We address these challenges by introducing MindZero, a self-supervised reinforc",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.00240"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DOT-MoE: Differentiable Optimal Transport for MoEfication",
+        "url": "https://huggingface.co/papers/2606.01666",
+        "normalized_url": "https://huggingface.co/papers/2606.01666",
+        "summary": "The scaling of Large Language Models (LLMs) has driven significant performance gains but created substantial challenges in inference efficiency. While Mixture of Experts (MoEs) architectures address this by decoupling model size from inference cost, training MoEs from scratch is often unstable and compute intensive. Conversion of pre-trained dense models into sparse MoEs has emerged as an alternative solution; however, existing methods typically rely on heuristic neuron clustering or random spli",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.01666"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Semantic Motion Anchors: Bridging Motion and Meaning in Co-Speech Gestures",
+        "url": "https://huggingface.co/papers/2605.30608",
+        "normalized_url": "https://huggingface.co/papers/2605.30608",
+        "summary": "Learning a shared representation between spoken text and gesture is central to co-speech gesture retrieval, synthesis, and understanding, but remains challenging for semantically meaningful gestures whose communicative intent is not captured by motion alone. Direct contrastive alignment between transcripts and continuous motion embeddings often overemphasizes low-level kinematics and misses the symbolic content of semantic gestures. We propose semantic motion anchors, natural-language abstractio",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.30608"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AFUN: Towards an Affordance Foundation Model for Functionality Understanding",
+        "url": "https://huggingface.co/papers/2606.02551",
+        "normalized_url": "https://huggingface.co/papers/2606.02551",
+        "summary": "Affordance understanding bridges visual perception and physical action, serving as an explainable interface for robot manipulation in open and unstructured real-world environments. Yet, building an affordance foundation model that not only understands where and how the interaction should happen, but also generalizes across diverse environments, objects, and tasks, remains a long-standing research challenge. Existing methods typically address only part of this challenge, either localizing task-re",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.02551"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TVIR: Building Deep Research Agents Towards Text--Visual Interleaved Report Generation",
+        "url": "https://huggingface.co/papers/2606.02320",
+        "normalized_url": "https://huggingface.co/papers/2606.02320",
+        "summary": "Deep Research Agents have shown strong capability in multi-step information retrieval, reasoning, and long-form report generation, but existing benchmarks and systems remain predominantly text-centric, with limited evaluation of whether visual elements are factually reliable and well aligned with the surrounding analysis. To address this gap, we introduce TVIR (Text--Visual Interleaved Report Generation), which includes TVIR-Bench, a benchmark of 100 expert-curated multimodal deep research tasks",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.02320"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence",
+        "url": "https://huggingface.co/papers/2605.31529",
+        "normalized_url": "https://huggingface.co/papers/2605.31529",
+        "summary": "True video intelligence demands more than recognizing what is visible: it requires reasoning about why events unfold, predicting what would change under different conditions, and deciding what to do next. We refer to this progression, from perception through causal reasoning and simulation to strategic planning, as Strategic Video Intelligence (SVI). No existing benchmark evaluates this capability stack: in-the-wild videos lack verifiable ground truth for causal and strategic questions, while sy",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.31529"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FreeForm: Reduced-Order Deformable Simulation from Particle-Based Skinning Eigenmodes",
+        "url": "https://huggingface.co/papers/2605.29318",
+        "normalized_url": "https://huggingface.co/papers/2605.29318",
+        "summary": "We present a novel formulation for mesh-free, reduced-order simulation of deformable hyperelastic objects. Existing work in reduced-order elastodynamic simulation represents the input geometry by either meshes, which can be difficult to obtain due to challenges in scanning and triangulating complex shapes, or by neural fields that require per-shape optimization. We propose to adopt a Reproducing Kernel Particle Method (RKPM) representation, which enables the construction of reduced-order skinnin",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-28T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2605.29318"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses",
+        "url": "https://huggingface.co/papers/2606.02373",
+        "normalized_url": "https://huggingface.co/papers/2606.02373",
+        "summary": "Search agents are often trained as policies over growing transcripts: the model must decide how to search while also remembering what it has seen, which evidence is useful, which constraints remain open, and which claims have actually been checked. We argue that this formulation puts too much routine state management inside the policy: reinforcement learning is forced to optimize both semantic search decisions and recoverable bookkeeping that the environment can maintain more reliably. We introd",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.02373"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Policy and World Modeling Co-Training for Language Agents",
+        "url": "https://huggingface.co/papers/2606.02388",
+        "normalized_url": "https://huggingface.co/papers/2606.02388",
+        "summary": "Reinforcement learning (RL) improves large language model (LLM) agents by teaching them which actions lead to high rewards, but provides little supervision on what those actions do to the environment. World modeling (WM) can fill this gap, yet existing approaches often require separate simulators, extra training stages, or additional inference-time computation. We observe that on-policy RL rollouts already contain the needed signal: each transition pairs an action with its resulting next observa",
+        "source": "HuggingFace Papers",
+        "published": "2026-06-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.02388"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Model-Based Quality Assessment for Massively Multilingual Parallel Data",
+        "url": "https://huggingface.co/papers/2606.00285",
+        "normalized_url": "https://huggingface.co/papers/2606.00285",
+        "summary": "Large-scale multilingual bitext often contains two distinct problems: non-parallel sentence pairs and low-quality translations. We decompose model-based assessment for such data into two independent components: parallelism assessment with multilingual embeddings and reference-free quality estimation (QE). For parallelism, we benchmark four embedding models on FLORES-200 and BOUQuET retrieval tasks, covering 6,654 source--target directions in our target language-pair inventory. For QE, we evaluat",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.00285"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Same Question, Different Source, Different Answer: Auditing Source-Dependence in Medical Multi-Source RAG",
+        "url": "https://huggingface.co/papers/2605.29084",
+        "normalized_url": "https://huggingface.co/papers/2605.29084",
+        "summary": "A retrieval-augmented generation (RAG) system deployed over a multi-author institutional corpus can give a different answer to the same question depending on which source it retrieves -- a failure mode the dominant single-gold-answer paradigm cannot diagnose. We argue that source-dependence is a missing axis of NLP evaluation, and that auditing it means shifting the unit of evaluation from answer correctness to the inter-source relationship. We make this concrete in transplant patient education,",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.29084"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The Chain Holds, the Answer Folds: Trace-Answer Dissociation in Reasoning Models Under Adversarial Pressure",
+        "url": "https://huggingface.co/papers/2605.29087",
+        "normalized_url": "https://huggingface.co/papers/2605.29087",
+        "summary": "Reasoning models are evaluated on single-turn benchmarks but deployed in multi-turn dialogue, where users push back on correct answers. Under sustained adversarial pressure we find a previously undocumented failure mode: the chain-of-thought stays factually correct from first turn to last while the emitted answer flips wrong. We call this unfaithful capitulation (UC) and isolate it with a 2times 2 latent-versus-behavioral framework that flip-rate metrics and single-turn faithfulness probes both ",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.29087"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Unified Neural Scaling Laws",
+        "url": "https://huggingface.co/papers/2605.26248",
+        "normalized_url": "https://huggingface.co/papers/2605.26248",
+        "summary": "We present a functional form (that we refer to as a Unified Neural Scaling Law (UNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks as multiple dimensions all vary simultaneously (i.e. how the evaluation metric of interest varies as one simultaneously varies the number of model parameters, training dataset size, number of training steps, number of inference steps, amount of compute, and various hyperparameters) for various architectures and for each of va",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.26248"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "τ_0-WM: A Unified Video-Action World Model for Robotic Manipulation",
+        "url": "https://huggingface.co/papers/2606.01027",
+        "normalized_url": "https://huggingface.co/papers/2606.01027",
+        "summary": "Robotic manipulation requires models that generate executable actions while anticipating and evaluating their future consequences before physical execution. We present τ_0-World Model (τ_0-WM), a unified video-action world model that integrates policy learning, video prediction, and action evaluation within a single future-predictive framework. Built on a shared video diffusion backbone, τ_0-WM provides two complementary interfaces. First, a video action model jointly predicts future visual late",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-31T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.01027"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs",
+        "url": "https://huggingface.co/papers/2605.30501",
+        "normalized_url": "https://huggingface.co/papers/2605.30501",
+        "summary": "Watermarking embeds statistical signatures in AI-generated text for detection and attribution. We reveal a fundamental vulnerability: when users access multiple models (today's reality), watermarks trivially fail. Watermarks perturb output distributions away from the original, and in competitive markets, these perturbations are typically independent across providers. We theoretically prove that averaging output probability distributions recovers the unwatermarked distribution with up to a second",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.30501"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding",
+        "url": "https://huggingface.co/papers/2605.29707",
+        "normalized_url": "https://huggingface.co/papers/2605.29707",
+        "summary": "Speculative decoding accelerates LLM inference by drafting multiple tokens and verifying them in parallel with the target model. However, its practical speedup is constrained by the trade-off between draft quality and drafting cost: autoregressive drafters model causal dependencies among draft tokens but incur sequential overhead, while parallel drafters reduce drafting cost but weaken intra-block dependency modeling. In this paper, we propose Domino, a speculative decoding framework that decoup",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.29707"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan",
+        "url": "https://huggingface.co/papers/2605.09156",
+        "normalized_url": "https://huggingface.co/papers/2605.09156",
+        "summary": "The diachronic evolution from Latin to the Romance languages involved a restructuring of the grammatical gender system from a tripartite configuration (masculine, feminine, neuter) to a bipartite one (masculine, feminine) in most Romance languages. In this work, we introduce an interpretable deep learning framework to investigate this phenomenon at both lexical and contextual levels. First, we show that conventional tokenization strategies are insufficiently robust for this low-resource historic",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-26T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2605.09156"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ACL-Verbatim: hallucination-free question answering for research",
+        "url": "https://huggingface.co/papers/2605.21102",
+        "normalized_url": "https://huggingface.co/papers/2605.21102",
+        "summary": "Academic researchers need efficient and reliable methods for collecting high-quality information from trusted sources, but modern tools for AI-assisted research still suffer from the tendency of Large Language Models (LLMs) to produce factually inaccurate or nonsensical output, commonly referred to as hallucinations. We apply the extractive question answering system VerbatimRAG to research papers in the ACL Anthology, directly mapping user queries to verbatim text spans in retrieved documents. W",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2605.21102"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent Skills Should Go Beyond Text: The Case for Visual Skills",
+        "url": "https://huggingface.co/papers/2606.01414",
+        "normalized_url": "https://huggingface.co/papers/2606.01414",
+        "summary": "Reusable skills are a key mechanism for extending agent capabilities, allowing agents to accumulate experience and solve increasingly complex tasks. Yet most existing skill-learning methods store reusable experience as text-only assets, such as instructions, reasoning traces, or summarized trajectories. We argue that this text-only paradigm creates a fundamental bottleneck for visual-centric tasks, where reusable knowledge often depends on spatial layout, visual grounding, fine-grained appearanc",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-31T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2606.01414"
+        }
+      }
+    ],
     "projects": [
       {
         "category": "projects",
@@ -223,6 +484,45 @@
     "news": [
       {
         "category": "news",
+        "title": "2000元防晒衣的“黑神话”，是“皇帝的新衣”？",
+        "url": "https://www.36kr.com/p/3836062490473600",
+        "normalized_url": "https://www.36kr.com/p/3836062490473600",
+        "summary": "防晒衣溢价严重，多是智商税，按需选购更明智。",
+        "source": "36Kr AI",
+        "published": "2026-06-02T23:52:25+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，Windows“梦中神机”来了，把你的PC变成Agent工位",
+        "url": "https://www.36kr.com/p/3836668626891910",
+        "normalized_url": "https://www.36kr.com/p/3836668626891910",
+        "summary": "没有 ChatGPT 叙事的 Build 大会，可能才是微软真正的成人礼",
+        "source": "36Kr AI",
+        "published": "2026-06-02T23:47:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "今天，ChatGPT+Codex官宣合体，10亿人喜提“超级Agent”",
+        "url": "https://www.36kr.com/p/3836668227466630",
+        "normalized_url": "https://www.36kr.com/p/3836668227466630",
+        "summary": "OpenAI官宣ChatGPT将整合Codex，推出三大核心升级。",
+        "source": "36Kr AI",
+        "published": "2026-06-02T23:44:28+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "突发，字节AI大将顾全全离职",
         "url": "https://www.36kr.com/p/3836085319103619",
         "normalized_url": "https://www.36kr.com/p/3836085319103619",
@@ -307,45 +607,6 @@
         "summary": "将代理与工作流程混淆，正是人工智能风险悄然潜入的方式。",
         "source": "36Kr AI",
         "published": "2026-06-02T13:09:23+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI体检：有人赚得盆满钵满，有人只剩营销噱头",
-        "url": "https://www.36kr.com/p/3835893251766920",
-        "normalized_url": "https://www.36kr.com/p/3835893251766920",
-        "summary": "体量庞大且保持增长的体检市场，正迎来AI技术的全面渗透。",
-        "source": "36Kr AI",
-        "published": "2026-06-02T13:08:14+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "谷歌800亿美元豪赌AI基建，A股谁能把握时代先机",
-        "url": "https://www.36kr.com/p/3835886294743938",
-        "normalized_url": "https://www.36kr.com/p/3835886294743938",
-        "summary": "6月1日，Bloomberg披露，科技巨头谷歌的母公司Alphabet，计划启动一场史无前例的融资——高达800亿美元。这笔钱，将悉数砸向AI数据中心、下一代TPU芯片，以及Gemini的模型训练。",
-        "source": "36Kr AI",
-        "published": "2026-06-02T13:03:51+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "商业航天IPO生死局",
-        "url": "https://www.36kr.com/p/3835953305891971",
-        "normalized_url": "https://www.36kr.com/p/3835953305891971",
-        "summary": "成败同框，悲喜交织。资本市场不在乎⼀次发射的成败，在乎的是企业有没有拿到IPO的门票。",
-        "source": "36Kr AI",
-        "published": "2026-06-02T12:58:55+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -483,6 +744,19 @@
       },
       {
         "category": "news",
+        "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+        "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+        "normalized_url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses",
+        "summary": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-02T22:50:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Uber caps employee AI spending after blowing through budget in 4 months",
         "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
         "normalized_url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months",
@@ -594,19 +868,6 @@
         "source": "TechCrunch AI",
         "published": "2026-06-02T16:00:00+00:00",
         "importance_hint": 5,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Anthropic scales Claude Mythos to critical infrastructure in 15+ countries",
-        "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
-        "normalized_url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries",
-        "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-02T14:44:21+00:00",
-        "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
