@@ -12,6 +12,12 @@
         if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
       } catch (e) {}
+      try {
+        var lng = localStorage.getItem('lang');
+        if (!lng) lng = (navigator.language || 'zh').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+        document.documentElement.setAttribute('data-lang', lng);
+        if (lng === 'en') document.documentElement.setAttribute('lang', 'en');
+      } catch (e) { document.documentElement.setAttribute('data-lang', 'zh'); }
     })();
   </script>
   <style>
@@ -170,19 +176,25 @@ a:hover { text-decoration: underline; }
 }
 .site-header nav a:hover { background: var(--border); color: var(--text); text-decoration: none; }
 
-/* ── Theme toggle ── */
-.theme-toggle {
+/* ── Theme / language toggle ── */
+.theme-toggle, .lang-toggle {
   background: var(--card);
   border: 1px solid var(--border-strong);
   border-radius: 8px;
   color: var(--text);
   font-size: 15px;
-  width: 34px; height: 34px;
+  height: 34px;
   line-height: 1;
   cursor: pointer;
   transition: border-color .15s, background .15s;
 }
-.theme-toggle:hover { border-color: #58a6ff; }
+.theme-toggle { width: 34px; }
+.lang-toggle { padding: 0 12px; font-size: 13px; font-weight: 600; min-width: 42px; }
+.theme-toggle:hover, .lang-toggle:hover { border-color: #58a6ff; }
+
+/* ── Language content toggle ── */
+html[data-lang="en"] [data-lang-content="zh"] { display: none; }
+html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 
 /* ── Hot words / trends ── */
 .trends {
@@ -458,9 +470,10 @@ a:hover { text-decoration: underline; }
       <div id="searchResults" class="search-results"></div>
     </div>
     <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <button id="langToggle" class="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
     <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
     <nav>
-      <a href="../index.html">归档</a>
+      <a href="../index.html"><span data-lang-content="zh">归档</span><span data-lang-content="en">Archive</span></a>
       <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
     </nav>
   </div>
@@ -469,23 +482,242 @@ a:hover { text-decoration: underline; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str">周二 · 2026-04-14</div>
-        <h1>AI 每日简报</h1>
+        <div class="date-str"><span data-lang-content="zh">周二 · 2026-04-14</span><span data-lang-content="en">Tuesday · 2026-04-14</span></div>
+        <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">OpenAI 收购个人理财初创公司 Hiro</div>
+      <div class='item-desc'>OpenAI 收购了 AI 个人理财初创公司 Hiro，此举表明 OpenAI 正将财务规划能力整合进 ChatGPT 中，拓展其应用边界。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">微软测试类 OpenClaw 的自主 AI 助手</div>
+      <div class='item-desc'>微软正研究将类似开源项目 OpenClaw 的自主运行功能集成到 Copilot 中，旨在让 Copilot 能为企业用户全天候自动完成任务，并加强安全控制。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">斯坦福报告揭示 AI 专家与公众认知鸿沟</div>
+      <div class='item-desc'>斯坦福大学最新 AI 指数报告显示，AI 专家与公众之间的认知差距正在扩大，公众对 AI 在就业、医疗和经济方面的影响愈发焦虑。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Vercel 因 AI 代理热潮准备 IPO</div>
+      <div class='item-desc'>在 AI 生成应用和代理爆发的推动下，已有十年历史的开发者工具和网站托管平台 Vercel 收入激增，其 CEO 已释放出准备进行首次公开募股（IPO）的信号。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">OpenAI 内部备忘录强调构建竞争壁垒</div>
+      <div class='item-desc'>OpenAI 首席营收官在内部备忘录中强调了锁定用户和发展企业业务的战略方向，并反复指出需要围绕其 AI 产品构建“护城河”，以应对竞争对手。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">扎克伯格被曝正在打造 AI 克隆体</div>
+      <div class='item-desc'>据报道，Meta CEO 马克·扎克伯格正在训练一个基于其形象、声音和言谈举止的 AI 克隆体，未来可能用于与员工互动并提供反馈。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">OpenAI CEO 山姆·奥特曼再遭袭击</div>
+      <div class='item-desc'>继上周有人向奥特曼住所投掷燃烧瓶后，周日早晨其住所附近又发生枪击事件，两名嫌疑人被捕。此前一名男子因试图袭击奥特曼和 OpenAI 总部而面临联邦指控。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Kepler 通信公司开放最大轨道计算集群</div>
+      <div class='item-desc'>Kepler Communications 公司已将搭载 40 块 GPU 的“最大轨道计算集群”投入商业运营，其最新客户是 Sophia Space，标志着太空计算商业化迈出新步。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">AI 影响者“占领”科切拉音乐节</div>
+      <div class='item-desc'>在科切拉音乐节上，由 AI 生成的虚拟影响者大量出现，它们以完美的形象与名人合影，成为社交媒体上的新景观。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">教育 AI 平台 Nectir 完成 1250 万美元融资</div>
+      <div class='item-desc'>该平台已覆盖超过 100 个校区的 8 万名学生，本轮融资将助力其进一步拓展 AI 教育服务。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Robotruck 开启跨盟市运营</div>
+      <div class='item-desc'>Robotruck 的跨盟市运营是其大规模商业化的重要一步，标志着智能运力正像“水电煤”一样成为新时代的基础设施。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">端侧 AI 计算架构深度比较</div>
+      <div class='item-desc'>随着大模型向边缘设备下沉，移动端 SoC 正经历剧烈架构变革。以苹果为代表的垂直整合体系与开放的安卓阵营，在异构计算与调度架构上形成了不同的技术路径。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">QuanBench+：统一的量子代码生成基准</div>
+      <div class='item-desc'>该研究提出了一个跨 Qiskit、PennyLane 和 Cirq 三大框架的统一基准，包含 42 个对齐任务，旨在更公平地评估大模型在量子代码生成上的推理能力，而非对特定框架的熟悉度。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">SPEED-Bench：投机解码的统一多样化基准</div>
+      <div class='item-desc'>投机解码（SD）是加速大模型推理的关键技术，但其性能高度依赖数据。该研究提出了一个支持吞吐量评估、任务多样化的新基准，以更准确地衡量 SD 在生产环境中的有效性。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">DiningBench：饮食领域的多层级感知与推理基准</div>
+      <div class='item-desc'>针对现有食物领域基准的不足，该研究提出了一个包含细粒度分类、营养估计和视觉问答三个认知层级的、多视角的评测基准，以推动视觉语言模型在饮食领域的深入应用。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">SPASM：稳定的角色驱动型多轮对话代理模拟</div>
+      <div class='item-desc'>为确保大模型在生成长对话时保持角色、人设和目标的稳定性，该研究提出了一个框架，旨在解决对话中常见的角色漂移、混淆和“回声”等问题，以生成更可靠的合成对话数据。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Zero-shot World Models：发展高效的学习者假说</div>
+      <div class='item-desc'>受儿童高效学习物理世界的启发，该研究提出了一种新的计算假说，认为零样本世界模型可能是实现数据高效且灵活认知系统的关键，为解决当前 AI 系统泛化能力不足的挑战提供了新思路。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="0">
+      <div class="item-title">Hermes Agent 发布 0.9.0</div>
+      <div class='item-desc'>该项目发布了新版本，支持原生微信 Callback 功能，使智能体能够更好地与微信生态集成。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">caveman：极简表达 Claude Code 技能</div>
+      <div class='item-desc'>这是一个 Claude Code 插件，通过模仿“原始人”式的极简表达来压缩代码描述，号称能减少 75% 的 Token 消耗。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">claude-mem：自动捕获编码会话的插件</div>
+      <div class='item-desc'>该 Claude Code 插件能自动记录编码会话中的所有操作，利用 AI 压缩后，在未来的会话中智能注入相关上下文，提升编码连续性。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">multica：将编码智能体变为真实队友</div>
+      <div class='item-desc'>该项目旨在将编码智能体转变为像同事一样的团队成员，可以自主领取任务、编写代码、报告阻塞问题并更新状态。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+    <div class="item-card" data-stars="0">
+      <div class="item-title">rtk：降低 LLM Token 消耗的 CLI 代理</div>
+      <div class='item-desc'>这是一个用 Rust 编写的 CLI 代理工具，声称能通过优化常见开发命令，将 LLM 的 Token 消耗降低 60-90%。</div>
+      <div class="item-meta">
+        
+        
+        
+      </div>
+    </div>
+        </div>
       <div class="empty-filter">该筛选条件下没有内容。</div>
       
         <div class="observation">
           <h2>💡 今日观察</h2>
           <p>今日资讯呈现出 AI 领域“落地加速”与“生态分化”并行的鲜明特点。一方面，应用层动作频繁：OpenAI 通过收购拓展 ChatGPT 的财务规划能力，微软和 Meta 则积极探索更自主、拟人化的 AI 助手形态，Robotruck 的商业化运营和轨道计算集群的开放都标志着 AI 基础设施正加速融入现实世界。另一方面，技术栈的竞争与分化加剧：从端侧苹果与安卓的异构计算架构之争，到量子计算、投机解码等专业领域基准的建立，再到围绕 Claude Code 等编码智能体涌现出大量优化工具和技能，行业正从通用模型竞赛，深入到为特定场景、任务和效率进行深度优化的新阶段。同时，斯坦福报告揭示的公众焦虑与针对行业领袖的极端事件，也提醒我们 AI 的社会影响与治理已成为不可忽视的议题。</p>
-          <button class="speak-btn" data-label="朗读今日观察" data-text="今日资讯呈现出 AI 领域“落地加速”与“生态分化”并行的鲜明特点。一方面，应用层动作频繁：OpenAI 通过收购拓展 ChatGPT 的财务规划能力，微软和 Meta 则积极探索更自主、拟人化的 AI 助手形态，Robotruck 的商业化运营和轨道计算集群的开放都标志着 AI 基础设施正加速融入现实世界。另一方面，技术栈的竞争与分化加剧：从端侧苹果与安卓的异构计算架构之争，到量子计算、投机解码等专业领域基准的建立，再到围绕 Claude Code 等编码智能体涌现出大量优化工具和技能，行业正从通用模型竞赛，深入到为特定场景、任务和效率进行深度优化的新阶段。同时，斯坦福报告揭示的公众焦虑与针对行业领袖的极端事件，也提醒我们 AI 的社会影响与治理已成为不可忽视的议题。">🔊 朗读今日观察</button>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今日资讯呈现出 AI 领域“落地加速”与“生态分化”并行的鲜明特点。一方面，应用层动作频繁：OpenAI 通过收购拓展 ChatGPT 的财务规划能力，微软和 Meta 则积极探索更自主、拟人化的 AI 助手形态，Robotruck 的商业化运营和轨道计算集群的开放都标志着 AI 基础设施正加速融入现实世界。另一方面，技术栈的竞争与分化加剧：从端侧苹果与安卓的异构计算架构之争，到量子计算、投机解码等专业领域基准的建立，再到围绕 Claude Code 等编码智能体涌现出大量优化工具和技能，行业正从通用模型竞赛，深入到为特定场景、任务和效率进行深度优化的新阶段。同时，斯坦福报告揭示的公众焦虑与针对行业领袖的极端事件，也提醒我们 AI 的社会影响与治理已成为不可忽视的议题。">🔊 朗读今日观察</button>
         </div>
     </div>
       <div class="day-nav">
@@ -496,7 +728,8 @@ a:hover { text-decoration: underline; }
   
 <button id="backToTop" aria-label="回到顶部">↑</button>
 <footer class="site-footer">
-  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+  <span data-lang-content="zh">© AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新</span>
+  <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
   <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02"];window.CURRENT_DATE="2026-04-14";window.NEXT_DATE="2026-04-15";</script>
@@ -542,16 +775,22 @@ a:hover { text-decoration: underline; }
       var q = si.value.trim().toLowerCase();
       if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
       loadIndex().then(function (idx) {
+        var en = window.CUR_LANG === 'en';
+        function fTitle(h) { return (en && h.title_en) ? h.title_en : h.title; }
+        function fDesc(h) { return (en && h.desc_en) ? h.desc_en : h.desc; }
+        function fCat(h) { return (en && h.cat_en) ? h.cat_en : h.cat; }
         var hits = idx.filter(function (it) {
-          return (it.title + ' ' + it.desc).toLowerCase().indexOf(q) !== -1;
+          return (fTitle(it) + ' ' + fDesc(it) + ' ' + it.title + ' ' + it.desc)
+            .toLowerCase().indexOf(q) !== -1;
         }).slice(0, 25);
         if (!hits.length) {
-          sr.innerHTML = '<div class="sr-empty">没有匹配结果</div>';
+          sr.innerHTML = '<div class="sr-empty">' +
+            (en ? 'No matches' : '没有匹配结果') + '</div>';
         } else {
           sr.innerHTML = hits.map(function (h) {
             return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
-                   '<span class="sr-date">' + h.date + ' · ' + esc(h.cat) + '</span>' +
-                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
+                   '<span class="sr-date">' + h.date + ' · ' + esc(fCat(h)) + '</span>' +
+                   '<span class="sr-title">' + esc(fTitle(h)) + '</span></a>';
           }).join('');
         }
         sr.classList.add('active');
@@ -654,6 +893,29 @@ a:hover { text-decoration: underline; }
     });
   }
 
+  // ── Language toggle ──
+  var PH = { zh: '搜索全部日报…', en: 'Search all digests…' };
+  function curLang() {
+    return document.documentElement.getAttribute('data-lang') === 'en' ? 'en' : 'zh';
+  }
+  window.CUR_LANG = curLang();
+  var lt = document.getElementById('langToggle');
+  function applyLang(lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'zh-Hans');
+    window.CUR_LANG = lang;
+    if (lt) lt.textContent = lang === 'en' ? '中' : 'EN';
+    if (si) si.setAttribute('placeholder', PH[lang]);
+  }
+  applyLang(curLang());
+  if (lt) {
+    lt.addEventListener('click', function () {
+      var next = curLang() === 'en' ? 'zh' : 'en';
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      applyLang(next);
+    });
+  }
+
   // ── Hot-word tags → search ──
   document.querySelectorAll('.trend-tag').forEach(function (tag) {
     tag.addEventListener('click', function () {
@@ -671,7 +933,8 @@ a:hover { text-decoration: underline; }
   var synth = window.speechSynthesis;
   document.querySelectorAll('.speak-btn').forEach(function (btn) {
     if (!synth) { btn.style.display = 'none'; return; }
-    var label = btn.getAttribute('data-label') || '朗读';
+    var label = btn.getAttribute('data-label') || '🔊 朗读';
+    var stop = btn.getAttribute('data-stop') || '⏹ 停止';
     btn.addEventListener('click', function () {
       if (btn.classList.contains('playing')) {
         synth.cancel();
@@ -679,14 +942,14 @@ a:hover { text-decoration: underline; }
       }
       synth.cancel();
       var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
-      u.lang = 'zh-CN';
+      u.lang = btn.getAttribute('data-speak-lang') || 'zh-CN';
       u.rate = 1.0;
       u.onend = u.onerror = function () {
         btn.classList.remove('playing');
-        btn.textContent = '🔊 ' + label;
+        btn.textContent = label;
       };
       btn.classList.add('playing');
-      btn.textContent = '⏹ 停止';
+      btn.textContent = stop;
       synth.speak(u);
     });
   });

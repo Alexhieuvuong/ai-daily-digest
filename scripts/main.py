@@ -78,17 +78,24 @@ def main():
     )
     print(f"\n[Step 2] Saved raw data to {raw_file}")
 
-    # Step 3: AI summarization
+    # Step 3: AI summarization (bilingual)
     print("\n[Step 3] Generating AI summary...")
-    markdown = summarize(data, date_str)
+    markdown, markdown_en = summarize(data, date_str)
 
-    # Step 4: Save daily markdown
+    # Step 4: Save daily markdown (zh + en)
     output_dir = Path(__file__).parent.parent / "daily"
     output_dir.mkdir(exist_ok=True)
     output_file = output_dir / f"{date_str}.md"
 
     output_file.write_text(markdown, encoding="utf-8")
     print(f"\n[Step 4] Saved to {output_file}")
+
+    if markdown_en:
+        output_file_en = output_dir / f"{date_str}.en.md"
+        output_file_en.write_text(markdown_en, encoding="utf-8")
+        print(f"          Saved English to {output_file_en}")
+    else:
+        print("          No English version generated.")
 
     # Step 5: Rebuild static site
     print("\n[Step 5] Rebuilding static site...")

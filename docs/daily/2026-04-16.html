@@ -12,6 +12,12 @@
         if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
       } catch (e) {}
+      try {
+        var lng = localStorage.getItem('lang');
+        if (!lng) lng = (navigator.language || 'zh').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+        document.documentElement.setAttribute('data-lang', lng);
+        if (lng === 'en') document.documentElement.setAttribute('lang', 'en');
+      } catch (e) { document.documentElement.setAttribute('data-lang', 'zh'); }
     })();
   </script>
   <style>
@@ -170,19 +176,25 @@ a:hover { text-decoration: underline; }
 }
 .site-header nav a:hover { background: var(--border); color: var(--text); text-decoration: none; }
 
-/* ── Theme toggle ── */
-.theme-toggle {
+/* ── Theme / language toggle ── */
+.theme-toggle, .lang-toggle {
   background: var(--card);
   border: 1px solid var(--border-strong);
   border-radius: 8px;
   color: var(--text);
   font-size: 15px;
-  width: 34px; height: 34px;
+  height: 34px;
   line-height: 1;
   cursor: pointer;
   transition: border-color .15s, background .15s;
 }
-.theme-toggle:hover { border-color: #58a6ff; }
+.theme-toggle { width: 34px; }
+.lang-toggle { padding: 0 12px; font-size: 13px; font-weight: 600; min-width: 42px; }
+.theme-toggle:hover, .lang-toggle:hover { border-color: #58a6ff; }
+
+/* ── Language content toggle ── */
+html[data-lang="en"] [data-lang-content="zh"] { display: none; }
+html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 
 /* ── Hot words / trends ── */
 .trends {
@@ -458,9 +470,10 @@ a:hover { text-decoration: underline; }
       <div id="searchResults" class="search-results"></div>
     </div>
     <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <button id="langToggle" class="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
     <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
     <nav>
-      <a href="../index.html">归档</a>
+      <a href="../index.html"><span data-lang-content="zh">归档</span><span data-lang-content="en">Archive</span></a>
       <a href="https://github.com/Jimmuji/ai-daily-digest" target="_blank">GitHub</a>
     </nav>
   </div>
@@ -469,23 +482,224 @@ a:hover { text-decoration: underline; }
   
     <div class="container">
       <div class="day-hero">
-        <div class="date-str">周四 · 2026-04-16</div>
-        <h1>AI 每日简报</h1>
+        <div class="date-str"><span data-lang-content="zh">周四 · 2026-04-16</span><span data-lang-content="en">Thursday · 2026-04-16</span></div>
+        <h1><span data-lang-content="zh">AI 每日简报</span><span data-lang-content="en">AI Daily Digest</span></h1>
       </div>
       
     <div class="digest-scope">
       
     <div class="filter-bar">
-      <span class="tab active" data-cat="all">全部</span>
+      <span class="tab active" data-cat="all">全部</span><span class="tab" data-cat="news">新闻</span><span class="tab" data-cat="paper">论文</span><span class="tab" data-cat="project">项目</span>
       <span class="star-toggle">★ 只看重点 (4+)</span>
     </div>
       
+        <div class="category" data-cat="news">
+          <div class="category-header">
+            <h2>📰 行业新闻</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">OpenAI 更新其 Agents SDK，帮助企业构建更安全、更强大的智能体。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank">TechCrunch AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Google 为 Mac 推出原生 Gemini 应用，支持屏幕共享获取实时帮助。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/tech/912638/google-gemini-mac-app" target="_blank">The Verge AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">Google Chrome 推出“Skills”功能，可将AI提示保存为可重复使用的自动化工作流。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch" target="_blank">The Verge AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">OpenClaw爆火暴露12类致命隐患，MCP协议安全基准发布。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3768662327935747" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">2026北京车展前瞻：自动驾驶商业化迎决定性拐点。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3768944509186569" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">AI幻觉进化：从“胡说八道”到伪造邮件、篡改简历的高阶陷阱。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3768648370045444" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">LinkedIn数据：招聘下降20%，但AI并非主因。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/" target="_blank">TechCrunch AI</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="3">
+      <div class="item-title">AI提效20%，程序员加班却更狠：生产力衡量标准被扭曲。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★☆☆</span>
+        
+        <div class="item-sources"><a href="https://www.36kr.com/p/3768875459543561" target="_blank">36Kr AI</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="paper">
+          <div class="category-header">
+            <h2>📄 重要论文</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.10577" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《Do AI Coding Agents Log Like Humans? An Empirical Study》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.09409" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.14116" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《Spec Kit Agents: Context-Grounded Agentic Workflows》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.05278" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.13822" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">《From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space》</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://huggingface.co/papers/2604.14142" target="_blank">HuggingFace Papers</a></div>
+      </div>
+    </div>
+        </div>
+        <div class="category" data-cat="project">
+          <div class="category-header">
+            <h2>🔧 开源项目</h2>
+            <div class="cat-line"></div>
+          </div>
+          
+    <div class="item-card" data-stars="5">
+      <div class="item-title">NousResearch/hermes-agent：与你共同成长的智能体。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/NousResearch/hermes-agent" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">multica-ai/multica：将编程智能体变为真正的团队成员。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/multica-ai/multica" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">thedotmack/claude-mem：自动捕获并压缩Claude编码会话上下文的插件。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/thedotmack/claude-mem" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">VoltAgent/awesome-design-md：收集流行网站设计系统文件的仓库。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/VoltAgent/awesome-design-md" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="5">
+      <div class="item-title">datawhalechina/hello-agents：《从零开始构建智能体》开源教程。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★★</span>
+        
+        <div class="item-sources"><a href="https://github.com/datawhalechina/hello-agents" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+    <div class="item-card" data-stars="4">
+      <div class="item-title">JuliusBrussee/caveman：通过“原始人”式表达减少75%Token消耗的Claude Code技能。</div>
+      
+      <div class="item-meta">
+        <span class="stars">★★★★☆</span>
+        
+        <div class="item-sources"><a href="https://github.com/JuliusBrussee/caveman" target="_blank">GitHub Trending</a></div>
+      </div>
+    </div>
+        </div>
       <div class="empty-filter">该筛选条件下没有内容。</div>
       
         <div class="observation">
           <h2>💡 今日观察</h2>
           <p>今日AI领域的动态呈现出鲜明的“落地与安全”双重主题。一方面，**Agentic AI的工业化进程加速**，OpenAI更新企业级SDK，Google将Gemini深度集成至Mac和Chrome，开源社区涌现出大量提升AI编程代理实用性（如`multica`、`claude-mem`）和效率（如`caveman`）的工具，表明智能体正从概念演示走向成熟的生产力组件。另一方面，**伴随深入应用的安全风险日益凸显**，无论是OpenClaw暴露的MCP协议隐患，还是学术研究指出的计算机使用智能体（CUA）在“良性指令”下的安全盲区，都警示着产业界必须将安全评估前置。与此同时，自动驾驶在北京车展前夕被预示将迎来商业化拐点，而AI在娱乐内容生成（如AI漫剧）和硬件（如AI SSD）领域的影响力也在持续扩大，显示出AI技术正在多线并行地重塑各行各业。</p>
-          <button class="speak-btn" data-label="朗读今日观察" data-text="今日AI领域的动态呈现出鲜明的“落地与安全”双重主题。一方面，**Agentic AI的工业化进程加速**，OpenAI更新企业级SDK，Google将Gemini深度集成至Mac和Chrome，开源社区涌现出大量提升AI编程代理实用性（如`multica`、`claude-mem`）和效率（如`caveman`）的工具，表明智能体正从概念演示走向成熟的生产力组件。另一方面，**伴随深入应用的安全风险日益凸显**，无论是OpenClaw暴露的MCP协议隐患，还是学术研究指出的计算机使用智能体（CUA）在“良性指令”下的安全盲区，都警示着产业界必须将安全评估前置。与此同时，自动驾驶在北京车展前夕被预示将迎来商业化拐点，而AI在娱乐内容生成（如AI漫剧）和硬件（如AI SSD）领域的影响力也在持续扩大，显示出AI技术正在多线并行地重塑各行各业。">🔊 朗读今日观察</button>
+          <button class="speak-btn" data-label="🔊 朗读今日观察" data-stop="⏹ 停止" data-speak-lang="zh-CN" data-text="今日AI领域的动态呈现出鲜明的“落地与安全”双重主题。一方面，**Agentic AI的工业化进程加速**，OpenAI更新企业级SDK，Google将Gemini深度集成至Mac和Chrome，开源社区涌现出大量提升AI编程代理实用性（如`multica`、`claude-mem`）和效率（如`caveman`）的工具，表明智能体正从概念演示走向成熟的生产力组件。另一方面，**伴随深入应用的安全风险日益凸显**，无论是OpenClaw暴露的MCP协议隐患，还是学术研究指出的计算机使用智能体（CUA）在“良性指令”下的安全盲区，都警示着产业界必须将安全评估前置。与此同时，自动驾驶在北京车展前夕被预示将迎来商业化拐点，而AI在娱乐内容生成（如AI漫剧）和硬件（如AI SSD）领域的影响力也在持续扩大，显示出AI技术正在多线并行地重塑各行各业。">🔊 朗读今日观察</button>
         </div>
     </div>
       <div class="day-nav">
@@ -496,7 +710,8 @@ a:hover { text-decoration: underline; }
   
 <button id="backToTop" aria-label="回到顶部">↑</button>
 <footer class="site-footer">
-  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+  <span data-lang-content="zh">© AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新</span>
+  <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 
   <script>window.SITE_BASE="../";window.AVAILABLE_DATES=["2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02"];window.CURRENT_DATE="2026-04-16";window.PREV_DATE="2026-04-15";window.NEXT_DATE="2026-04-17";</script>
@@ -542,16 +757,22 @@ a:hover { text-decoration: underline; }
       var q = si.value.trim().toLowerCase();
       if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
       loadIndex().then(function (idx) {
+        var en = window.CUR_LANG === 'en';
+        function fTitle(h) { return (en && h.title_en) ? h.title_en : h.title; }
+        function fDesc(h) { return (en && h.desc_en) ? h.desc_en : h.desc; }
+        function fCat(h) { return (en && h.cat_en) ? h.cat_en : h.cat; }
         var hits = idx.filter(function (it) {
-          return (it.title + ' ' + it.desc).toLowerCase().indexOf(q) !== -1;
+          return (fTitle(it) + ' ' + fDesc(it) + ' ' + it.title + ' ' + it.desc)
+            .toLowerCase().indexOf(q) !== -1;
         }).slice(0, 25);
         if (!hits.length) {
-          sr.innerHTML = '<div class="sr-empty">没有匹配结果</div>';
+          sr.innerHTML = '<div class="sr-empty">' +
+            (en ? 'No matches' : '没有匹配结果') + '</div>';
         } else {
           sr.innerHTML = hits.map(function (h) {
             return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
-                   '<span class="sr-date">' + h.date + ' · ' + esc(h.cat) + '</span>' +
-                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
+                   '<span class="sr-date">' + h.date + ' · ' + esc(fCat(h)) + '</span>' +
+                   '<span class="sr-title">' + esc(fTitle(h)) + '</span></a>';
           }).join('');
         }
         sr.classList.add('active');
@@ -654,6 +875,29 @@ a:hover { text-decoration: underline; }
     });
   }
 
+  // ── Language toggle ──
+  var PH = { zh: '搜索全部日报…', en: 'Search all digests…' };
+  function curLang() {
+    return document.documentElement.getAttribute('data-lang') === 'en' ? 'en' : 'zh';
+  }
+  window.CUR_LANG = curLang();
+  var lt = document.getElementById('langToggle');
+  function applyLang(lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'zh-Hans');
+    window.CUR_LANG = lang;
+    if (lt) lt.textContent = lang === 'en' ? '中' : 'EN';
+    if (si) si.setAttribute('placeholder', PH[lang]);
+  }
+  applyLang(curLang());
+  if (lt) {
+    lt.addEventListener('click', function () {
+      var next = curLang() === 'en' ? 'zh' : 'en';
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      applyLang(next);
+    });
+  }
+
   // ── Hot-word tags → search ──
   document.querySelectorAll('.trend-tag').forEach(function (tag) {
     tag.addEventListener('click', function () {
@@ -671,7 +915,8 @@ a:hover { text-decoration: underline; }
   var synth = window.speechSynthesis;
   document.querySelectorAll('.speak-btn').forEach(function (btn) {
     if (!synth) { btn.style.display = 'none'; return; }
-    var label = btn.getAttribute('data-label') || '朗读';
+    var label = btn.getAttribute('data-label') || '🔊 朗读';
+    var stop = btn.getAttribute('data-stop') || '⏹ 停止';
     btn.addEventListener('click', function () {
       if (btn.classList.contains('playing')) {
         synth.cancel();
@@ -679,14 +924,14 @@ a:hover { text-decoration: underline; }
       }
       synth.cancel();
       var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
-      u.lang = 'zh-CN';
+      u.lang = btn.getAttribute('data-speak-lang') || 'zh-CN';
       u.rate = 1.0;
       u.onend = u.onerror = function () {
         btn.classList.remove('playing');
-        btn.textContent = '🔊 ' + label;
+        btn.textContent = label;
       };
       btn.classList.add('playing');
-      btn.textContent = '⏹ 停止';
+      btn.textContent = stop;
       synth.speak(u);
     });
   });

@@ -17,6 +17,7 @@ from datetime import datetime
 
 
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
+WEEKDAYS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 REPO_URL = "https://github.com/Jimmuji/ai-daily-digest"
 
 
@@ -178,19 +179,25 @@ a:hover { text-decoration: underline; }
 }
 .site-header nav a:hover { background: var(--border); color: var(--text); text-decoration: none; }
 
-/* ── Theme toggle ── */
-.theme-toggle {
+/* ── Theme / language toggle ── */
+.theme-toggle, .lang-toggle {
   background: var(--card);
   border: 1px solid var(--border-strong);
   border-radius: 8px;
   color: var(--text);
   font-size: 15px;
-  width: 34px; height: 34px;
+  height: 34px;
   line-height: 1;
   cursor: pointer;
   transition: border-color .15s, background .15s;
 }
-.theme-toggle:hover { border-color: #58a6ff; }
+.theme-toggle { width: 34px; }
+.lang-toggle { padding: 0 12px; font-size: 13px; font-weight: 600; min-width: 42px; }
+.theme-toggle:hover, .lang-toggle:hover { border-color: #58a6ff; }
+
+/* ── Language content toggle ── */
+html[data-lang="en"] [data-lang-content="zh"] { display: none; }
+html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 
 /* ── Hot words / trends ── */
 .trends {
@@ -500,16 +507,22 @@ JS = """
       var q = si.value.trim().toLowerCase();
       if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
       loadIndex().then(function (idx) {
+        var en = window.CUR_LANG === 'en';
+        function fTitle(h) { return (en && h.title_en) ? h.title_en : h.title; }
+        function fDesc(h) { return (en && h.desc_en) ? h.desc_en : h.desc; }
+        function fCat(h) { return (en && h.cat_en) ? h.cat_en : h.cat; }
         var hits = idx.filter(function (it) {
-          return (it.title + ' ' + it.desc).toLowerCase().indexOf(q) !== -1;
+          return (fTitle(it) + ' ' + fDesc(it) + ' ' + it.title + ' ' + it.desc)
+            .toLowerCase().indexOf(q) !== -1;
         }).slice(0, 25);
         if (!hits.length) {
-          sr.innerHTML = '<div class="sr-empty">没有匹配结果</div>';
+          sr.innerHTML = '<div class="sr-empty">' +
+            (en ? 'No matches' : '没有匹配结果') + '</div>';
         } else {
           sr.innerHTML = hits.map(function (h) {
             return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
-                   '<span class="sr-date">' + h.date + ' · ' + esc(h.cat) + '</span>' +
-                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
+                   '<span class="sr-date">' + h.date + ' · ' + esc(fCat(h)) + '</span>' +
+                   '<span class="sr-title">' + esc(fTitle(h)) + '</span></a>';
           }).join('');
         }
         sr.classList.add('active');
@@ -612,6 +625,29 @@ JS = """
     });
   }
 
+  // ── Language toggle ──
+  var PH = { zh: '搜索全部日报…', en: 'Search all digests…' };
+  function curLang() {
+    return document.documentElement.getAttribute('data-lang') === 'en' ? 'en' : 'zh';
+  }
+  window.CUR_LANG = curLang();
+  var lt = document.getElementById('langToggle');
+  function applyLang(lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'zh-Hans');
+    window.CUR_LANG = lang;
+    if (lt) lt.textContent = lang === 'en' ? '中' : 'EN';
+    if (si) si.setAttribute('placeholder', PH[lang]);
+  }
+  applyLang(curLang());
+  if (lt) {
+    lt.addEventListener('click', function () {
+      var next = curLang() === 'en' ? 'zh' : 'en';
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      applyLang(next);
+    });
+  }
+
   // ── Hot-word tags → search ──
   document.querySelectorAll('.trend-tag').forEach(function (tag) {
     tag.addEventListener('click', function () {
@@ -629,7 +665,8 @@ JS = """
   var synth = window.speechSynthesis;
   document.querySelectorAll('.speak-btn').forEach(function (btn) {
     if (!synth) { btn.style.display = 'none'; return; }
-    var label = btn.getAttribute('data-label') || '朗读';
+    var label = btn.getAttribute('data-label') || '🔊 朗读';
+    var stop = btn.getAttribute('data-stop') || '⏹ 停止';
     btn.addEventListener('click', function () {
       if (btn.classList.contains('playing')) {
         synth.cancel();
@@ -637,14 +674,14 @@ JS = """
       }
       synth.cancel();
       var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
-      u.lang = 'zh-CN';
+      u.lang = btn.getAttribute('data-speak-lang') || 'zh-CN';
       u.rate = 1.0;
       u.onend = u.onerror = function () {
         btn.classList.remove('playing');
-        btn.textContent = '🔊 ' + label;
+        btn.textContent = label;
       };
       btn.classList.add('playing');
-      btn.textContent = '⏹ 停止';
+      btn.textContent = stop;
       synth.speak(u);
     });
   });
@@ -663,9 +700,10 @@ HEADER_HTML = """
       <div id="searchResults" class="search-results"></div>
     </div>
     <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
+    <button id="langToggle" class="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
     <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
     <nav>
-      <a href="{base}index.html">归档</a>
+      <a href="{base}index.html"><span data-lang-content="zh">归档</span><span data-lang-content="en">Archive</span></a>
       <a href="{repo}" target="_blank">GitHub</a>
     </nav>
   </div>
@@ -675,7 +713,8 @@ HEADER_HTML = """
 FOOTER_HTML = """
 <button id="backToTop" aria-label="回到顶部">↑</button>
 <footer class="site-footer">
-  © AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新
+  <span data-lang-content="zh">© AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新</span>
+  <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
 </footer>
 """
 
@@ -693,6 +732,12 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
         if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
       }} catch (e) {{}}
+      try {{
+        var lng = localStorage.getItem('lang');
+        if (!lng) lng = (navigator.language || 'zh').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+        document.documentElement.setAttribute('data-lang', lng);
+        if (lng === 'en') document.documentElement.setAttribute('lang', 'en');
+      }} catch (e) {{ document.documentElement.setAttribute('data-lang', 'zh'); }}
     }})();
   </script>
   <style>{css}</style>
@@ -721,6 +766,13 @@ def cat_type(name: str, emoji: str) -> str:
 
 
 CAT_LABELS = [("all", "全部"), ("news", "新闻"), ("paper", "论文"), ("project", "项目")]
+CAT_LABELS_EN = [("all", "All"), ("news", "News"), ("paper", "Papers"), ("project", "Projects")]
+
+
+def bi(zh: str, en: str) -> str:
+    """Inline dual-language span pair, toggled by html[data-lang] + CSS."""
+    return (f'<span data-lang-content="zh">{zh}</span>'
+            f'<span data-lang-content="en">{en}</span>')
 
 
 # ── Markdown parser ─────────────────────────────────────────────────────────────
@@ -746,7 +798,9 @@ def parse_digest(text: str) -> dict:
             emoji = name = None
 
         if name is not None:
-            if "观察" in name or "洞察" in name:
+            low = name.lower()
+            if ("观察" in name or "洞察" in name
+                    or "take" in low or "observation" in low or "outlook" in low):
                 in_observation = True
                 current_cat = None
             else:
@@ -766,7 +820,7 @@ def parse_digest(text: str) -> dict:
         if current_cat is None:
             continue
 
-        item_match = re.match(r'^-\s+\*\*\[?(.+?)\]?\*\*[：:]\s*(.*)', line)
+        item_match = re.match(r'^(?:-|\d+\.)\s+\*\*\[?(.+?)\]?\*\*\s*[：:]?\s*(.*)', line)
         if item_match:
             current_item = {
                 "title": item_match.group(1).strip(),
@@ -844,9 +898,11 @@ def build_item_html(item: dict) -> str:
     </div>"""
 
 
-def build_filter_bar(present_types: set) -> str:
+def build_filter_bar(present_types: set, lang: str = "zh") -> str:
+    labels = CAT_LABELS_EN if lang == "en" else CAT_LABELS
+    star_label = "★ Top picks (4+)" if lang == "en" else "★ 只看重点 (4+)"
     tabs = ""
-    for key, label in CAT_LABELS:
+    for key, label in labels:
         if key != "all" and key not in present_types:
             continue
         active = " active" if key == "all" else ""
@@ -854,14 +910,14 @@ def build_filter_bar(present_types: set) -> str:
     return f"""
     <div class="filter-bar">
       {tabs}
-      <span class="star-toggle">★ 只看重点 (4+)</span>
+      <span class="star-toggle">{star_label}</span>
     </div>"""
 
 
-def build_digest_body(digest: dict) -> str:
+def build_digest_body(digest: dict, lang: str = "zh") -> str:
     """Filter bar + categories + observation, wrapped in a .digest-scope."""
     present_types = {c["type"] for c in digest["categories"] if c["items"]}
-    filter_bar = build_filter_bar(present_types)
+    filter_bar = build_filter_bar(present_types, lang)
 
     cats_html = ""
     for cat in digest["categories"]:
@@ -877,28 +933,51 @@ def build_digest_body(digest: dict) -> str:
           {items_html}
         </div>"""
 
+    empty_msg = "No items match this filter." if lang == "en" else "该筛选条件下没有内容。"
+
     obs_html = ""
     if digest["observation"]:
         speak_text = attr_escape(digest["observation"])
+        if lang == "en":
+            obs_heading, btn_play, btn_stop, speak_lang = (
+                "💡 Today's Take", "🔊 Read aloud", "⏹ Stop", "en-US")
+        else:
+            obs_heading, btn_play, btn_stop, speak_lang = (
+                "💡 今日观察", "🔊 朗读今日观察", "⏹ 停止", "zh-CN")
         obs_html = f"""
         <div class="observation">
-          <h2>💡 今日观察</h2>
+          <h2>{obs_heading}</h2>
           <p>{digest["observation"]}</p>
-          <button class="speak-btn" data-label="朗读今日观察" data-text="{speak_text}">🔊 朗读今日观察</button>
+          <button class="speak-btn" data-label="{btn_play}" data-stop="{btn_stop}" data-speak-lang="{speak_lang}" data-text="{speak_text}">{btn_play}</button>
         </div>"""
 
     return f"""
     <div class="digest-scope">
       {filter_bar}
       {cats_html}
-      <div class="empty-filter">该筛选条件下没有内容。</div>
+      <div class="empty-filter">{empty_msg}</div>
       {obs_html}
     </div>"""
 
 
-def weekday_of(date_str: str) -> str:
+def render_digest_dual(zh_digest: dict, en_digest: dict | None) -> str:
+    """Render the zh body; if an en digest exists, also render an en body.
+
+    When both exist they're wrapped in data-lang-content blocks toggled by CSS.
+    When only zh exists it's rendered once, always visible (graceful fallback
+    for the historical digests that have no English version)."""
+    zh_body = build_digest_body(zh_digest, "zh")
+    if en_digest and en_digest.get("categories"):
+        en_body = build_digest_body(en_digest, "en")
+        return (f'<div data-lang-content="zh">{zh_body}</div>'
+                f'<div data-lang-content="en">{en_body}</div>')
+    return zh_body
+
+
+def weekday_of(date_str: str, lang: str = "zh") -> str:
     try:
-        return WEEKDAYS[datetime.strptime(date_str, "%Y-%m-%d").weekday()]
+        idx = datetime.strptime(date_str, "%Y-%m-%d").weekday()
+        return (WEEKDAYS_EN if lang == "en" else WEEKDAYS)[idx]
     except Exception:
         return ""
 
@@ -919,15 +998,18 @@ def state_script(dates: list[str], current: str | None,
 
 
 def build_day_html(date_str: str, digest: dict, dates: list[str],
-                   prev_date: str | None, next_date: str | None) -> str:
-    weekday = weekday_of(date_str)
+                   prev_date: str | None, next_date: str | None,
+                   en_digest: dict | None = None) -> str:
+    weekday = bi(f"{weekday_of(date_str)} · {date_str}",
+                 f"{weekday_of(date_str, 'en')} · {date_str}")
+    title = bi("AI 每日简报", "AI Daily Digest")
     body = f"""
     <div class="container">
       <div class="day-hero">
-        <div class="date-str">{weekday} · {date_str}</div>
-        <h1>AI 每日简报</h1>
+        <div class="date-str">{weekday}</div>
+        <h1>{title}</h1>
       </div>
-      {build_digest_body(digest)}
+      {render_digest_dual(digest, en_digest)}
       <div class="day-nav">
         {f'<a class="nav-btn" href="{prev_date}.html">← {prev_date}</a>' if prev_date else '<span></span>'}
         {f'<a class="nav-btn" href="{next_date}.html">{next_date} →</a>' if next_date else '<span></span>'}
@@ -1012,49 +1094,53 @@ def build_trends_html(trends: list, window: int) -> str:
     return f"""
       <div class="trends">
         <div class="trends-head">
-          <h2>🔥 近 {window} 天热词</h2>
-          <span class="sub">按出现频次排序 · 点击搜索相关日报</span>
+          <h2>{bi(f"🔥 近 {window} 天热词", f"🔥 Hot words · last {window} days")}</h2>
+          <span class="sub">{bi("按出现频次排序 · 点击搜索相关日报", "Ranked by frequency · click to search")}</span>
         </div>
         <div class="trend-tags">{tags}</div>
       </div>"""
 
 
 def build_index_html(dates: list[str], latest_digest: dict,
-                     trends_html: str = "") -> str:
+                     trends_html: str = "",
+                     latest_en_digest: dict | None = None) -> str:
     latest = dates[-1] if dates else ""
-    weekday = weekday_of(latest)
 
     # Archive grid (newest first)
     cards = ""
     for i, d in enumerate(reversed(dates)):
-        badge = '<div class="latest-badge">最新</div>' if i == 0 else ""
+        badge = (f'<div class="latest-badge">{bi("最新", "Latest")}</div>'
+                 if i == 0 else "")
+        weekday_cell = bi(weekday_of(d), weekday_of(d, "en"))
         cards += f"""
         <a class="date-card" href="daily/{d}.html">
           <div class="date-label">{d}</div>
-          <div class="weekday">{weekday_of(d)}</div>
+          <div class="weekday">{weekday_cell}</div>
           {badge}
         </a>"""
 
     latest_section = ""
     if latest_digest:
+        latest_label = bi(f"📅 最新一期 · {latest} {weekday_of(latest)}",
+                          f"📅 Latest · {latest} {weekday_of(latest, 'en')}")
         latest_section = f"""
-      <div class="section-title">📅 最新一期 · {latest} {weekday}</div>
-      {build_digest_body(latest_digest)}"""
+      <div class="section-title">{latest_label}</div>
+      {render_digest_dual(latest_digest, latest_en_digest)}"""
 
     body = f"""
     <div class="container">
       <div class="hero">
         <h1>AI Daily Digest</h1>
-        <p>每天 5 分钟 · 掌握 AI 领域最新动态 · 全自动采集 · 智能筛选</p>
+        <p>{bi("每天 5 分钟 · 掌握 AI 领域最新动态 · 全自动采集 · 智能筛选", "5 minutes a day · stay on top of AI · auto-collected · smartly curated")}</p>
         <div class="stats">
-          <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">期日报</div></div>
-          <div class="stat"><div class="num">12+</div><div class="lbl">数据源</div></div>
-          <div class="stat"><div class="num">每日</div><div class="lbl">自动更新</div></div>
+          <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">{bi("期日报", "issues")}</div></div>
+          <div class="stat"><div class="num">12+</div><div class="lbl">{bi("数据源", "sources")}</div></div>
+          <div class="stat"><div class="num">{bi("每日", "Daily")}</div><div class="lbl">{bi("自动更新", "auto-updated")}</div></div>
         </div>
       </div>
       {trends_html}
       {latest_section}
-      <div class="section-title">🗂 历史归档</div>
+      <div class="section-title">{bi("🗂 历史归档", "🗂 Archive")}</div>
       <div class="date-grid">{cards}</div>
     </div>"""
 
@@ -1070,19 +1156,34 @@ def build_index_html(dates: list[str], latest_digest: dict,
     )
 
 
-def build_search_index(parsed_by_date: dict) -> list:
-    """Flat list of every item for client-side search."""
+def build_search_index(parsed_by_date: dict, parsed_by_date_en: dict | None = None) -> list:
+    """Flat list of every item for client-side search.
+
+    English fields (title_en/desc_en/cat_en) are attached positionally when an
+    English digest exists for that date (the en version is structurally
+    identical, so item ordering lines up)."""
+    parsed_by_date_en = parsed_by_date_en or {}
     index = []
     for date_str, digest in parsed_by_date.items():
-        for cat in digest["categories"]:
-            for item in cat["items"]:
-                index.append({
+        en_digest = parsed_by_date_en.get(date_str)
+        en_cats = en_digest["categories"] if en_digest else []
+        for ci, cat in enumerate(digest["categories"]):
+            en_cat = en_cats[ci] if ci < len(en_cats) else None
+            en_items = en_cat["items"] if en_cat else []
+            for ii, item in enumerate(cat["items"]):
+                entry = {
                     "date": date_str,
                     "title": item["title"],
                     "desc": item["desc"],
                     "cat": cat["name"],
                     "stars": item["star_count"],
-                })
+                }
+                if en_cat:
+                    entry["cat_en"] = en_cat["name"]
+                if ii < len(en_items):
+                    entry["title_en"] = en_items[ii]["title"]
+                    entry["desc_en"] = en_items[ii]["desc"]
+                index.append(entry)
     # newest first
     index.sort(key=lambda x: x["date"], reverse=True)
     return index
@@ -1099,33 +1200,45 @@ def generate_site(root: Path | None = None) -> None:
     docs_daily_dir = docs_dir / "daily"
     docs_daily_dir.mkdir(parents=True, exist_ok=True)
 
-    md_files = sorted(daily_dir.glob("*.md"))
+    # Only the Chinese digests define the set of dates; *.en.md are the
+    # parallel English versions and must not be treated as their own days.
+    md_files = sorted(f for f in daily_dir.glob("*.md")
+                      if not f.name.endswith(".en.md"))
     dates = [f.stem for f in md_files]
 
     print(f"Generating site for {len(dates)} days...")
 
     parsed_by_date = {}
+    parsed_by_date_en = {}
     for md_file in md_files:
-        parsed_by_date[md_file.stem] = parse_digest(md_file.read_text(encoding="utf-8"))
+        date_str = md_file.stem
+        parsed_by_date[date_str] = parse_digest(md_file.read_text(encoding="utf-8"))
+        en_file = daily_dir / f"{date_str}.en.md"
+        if en_file.exists():
+            parsed_by_date_en[date_str] = parse_digest(en_file.read_text(encoding="utf-8"))
 
     for i, date_str in enumerate(dates):
         digest = parsed_by_date[date_str]
         prev_date = dates[i - 1] if i > 0 else None
         next_date = dates[i + 1] if i < len(dates) - 1 else None
-        html = build_day_html(date_str, digest, dates, prev_date, next_date)
+        html = build_day_html(date_str, digest, dates, prev_date, next_date,
+                              en_digest=parsed_by_date_en.get(date_str))
         (docs_daily_dir / f"{date_str}.html").write_text(html, encoding="utf-8")
 
     # Index with latest digest inline + trending hot words
     latest_digest = parsed_by_date[dates[-1]] if dates else {}
+    latest_en_digest = parsed_by_date_en.get(dates[-1]) if dates else None
     trend_window = 7
     trends = compute_trends(parsed_by_date, dates, window=trend_window)
     trends_html = build_trends_html(trends, trend_window)
     (docs_dir / "index.html").write_text(
-        build_index_html(dates, latest_digest, trends_html), encoding="utf-8")
+        build_index_html(dates, latest_digest, trends_html, latest_en_digest),
+        encoding="utf-8")
 
     # Search index
     (docs_dir / "search-index.json").write_text(
-        json.dumps(build_search_index(parsed_by_date), ensure_ascii=False),
+        json.dumps(build_search_index(parsed_by_date, parsed_by_date_en),
+                   ensure_ascii=False),
         encoding="utf-8")
 
     # 404 → back to index
