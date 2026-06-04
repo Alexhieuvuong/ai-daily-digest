@@ -1,274 +1,13 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T06:01:06.922293+08:00",
+  "generated_at": "2026-06-05T07:14:28.393123+08:00",
   "counts": {
-    "papers": 20,
+    "papers": 0,
     "projects": 15,
-    "news": 56
+    "news": 57
   },
   "items": {
-    "papers": [
-      {
-        "category": "papers",
-        "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
-        "url": "https://huggingface.co/papers/2606.03965",
-        "normalized_url": "https://huggingface.co/papers/2606.03965",
-        "summary": "Large language models improve final-answer accuracy through extended chain-of-thought reasoning, but often spend tokens inefficiently and offer little inference-time control. Existing efficient reasoning methods control thinking length by shortening, early-stopping, or compressing traces, leaving how the model thinks implicit. In this paper, we propose Agentic Chain-of-Thought Steering (ACTS), which formulates reasoning steering as a Markov decision process where a controller agent adaptively st",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.03965"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Large Language Models Hack Rewards, and Society",
-        "url": "https://huggingface.co/papers/2606.04075",
-        "normalized_url": "https://huggingface.co/papers/2606.04075",
-        "summary": "Reinforcement learning (RL) has become a dominant post-training paradigm, enabling large language models (LLMs) to learn from rewards. We observe that societal regulations are structurally similar to reward functions. They define measurable outcomes, thresholds, and exceptions, while often leaving institutional intent only partially specified. We hypothesise that the RL training process may exploit these gaps and therefore ask whether models' well-known tendency to hack reward functions during R",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.04075"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Neural Networks Provably Learn Spectral Representations for Group Composition",
-        "url": "https://huggingface.co/papers/2606.02993",
-        "normalized_url": "https://huggingface.co/papers/2606.02993",
-        "summary": "Understanding how structured internal structure emerges during neural network training is central to the study of deep learning. We investigate this phenomenon through the group composition task, where a two-layer neural network is trained to predict g_1 star g_2 for elements of a finite group G. By lifting the projected gradient flow to the Fourier domain, we demonstrate that the training dynamics are governed by a Riemannian gradient ascent on a representation-theoretic energy functional. We p",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2606.02993"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory",
-        "url": "https://huggingface.co/papers/2606.00825",
-        "normalized_url": "https://huggingface.co/papers/2606.00825",
-        "summary": "AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition or generic QAs from short clips, measuring perceptual capabilities rather than realistic human memory",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-30T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.00825"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Scalable Inference-Time Annealing with Surrogate Likelihood Estimators",
-        "url": "https://huggingface.co/papers/2605.31498",
-        "normalized_url": "https://huggingface.co/papers/2605.31498",
-        "summary": "A long standing challenge in computational chemistry and biophysics is efficiently sampling the Boltzmann distribution of molecules. Advances in generative modeling have been proposed to address the limitations of conventional sampling techniques by eliminating the computational cost of simulation. A promising direction is iteratively finetuning diffusion models along a temperature ladder whereby training data is generated via importance sampling during inference-time annealing. Unfortunately, t",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-01T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.31498"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Token Budgets: An Empirical Catalog of 63 LLM-Agent Budget-Overrun Incidents, with an Affine-Typed Rust Mitigation as a Case Study",
-        "url": "https://huggingface.co/papers/2606.04056",
-        "normalized_url": "https://huggingface.co/papers/2606.04056",
-        "summary": "LLM-agent budget overruns are a documented production failure class: a single retry loop can spend thousands of dollars before an operator notices, and the in-process integrity properties that would prevent it (no aliasing, no double-spend, no use-after-delegation of a cost-bearing value) are enforced, if at all, by ad-hoc wrappers rather than by the type system. Our central contribution is empirical: a catalog of 63 confirmed production incidents from 21 orchestration frameworks (2023-2026), ea",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.04056"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models",
-        "url": "https://huggingface.co/papers/2606.03712",
-        "normalized_url": "https://huggingface.co/papers/2606.03712",
-        "summary": "Graph Language Models (GLMs) have become a promising direction for adapting Large Language Models (LLMs) to graph learning tasks. By transforming graph topology and node information into graph tokens, GLMs allow LLMs to jointly process structured graph inputs and textual instructions. Yet, it remains unclear how LLMs internally interpret these graph tokens and whether graph tokens act as meaningful carriers of graph structure. In this work, we analyze how LLMs process graph information through g",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.03712"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Probing Outcome-Level Resemblance and Mechanism-Level Alignment in LLM Risk Decisions: Evidence from the St. Petersburg Game",
-        "url": "https://huggingface.co/papers/2606.04978",
-        "normalized_url": "https://huggingface.co/papers/2606.04978",
-        "summary": "LLMs can appear cautious in risk decision-making tasks, yet cautious-looking outputs do not necessarily indicate alignment with human decision-making mechanisms. We investigate this distinction using the St. Petersburg game as a controlled testbed, a classical paradox in which the expected payoff is infinite, yet humans typically report low, finite willingness to pay. We evaluate 28 LLMs with a structured prompt suite that includes the original game; controlled decision variants that perturb tru",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.04978"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "ZipSplat: Fewer Gaussians, Better Splats",
-        "url": "https://huggingface.co/papers/2606.05102",
-        "normalized_url": "https://huggingface.co/papers/2606.05102",
-        "summary": "Feed-forward 3D Gaussian Splatting methods reconstruct a scene from posed or pose-free images in a single forward pass, yet current approaches predict one Gaussian per input pixel, tying the representation budget to camera resolution rather than scene complexity. A flat wall and a richly textured object thus produce equally many Gaussians despite very different geometric needs. We propose ZipSplat, a token-based feed-forward model that decouples Gaussian placement from the pixel grid. A multi-vi",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.05102"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Functional Attention: From Pairwise Affinities to Functional Correspondences",
-        "url": "https://huggingface.co/papers/2605.31559",
-        "normalized_url": "https://huggingface.co/papers/2605.31559",
-        "summary": "Learning mappings between infinite-dimensional function spaces, or operator learning, is essential for many machine learning applications. Although transformer-based operators are popular, they often rely on token-wise attention. These methods treat continuous fields as discrete tokens and usually ignore the global functional structure. We introduce Functional Attention, which reinterprets attention as a functional correspondence between adaptive bases. Inspired by geometric functional maps, our",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-29T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2605.31559"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "KletterMix: Climbing Toward High-Quality German Pretraining Data",
-        "url": "https://huggingface.co/papers/2606.03773",
-        "normalized_url": "https://huggingface.co/papers/2606.03773",
-        "summary": "High-quality pretraining data is a central ingredient in modern language models, but German-language resources remain far less developed than their English counterparts: they are often smaller, less carefully curated, weakly documented, and rarely validated through controlled training experiments. We introduce KletterMix, a high-quality German corpus for language model pretraining and annealing, designed as a reusable dataset artifact for the natural language processing and modeling community. K",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T15:28:15.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.03773"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
-        "url": "https://huggingface.co/papers/2605.30257",
-        "normalized_url": "https://huggingface.co/papers/2605.30257",
-        "summary": "We present Stable-Layers, a reinforcement learning framework that eliminates the need for paired supervision by fine-tuning a pretrained layer decomposition model using only feedback from a vision-language model (VLM). Starting from Qwen-Image-Layered, we apply Flow-GRPO with LoRA adaptation, sampling multiple candidate decompositions per image, scoring them with a VLM, and optimising the policy from group-relative advantages. The key challenge lies in designing a reliable reward signal: VLMs sc",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-28T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.30257"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "DAR: Deontic Reasoning with Agentic Harnesses",
-        "url": "https://huggingface.co/papers/2606.05009",
-        "normalized_url": "https://huggingface.co/papers/2606.05009",
-        "summary": "Deontic reasoning is the task of answering questions by applying explicit rules and policies to case-specific facts, for example computing tax liability under a statute or determining the outcome of an immigration appeal. A key technical challenge for LLM-based deontic reasoning is that the relevant ruleset can be long and cross-referenced, so models may still fail to locate the rules needed for a particular reasoning step. We introduce Deontic Agentic Reasoning (DAR), an agentic reasoning setup",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.05009"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Evaluating Large Language Models in Dynamic Clinical Decision-Making with Standardized Patient Cases",
-        "url": "https://huggingface.co/papers/2606.05112",
-        "normalized_url": "https://huggingface.co/papers/2606.05112",
-        "summary": "Large language models (LLMs) are increasingly proposed as clinical agents, yet static, single-turn benchmarks cannot capture how a model dynamically delivers care across an encounter: gathering information, planning treatment, and adapting longitudinal management across successive patient states. Medical education has long addressed an analogous challenge through standardized patients (SPs): trained actors who consistently portray clinical cases, enabling realistic practice and objective, script",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.05112"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "PaintBench: Deterministic Evaluation of Precise Visual Editing",
-        "url": "https://huggingface.co/papers/2606.00188",
-        "normalized_url": "https://huggingface.co/papers/2606.00188",
-        "summary": "While current multimodal models are proficient at open-ended visual editing, executing precise single-answer edits remains an important obstacle. To probe this challenge, we introduce PaintBench, a dynamically scalable benchmark targeting 20 fundamental precise visual editing operations across four categories: geometric transformation, structural manipulation, color change, and symbolic reasoning. Procedural generation with configurable complexity enables an effectively infinite, contamination-r",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-29T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.00188"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Agent libOS: A Library-OS-Inspired Runtime for Long-Running, Capability-Controlled LLM Agents",
-        "url": "https://huggingface.co/papers/2606.03895",
-        "normalized_url": "https://huggingface.co/papers/2606.03895",
-        "summary": "Large language model (LLM) agents are evolving from request-response assistants into long-running software actors: they maintain state across model calls, fork subtasks, wait for external events, request human authority, generate tools, and perform side effects that must be resumed and audited. This paper presents Agent libOS, a library-OS-inspired runtime substrate for LLM agents. Agent libOS runs above a conventional host operating system; it does not implement hardware drivers, kernel-mode is",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.03895"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Training-Free Multi-Concept LoRA Composition with Prompt-Aware Weighting",
-        "url": "https://huggingface.co/papers/2606.03792",
-        "normalized_url": "https://huggingface.co/papers/2606.03792",
-        "summary": "Low-Rank Adaptation (LoRA) successfully enables personalization in text-to-image generation by adapting pre-trained diffusion models to specific visual concepts and styles. However, extending such models to multi-concept customization remains challenging. Naively combining multiple LoRA weights or their outputs often leads to interference among concepts, resulting in degraded visual quality and reduced fidelity to the reference images of individual concepts. This paper proposes a simple yet effe",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-02T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.03792"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain",
-        "url": "https://huggingface.co/papers/2606.00558",
-        "normalized_url": "https://huggingface.co/papers/2606.00558",
-        "summary": "Transfer learning aims to facilitate the learning of a target domain by transferring knowledge from a source domain. The source domain typically contains semantically meaningful samples (*e.g.*, images) to facilitate effective knowledge transfer. However, a recent study observes that the noise domain constructed from simple distributions (*e.g.*, Gaussian distributions) can serve as a surrogate source domain in the semi-supervised setting, where only a small proportion of target samples are labe",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-30T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2606.00558"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "SpatialAct: Probing Spatial Reasoning-to-Action Capabilities of VLM Agents in 3D Scenes",
-        "url": "https://huggingface.co/papers/2605.31148",
-        "normalized_url": "https://huggingface.co/papers/2605.31148",
-        "summary": "Humans can effortlessly perceive spatial layouts, form cognitive representations, reason about spatial relations, and translate such reasoning into actions in everyday 3D environments. Although recent vision-language models (VLMs) have shown promising performance on observation-conditioned spatial perception and reasoning tasks, it remains unclear whether they can build coherent spatial understanding, act upon it, and refine their actions through multi-turn feedback. To study this problem, we in",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-29T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2605.31148"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Do Text Edits Generalize to Visual Generation? Benchmarking Cross-Modal Knowledge Editing in UMMs",
-        "url": "https://huggingface.co/papers/2606.00477",
-        "normalized_url": "https://huggingface.co/papers/2606.00477",
-        "summary": "Unified multimodal models (UMMs) have emerged as a promising paradigm for general-purpose multimodal intelligence. As they are deployed in real-world applications, effectively updating internal knowledge becomes critical. While knowledge editing has matured for text-only models, it remains unclear whether edits that successfully modify textual outputs also transfer to image generation in UMMs. To study this question, we introduce UniKE, the first benchmark for cross-modality knowledge editing in",
-        "source": "HuggingFace Papers",
-        "published": "2026-05-30T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.00477"
-        }
-      }
-    ],
+    "papers": [],
     "projects": [
       {
         "category": "projects",
@@ -744,10 +483,36 @@
       },
       {
         "category": "news",
+        "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
+        "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+        "normalized_url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns",
+        "summary": "The AI giant's co-founder explained why the company may tap the public market for capital and why tokenmaxxing pushback isn't a concern.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-04T22:43:26+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
+        "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+        "normalized_url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab",
+        "summary": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-04T22:29:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
         "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
         "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
         "normalized_url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18",
-        "summary": "With just two weeks to go, StrictlyVC Los Angeles is quickly approaching. On Thursday, June 18, at The Aerospace Corporation Campus in El Segundo, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secure your spot here. […]",
+        "summary": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secure your spot today.",
         "source": "TechCrunch AI",
         "published": "2026-06-04T21:30:00+00:00",
         "importance_hint": 4,
@@ -841,32 +606,6 @@
         "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
         "source": "TechCrunch AI",
         "published": "2026-06-03T22:56:51+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
-        "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
-        "normalized_url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal",
-        "summary": "If Alphabet's record-breaking $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-03T19:38:32+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
-        "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
-        "normalized_url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon",
-        "summary": "Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-03T19:07:42+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
@@ -1117,6 +856,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+        "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
+        "normalized_url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults",
+        "summary": "By targeting large numbers of users, attackers increased their chances of success.",
+        "source": "Ars Technica AI",
+        "published": "2026-06-04T20:02:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
