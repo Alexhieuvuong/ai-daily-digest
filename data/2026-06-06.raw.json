@@ -1,10 +1,10 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T05:55:57.585110+08:00",
+  "generated_at": "2026-06-06T07:15:49.519411+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 54
+    "news": 55
   },
   "items": {
     "papers": [
@@ -1091,6 +1091,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How a USB-connected speaker can infect a PC without ever being touched",
+        "url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+        "normalized_url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices",
+        "summary": "Seller of the Sound Blaster Katana V2X doesn't consider the behavior a vulnerability.",
+        "source": "Ars Technica AI",
+        "published": "2026-06-05T21:00:29+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
