@@ -1,10 +1,10 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T05:36:59.500832+08:00",
+  "generated_at": "2026-06-07T07:09:43.739220+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 49
+    "news": 51
   },
   "items": {
     "papers": [
@@ -484,6 +484,19 @@
     "news": [
       {
         "category": "news",
+        "title": "Anthropic全球警告，OpenAI已跨“可靠性阈值”：AI自我加速启动",
+        "url": "https://www.36kr.com/p/3840170228910594",
+        "normalized_url": "https://www.36kr.com/p/3840170228910594",
+        "summary": "刚过及格线，AI已经开始给自己提速",
+        "source": "36Kr AI",
+        "published": "2026-06-06T23:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "Spring 创始人重回一线做 AI 框架，却说：这是人类亲自选择的最后一代框架",
         "url": "https://www.36kr.com/p/3836956769236360",
         "normalized_url": "https://www.36kr.com/p/3836956769236360",
@@ -594,19 +607,6 @@
         "summary": "如何不做others",
         "source": "36Kr AI",
         "published": "2026-06-06T06:28:12+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "粉笔张小龙，骂跑了客户",
-        "url": "https://www.36kr.com/p/3839662921071491",
-        "normalized_url": "https://www.36kr.com/p/3839662921071491",
-        "summary": "一场演讲，炒没了1.3亿",
-        "source": "36Kr AI",
-        "published": "2026-06-06T06:02:38+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -740,6 +740,32 @@
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#153：AI 智能体的控制与记忆",
+        "url": "https://sspai.com/post/110816",
+        "normalized_url": "https://sspai.com/post/110816",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，14 个开源项目 以下是本期标题摘要： 🦄文章&教程 ① 打破 Python 循环导入而不破坏类型安全 ② blanket：Python 多线程确定性测试 ③ TCP 服务器工作原理：动手构建 TCP Socket ④ django-integrity-policy：Django 子资源完整性策略中间件 ⑤ nb-cli：面向 AI 智能体的 Jupyter Notebook 命令行工具 ⑥ LLM 评估与 AI 可观测性：AI 智能体监控实践指南 ⑦ Agent Hooks：AI 智能体工作流的确定性控制 ⑧ 将搜索重塑为代码生成 ⑨ Python 的内存分配有多频繁？ ⑩ 为 AI 智能体构建记忆系统 ⑪",
+        "source": "SSPAI AI",
+        "published": "2026-06-06T13:23:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "大语言模型正在变成大编程模型",
+        "url": "https://sspai.com/post/110746",
+        "normalized_url": "https://sspai.com/post/110746",
+        "summary": "随着 Claude Opus 4.7 和 4.8 的推出，「不如4.6」的声音不绝于耳，某程度上也算是复刻了一回 GPT-5 发布时的窘况。由于平时不经常使用大语言模型协助非功能性的写作任务，除了不得不品尝的「You are absolutely right!」以及上次征文之外，我对于其语言能力的状态并没有太多实感。于是我想尝试用数据来回答这个问题：近来大语言模型的语言能力是不是并没有随着基础模型的迭代而提升？ Arena AI 对我而言是最好的数据源。基本上主流基础模型每次更新版本前后，你都能在 Arena AI 上找到新的 API 以及它们的得分排名，我暂时还不知道有哪个 benchmark 对基础模型的覆盖度能比得上 Arena AI。 除了方便，它也是相对难作弊的 benchmark，因为它的分数基于 如下方式 得出：用户在 Arena AI 上输入一个 prompt，这个 prompt 被传入两个不同的模型 / API，用户将看到两个回复并从中选择一个 ta 觉得更好的，这个选择被记录在后台；团队基于成千上万用户在众多不同组合的回复中作出的选择，通过特定统计方法计算出每个基础",
+        "source": "SSPAI AI",
+        "published": "2026-06-06T10:32:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
