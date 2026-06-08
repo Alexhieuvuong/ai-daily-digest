@@ -1,10 +1,10 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T06:09:19.288482+08:00",
+  "generated_at": "2026-06-09T07:16:26.650189+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 49
+    "news": 52
   },
   "items": {
     "papers": [
@@ -484,6 +484,32 @@
     "news": [
       {
         "category": "news",
+        "title": "软件正在蚕食世界，这次是真的了",
+        "url": "https://www.36kr.com/p/3813162683096836",
+        "normalized_url": "https://www.36kr.com/p/3813162683096836",
+        "summary": "软件蚕食了界面，现在它正在蚕食工作",
+        "source": "36Kr AI",
+        "published": "2026-06-08T23:12:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "把管理权还给市场：为什么说科斯和哈耶克的经济学定律，正在决定下一代智能体治理架构？",
+        "url": "https://www.36kr.com/p/3812105686851081",
+        "normalized_url": "https://www.36kr.com/p/3812105686851081",
+        "summary": "当聪明的规划者败给简易的市场",
+        "source": "36Kr AI",
+        "published": "2026-06-08T23:06:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "氪星晚报｜追觅质押嘉美包装2.47亿股，向兴业银行贷款提供担保；黄仁勋：SK海力士到2030年将晶圆产能翻倍的计划还不够",
         "url": "https://www.36kr.com/p/3844559758936582",
         "normalized_url": "https://www.36kr.com/p/3844559758936582",
@@ -582,32 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-06-08T13:13:58+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "日赚4291万，江西姐弟又要IPO了",
-        "url": "https://www.36kr.com/p/3844258208270597",
-        "normalized_url": "https://www.36kr.com/p/3844258208270597",
-        "summary": "一个属于存储的超级大周期。",
-        "source": "36Kr AI",
-        "published": "2026-06-08T12:59:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Kimi Work不是中国版Codex",
-        "url": "https://www.36kr.com/p/3844257852885256",
-        "normalized_url": "https://www.36kr.com/p/3844257852885256",
-        "summary": "它帮我把马斯克“取关”了。",
-        "source": "36Kr AI",
-        "published": "2026-06-08T12:58:36+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -744,7 +744,59 @@
       },
       {
         "category": "news",
-        "title": "Following Anthropic, OpenAI files confidentially for IPO",
+        "title": "一图流 | Apple WWDC26 开幕式回顾",
+        "url": "https://sspai.com/post/110887",
+        "normalized_url": "https://sspai.com/post/110887",
+        "summary": "今天凌晨，Apple WWDC26 正式开幕。Apple 在本届 WWDC26 开幕式上发布了 27 系列系统，重点强调性能强大、系统安全和全新的 AI 能力。如果你没有熬夜看发布会，不用担心，少数派不仅整理了发布会的详细回顾文章，还连夜赶制了发布会要点的一图流，让你用最简单直观的方式迅速了解本届 WWDC 开幕式上的全新动态。 编者注： 本次发布会的内容较为细碎，且整体结构与以往不同，一图流仅总结了其中的重点。建议搭配阅读回顾文章以获得更完整的资讯。 👉 WWDC26 完整回顾文章 > 下载 少数派 2.0 客户端 、关注 少数派公众号 ，解锁全新阅读体验 📰 > 实用、好用的 正版软件 ，少数派为你呈现 🚀",
+        "source": "SSPAI AI",
+        "published": "2026-06-08T20:56:14+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "大语言模型正在变成大编程模型",
+        "url": "https://sspai.com/post/110746",
+        "normalized_url": "https://sspai.com/post/110746",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 随着 Claude Opus 4.7 和 4.8 的推出，「新模型不如 4.6」的声音不绝于耳，某程度上也算是复刻了一回 GPT-5 发布时的窘况。由于平时不常使用大语言模型协助非功能性的写作任务，除了不得不品尝的「You are absolutely right!」以及上次征文之外，我对于其语言能力的状态并没有太多实感。 于是我想尝试用数据来回答这个问题： 近来大语言模型的语言能力，是不是并没有随着基础模型的迭代而提升？ Arena AI 对我而言是最好的数据源。主流基础模型每次更新版本前后，你基本上都能在 Arena AI 上找到新的 API 以及它们的得分排名，我暂时还不知道有哪个 benchmark 对基础模型的覆盖度能比得上 Arena AI。 除了方便，它也是相对难作弊的 benchmark，因为它的分数基于 如下方式 得出：用户在",
+        "source": "SSPAI AI",
+        "published": "2026-06-08T02:45:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+        "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+        "normalized_url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says",
+        "summary": "Tools for Humanity, Sam Altman's identify verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-08T22:41:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+        "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+        "normalized_url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement",
+        "summary": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-08T22:39:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI files confidentially for IPO, following Anthropic",
         "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
         "normalized_url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo",
         "summary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
@@ -848,28 +900,15 @@
       },
       {
         "category": "news",
-        "title": "Apple gives Siri its own dedicated app",
-        "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
-        "normalized_url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app",
-        "summary": "Siri is finally getting its own app.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-08T18:33:42+00:00",
+        "title": "Apple is using AI to fix Safari’s extension problem",
+        "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+        "normalized_url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+        "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a demo shared by Apple, the company showed […]",
+        "source": "The Verge AI",
+        "published": "2026-06-08T22:14:17+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
-        "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
-        "normalized_url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature",
-        "summary": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
-        "source": "TechCrunch AI",
-        "published": "2026-06-08T18:23:04+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
         }
       },
       {
@@ -968,7 +1007,7 @@
         "title": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
         "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
         "normalized_url": "https://www.wired.com/story/openai-confidentially-files-for-ipo",
-        "summary": "The ChatGPT maker announced it has filed paperwork to go public, just a week after rival Anthropic took the same step.",
+        "summary": "The ChatGPT-maker announced it has filed paperwork to go public, just a week after rival Anthropic took the same step.",
         "source": "Wired AI",
         "published": "2026-06-08T21:31:58+00:00",
         "importance_hint": 4,
