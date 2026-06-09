@@ -1,13 +1,26 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T06:06:15.555689+08:00",
+  "generated_at": "2026-06-10T07:21:30.325454+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 59
+    "news": 58
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Trust Functions: Near-Lossless Weak-to-Strong Generalization by Learning When to Trust the Weak Teacher",
+        "url": "https://huggingface.co/papers/2606.01000",
+        "normalized_url": "https://huggingface.co/papers/2606.01000",
+        "summary": "Weak-to-strong generalization studies how to improve a strong student using supervision from a weaker teacher when reliable labels are scarce. We view this primarily as a data selection problem, where the key challenge is to identify which weak labels are reliable enough to serve as a training signal. To address this, we introduce trust functions that assign each weak label a scalar trust score and use these scores to filter weak supervision. Across several domains, including world knowledge, qu",
+        "source": "HuggingFace Papers",
+        "published": "2026-05-31T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2606.01000"
+        }
+      },
       {
         "category": "papers",
         "title": "Send a SCOUT First: Pre-hoc Reasoning for Adaptive Detector Allocation in Prompt-Injection Defense",
@@ -254,19 +267,6 @@
         "metadata": {
           "paper_id": "2606.07473"
         }
-      },
-      {
-        "category": "papers",
-        "title": "CIPER: A Unified Framework for Cross-view Image-retrieval and Pose-estimation",
-        "url": "https://huggingface.co/papers/2606.05011",
-        "normalized_url": "https://huggingface.co/papers/2606.05011",
-        "summary": "Cross-view geo-localization estimates the geographic location of a ground image by matching it against an aerial image database. Existing methods tackle this through either large-scale retrieval or precise pose estimation, but not both: retrieval-based methods enable wide-area search at the cost of localization accuracy, while pose estimation methods achieve high precision within only a narrow search space. Naively cascading these pipelines introduces error propagation and inconsistent feature r",
-        "source": "HuggingFace Papers",
-        "published": "2026-06-03T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2606.05011"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,32 @@
     "news": [
       {
         "category": "news",
+        "title": "这款针织帽能读懂你的心思",
+        "url": "https://www.36kr.com/p/3804901462138624",
+        "normalized_url": "https://www.36kr.com/p/3804901462138624",
+        "summary": "Sabi 公司的神经接口设备外形就像一顶普通针织帽。",
+        "source": "36Kr AI",
+        "published": "2026-06-09T23:18:58+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI智能体与未来的工作",
+        "url": "https://www.36kr.com/p/3814246161309442",
+        "normalized_url": "https://www.36kr.com/p/3814246161309442",
+        "summary": "展望一下美国劳动力自动化与增效的潜力",
+        "source": "36Kr AI",
+        "published": "2026-06-09T23:06:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
         "url": "https://www.36kr.com/p/3846046471277059",
         "normalized_url": "https://www.36kr.com/p/3846046471277059",
@@ -582,32 +608,6 @@
         "source": "36Kr AI",
         "published": "2026-06-09T12:57:05+00:00",
         "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "坐了黄仁勋“好运座”，韩国人转身把全部积蓄砸进股市",
-        "url": "https://www.36kr.com/p/3845778886248963",
-        "normalized_url": "https://www.36kr.com/p/3845778886248963",
-        "summary": "全民“蚂蚁”",
-        "source": "36Kr AI",
-        "published": "2026-06-09T12:55:58+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "从理想走向商业化：OpenAI加速布局超级应用与安全体系",
-        "url": "https://www.36kr.com/p/3845798901745926",
-        "normalized_url": "https://www.36kr.com/p/3845798901745926",
-        "summary": "对于整个 AI 行业而言，前沿技术想要长久发展，既不能脱离普惠大众的初心，也无法回避商业化的现实。",
-        "source": "36Kr AI",
-        "published": "2026-06-09T12:53:30+00:00",
-        "importance_hint": 5,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
         }
@@ -744,33 +744,20 @@
       },
       {
         "category": "news",
-        "title": "一图流 | Apple WWDC26 开幕式回顾",
-        "url": "https://sspai.com/post/110887",
-        "normalized_url": "https://sspai.com/post/110887",
-        "summary": "今天凌晨，Apple WWDC26 正式开幕。Apple 在本届 WWDC26 开幕式上发布了 27 系列系统，重点强调性能强大、系统安全和全新的 AI 能力。如果你没有熬夜看发布会，不用担心，少数派不仅整理了发布会的详细回顾文章，还连夜赶制了发布会要点的一图流，让你用最简单直观的方式迅速了解本届 WWDC 开幕式上的全新动态。 编者注： 本次发布会的内容较为细碎，且整体结构与以往不同，一图流仅总结了其中的重点。建议搭配阅读回顾文章以获得更完整的资讯。 👉 WWDC26 完整回顾文章 > 下载 少数派 2.0 客户端 、关注 少数派公众号 ，解锁全新阅读体验 📰 > 实用、好用的 正版软件 ，少数派为你呈现 🚀",
-        "source": "SSPAI AI",
-        "published": "2026-06-08T20:56:14+00:00",
+        "title": "How Justin Ernest invested nearly $400M into hot startups without a traditional VC fund",
+        "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-400m-into-hot-startups-without-a-traditional-vc-fund/",
+        "normalized_url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-400m-into-hot-startups-without-a-traditional-vc-fund",
+        "summary": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest startups like Anthropic, Anduril, and SpaceX.",
+        "source": "TechCrunch AI",
+        "published": "2026-06-09T23:17:51+00:00",
         "importance_hint": 4,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
         "category": "news",
-        "title": "大语言模型正在变成大编程模型",
-        "url": "https://sspai.com/post/110746",
-        "normalized_url": "https://sspai.com/post/110746",
-        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 随着 Claude Opus 4.7 和 4.8 的推出，「新模型不如 4.6」的声音不绝于耳，某程度上也算是复刻了一回 GPT-5 发布时的窘况。由于平时不常使用大语言模型协助非功能性的写作任务，除了不得不品尝的「You are absolutely right!」以及上次征文之外，我对于其语言能力的状态并没有太多实感。 于是我想尝试用数据来回答这个问题： 近来大语言模型的语言能力，是不是并没有随着基础模型的迭代而提升？ Arena AI 对我而言是最好的数据源。主流基础模型每次更新版本前后，你基本上都能在 Arena AI 上找到新的 API 以及它们的得分排名，我暂时还不知道有哪个 benchmark 对基础模型的覆盖度能比得上 Arena AI。 除了方便，它也是相对难作弊的 benchmark，因为它的分数基于 如下方式 得出：用户在",
-        "source": "SSPAI AI",
-        "published": "2026-06-08T02:45:45+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Hey Siri, here’s what I actually want from AI",
+        "title": "Hey, Siri, here’s what I actually want from AI",
         "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
         "normalized_url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai",
         "summary": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my phone?",
@@ -881,19 +868,6 @@
         "source": "TechCrunch AI",
         "published": "2026-06-09T12:00:00+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
-        "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
-        "normalized_url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart",
-        "summary": "Can Apple's new AI glow-up put to bed accusations that it's losing an all-important industry race?",
-        "source": "TechCrunch AI",
-        "published": "2026-06-09T01:56:48+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
@@ -1130,6 +1104,19 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
+        "url": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
+        "normalized_url": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed",
+        "summary": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
+        "source": "Ars Technica AI",
+        "published": "2026-06-09T20:56:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
         }
       },
       {
