@@ -1,47 +1,50 @@
-name: AI Daily Digest
+name: News Digest (4h)
 
 on:
   schedule:
-    # GitHub cron as last-resort fallback (unreliable for new repos).
-    # Primary trigger: cron-job.org calls the GitHub API at 08:05 Beijing time.
-    - cron: '0 22 * * *'  # UTC 22:00 (prev day) = Beijing 06:00, +3-4h GitHub delay → ~09:00-10:00 Beijing
-  workflow_dispatch: # Allow manual trigger (also used by cron-job.org)
+    - cron: '0 */4 * * *'      # mỗi 4 tiếng (giờ UTC)
+  workflow_dispatch: {}         # cho phép chạy tay để test
+
+permissions:
+  contents: write               # cần để commit digest + state ngược repo
+
+concurrency:
+  group: news-digest
+  cancel-in-progress: false
 
 jobs:
-  generate:
+  digest:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Generate daily digest
+      - name: Run digest
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          # Mặc định DeepSeek. Muốn dùng Claude qua OpenRouter:
+          #   đặt repo Variable API_BASE_URL = https://openrouter.ai/api/v1
+          #   và API_MODEL = anthropic/claude-3.5-sonnet  (hoặc model Claude khác)
           API_BASE_URL: ${{ vars.API_BASE_URL || 'https://api.deepseek.com' }}
           API_MODEL: ${{ vars.API_MODEL || 'deepseek-chat' }}
-          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
-        run: cd scripts && python main.py
+        run: python scripts/main.py
 
-      - name: Commit and push
+      - name: Commit results
         run: |
-          git config user.name "AI Daily Bot"
-          git config user.email "bot@github.com"
-          git add daily/ data/ docs/
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily/ data/ docs/ 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "Không có thay đổi — không có tin mới."
           else
-            DATE=$(TZ=Asia/Shanghai date +"%Y-%m-%d")
-            git commit -m "📰 Daily digest for ${DATE}"
-            git pull --rebase
+            git commit -m "digest: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi

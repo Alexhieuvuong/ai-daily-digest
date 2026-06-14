@@ -1,113 +1,80 @@
 """
-AI Daily Digest - Main entry point.
-Fetches AI news from multiple sources, summarizes with AI, and saves outputs.
+News Digest - Main entry point (bản fork tiếng Việt, chạy mỗi 4h).
+
+Luồng: load_state → fetch_all → khử trùng lặp xuyên lần chạy → tóm tắt tiếng Việt
+→ lưu daily/{ngày}-{HHmm}.md → dựng lại docs/ → lưu watermark.
 """
 
 import json
-import os
-import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
-import requests
 
 from sources import fetch_all
 from summarize import summarize
 from generate_site import generate_site
+from dedup import load_state, filter_new, save_state
 
 
-def send_to_buttondown(subject: str, markdown: str) -> None:
-    """Publish the digest as a Buttondown email (sends to all subscribers)."""
-    api_key = os.environ.get("BUTTONDOWN_API_KEY")
-    if not api_key:
-        print("[Buttondown] BUTTONDOWN_API_KEY not set, skipping.")
-        return
-
-    resp = requests.post(
-        "https://api.buttondown.email/v1/emails",
-        headers={
-            "Authorization": f"Token {api_key}",
-            "X-Buttondown-Live-Dangerously": "true",
-        },
-        json={
-            "subject": subject,
-            "body": markdown,
-            "status": "about_to_send",  # queues for immediate send
-            "email_type": "public",    # visible in archive
-        },
-        timeout=30,
-    )
-    if resp.status_code in (200, 201):
-        print(f"[Buttondown] Sent! Email id: {resp.json().get('id')}")
-    else:
-        print(f"[Buttondown] Failed {resp.status_code}: {resp.text[:200]}")
+# Giờ Việt Nam (UTC+7)
+VN_TZ = timezone(timedelta(hours=7))
 
 
 def main():
-    # Use Beijing time for date
-    beijing_tz = timezone(timedelta(hours=8))
-    today = datetime.now(beijing_tz)
-    date_str = today.strftime("%Y-%m-%d")
+    now = datetime.now(VN_TZ)
+    date_str = now.strftime("%Y-%m-%d")
+    stamp = now.strftime("%H%M")
+    slug = f"{date_str}-{stamp}"
 
-    print(f"=== AI Daily Digest for {date_str} ===\n")
+    print(f"=== News Digest · {date_str} {stamp} (giờ VN) ===\n")
 
-    # Step 1: Fetch data from all sources
-    print("[Step 1] Fetching data from sources...")
-    data = fetch_all()
+    # Step 1: nạp watermark các lần chạy trước
+    state = load_state()
 
-    total = sum(len(v) for v in data.values())
-    print(f"\nTotal items fetched: {total}")
+    # Step 2: fetch toàn bộ nguồn (list phẳng, mỗi item có 'category')
+    print("[Bước 1] Lấy tin từ các nguồn...")
+    raw = fetch_all()
+    print(f"  Tổng {len(raw)} bài thô.")
 
-    if total == 0:
-        print("No items fetched. Exiting.")
-        sys.exit(0)
+    # Step 3: khử trùng lặp xuyên lần chạy
+    new_items = filter_new(raw, state)
+    print(f"  Còn {len(new_items)} bài mới sau khử trùng lặp.")
+    if not new_items:
+        print("Không có tin mới — bỏ qua lần chạy này.")
+        return
 
-    # Step 2: Save raw fetched data for traceability
-    data_dir = Path(__file__).parent.parent / "data"
+    # Step 4: lưu dữ liệu thô để truy vết
+    root = Path(__file__).parent.parent
+    data_dir = root / "data"
     data_dir.mkdir(exist_ok=True)
-    raw_file = data_dir / f"{date_str}.raw.json"
-    raw_payload = {
-        "date": date_str,
-        "generated_at": today.isoformat(),
-        "counts": {key: len(value) for key, value in data.items()},
-        "items": data,
-    }
+    raw_file = data_dir / f"{slug}.raw.json"
     raw_file.write_text(
-        json.dumps(raw_payload, ensure_ascii=False, indent=2),
+        json.dumps(
+            {"slug": slug, "generated_at": now.isoformat(), "items": new_items},
+            ensure_ascii=False, indent=2,
+        ),
         encoding="utf-8",
     )
-    print(f"\n[Step 2] Saved raw data to {raw_file}")
+    print(f"[Bước 2] Đã lưu dữ liệu thô vào {raw_file}")
 
-    # Step 3: AI summarization (bilingual)
-    print("\n[Step 3] Generating AI summary...")
-    markdown, markdown_en = summarize(data, date_str)
+    # Step 5: tóm tắt tiếng Việt (gom theo category)
+    print("\n[Bước 3] Tạo bản tóm tắt...")
+    markdown = summarize(new_items, date_str)
 
-    # Step 4: Save daily markdown (zh + en)
-    output_dir = Path(__file__).parent.parent / "daily"
+    # Step 6: lưu digest — tên kèm giờ để không đè các lần chạy khác trong ngày
+    output_dir = root / "daily"
     output_dir.mkdir(exist_ok=True)
-    output_file = output_dir / f"{date_str}.md"
-
+    output_file = output_dir / f"{slug}.md"
     output_file.write_text(markdown, encoding="utf-8")
-    print(f"\n[Step 4] Saved to {output_file}")
+    print(f"[Bước 4] Đã lưu digest vào {output_file}")
 
-    if markdown_en:
-        output_file_en = output_dir / f"{date_str}.en.md"
-        output_file_en.write_text(markdown_en, encoding="utf-8")
-        print(f"          Saved English to {output_file_en}")
-    else:
-        print("          No English version generated.")
+    # Step 7: dựng lại trang tĩnh
+    print("\n[Bước 5] Dựng lại trang tĩnh...")
+    generate_site(root=root)
+    print("  Đã dựng → docs/")
 
-    # Step 5: Rebuild static site
-    print("\n[Step 5] Rebuilding static site...")
-    generate_site(root=Path(__file__).parent.parent)
-    print("  Site rebuilt → docs/")
-
-    # Step 6: Send to Buttondown subscribers
-    print("\n[Step 6] Sending to Buttondown subscribers...")
-    subject = f"AI Daily Digest · {date_str}"
-    send_to_buttondown(subject, markdown)
-
-    print("Done!")
+    # Step 8: lưu watermark CUỐI CÙNG, sau khi mọi thứ xong
+    save_state(state)
+    print("\nXong! Đã cập nhật data/seen.json.")
 
 
 if __name__ == "__main__":
