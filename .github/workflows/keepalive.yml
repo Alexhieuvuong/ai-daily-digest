@@ -6,7 +6,7 @@ name: Keepalive
 
 on:
   schedule:
-    - cron: '30 20 * * *'  # UTC 20:30 (prev day) = Beijing 04:30, +3-4h GitHub delay → ~08:00 Beijing
+    - cron: '30 20 * * *'  # UTC 20:30 = ICT 03:30 (giờ Việt Nam, ngày hôm sau)
   workflow_dispatch:
 
 jobs:
@@ -22,9 +22,9 @@ jobs:
       - name: Check if today's digest exists
         id: check
         run: |
-          DATE=$(TZ=Asia/Shanghai date +"%Y-%m-%d")
+          DATE=$(TZ=Asia/Ho_Chi_Minh date +"%Y-%m-%d")
           echo "date=$DATE" >> $GITHUB_OUTPUT
-          if [ -f "daily/${DATE}.md" ]; then
+          if ls daily/${DATE}-*.md >/dev/null 2>&1; then
             echo "exists=true" >> $GITHUB_OUTPUT
             echo "Today's digest already exists"
           else
