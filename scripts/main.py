@@ -13,6 +13,7 @@ from sources import fetch_all
 from summarize import summarize
 from generate_site import generate_site
 from dedup import load_state, filter_new, save_state
+from email_brief import send_email
 
 
 # Giờ Việt Nam (UTC+7)
@@ -72,7 +73,11 @@ def main():
     generate_site(root=root)
     print("  Đã dựng → docs/")
 
-    # Step 8: lưu watermark CUỐI CÙNG, sau khi mọi thứ xong
+    # Step 8: gửi bản tin qua email (tự bỏ qua nếu chưa cấu hình)
+    print("\n[Bước 6] Gửi email...")
+    send_email(f"Bản tin tổng hợp · {date_str} {now.strftime('%H:%M')}", markdown)
+
+    # Step 9: lưu watermark CUỐI CÙNG, sau khi mọi thứ xong
     save_state(state)
     print("\nXong! Đã cập nhật data/seen.json.")
 

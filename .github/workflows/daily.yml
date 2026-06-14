@@ -35,6 +35,10 @@ jobs:
           #   và API_MODEL = anthropic/claude-3.5-sonnet  (hoặc model Claude khác)
           API_BASE_URL: ${{ vars.API_BASE_URL || 'https://api.deepseek.com' }}
           API_MODEL: ${{ vars.API_MODEL || 'deepseek-chat' }}
+          # Gửi email qua Resend (tùy chọn — thiếu RESEND_API_KEY thì bỏ qua).
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ vars.EMAIL_TO || 'hieuvuongforwork@gmail.com' }}
+          EMAIL_FROM: ${{ vars.EMAIL_FROM || 'onboarding@resend.dev' }}
         run: python scripts/main.py
 
       - name: Commit results

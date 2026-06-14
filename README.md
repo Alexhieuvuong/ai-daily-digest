@@ -129,6 +129,15 @@ Edit the cron in `.github/workflows/daily.yml` (default `0 */4 * * *`).
 ### Change the model
 Set `API_BASE_URL` / `API_MODEL` repository Variables (see Quick start).
 
+### Email brief (optional)
+After each run with new items, the digest can be emailed via [Resend](https://resend.com). It's **opt-in** — without `RESEND_API_KEY` the step is skipped and nothing else changes.
+
+| Secret / Variable | Value | Notes |
+|---|---|---|
+| `RESEND_API_KEY` (secret) | your Resend API key | enables sending |
+| `EMAIL_TO` (variable) | recipient address | default `hieuvuongforwork@gmail.com` |
+| `EMAIL_FROM` (variable) | sender address | default `onboarding@resend.dev` (Resend test sender; use a verified-domain address to send to others) |
+
 ---
 
 ## 📄 License
