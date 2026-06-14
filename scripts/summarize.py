@@ -1,109 +1,98 @@
 """
-AI summarization - supports DeepSeek / OpenAI / any OpenAI-compatible API.
+Tóm tắt tin bằng tiếng Việt — dùng API tương thích OpenAI (DeepSeek mặc định,
+hoặc OpenAI / OpenRouter cho Claude).
+
+Khác bản gốc (song ngữ Trung/Anh, nhóm news/papers/projects):
+- Nhận danh sách item PHẲNG đã khử trùng lặp (mỗi item có 'category' + 'category_label').
+- Gom nhóm theo 3 category: Việt Nam / Kinh tế / Công nghệ.
+- Trả về MỘT bản markdown tiếng Việt.
 """
 
+import json
 import os
+import time
+
 import requests
 
-
-DELIMITER = "===ENGLISH==="
-
-
-SYSTEM_PROMPT = f"""你是一位 AI 领域的资深编辑，面向 AI 从业者、研究者和开发者输出每日简报。
-
-【筛选标准】优先选择以下类型的内容，其余的直接丢弃：
-- 重大模型/产品发布（GPT、Claude、Gemini、Llama、Mistral 等）
-- 技术突破（新架构、推理加速、重要 benchmark）
-- 开源项目（GitHub 高 star、有实际使用价值）
-- 产业动向（大厂战略、重要融资/并购、政策监管）
-- 前沿研究（HuggingFace 精选论文）
-- Hacker News 社区热点（技术圈真实关注点）
-
-【丢弃标准】以下内容不要纳入：
-- 无实质内容的观点文章、预测类文章
-- 重复或高度相似的报道（只保留最详细的一条）
-- 炒作性标题但无具体细节的文章
-
-【输出要求】
-你需要输出**两份**简报：先输出中文版，然后**单独一行**写 `{DELIMITER}`，再输出与中文版逐条对应、结构完全一致的英文版。
-
-中文版格式（严格遵守）：
-1. 总计 10-15 条，按类别分组：## 📰 行业新闻 / ## 📄 重要论文 / ## 🔧 开源项目
-2. 每条格式固定如下：
-- **[标题]**：一句话说清楚发生了什么。
-  - 重要性：★★★★☆ / 5
-  - 核心价值：对开发者/研究者/产品的具体影响是什么（不超过 30 字）
-  - 来源：[Source Name](URL)
-3. 末尾用 `### 今日观察`：3-4 句话，点出今天最值得关注的趋势或信号，有观点，不废话
-4. 严格基于原文，不编造，专有名词保留英文，其余用中文
-
-英文版要求：
-1. 是中文版的**忠实翻译**，条目数量、顺序、分组、重要性星级、来源链接完全一致
-2. 分类标题保留相同 emoji：## 📰 Industry News / ## 📄 Papers / ## 🔧 Open Source
-3. 每条字段用英文标签：
-- **[Title]**: one sentence on what happened.
-  - Importance: ★★★★☆ / 5
-  - Why it matters: concrete impact (under ~15 words)
-  - Source: [Source Name](URL)
-4. 结尾用 `### Today's Take`，对应中文的今日观察
-5. 来源链接 URL 与中文版保持完全相同
-"""
+from sources import CATEGORIES
 
 
-def format_raw_content(data):
-    """Format fetched data into a text block for the AI."""
-    sections = []
-
-    if data.get("news"):
-        sections.append("=== 新闻资讯 ===")
-        for item in data["news"]:
-            sections.append(
-                f"[{item['source']}] {item['title']}\n"
-                f"URL: {item['url']}\n"
-                f"Published: {item.get('published') or 'unknown'}\n"
-                f"Importance hint: {item.get('importance_hint', 3)}/5\n"
-                f"{item['summary']}\n"
-            )
-
-    if data.get("papers"):
-        sections.append("=== 学术论文 ===")
-        for item in data["papers"]:
-            sections.append(
-                f"[{item['source']}] {item['title']}\n"
-                f"URL: {item['url']}\n"
-                f"Published: {item.get('published') or 'unknown'}\n"
-                f"Importance hint: {item.get('importance_hint', 3)}/5\n"
-                f"{item['summary']}\n"
-            )
-
-    if data.get("projects"):
-        sections.append("=== 开源项目 ===")
-        for item in data["projects"]:
-            sections.append(
-                f"[{item['source']}] {item['title']}\n"
-                f"URL: {item['url']}\n"
-                f"Importance hint: {item.get('importance_hint', 3)}/5\n"
-                f"{item['summary']}\n"
-            )
-
-    return "\n".join(sections)
+SYSTEM_PROMPT = """Bạn là một biên tập viên tin tức kỳ cựu, viết bằng tiếng Việt tự nhiên, súc tích.
+Nhiệm vụ: từ danh sách bài thô, CHỌN LỌC những tin đáng chú ý nhất và viết bản tin tóm tắt.
+Quy tắc:
+- Chỉ dùng thông tin có trong bài, TUYỆT ĐỐI không bịa.
+- Mỗi category giữ tối đa 5 mục; gộp các bài cùng chủ đề thành một mục.
+- Mỗi mục: 2-3 câu tiếng Việt, nêu vì sao đáng chú ý, kèm link gốc.
+- Gắn mức quan trọng: ★☆☆☆☆ đến ★★★★★.
+- Cuối bản tin thêm mục "Quan sát hôm nay": 2-3 câu nhận định xu hướng.
+- Output Markdown, đúng cấu trúc category được yêu cầu."""
 
 
-def _wrap(text, date_str, model, title):
-    return f"""# {title} - {date_str}
+def _group_by_category(items):
+    """Gom item phẳng thành dict {cat_key: [items]} theo đúng thứ tự CATEGORIES."""
+    grouped = {key: [] for key in CATEGORIES}
+    for it in items:
+        cat = it.get("category")
+        if cat in grouped:
+            grouped[cat].append(it)
+        else:  # category lạ — vẫn giữ để không mất tin
+            grouped.setdefault(cat, []).append(it)
+    # bỏ category rỗng
+    return {k: v for k, v in grouped.items() if v}
+
+
+def _build_user_prompt(grouped, date_str):
+    # Danh sách category_label có tin, đúng thứ tự
+    labels = []
+    for key, items in grouped.items():
+        label = items[0].get("category_label") or CATEGORIES.get(key, {}).get("label", key)
+        labels.append(label)
+    labels_block = "\n".join(f"- {lb}" for lb in labels)
+
+    # Dữ liệu thô dạng JSON, gọn (chỉ field cần thiết)
+    payload = [
+        {
+            "title": it.get("title", ""),
+            "url": it.get("url", ""),
+            "summary": (it.get("summary") or "")[:500],
+            "source": it.get("source", ""),
+            "category": it.get("category_label") or it.get("category", ""),
+        }
+        for items in grouped.values()
+        for it in items
+    ]
+    json_block = json.dumps(payload, ensure_ascii=False, indent=2)
+
+    return f"""Hôm nay {date_str}. Hãy tạo bản digest theo các category sau, đúng thứ tự:
+{labels_block}
+
+Dữ liệu thô (JSON) — mỗi bài có title, url, summary, source, category:
+{json_block}
+
+Định dạng output cho mỗi mục:
+1. **<Tiêu đề tóm tắt>**: <2-3 câu>.
+   - Quan trọng: ★★★☆☆
+   - Vì sao: <ngắn gọn>
+   - Nguồn: [<source>](<url>)
+
+Dùng tiêu đề `## <category_label>` cho mỗi nhóm, và `### Quan sát hôm nay` cho phần nhận định cuối."""
+
+
+def _wrap(text, date_str, model):
+    return f"""# Bản tin tổng hợp · {date_str}
 
 {text}
 
 ---
-*Generated by AI Daily Digest using {model}*
+*Tạo tự động bởi AI Daily Digest dùng {model}*
 """
 
 
-def summarize(data, date_str):
-    """Generate daily digest via OpenAI-compatible API (DeepSeek by default).
+def summarize(items, date_str):
+    """Tạo digest tiếng Việt từ danh sách item đã khử trùng lặp.
 
-    Returns (zh_markdown, en_markdown). en_markdown is None if the model
-    didn't produce a parseable English section.
+    `items`: list phẳng, mỗi item có 'category' / 'category_label'.
+    Trả về MỘT chuỗi markdown.
     """
     api_key = os.environ.get("API_KEY")
     if not api_key:
@@ -112,19 +101,11 @@ def summarize(data, date_str):
     base_url = os.environ.get("API_BASE_URL", "https://api.deepseek.com")
     model = os.environ.get("API_MODEL", "deepseek-chat")
 
-    raw_content = format_raw_content(data)
-    if not raw_content.strip():
-        return (
-            f"# AI Daily Digest - {date_str}\n\n> No content fetched today.\n",
-            None,
-        )
+    grouped = _group_by_category(items)
+    if not grouped:
+        return f"# Bản tin tổng hợp · {date_str}\n\n> Không có tin mới hôm nay.\n"
 
-    user_prompt = f"""今天是 {date_str}。
-
-以下是今天收集到的 AI 领域原始资讯，请整理成每日简报。
-请优先选择重要性高、来源可靠、对 AI builder 有实际参考价值的内容：
-
-{raw_content}"""
+    user_prompt = _build_user_prompt(grouped, date_str)
 
     url = f"{base_url}/chat/completions"
     headers = {
@@ -142,19 +123,38 @@ def summarize(data, date_str):
     }
 
     print(f"Calling {model}...")
-    resp = requests.post(url, headers=headers, json=payload, timeout=180)
-    resp.raise_for_status()
+    result = _post_with_retry(url, headers, payload)
+    text = result["choices"][0]["message"]["content"].strip()
+    return _wrap(text, date_str, model)
 
-    result = resp.json()
-    text = result["choices"][0]["message"]["content"]
 
-    if DELIMITER in text:
-        zh_text, en_text = text.split(DELIMITER, 1)
-        zh_text, en_text = zh_text.strip(), en_text.strip()
-    else:
-        print("[summarize] WARNING: no English section in response; zh only.")
-        zh_text, en_text = text.strip(), None
+# Số lần thử lại + khoảng chờ tối đa khi gặp 429 / 5xx (free model hay bị rate-limit).
+MAX_RETRIES = 5
+MAX_BACKOFF = 60
 
-    zh_md = _wrap(zh_text, date_str, model, "AI Daily Digest")
-    en_md = _wrap(en_text, date_str, model, "AI Daily Digest") if en_text else None
-    return zh_md, en_md
+
+def _post_with_retry(url, headers, payload):
+    """POST có retry với backoff, tôn trọng header Retry-After khi bị 429/5xx."""
+    last_exc = None
+    for attempt in range(MAX_RETRIES):
+        resp = requests.post(url, headers=headers, json=payload, timeout=180)
+        if resp.status_code == 429 or resp.status_code >= 500:
+            # Ưu tiên Retry-After (giây) nếu nhà cung cấp trả về, nếu không thì backoff mũ.
+            retry_after = resp.headers.get("Retry-After")
+            try:
+                wait = float(retry_after) if retry_after else 2 ** attempt
+            except ValueError:
+                wait = 2 ** attempt
+            wait = min(wait, MAX_BACKOFF) + 1
+            last_exc = requests.exceptions.HTTPError(
+                f"{resp.status_code} từ API", response=resp
+            )
+            if attempt < MAX_RETRIES - 1:
+                print(f"  [retry] {resp.status_code} — chờ {wait:.0f}s rồi thử lại "
+                      f"(lần {attempt + 1}/{MAX_RETRIES})...")
+                time.sleep(wait)
+                continue
+            raise last_exc
+        resp.raise_for_status()
+        return resp.json()
+    raise last_exc

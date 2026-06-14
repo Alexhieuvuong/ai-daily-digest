@@ -16,9 +16,9 @@ from pathlib import Path
 from datetime import datetime
 
 
-WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
-WEEKDAYS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-REPO_URL = "https://github.com/Jimmuji/ai-daily-digest"
+WEEKDAYS = ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"]
+REPO_URL = "https://github.com/Alexhieuvuong/ai-daily-digest"
+SITE_TITLE = "Bản tin tổng hợp"
 
 
 # ── CSS ────────────────────────────────────────────────────────────────────────
@@ -468,7 +468,8 @@ html[data-lang="zh"] [data-lang-content="en"] { display: none; }
 JS = """
 (function () {
   var BASE = window.SITE_BASE || "";
-  var DATES = window.AVAILABLE_DATES || [];
+  var DATES = window.AVAILABLE_DATES || [];            // các ngày YYYY-MM-DD (đã sort)
+  var SLUG_BY_DATE = window.SLUG_BY_DATE || {};        // ngày -> slug bản tin mới nhất
 
   function esc(s) {
     return (s || "").replace(/[&<>"]/g, function (c) {
@@ -476,19 +477,20 @@ JS = """
     });
   }
 
-  // ── Date picker ──
+  // ── Date picker (chọn ngày -> mở bản tin mới nhất của ngày đó) ──
   var dp = document.getElementById('datePicker');
   if (dp && DATES.length) {
     dp.min = DATES[0];
     dp.max = DATES[DATES.length - 1];
-    dp.value = window.CURRENT_DATE || DATES[DATES.length - 1];
+    dp.value = (window.CURRENT_DATE || '').slice(0, 10) || DATES[DATES.length - 1];
     dp.addEventListener('change', function () {
       var v = dp.value;
-      if (DATES.indexOf(v) === -1) {
+      if (!SLUG_BY_DATE[v]) {
         var earlier = DATES.filter(function (d) { return d <= v; });
         v = earlier.length ? earlier[earlier.length - 1] : DATES[0];
       }
-      window.location.href = BASE + 'daily/' + v + '.html';
+      var slug = SLUG_BY_DATE[v];
+      if (slug) window.location.href = BASE + 'daily/' + slug + '.html';
     });
   }
 
@@ -507,22 +509,17 @@ JS = """
       var q = si.value.trim().toLowerCase();
       if (q.length < 2) { sr.classList.remove('active'); sr.innerHTML = ''; return; }
       loadIndex().then(function (idx) {
-        var en = window.CUR_LANG === 'en';
-        function fTitle(h) { return (en && h.title_en) ? h.title_en : h.title; }
-        function fDesc(h) { return (en && h.desc_en) ? h.desc_en : h.desc; }
-        function fCat(h) { return (en && h.cat_en) ? h.cat_en : h.cat; }
         var hits = idx.filter(function (it) {
-          return (fTitle(it) + ' ' + fDesc(it) + ' ' + it.title + ' ' + it.desc)
+          return (it.title + ' ' + it.desc + ' ' + it.cat)
             .toLowerCase().indexOf(q) !== -1;
         }).slice(0, 25);
         if (!hits.length) {
-          sr.innerHTML = '<div class="sr-empty">' +
-            (en ? 'No matches' : '没有匹配结果') + '</div>';
+          sr.innerHTML = '<div class="sr-empty">Không có kết quả</div>';
         } else {
           sr.innerHTML = hits.map(function (h) {
             return '<a class="sr-item" href="' + BASE + 'daily/' + h.date + '.html">' +
-                   '<span class="sr-date">' + h.date + ' · ' + esc(fCat(h)) + '</span>' +
-                   '<span class="sr-title">' + esc(fTitle(h)) + '</span></a>';
+                   '<span class="sr-date">' + esc(h.label || h.date) + ' · ' + esc(h.cat) + '</span>' +
+                   '<span class="sr-title">' + esc(h.title) + '</span></a>';
           }).join('');
         }
         sr.classList.add('active');
@@ -625,29 +622,6 @@ JS = """
     });
   }
 
-  // ── Language toggle ──
-  var PH = { zh: '搜索全部日报…', en: 'Search all digests…' };
-  function curLang() {
-    return document.documentElement.getAttribute('data-lang') === 'en' ? 'en' : 'zh';
-  }
-  window.CUR_LANG = curLang();
-  var lt = document.getElementById('langToggle');
-  function applyLang(lang) {
-    document.documentElement.setAttribute('data-lang', lang);
-    document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'zh-Hans');
-    window.CUR_LANG = lang;
-    if (lt) lt.textContent = lang === 'en' ? '中' : 'EN';
-    if (si) si.setAttribute('placeholder', PH[lang]);
-  }
-  applyLang(curLang());
-  if (lt) {
-    lt.addEventListener('click', function () {
-      var next = curLang() === 'en' ? 'zh' : 'en';
-      try { localStorage.setItem('lang', next); } catch (e) {}
-      applyLang(next);
-    });
-  }
-
   // ── Hot-word tags → search ──
   document.querySelectorAll('.trend-tag').forEach(function (tag) {
     tag.addEventListener('click', function () {
@@ -665,8 +639,8 @@ JS = """
   var synth = window.speechSynthesis;
   document.querySelectorAll('.speak-btn').forEach(function (btn) {
     if (!synth) { btn.style.display = 'none'; return; }
-    var label = btn.getAttribute('data-label') || '🔊 朗读';
-    var stop = btn.getAttribute('data-stop') || '⏹ 停止';
+    var label = btn.getAttribute('data-label') || '🔊 Đọc to';
+    var stop = btn.getAttribute('data-stop') || '⏹ Dừng';
     btn.addEventListener('click', function () {
       if (btn.classList.contains('playing')) {
         synth.cancel();
@@ -674,7 +648,7 @@ JS = """
       }
       synth.cancel();
       var u = new SpeechSynthesisUtterance(btn.getAttribute('data-text') || '');
-      u.lang = btn.getAttribute('data-speak-lang') || 'zh-CN';
+      u.lang = btn.getAttribute('data-speak-lang') || 'vi-VN';
       u.rate = 1.0;
       u.onend = u.onerror = function () {
         btn.classList.remove('playing');
@@ -693,17 +667,16 @@ JS = """
 HEADER_HTML = """
 <div id="progressBar"></div>
 <header class="site-header">
-  <div class="logo"><a href="{base}index.html">⚡ AI <span>Daily</span> Digest</a></div>
+  <div class="logo"><a href="{base}index.html">📰 Bản tin <span>tổng hợp</span></a></div>
   <div class="header-tools">
     <div class="search-box">
-      <input id="searchInput" type="text" placeholder="搜索全部日报…" autocomplete="off">
+      <input id="searchInput" type="text" placeholder="Tìm trong tất cả bản tin…" autocomplete="off">
       <div id="searchResults" class="search-results"></div>
     </div>
-    <input id="datePicker" type="date" class="date-picker" aria-label="选择日期">
-    <button id="langToggle" class="lang-toggle" aria-label="切换语言 / Switch language">EN</button>
-    <button id="themeToggle" class="theme-toggle" aria-label="切换主题" title="切换浅色/深色">🌙</button>
+    <input id="datePicker" type="date" class="date-picker" aria-label="Chọn ngày">
+    <button id="themeToggle" class="theme-toggle" aria-label="Đổi giao diện" title="Sáng/Tối">🌙</button>
     <nav>
-      <a href="{base}index.html"><span data-lang-content="zh">归档</span><span data-lang-content="en">Archive</span></a>
+      <a href="{base}index.html">Lưu trữ</a>
       <a href="{repo}" target="_blank">GitHub</a>
     </nav>
   </div>
@@ -711,15 +684,14 @@ HEADER_HTML = """
 """
 
 FOOTER_HTML = """
-<button id="backToTop" aria-label="回到顶部">↑</button>
+<button id="backToTop" aria-label="Lên đầu trang">↑</button>
 <footer class="site-footer">
-  <span data-lang-content="zh">© AI Daily Digest · 全自动采集 · DeepSeek 智能筛选 · 每日更新</span>
-  <span data-lang-content="en">© AI Daily Digest · Auto-collected · Curated by DeepSeek · Updated daily</span>
+  © Bản tin tổng hợp · Tự động thu thập · Tóm tắt bằng AI · Cập nhật mỗi 4 giờ
 </footer>
 """
 
 PAGE_TEMPLATE = """<!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -732,12 +704,6 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
         if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
       }} catch (e) {{}}
-      try {{
-        var lng = localStorage.getItem('lang');
-        if (!lng) lng = (navigator.language || 'zh').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
-        document.documentElement.setAttribute('data-lang', lng);
-        if (lng === 'en') document.documentElement.setAttribute('lang', 'en');
-      }} catch (e) {{ document.documentElement.setAttribute('data-lang', 'zh'); }}
     }})();
   </script>
   <style>{css}</style>
@@ -754,25 +720,24 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 
 # ── Category typing ─────────────────────────────────────────────────────────────
 
-def cat_type(name: str, emoji: str) -> str:
-    s = (name or "") + (emoji or "")
-    if any(k in s for k in ["论文", "paper", "研究", "📄", "📑"]):
-        return "paper"
-    if any(k in s for k in ["项目", "开源", "工具", "repo", "🔧", "🛠"]):
-        return "project"
-    if any(k in s for k in ["新闻", "动态", "行业", "资讯", "📰"]):
-        return "news"
+def cat_type(name: str, emoji: str = "") -> str:
+    """Phân loại nhóm theo nhãn category tiếng Việt (bỏ qua emoji)."""
+    s = ((name or "") + " " + (emoji or "")).lower()
+    if "việt nam" in s:
+        return "vietnam"
+    if "kinh tế" in s or "tài chính" in s:
+        return "kinh_te"
+    if "công nghệ" in s:
+        return "cong_nghe"
     return "other"
 
 
-CAT_LABELS = [("all", "全部"), ("news", "新闻"), ("paper", "论文"), ("project", "项目")]
-CAT_LABELS_EN = [("all", "All"), ("news", "News"), ("paper", "Papers"), ("project", "Projects")]
-
-
-def bi(zh: str, en: str) -> str:
-    """Inline dual-language span pair, toggled by html[data-lang] + CSS."""
-    return (f'<span data-lang-content="zh">{zh}</span>'
-            f'<span data-lang-content="en">{en}</span>')
+CAT_LABELS = [
+    ("all", "Tất cả"),
+    ("vietnam", "🇻🇳 Việt Nam"),
+    ("kinh_te", "💰 Kinh tế"),
+    ("cong_nghe", "💻 Công nghệ"),
+]
 
 
 # ── Markdown parser ─────────────────────────────────────────────────────────────
@@ -786,27 +751,19 @@ def parse_digest(text: str) -> dict:
     current_item = None
 
     for line in lines:
-        cat_match = re.match(r'^#{2,3}\s+([\U00010000-\U0010ffff☀-⛿✀-➿])\s*(.+)', line)
-        plain_match = re.match(r'^#{2,3}\s+([^#\U00010000-\U0010ffff].+)', line) if not cat_match else None
-        if cat_match:
-            emoji = cat_match.group(1)
-            name = cat_match.group(2).strip()
-        elif plain_match:
-            emoji = ""
-            name = plain_match.group(1).strip()
-        else:
-            emoji = name = None
+        # Bắt mọi tiêu đề cấp 2-3 (## hoặc ###), giữ nguyên cả emoji trong tên.
+        head_match = re.match(r'^#{2,3}\s+(.+?)\s*$', line)
+        name = head_match.group(1).strip() if head_match else None
 
         if name is not None:
             low = name.lower()
-            if ("观察" in name or "洞察" in name
-                    or "take" in low or "observation" in low or "outlook" in low):
+            if "quan sát" in low or "nhận định" in low:
                 in_observation = True
                 current_cat = None
             else:
                 in_observation = False
-                current_cat = {"emoji": emoji, "name": name,
-                               "type": cat_type(name, emoji), "items": []}
+                current_cat = {"emoji": "", "name": name,
+                               "type": cat_type(name), "items": []}
                 categories.append(current_cat)
                 current_item = None
             continue
@@ -838,7 +795,7 @@ def parse_digest(text: str) -> dict:
 
         stripped = line.strip()
 
-        star_match = re.match(r'^-\s+重要性[：:]\s*(.+)', stripped)
+        star_match = re.match(r'^-\s+Quan trọng[：:]\s*(.+)', stripped)
         if star_match:
             raw = star_match.group(1)
             filled = raw.count('★')
@@ -847,12 +804,12 @@ def parse_digest(text: str) -> dict:
             current_item["star_count"] = filled
             continue
 
-        val_match = re.match(r'^-\s+核心价值[：:]\s*(.+)', stripped)
+        val_match = re.match(r'^-\s+Vì sao[：:]\s*(.+)', stripped)
         if val_match:
             current_item["value"] = val_match.group(1).strip()
             continue
 
-        src_match = re.match(r'^-\s+来源[：:]\s*(.+)', stripped)
+        src_match = re.match(r'^-\s+Nguồn[：:]\s*(.+)', stripped)
         if src_match:
             links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', src_match.group(1))
             current_item["sources"] = [{"name": n, "url": u} for n, u in links]
@@ -898,11 +855,9 @@ def build_item_html(item: dict) -> str:
     </div>"""
 
 
-def build_filter_bar(present_types: set, lang: str = "zh") -> str:
-    labels = CAT_LABELS_EN if lang == "en" else CAT_LABELS
-    star_label = "★ Top picks (4+)" if lang == "en" else "★ 只看重点 (4+)"
+def build_filter_bar(present_types: set) -> str:
     tabs = ""
-    for key, label in labels:
+    for key, label in CAT_LABELS:
         if key != "all" and key not in present_types:
             continue
         active = " active" if key == "all" else ""
@@ -910,14 +865,14 @@ def build_filter_bar(present_types: set, lang: str = "zh") -> str:
     return f"""
     <div class="filter-bar">
       {tabs}
-      <span class="star-toggle">{star_label}</span>
+      <span class="star-toggle">★ Chỉ tin quan trọng (4+)</span>
     </div>"""
 
 
-def build_digest_body(digest: dict, lang: str = "zh") -> str:
+def build_digest_body(digest: dict) -> str:
     """Filter bar + categories + observation, wrapped in a .digest-scope."""
     present_types = {c["type"] for c in digest["categories"] if c["items"]}
-    filter_bar = build_filter_bar(present_types, lang)
+    filter_bar = build_filter_bar(present_types)
 
     cats_html = ""
     for cat in digest["categories"]:
@@ -927,28 +882,22 @@ def build_digest_body(digest: dict, lang: str = "zh") -> str:
         cats_html += f"""
         <div class="category" data-cat="{cat['type']}">
           <div class="category-header">
-            <h2>{cat["emoji"]} {cat["name"]}</h2>
+            <h2>{cat["name"]}</h2>
             <div class="cat-line"></div>
           </div>
           {items_html}
         </div>"""
 
-    empty_msg = "No items match this filter." if lang == "en" else "该筛选条件下没有内容。"
+    empty_msg = "Không có mục nào khớp bộ lọc này."
 
     obs_html = ""
     if digest["observation"]:
         speak_text = attr_escape(digest["observation"])
-        if lang == "en":
-            obs_heading, btn_play, btn_stop, speak_lang = (
-                "💡 Today's Take", "🔊 Read aloud", "⏹ Stop", "en-US")
-        else:
-            obs_heading, btn_play, btn_stop, speak_lang = (
-                "💡 今日观察", "🔊 朗读今日观察", "⏹ 停止", "zh-CN")
         obs_html = f"""
         <div class="observation">
-          <h2>{obs_heading}</h2>
+          <h2>💡 Quan sát hôm nay</h2>
           <p>{digest["observation"]}</p>
-          <button class="speak-btn" data-label="{btn_play}" data-stop="{btn_stop}" data-speak-lang="{speak_lang}" data-text="{speak_text}">{btn_play}</button>
+          <button class="speak-btn" data-label="🔊 Đọc to" data-stop="⏹ Dừng" data-speak-lang="vi-VN" data-text="{speak_text}">🔊 Đọc to</button>
         </div>"""
 
     return f"""
@@ -960,33 +909,47 @@ def build_digest_body(digest: dict, lang: str = "zh") -> str:
     </div>"""
 
 
-def render_digest_dual(zh_digest: dict, en_digest: dict | None) -> str:
-    """Render the zh body; if an en digest exists, also render an en body.
-
-    When both exist they're wrapped in data-lang-content blocks toggled by CSS.
-    When only zh exists it's rendered once, always visible (graceful fallback
-    for the historical digests that have no English version)."""
-    zh_body = build_digest_body(zh_digest, "zh")
-    if en_digest and en_digest.get("categories"):
-        en_body = build_digest_body(en_digest, "en")
-        return (f'<div data-lang-content="zh">{zh_body}</div>'
-                f'<div data-lang-content="en">{en_body}</div>')
-    return zh_body
+def render_digest(digest: dict) -> str:
+    """Render a single Vietnamese digest body."""
+    return build_digest_body(digest)
 
 
-def weekday_of(date_str: str, lang: str = "zh") -> str:
+def date_of(slug: str) -> str:
+    """Phần ngày YYYY-MM-DD của một slug (slug có thể là YYYY-MM-DD hoặc YYYY-MM-DD-HHMM)."""
+    return slug[:10]
+
+
+def time_of(slug: str) -> str:
+    """Giờ HH:MM nếu slug có hậu tố -HHMM, ngược lại rỗng."""
+    m = re.match(r'^\d{4}-\d{2}-\d{2}-(\d{2})(\d{2})$', slug)
+    return f"{m.group(1)}:{m.group(2)}" if m else ""
+
+
+def label_of(slug: str) -> str:
+    """Nhãn hiển thị: 'YYYY-MM-DD' hoặc 'YYYY-MM-DD · HH:MM'."""
+    t = time_of(slug)
+    return f"{date_of(slug)} · {t}" if t else date_of(slug)
+
+
+def weekday_of(slug: str) -> str:
     try:
-        idx = datetime.strptime(date_str, "%Y-%m-%d").weekday()
-        return (WEEKDAYS_EN if lang == "en" else WEEKDAYS)[idx]
+        idx = datetime.strptime(date_of(slug), "%Y-%m-%d").weekday()
+        return WEEKDAYS[idx]
     except Exception:
         return ""
 
 
 def state_script(dates: list[str], current: str | None,
                  prev_date: str | None, next_date: str | None, base: str) -> str:
+    # Map ngày YYYY-MM-DD -> slug mới nhất trong ngày (cho date picker, vì 1 ngày
+    # có thể có nhiều bản tin theo giờ). dates đã sort tăng dần -> lần gán sau là mới nhất.
+    slug_by_date: dict[str, str] = {}
+    for s in dates:
+        slug_by_date[date_of(s)] = s
     parts = [
         f'window.SITE_BASE={json.dumps(base)};',
-        f'window.AVAILABLE_DATES={json.dumps(dates)};',
+        f'window.AVAILABLE_DATES={json.dumps(sorted(slug_by_date.keys()))};',
+        f'window.SLUG_BY_DATE={json.dumps(slug_by_date)};',
     ]
     if current:
         parts.append(f'window.CURRENT_DATE={json.dumps(current)};')
@@ -998,27 +961,24 @@ def state_script(dates: list[str], current: str | None,
 
 
 def build_day_html(date_str: str, digest: dict, dates: list[str],
-                   prev_date: str | None, next_date: str | None,
-                   en_digest: dict | None = None) -> str:
-    weekday = bi(f"{weekday_of(date_str)} · {date_str}",
-                 f"{weekday_of(date_str, 'en')} · {date_str}")
-    title = bi("AI 每日简报", "AI Daily Digest")
+                   prev_date: str | None, next_date: str | None) -> str:
+    weekday = f"{weekday_of(date_str)} · {label_of(date_str)}"
     body = f"""
     <div class="container">
       <div class="day-hero">
         <div class="date-str">{weekday}</div>
-        <h1>{title}</h1>
+        <h1>{SITE_TITLE}</h1>
       </div>
-      {render_digest_dual(digest, en_digest)}
+      {render_digest(digest)}
       <div class="day-nav">
-        {f'<a class="nav-btn" href="{prev_date}.html">← {prev_date}</a>' if prev_date else '<span></span>'}
-        {f'<a class="nav-btn" href="{next_date}.html">{next_date} →</a>' if next_date else '<span></span>'}
+        {f'<a class="nav-btn" href="{prev_date}.html">← {label_of(prev_date)}</a>' if prev_date else '<span></span>'}
+        {f'<a class="nav-btn" href="{next_date}.html">{label_of(next_date)} →</a>' if next_date else '<span></span>'}
       </div>
     </div>"""
 
     return PAGE_TEMPLATE.format(
-        title=f"AI Daily Digest · {date_str}",
-        description=f"AI领域{date_str}每日简报，涵盖行业新闻、重要论文与开源项目。",
+        title=f"{SITE_TITLE} · {label_of(date_str)}",
+        description=f"Bản tin tổng hợp ngày {label_of(date_str)}: Việt Nam, Kinh tế, Công nghệ.",
         css=CSS,
         header=HEADER_HTML.format(base="../", repo=REPO_URL),
         body=body,
@@ -1032,30 +992,21 @@ def build_day_html(date_str: str, digest: dict, dates: list[str],
 
 # (display label, search term, [match patterns — lowercase])
 TREND_GROUPS = [
-    ("OpenAI", "OpenAI", ["openai"]),
-    ("Claude", "Claude", ["claude"]),
-    ("Anthropic", "Anthropic", ["anthropic"]),
-    ("Google", "Google", ["google", "deepmind", "gemini", "谷歌"]),
-    ("Meta", "Llama", ["llama", "meta ai", "扎克伯格"]),
-    ("微软", "微软", ["microsoft", "微软", "copilot"]),
-    ("NVIDIA", "NVIDIA", ["nvidia", "英伟达"]),
-    ("Apple", "Apple", ["apple", "苹果"]),
-    ("DeepSeek", "DeepSeek", ["deepseek", "深度求索"]),
-    ("字节", "字节", ["字节", "bytedance", "豆包"]),
-    ("阿里", "阿里", ["阿里", "alibaba", "qwen", "通义"]),
-    ("腾讯", "腾讯", ["腾讯", "tencent", "混元"]),
-    ("xAI/Grok", "Grok", ["grok", "xai", "马斯克"]),
-    ("Mistral", "Mistral", ["mistral"]),
-    ("Agent/智能体", "Agent", ["agent", "智能体"]),
-    ("大模型", "大模型", ["大模型", "语言模型", " llm"]),
-    ("多模态", "多模态", ["多模态", "multimodal"]),
-    ("开源", "开源", ["开源", "open-source", "open source"]),
-    ("机器人/具身", "机器人", ["机器人", "robot", "具身"]),
-    ("芯片/GPU", "芯片", ["芯片", "gpu", "chip", "算力"]),
-    ("视频生成", "视频", ["视频生成", "sora", "视频模型"]),
-    ("推理", "推理", ["推理", "reasoning"]),
-    ("融资/IPO", "融资", ["融资", "ipo", "估值", "投资"]),
-    ("自动驾驶", "自动驾驶", ["自动驾驶", "robotaxi", "辅助驾驶"]),
+    ("Lạm phát", "lạm phát", ["lạm phát", "cpi", "giá cả"]),
+    ("Lãi suất", "lãi suất", ["lãi suất", "ngân hàng nhà nước", "fed", "ecb"]),
+    ("Chứng khoán", "chứng khoán", ["chứng khoán", "cổ phiếu", "vn-index", "nasdaq", "ipo"]),
+    ("Bất động sản", "bất động sản", ["bất động sản", "nhà ở", "căn hộ", "chung cư"]),
+    ("Tiền số", "tiền số", ["bitcoin", "tiền số", "crypto", "blockchain"]),
+    ("AI", "AI", ["ai", "trí tuệ nhân tạo", "anthropic", "openai", "claude", "chatgpt"]),
+    ("Công nghệ", "công nghệ", ["công nghệ", "phần mềm", "ứng dụng", "startup"]),
+    ("Năng lượng", "năng lượng", ["dầu", "xăng", "điện", "năng lượng", "khí đốt"]),
+    ("Thời tiết", "thời tiết", ["mưa", "bão", "nắng nóng", "el nino", "thời tiết", "ngập"]),
+    ("Giao thông", "giao thông", ["giao thông", "tai nạn", "cao tốc", "đường sắt", "sân bay"]),
+    ("Y tế", "y tế", ["y tế", "bệnh", "dịch", "bệnh viện", "sức khỏe"]),
+    ("Giáo dục", "giáo dục", ["giáo dục", "thi", "học sinh", "tuyển sinh", "đại học"]),
+    ("Du lịch", "du lịch", ["du lịch", "khách quốc tế", "tour", "lễ hội"]),
+    ("Chính sách", "chính sách", ["thủ tướng", "quốc hội", "nghị định", "chính phủ", "luật"]),
+    ("Quốc tế", "quốc tế", ["nga", "ukraine", "mỹ", "trung quốc", "iran", "chiến tranh"]),
 ]
 
 
@@ -1094,59 +1045,55 @@ def build_trends_html(trends: list, window: int) -> str:
     return f"""
       <div class="trends">
         <div class="trends-head">
-          <h2>{bi(f"🔥 近 {window} 天热词", f"🔥 Hot words · last {window} days")}</h2>
-          <span class="sub">{bi("按出现频次排序 · 点击搜索相关日报", "Ranked by frequency · click to search")}</span>
+          <h2>🔥 Chủ đề nóng · {window} kỳ gần nhất</h2>
+          <span class="sub">Xếp theo tần suất · bấm để tìm bản tin liên quan</span>
         </div>
         <div class="trend-tags">{tags}</div>
       </div>"""
 
 
 def build_index_html(dates: list[str], latest_digest: dict,
-                     trends_html: str = "",
-                     latest_en_digest: dict | None = None) -> str:
+                     trends_html: str = "") -> str:
     latest = dates[-1] if dates else ""
 
     # Archive grid (newest first)
     cards = ""
     for i, d in enumerate(reversed(dates)):
-        badge = (f'<div class="latest-badge">{bi("最新", "Latest")}</div>'
-                 if i == 0 else "")
-        weekday_cell = bi(weekday_of(d), weekday_of(d, "en"))
+        badge = ('<div class="latest-badge">Mới nhất</div>' if i == 0 else "")
         cards += f"""
         <a class="date-card" href="daily/{d}.html">
-          <div class="date-label">{d}</div>
-          <div class="weekday">{weekday_cell}</div>
+          <div class="date-label">{label_of(d)}</div>
+          <div class="weekday">{weekday_of(d)}</div>
           {badge}
         </a>"""
 
     latest_section = ""
     if latest_digest:
-        latest_label = bi(f"📅 最新一期 · {latest} {weekday_of(latest)}",
-                          f"📅 Latest · {latest} {weekday_of(latest, 'en')}")
+        latest_label = f"📅 Bản tin mới nhất · {label_of(latest)} {weekday_of(latest)}"
         latest_section = f"""
       <div class="section-title">{latest_label}</div>
-      {render_digest_dual(latest_digest, latest_en_digest)}"""
+      {render_digest(latest_digest)}"""
 
     body = f"""
     <div class="container">
       <div class="hero">
-        <h1>AI Daily Digest</h1>
-        <p>{bi("每天 5 分钟 · 掌握 AI 领域最新动态 · 全自动采集 · 智能筛选", "5 minutes a day · stay on top of AI · auto-collected · smartly curated")}</p>
+        <h1>{SITE_TITLE}</h1>
+        <p>Việt Nam · Kinh tế · Công nghệ — tự động thu thập, tóm tắt bằng AI, cập nhật mỗi 4 giờ</p>
         <div class="stats">
-          <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">{bi("期日报", "issues")}</div></div>
-          <div class="stat"><div class="num">12+</div><div class="lbl">{bi("数据源", "sources")}</div></div>
-          <div class="stat"><div class="num">{bi("每日", "Daily")}</div><div class="lbl">{bi("自动更新", "auto-updated")}</div></div>
+          <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">kỳ bản tin</div></div>
+          <div class="stat"><div class="num">3</div><div class="lbl">chuyên mục</div></div>
+          <div class="stat"><div class="num">4h</div><div class="lbl">tự cập nhật</div></div>
         </div>
       </div>
       {trends_html}
       {latest_section}
-      <div class="section-title">{bi("🗂 历史归档", "🗂 Archive")}</div>
+      <div class="section-title">🗂 Lưu trữ</div>
       <div class="date-grid">{cards}</div>
     </div>"""
 
     return PAGE_TEMPLATE.format(
-        title="AI Daily Digest · AI 领域每日简报",
-        description="AI Daily Digest 每日自动采集 AI 领域最新资讯，涵盖行业新闻、重要论文与开源项目。",
+        title=f"{SITE_TITLE} · Việt Nam · Kinh tế · Công nghệ",
+        description="Bản tin tổng hợp tự động: Việt Nam, Kinh tế, Công nghệ — tóm tắt bằng AI, cập nhật mỗi 4 giờ.",
         css=CSS,
         header=HEADER_HTML.format(base="", repo=REPO_URL),
         body=body,
@@ -1156,34 +1103,20 @@ def build_index_html(dates: list[str], latest_digest: dict,
     )
 
 
-def build_search_index(parsed_by_date: dict, parsed_by_date_en: dict | None = None) -> list:
-    """Flat list of every item for client-side search.
-
-    English fields (title_en/desc_en/cat_en) are attached positionally when an
-    English digest exists for that date (the en version is structurally
-    identical, so item ordering lines up)."""
-    parsed_by_date_en = parsed_by_date_en or {}
+def build_search_index(parsed_by_date: dict) -> list:
+    """Flat list of every item for client-side search (Vietnamese only)."""
     index = []
-    for date_str, digest in parsed_by_date.items():
-        en_digest = parsed_by_date_en.get(date_str)
-        en_cats = en_digest["categories"] if en_digest else []
-        for ci, cat in enumerate(digest["categories"]):
-            en_cat = en_cats[ci] if ci < len(en_cats) else None
-            en_items = en_cat["items"] if en_cat else []
-            for ii, item in enumerate(cat["items"]):
-                entry = {
-                    "date": date_str,
+    for slug, digest in parsed_by_date.items():
+        for cat in digest["categories"]:
+            for item in cat["items"]:
+                index.append({
+                    "date": slug,
+                    "label": label_of(slug),
                     "title": item["title"],
                     "desc": item["desc"],
                     "cat": cat["name"],
                     "stars": item["star_count"],
-                }
-                if en_cat:
-                    entry["cat_en"] = en_cat["name"]
-                if ii < len(en_items):
-                    entry["title_en"] = en_items[ii]["title"]
-                    entry["desc_en"] = en_items[ii]["desc"]
-                index.append(entry)
+                })
     # newest first
     index.sort(key=lambda x: x["date"], reverse=True)
     return index
@@ -1200,45 +1133,38 @@ def generate_site(root: Path | None = None) -> None:
     docs_daily_dir = docs_dir / "daily"
     docs_daily_dir.mkdir(parents=True, exist_ok=True)
 
-    # Only the Chinese digests define the set of dates; *.en.md are the
-    # parallel English versions and must not be treated as their own days.
+    # Mỗi file .md (kể cả dạng {date}-{HHmm}.md) là một kỳ bản tin riêng.
+    # Bỏ qua *.en.md cũ của repo gốc nếu còn sót.
     md_files = sorted(f for f in daily_dir.glob("*.md")
                       if not f.name.endswith(".en.md"))
-    dates = [f.stem for f in md_files]
+    dates = [f.stem for f in md_files]  # "dates" ở đây là các slug, sort tăng dần
 
-    print(f"Generating site for {len(dates)} days...")
+    print(f"Generating site for {len(dates)} digests...")
 
     parsed_by_date = {}
-    parsed_by_date_en = {}
     for md_file in md_files:
-        date_str = md_file.stem
-        parsed_by_date[date_str] = parse_digest(md_file.read_text(encoding="utf-8"))
-        en_file = daily_dir / f"{date_str}.en.md"
-        if en_file.exists():
-            parsed_by_date_en[date_str] = parse_digest(en_file.read_text(encoding="utf-8"))
+        slug = md_file.stem
+        parsed_by_date[slug] = parse_digest(md_file.read_text(encoding="utf-8"))
 
-    for i, date_str in enumerate(dates):
-        digest = parsed_by_date[date_str]
+    for i, slug in enumerate(dates):
+        digest = parsed_by_date[slug]
         prev_date = dates[i - 1] if i > 0 else None
         next_date = dates[i + 1] if i < len(dates) - 1 else None
-        html = build_day_html(date_str, digest, dates, prev_date, next_date,
-                              en_digest=parsed_by_date_en.get(date_str))
-        (docs_daily_dir / f"{date_str}.html").write_text(html, encoding="utf-8")
+        html = build_day_html(slug, digest, dates, prev_date, next_date)
+        (docs_daily_dir / f"{slug}.html").write_text(html, encoding="utf-8")
 
     # Index with latest digest inline + trending hot words
     latest_digest = parsed_by_date[dates[-1]] if dates else {}
-    latest_en_digest = parsed_by_date_en.get(dates[-1]) if dates else None
     trend_window = 7
     trends = compute_trends(parsed_by_date, dates, window=trend_window)
     trends_html = build_trends_html(trends, trend_window)
     (docs_dir / "index.html").write_text(
-        build_index_html(dates, latest_digest, trends_html, latest_en_digest),
+        build_index_html(dates, latest_digest, trends_html),
         encoding="utf-8")
 
     # Search index
     (docs_dir / "search-index.json").write_text(
-        json.dumps(build_search_index(parsed_by_date, parsed_by_date_en),
-                   ensure_ascii=False),
+        json.dumps(build_search_index(parsed_by_date), ensure_ascii=False),
         encoding="utf-8")
 
     # 404 → back to index

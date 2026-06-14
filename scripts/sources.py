@@ -1,320 +1,105 @@
 """
-Data source fetchers - all free, no AI tokens needed.
-Each function returns a list of dicts with stable fields for traceability.
+sources.py — cấu hình nguồn tin theo category cho bản fork ai-daily-digest.
+
+Thay thế danh sách RSS_SOURCES gốc (vốn chuyên tin AI) bằng nguồn của bạn,
+và bổ sung METADATA category để bước tóm tắt gom nhóm đúng 3 mảng:
+Việt Nam / Kinh tế / Công nghệ.
+
+Cách dùng:
+- main.py gọi fetch_all() để lấy danh sách item đã chuẩn hóa (mỗi item kèm 'category').
+- Nếu main.py gốc dùng RSS_SOURCES dạng [(url, name), ...] thì vẫn có RSS_SOURCES phẳng
+  bên dưới để tương thích ngược; nhưng nên chuyển sang fetch_all() để có trường category.
+
+Phụ thuộc: feedparser  (đã có hoặc thêm vào requirements.txt)
 """
 
-import html
-import re
-from datetime import datetime, timedelta, timezone
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
-
+from __future__ import annotations
+import time
 import feedparser
-import requests
 
-
-AI_KEYWORDS = [
-    "ai", "ml", "llm", "gpt", "transformer", "neural", "deep-learning",
-    "machine-learning", "nlp", "diffusion", "agent", "rag", "embedding",
-    "model", "inference", "fine-tun", "lora", "vision", "multimodal",
-    "chatbot", "langchain", "openai", "anthropic", "gemini", "claude",
-]
-
-HIGH_SIGNAL_KEYWORDS = [
-    "release", "launch", "open source", "benchmark", "state-of-the-art",
-    "sota", "reasoning", "inference", "agent", "multimodal", "model",
-    "api", "eval", "safety", "chip", "funding", "acquisition",
-    "发布", "开源", "融资", "收购", "基准", "推理", "模型", "智能体",
-    "多模态", "安全", "芯片",
-]
-
-TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"}
-
-
-def clean_text(value, max_chars=500):
-    """Strip HTML and whitespace noise from source summaries."""
-    text = html.unescape(value or "")
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text[:max_chars]
-
-
-def normalize_url(url):
-    """Normalize URLs so the same story is easier to dedupe."""
-    if not url:
-        return ""
-    parts = urlsplit(url.strip())
-    query = [
-        (key, value)
-        for key, value in parse_qsl(parts.query, keep_blank_values=True)
-        if key.lower() not in TRACKING_PARAMS
-    ]
-    return urlunsplit((
-        parts.scheme.lower(),
-        parts.netloc.lower(),
-        parts.path.rstrip("/"),
-        urlencode(query, doseq=True),
-        "",
-    ))
-
-
-def normalize_title(title):
-    return re.sub(r"\W+", "", (title or "").lower())
-
-
-def estimate_importance(category, title, summary, source):
-    """Give the model a transparent first-pass signal without replacing editorial judgment."""
-    text = f"{title} {summary} {source}".lower()
-    score = 3
-
-    if category in {"papers", "projects"}:
-        score += 1
-    if any(keyword in text for keyword in HIGH_SIGNAL_KEYWORDS):
-        score += 1
-    if any(name in text for name in ["openai", "anthropic", "google", "deepmind", "meta", "microsoft", "nvidia"]):
-        score += 1
-
-    return max(1, min(5, score))
-
-
-def make_item(category, title, url, summary, source, published=None, metadata=None):
-    cleaned_summary = clean_text(summary)
-    return {
-        "category": category,
-        "title": clean_text(title, max_chars=220),
-        "url": url or "",
-        "normalized_url": normalize_url(url),
-        "summary": cleaned_summary,
-        "source": source,
-        "published": published,
-        "importance_hint": estimate_importance(category, title, cleaned_summary, source),
-        "metadata": metadata or {},
-    }
-
-
-def dedupe_items(items):
-    """Deduplicate by normalized URL first, then normalized title."""
-    seen = {}
-    url_index = {}
-    title_index = {}
-
-    for item in items:
-        url_key = item.get("normalized_url")
-        title_key = normalize_title(item.get("title"))
-        key = url_index.get(url_key) or title_index.get(title_key)
-
-        if not key:
-            key = url_key or title_key
-        if not key:
-            continue
-
-        previous = seen.get(key)
-        if not previous:
-            seen[key] = item
-            if url_key:
-                url_index[url_key] = key
-            if title_key:
-                title_index[title_key] = key
-            continue
-
-        if len(item.get("summary", "")) > len(previous.get("summary", "")):
-            item["source"] = f"{previous['source']}, {item['source']}"
-            item["importance_hint"] = max(previous["importance_hint"], item["importance_hint"])
-            seen[key] = item
-            if url_key:
-                url_index[url_key] = key
-            if title_key:
-                title_index[title_key] = key
-        else:
-            previous["source"] = f"{previous['source']}, {item['source']}"
-            previous["importance_hint"] = max(previous["importance_hint"], item["importance_hint"])
-
-    return list(seen.values())
-
-
-def fetch_huggingface_papers():
-    """Fetch today's papers from HuggingFace Daily Papers API."""
-    items = []
-    try:
-        resp = requests.get("https://huggingface.co/api/daily_papers", timeout=30)
-        resp.raise_for_status()
-        papers = resp.json()
-        for p in papers[:20]:  # top 20
-            paper = p.get("paper", {})
-            paper_id = paper.get("id", "")
-            items.append(make_item(
-                category="papers",
-                title=paper.get("title", ""),
-                url=f"https://huggingface.co/papers/{paper_id}",
-                summary=paper.get("summary", ""),
-                source="HuggingFace Papers",
-                published=paper.get("publishedAt") or paper.get("submittedOn"),
-                metadata={"paper_id": paper_id},
-            ))
-    except Exception as e:
-        print(f"[HuggingFace Papers] Error: {e}")
-    return items
-
-
-def fetch_github_trending():
-    """Fetch trending repos from OSSInsight API (free, no auth)."""
-    items = []
-    try:
-        resp = requests.get(
-            "https://api.ossinsight.io/v1/trends/repos?period=past_24_hours",
-            timeout=30,
-        )
-        resp.raise_for_status()
-        rows = resp.json().get("data", {}).get("rows", [])
-        # Filter for AI/ML related repos by keywords
-        for repo in rows:
-            desc = (repo.get("description") or "").lower()
-            name = (repo.get("repo_name") or "").lower()
-            lang = (repo.get("primary_language") or "").lower()
-            text = f"{desc} {name} {lang}"
-            if any(kw in text for kw in AI_KEYWORDS):
-                repo_name = repo.get("repo_name", "")
-                items.append(make_item(
-                    category="projects",
-                    title=f"{repo_name} ⭐{repo.get('stars', 0)}",
-                    url=f"https://github.com/{repo_name}",
-                    summary=repo.get("description", "") or "No description",
-                    source="GitHub Trending",
-                    metadata={
-                        "stars": repo.get("stars", 0),
-                        "language": repo.get("primary_language"),
-                    },
-                ))
-        items = items[:15]  # cap at 15
-    except Exception as e:
-        print(f"[GitHub Trending] Error: {e}")
-    return items
-
-
-BROWSER_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+# ---- Cấu hình nguồn theo category -------------------------------------------
+# Mỗi feed: (url, tên_nguồn_hiển_thị)
+CATEGORIES: dict[str, dict] = {
+    "vietnam": {
+        "label": "🇻🇳 Việt Nam",
+        "feeds": [
+            ("https://vnexpress.net/rss/thoi-su.rss", "VnExpress Thời sự"),
+            ("https://vnexpress.net/rss/the-gioi.rss", "VnExpress Thế giới"),
+        ],
+    },
+    "kinh_te": {
+        "label": "💰 Kinh tế / Tài chính",
+        "feeds": [
+            ("https://www.cnbc.com/id/100003114/device/rss/rss.html", "CNBC Top News"),
+            ("https://www.cnbc.com/id/20910258/device/rss/rss.html", "CNBC Economy"),
+            ("https://www.cnbc.com/id/10000664/device/rss/rss.html", "CNBC Finance"),
+            ("https://vnexpress.net/rss/kinh-doanh.rss", "VnExpress Kinh doanh"),
+        ],
+    },
+    "cong_nghe": {
+        "label": "💻 Công nghệ",
+        "feeds": [
+            ("https://techcrunch.com/feed/", "TechCrunch"),
+            ("https://www.cnbc.com/id/19854910/device/rss/rss.html", "CNBC Tech"),
+        ],
+    },
 }
 
-
-def fetch_rss_feed(feed_url, source_name, max_items=10, cutoff_days=2):
-    """Generic RSS feed fetcher."""
-    items = []
-    try:
-        resp = requests.get(feed_url, headers=BROWSER_HEADERS, timeout=20)
-        resp.raise_for_status()
-        feed = feedparser.parse(resp.content)
-        cutoff = datetime.now(timezone.utc) - timedelta(days=cutoff_days)
-        for entry in feed.entries[:max_items * 2]:  # scan more, filter by date
-            published = entry.get("published_parsed") or entry.get("updated_parsed")
-            if published:
-                entry_date = datetime(*published[:6], tzinfo=timezone.utc)
-                if entry_date < cutoff:
-                    continue
-                published_at = entry_date.isoformat()
-            else:
-                published_at = None
-            items.append(make_item(
-                category="news",
-                title=entry.get("title", ""),
-                url=entry.get("link", ""),
-                summary=entry.get("summary", ""),
-                source=source_name,
-                published=published_at,
-                metadata={"feed_url": feed_url},
-            ))
-            if len(items) >= max_items:
-                break
-    except Exception as e:
-        print(f"  [{source_name}] Error: {e}")
-    return items
-
-
-def fetch_hacker_news():
-    """Fetch top AI stories from Hacker News via Algolia API."""
-    items = []
-    try:
-        from datetime import datetime, timezone, timedelta
-        since = int((datetime.now(timezone.utc) - timedelta(days=1)).timestamp())
-        url = (
-            f"https://hn.algolia.com/api/v1/search"
-            f"?query=AI+LLM+machine+learning"
-            f"&tags=story"
-            f"&numericFilters=created_at_i>{since},points>10"
-            f"&hitsPerPage=30"
-        )
-        resp = requests.get(url, timeout=20)
-        resp.raise_for_status()
-        hits = resp.json().get("hits", [])
-
-        for hit in hits:
-            title = hit.get("title", "")
-            # Filter for AI-relevant titles
-            if not any(kw in title.lower() for kw in AI_KEYWORDS):
-                continue
-            items.append(make_item(
-                category="news",
-                title=title,
-                url=hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
-                summary=f"HN points: {hit.get('points', 0)}, comments: {hit.get('num_comments', 0)}",
-                source="Hacker News",
-                published=hit.get("created_at"),
-            ))
-        items = items[:15]
-    except Exception as e:
-        print(f"  [Hacker News] Error: {e}")
-    return items
-
-
-# RSS sources format: (url, name, max_items, cutoff_days)
-# cutoff_days=2 for daily news, cutoff_days=7 for weekly newsletters
-RSS_SOURCES = [
-    # ── 中文 AI 媒体 ─────────────────────────────────────────────────────────
-    ("https://rsshub.rssforever.com/36kr/search/articles/ai",       "36Kr AI",    10, 2),
-    ("https://www.jiqizhixin.com/rss",                               "机器之心",   10, 2),
-    ("https://www.qbitai.com/rss",                                   "量子位",     10, 2),
-    ("https://rsshub.rssforever.com/sspai/tag/AI",                   "SSPAI AI",   8,  2),
-
-    # ── 英文科技媒体 ─────────────────────────────────────────────────────────
-    ("https://venturebeat.com/category/ai/feed/",                    "VentureBeat AI",   10, 2),
-    ("https://techcrunch.com/category/artificial-intelligence/feed/","TechCrunch AI",    10, 2),
-    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI",10, 2),
-    ("https://www.wired.com/feed/tag/ai/latest/rss",                 "Wired AI",          8, 2),
-    ("https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "IEEE Spectrum AI", 8, 2),
-    ("https://feeds.arstechnica.com/arstechnica/technology-lab",     "Ars Technica AI",   8, 2),
-
-    # ── AI 研究者 Newsletter（周更为主，回溯7天）─────────────────────────────
-    ("https://www.oneusefulthing.org/feed",   "One Useful Thing (Mollick)", 5, 7),
-    ("https://www.lennysnewsletter.com/feed", "Lenny's Newsletter",         5, 7),
+# Tương thích ngược: danh sách phẳng (url, name) nếu chỗ nào còn dùng kiểu cũ.
+RSS_SOURCES: list[tuple[str, str]] = [
+    (url, name)
+    for cat in CATEGORIES.values()
+    for (url, name) in cat["feeds"]
 ]
 
+# Số bài tối đa lấy mỗi feed mỗi lần chạy (tránh ôm quá nhiều).
+MAX_PER_FEED = 15
 
-def fetch_all():
-    """Fetch from all sources, return categorized data."""
-    print("Fetching HuggingFace Papers...")
-    papers = fetch_huggingface_papers()
-    print(f"  Got {len(papers)} papers")
 
-    print("Fetching GitHub Trending...")
-    projects = fetch_github_trending()
-    print(f"  Got {len(projects)} projects")
+def _to_iso(entry) -> str | None:
+    """Lấy thời điểm xuất bản ở dạng ISO nếu có."""
+    for key in ("published_parsed", "updated_parsed"):
+        t = entry.get(key)
+        if t:
+            return time.strftime("%Y-%m-%dT%H:%M:%S", t)
+    return None
 
-    print("Fetching Hacker News...")
-    hn_items = fetch_hacker_news()
-    print(f"  Got {len(hn_items)} items")
 
-    print("Fetching RSS feeds...")
-    news = list(hn_items)
-    for url, name, max_items, cutoff_days in RSS_SOURCES:
-        feed_items = fetch_rss_feed(url, name, max_items=max_items, cutoff_days=cutoff_days)
-        print(f"  [{name}] Got {len(feed_items)} items")
-        news.extend(feed_items)
+def fetch_category(cat_key: str) -> list[dict]:
+    """Fetch toàn bộ feed của một category, trả về list item chuẩn hóa."""
+    items: list[dict] = []
+    cat = CATEGORIES[cat_key]
+    for url, source_name in cat["feeds"]:
+        try:
+            parsed = feedparser.parse(url)
+            for entry in parsed.entries[:MAX_PER_FEED]:
+                link = entry.get("link", "")
+                if not link:
+                    continue
+                items.append({
+                    "title": (entry.get("title") or "").strip(),
+                    "url": link.strip(),
+                    "summary": (entry.get("summary") or "").strip(),
+                    "source": source_name,
+                    "category": cat_key,
+                    "category_label": cat["label"],
+                    "published": _to_iso(entry),
+                })
+        except Exception as e:  # 1 feed chết không làm hỏng cả run
+            print(f"[sources] Lỗi khi đọc {url}: {e}")
+    return items
 
-    data = {
-        "papers": dedupe_items(papers),
-        "projects": dedupe_items(projects),
-        "news": dedupe_items(news),
-    }
 
-    deduped_total = sum(len(v) for v in data.values())
-    raw_total = len(papers) + len(projects) + len(news)
-    print(f"Deduped {raw_total} raw items to {deduped_total} unique items")
-    return data
+def fetch_all() -> list[dict]:
+    """Fetch tất cả category. Mỗi item có trường 'category' để gom nhóm khi tóm tắt."""
+    out: list[dict] = []
+    for cat_key in CATEGORIES:
+        out.extend(fetch_category(cat_key))
+    return out
+
+
+if __name__ == "__main__":
+    data = fetch_all()
+    print(f"Tổng {len(data)} bài thô.")
+    for it in data[:5]:
+        print(f"- [{it['category']}] {it['title']}  ({it['source']})")
