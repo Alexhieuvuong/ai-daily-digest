@@ -149,6 +149,78 @@ class TestFilterPipelineAndState(unittest.TestCase):
                          json.dumps(state, sort_keys=True))
 
 
+class TestAccumulation(unittest.TestCase):
+    def setUp(self):
+        self.now = dedup._now_vn()
+
+    def test_extra_window_dedups_against_pending(self):
+        pending = [
+            {"url": "https://techcrunch.com/openai-probe/",
+             "title": "OpenAI faces investigation from state AGs",
+             "summary": "A coalition of state attorneys general opened a probe."},
+        ]
+        batch = [
+            # đã có trong pending (trùng URL) -> loại
+            {"url": "https://techcrunch.com/openai-probe/",
+             "title": "OpenAI faces investigation from state AGs",
+             "summary": "A coalition of state attorneys general opened a probe."},
+            # bài hoàn toàn mới -> giữ
+            {"url": "https://vnexpress.net/el-nino-5085535.html",
+             "title": "El Nino mạnh đe dọa nắng nóng",
+             "summary": "Dự báo nắng nóng khốc liệt diện rộng."},
+        ]
+        state = {}
+        survivors = dedup.filter_new_articles(batch, state, extra_window=pending,
+                                              record=False, now=self.now)
+        self.assertEqual(len(survivors), 1)
+        self.assertIn("El Nino", survivors[0]["title"])
+        # record=False -> không đánh dấu đã gửi
+        self.assertEqual(state, {})
+
+    def test_should_send_threshold(self):
+        items5 = [{"title": f"t{i}"} for i in range(dedup.MIN_ITEMS)]
+        items_few = [{"title": "t0"}]
+        # đủ ngưỡng -> gửi
+        self.assertTrue(dedup.should_send(items5, self.now, self.now))
+        # ít tin + vừa gửi gần đây -> chưa gửi
+        self.assertFalse(dedup.should_send(
+            items_few, self.now - timedelta(hours=2), self.now))
+        # rỗng -> không gửi
+        self.assertFalse(dedup.should_send([], None, self.now))
+
+    def test_should_send_daily_guarantee(self):
+        items_few = [{"title": "t0"}]
+        # quá DAILY_MAX_GAP_HOURS kể từ lần gửi trước, có >=1 tin -> flush
+        old = self.now - timedelta(hours=dedup.DAILY_MAX_GAP_HOURS + 1)
+        self.assertTrue(dedup.should_send(items_few, old, self.now))
+        # chưa có mốc (None) + ít tin -> KHÔNG gửi vội (caller đặt baseline)
+        self.assertFalse(dedup.should_send(items_few, None, self.now))
+
+    def test_prune_pending_drops_stale(self):
+        items = [
+            {"title": "cũ", "first_seen":
+                (self.now - timedelta(hours=dedup.PENDING_MAX_HOURS + 2)).isoformat()},
+            {"title": "mới", "first_seen": (self.now - timedelta(hours=1)).isoformat()},
+            {"title": "không mốc"},  # thiếu first_seen -> giữ
+        ]
+        kept = [i["title"] for i in dedup.prune_pending(items, self.now)]
+        self.assertEqual(kept, ["mới", "không mốc"])
+
+    def test_pending_roundtrip(self):
+        buf = {"last_sent": self.now.isoformat(timespec="seconds"),
+               "items": [{"title": "A", "first_seen": self.now.isoformat()}]}
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "pending.json")
+            dedup.save_pending(buf, path)
+            loaded = dedup.load_pending(path)
+        self.assertEqual(loaded["last_sent"], buf["last_sent"])
+        self.assertEqual(loaded["items"], buf["items"])
+
+    def test_load_pending_missing_file(self):
+        loaded = dedup.load_pending("/nonexistent/pending.json")
+        self.assertEqual(loaded, {"last_sent": None, "items": []})
+
+
 class TestRobustness(unittest.TestCase):
     def test_missing_fields_do_not_raise(self):
         batch = [

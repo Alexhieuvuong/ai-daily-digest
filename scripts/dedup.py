@@ -49,6 +49,16 @@ WINDOW_HOURS = 24
 NEAR_DUP_THRESHOLD = 0.80
 BODY_CHARS = 200  # số ký tự đầu của body đưa vào content hash / lead
 
+# ── Gom tin & ngưỡng gửi (tránh email lèo tèo + tiết kiệm token) ──────────────
+# Buffer tích lũy các tin ĐÃ khử trùng nhưng CHƯA gửi (giữ qua các lần chạy).
+PENDING_PATH = os.environ.get("PENDING_PATH", "data/pending.json")
+# Chỉ gửi khi tích đủ MIN_ITEMS tin...
+MIN_ITEMS = int(os.environ.get("DIGEST_MIN_ITEMS", "5"))
+# ...HOẶC đã quá DAILY_MAX_GAP_HOURS kể từ lần gửi trước (đảm bảo mỗi ~ngày một bản).
+DAILY_MAX_GAP_HOURS = int(os.environ.get("DIGEST_MAX_GAP_HOURS", "20"))
+# Tin nằm trong buffer quá lâu thì bỏ (tránh gửi tin quá cũ).
+PENDING_MAX_HOURS = int(os.environ.get("PENDING_MAX_HOURS", "48"))
+
 # Tham số query mang tính tracking — loại bỏ khi chuẩn hóa URL.
 _TRACKING_PARAMS = {
     "gclid", "fbclid", "mc_cid", "mc_eid", "ref", "ref_src", "igshid",
@@ -207,17 +217,84 @@ def save_state(state: dict, path: str = STATE_PATH, now: datetime | None = None)
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+# ── Buffer tích lũy (pending) + quyết định gửi ───────────────────────────────
+
+def load_pending(path: str = PENDING_PATH) -> dict:
+    """Trả về {'last_sent': iso|None, 'items': [article+first_seen, ...]}."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"last_sent": None, "items": []}
+    if not isinstance(data, dict):
+        return {"last_sent": None, "items": []}
+    data.setdefault("last_sent", None)
+    items = data.get("items")
+    data["items"] = items if isinstance(items, list) else []
+    return data
+
+
+def save_pending(buf: dict, path: str = PENDING_PATH) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(buf, f, ensure_ascii=False, indent=2)
+
+
+def prune_pending(items: list[dict], now: datetime | None = None) -> list[dict]:
+    """Bỏ tin đã nằm trong buffer lâu hơn PENDING_MAX_HOURS (theo first_seen)."""
+    now = now or _now_vn()
+    cutoff = now - timedelta(hours=PENDING_MAX_HOURS)
+    kept = []
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        ts = _parse_ts(it.get("first_seen"))
+        if ts is None or ts >= cutoff:  # thiếu mốc -> giữ lại
+            kept.append(it)
+    return kept
+
+
+def should_send(items: list[dict], last_sent, now: datetime | None = None) -> bool:
+    """Gửi khi: đủ MIN_ITEMS tin, HOẶC có tin và đã quá DAILY_MAX_GAP_HOURS từ lần gửi trước.
+
+    `last_sent`: datetime (đã parse) hoặc None.
+    """
+    if not items:
+        return False
+    if len(items) >= MIN_ITEMS:
+        return True
+    now = now or _now_vn()
+    if last_sent is None:
+        # Chưa có mốc -> KHÔNG gửi vội (tránh email lèo tèo lần đầu); caller sẽ đặt
+        # baseline để đồng hồ "đảm bảo ngày" bắt đầu chạy từ bây giờ.
+        return False
+    return (now - last_sent) >= timedelta(hours=DAILY_MAX_GAP_HOURS)
+
+
 # ── Pipeline 3 tầng ──────────────────────────────────────────────────────────
 
 def filter_new_articles(articles: list[dict], state: dict,
+                        extra_window: list[dict] | None = None,
                         now: datetime | None = None, record: bool = True) -> list[dict]:
     """Lọc ra các bài MỚI (không trùng trong cửa sổ 24h) qua 3 tầng và ghi vào state.
+
+    `extra_window`: danh sách bài đã biết (vd buffer pending) cũng đưa vào so trùng,
+    để không thêm lại tin đã chờ gửi. `record=False` để KHÔNG đánh dấu đã gửi (dùng khi
+    mới chỉ gom vào buffer, chưa thật sự email).
 
     Bền với field thiếu/lỗi: bài không có cả url lẫn title thì bỏ qua, không gây crash.
     """
     now = now or _now_vn()
     prune_state(state, now)
     window_urls, window_hashes, window_texts = _window_index(state)
+    for art in (extra_window or []):
+        if not isinstance(art, dict):
+            continue
+        nu = normalize_url(art.get("url", ""))
+        if nu:
+            window_urls.add(nu)
+        window_hashes.add(content_hash(art))
+        window_texts.append(_sim_text(art))
 
     survivors: list[dict] = []
     survivor_hashes: set[str] = set()
