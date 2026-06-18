@@ -777,10 +777,14 @@ def parse_digest(text: str) -> dict:
         if current_cat is None:
             continue
 
-        item_match = re.match(r'^(?:-|\d+\.)\s+\*\*\[?(.+?)\]?\*\*\s*[：:]?\s*(.*)', line)
+        # Tiêu đề mục: số thứ tự có thể nằm trước `**` (định dạng cũ `1. **...**`
+        # hoặc `- **...**`) HOẶC nằm trong phần in đậm (`**1. ...**`). Cả hai đều
+        # được chấp nhận; số thứ tự bị loại khỏi title vì web hiển thị dạng thẻ.
+        item_match = re.match(r'^(?:-|\d+\.)?\s*\*\*\[?(.+?)\]?\*\*\s*[：:]?\s*(.*)', line)
         if item_match:
+            title = re.sub(r'^\s*\d+[\.\)]\s*', '', item_match.group(1).strip())
             current_item = {
-                "title": item_match.group(1).strip(),
+                "title": title,
                 "desc": item_match.group(2).strip(),
                 "stars": "",
                 "star_count": 0,
@@ -795,7 +799,7 @@ def parse_digest(text: str) -> dict:
 
         stripped = line.strip()
 
-        star_match = re.match(r'^-\s+Quan trọng[：:]\s*(.+)', stripped)
+        star_match = re.match(r'^(?:-\s+)?Quan trọng[：:]\s*(.+)', stripped)
         if star_match:
             raw = star_match.group(1)
             filled = raw.count('★')
@@ -804,12 +808,12 @@ def parse_digest(text: str) -> dict:
             current_item["star_count"] = filled
             continue
 
-        val_match = re.match(r'^-\s+Vì sao[：:]\s*(.+)', stripped)
+        val_match = re.match(r'^(?:-\s+)?Vì sao[：:]\s*(.+)', stripped)
         if val_match:
             current_item["value"] = val_match.group(1).strip()
             continue
 
-        src_match = re.match(r'^-\s+Nguồn[：:]\s*(.+)', stripped)
+        src_match = re.match(r'^(?:-\s+)?Nguồn[：:]\s*(.+)', stripped)
         if src_match:
             links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', src_match.group(1))
             current_item["sources"] = [{"name": n, "url": u} for n, u in links]

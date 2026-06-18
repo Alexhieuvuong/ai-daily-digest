@@ -69,11 +69,12 @@ def _build_user_prompt(grouped, date_str):
 Dữ liệu thô (JSON) — mỗi bài có title, url, summary, source, category:
 {json_block}
 
-Định dạng output cho mỗi mục:
-1. **<Tiêu đề tóm tắt>**: <2-3 câu>.
-   - Quan trọng: ★★★☆☆
-   - Vì sao: <ngắn gọn>
-   - Nguồn: [<source>](<url>)
+Định dạng output cho mỗi mục (SỐ THỨ TỰ nằm TRONG phần tiêu đề in đậm, đánh số lại từ 1 trong mỗi nhóm; ba dòng Quan trọng/Vì sao/Nguồn KHÔNG đánh số và KHÔNG dùng dấu gạch đầu dòng; phân tách các mục bằng một dòng chỉ chứa `___`):
+**1. <Tiêu đề tóm tắt>**: <2-3 câu>.
+Quan trọng: ★★★☆☆
+Vì sao: <ngắn gọn>
+Nguồn: [<source>](<url>)
+___
 
 Dùng tiêu đề `## <category_label>` cho mỗi nhóm, và `### Quan sát hôm nay` cho phần nhận định cuối."""
 

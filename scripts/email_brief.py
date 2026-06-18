@@ -47,7 +47,9 @@ def send_email(subject: str, markdown_body: str) -> None:
     to_addr = os.environ.get("EMAIL_TO", DEFAULT_TO)
     from_addr = os.environ.get("EMAIL_FROM", DEFAULT_FROM)
 
-    html = _wrap_html(md_lib.markdown(markdown_body, extensions=["extra"]))
+    # nl2br: giữ mỗi dòng Quan trọng/Vì sao/Nguồn trên một dòng riêng vì format
+    # mới không còn dùng dấu gạch đầu dòng cho ba trường này.
+    html = _wrap_html(md_lib.markdown(markdown_body, extensions=["extra", "nl2br"]))
 
     try:
         resp = requests.post(
