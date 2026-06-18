@@ -12,7 +12,7 @@ from pathlib import Path
 from sources import fetch_all
 from summarize import summarize
 from generate_site import generate_site
-from dedup import load_state, filter_new, save_state
+from dedup import load_state, filter_new_articles, save_state
 from email_brief import send_email
 
 
@@ -36,8 +36,8 @@ def main():
     raw = fetch_all()
     print(f"  Tổng {len(raw)} bài thô.")
 
-    # Step 3: khử trùng lặp xuyên lần chạy
-    new_items = filter_new(raw, state)
+    # Step 3: khử trùng lặp đa tầng (URL / content hash / gần trùng) trong cửa sổ 24h
+    new_items = filter_new_articles(raw, state)
     print(f"  Còn {len(new_items)} bài mới sau khử trùng lặp.")
     if not new_items:
         print("Không có tin mới — bỏ qua lần chạy này.")
@@ -77,9 +77,9 @@ def main():
     print("\n[Bước 6] Gửi email...")
     send_email(f"Bản tin tổng hợp · {date_str} {now.strftime('%H:%M')}", markdown)
 
-    # Step 9: lưu watermark CUỐI CÙNG, sau khi mọi thứ xong
+    # Step 9: lưu trạng thái CUỐI CÙNG (prune cửa sổ 24h + ghi xuống đĩa)
     save_state(state)
-    print("\nXong! Đã cập nhật data/seen.json.")
+    print("\nXong! Đã cập nhật data/sent_state.json.")
 
 
 if __name__ == "__main__":
