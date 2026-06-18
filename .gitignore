@@ -3,3 +3,6 @@ __pycache__/
 .env
 .venv/
 .DS_Store
+
+# Bản dump tin thô — chỉ để debug cục bộ, không cần commit (tránh phình git).
+data/*.raw.json

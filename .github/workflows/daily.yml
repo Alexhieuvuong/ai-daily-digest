@@ -15,6 +15,7 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    timeout-minutes: 15        # chặn trên: một feed/treo bất ngờ không đốt cả tiếng Actions
     steps:
       - name: Checkout
         uses: actions/checkout@v5

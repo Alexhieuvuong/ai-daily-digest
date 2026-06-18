@@ -14,8 +14,16 @@ Phụ thuộc: feedparser  (đã có hoặc thêm vào requirements.txt)
 """
 
 from __future__ import annotations
+import os
+import socket
 import time
 import feedparser
+
+# Timeout mạng mặc định (giây) khi tải feed — feedparser.parse() không có tham số
+# timeout riêng, nên đặt mặc định cho socket để một feed treo không làm kẹt cả lần
+# chạy. Các bước khác (DeepSeek/Resend) tự đặt timeout riêng nên không bị ảnh hưởng.
+FEED_TIMEOUT = int(os.environ.get("FEED_TIMEOUT", "15"))
+socket.setdefaulttimeout(FEED_TIMEOUT)
 
 # ---- Cấu hình nguồn theo category -------------------------------------------
 # Mỗi feed: (url, tên_nguồn_hiển_thị)
