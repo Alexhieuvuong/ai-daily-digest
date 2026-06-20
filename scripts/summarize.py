@@ -78,31 +78,42 @@ def _max_items_for(key):
 
 
 def _build_user_prompt(grouped, date_str):
-    # Danh sách category_label kèm số mục tối đa, đúng thứ tự. Cân bằng nguồn trong từng
-    # category (chỉ khi >1 nguồn) trước khi đưa vào prompt để một đầu báo không lấn át.
+    # Dữ liệu được TÁCH SẴN theo nhóm (mỗi nhóm một khối JSON riêng) thay vì một danh
+    # sách phẳng, để model không tự xếp lại bài theo chủ đề — vd đẩy tin vĩ mô CafeF
+    # sang nhóm "Việt Nam". Cân bằng nguồn trong từng nhóm (chỉ khi >1 nguồn).
     labels = []
-    payload = []
+    blocks = []
     for key, items in grouped.items():
         label = items[0].get("category_label") or CATEGORIES.get(key, {}).get("label", key)
-        labels.append(f"{label} — tối đa {_max_items_for(key)} mục")
+        max_items = _max_items_for(key)
+        labels.append(f"{label} — tối đa {max_items} mục")
         n_sources = len({it.get("source", "") for it in items})
         candidates = _balance_by_source(items) if n_sources > 1 else items
-        for it in candidates:
-            payload.append({
+        payload = [
+            {
                 "title": it.get("title", ""),
                 "url": it.get("url", ""),
                 "summary": (it.get("summary") or "")[:500],
                 "source": it.get("source", ""),
-                "category": it.get("category_label") or it.get("category", ""),
-            })
+            }
+            for it in candidates
+        ]
+        blocks.append(
+            f"### NHÓM «{label}» (chọn tối đa {max_items} mục, CHỈ từ các bài dưới đây)\n"
+            + json.dumps(payload, ensure_ascii=False, indent=2)
+        )
     labels_block = "\n".join(f"- {lb}" for lb in labels)
-    json_block = json.dumps(payload, ensure_ascii=False, indent=2)
+    data_block = "\n\n".join(blocks)
 
-    return f"""Hôm nay {date_str}. Hãy tạo bản digest theo các category sau, đúng thứ tự:
+    return f"""Hôm nay {date_str}. Tạo bản digest gồm ĐÚNG các nhóm sau, đúng thứ tự:
 {labels_block}
 
-Dữ liệu thô (JSON) — mỗi bài có title, url, summary, source, category:
-{json_block}
+QUY TẮC PHÂN NHÓM (bắt buộc):
+- Mỗi bài CHỈ được tóm tắt trong nhóm mà nó được liệt kê bên dưới; TUYỆT ĐỐI không chuyển bài sang nhóm khác dù chủ đề có vẻ hợp nhóm khác.
+- KHÔNG tạo nhóm mới và KHÔNG bỏ nhóm nào trong danh sách trên (nếu một nhóm không có bài thì ghi "_Không có tin mới._").
+
+Dữ liệu thô, ĐÃ TÁCH theo nhóm:
+{data_block}
 
 Định dạng output cho mỗi mục (SỐ THỨ TỰ nằm TRONG phần tiêu đề in đậm, đánh số lại từ 1 trong mỗi nhóm; ba dòng Quan trọng/Vì sao/Nguồn KHÔNG đánh số và KHÔNG dùng dấu gạch đầu dòng; phân tách các mục bằng một dòng chỉ chứa `___`):
 **1. <Tiêu đề tóm tắt>**: <2-3 câu>.
@@ -111,7 +122,7 @@ Vì sao: <ngắn gọn>
 Nguồn: [<source>](<url>)
 ___
 
-Dùng tiêu đề `## <category_label>` cho mỗi nhóm, và `### Quan sát hôm nay` cho phần nhận định cuối."""
+Dùng tiêu đề `## <category_label>` (đúng nhãn nhóm ở trên) cho mỗi nhóm, và `### Quan sát hôm nay` cho phần nhận định cuối."""
 
 
 def _wrap(text, date_str, model):
