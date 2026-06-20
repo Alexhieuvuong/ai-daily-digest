@@ -33,8 +33,8 @@ socket.setdefaulttimeout(FEED_TIMEOUT)
 # tin (Việt Nam được cắt gọn; tài chính/công nghệ/AI lấy nhiều hơn). Cân bằng số bài
 # mỗi nguồn xử lý ở summarize.py (round-robin + cap khi category có >1 nguồn).
 #
-# Chủ ý nguồn (theo yêu cầu): Việt Nam CHỈ lấy VnExpress; mảng công nghệ & AI giữ tinh
-# (không pha loãng) nên Công nghệ chỉ TechCrunch và AI chỉ The Verge AI.
+# Chủ ý nguồn (theo yêu cầu): Việt Nam CHỈ lấy VnExpress. Các mảng còn lại TRỘN nhiều
+# nguồn và để bước tóm tắt ưu tiên theo MỨC QUAN TRỌNG của tin (không ép cân bằng nguồn).
 CATEGORIES: dict[str, dict] = {
     "vietnam": {
         "label": "🇻🇳 Việt Nam",
@@ -69,6 +69,7 @@ CATEGORIES: dict[str, dict] = {
         "max_items": 7,
         "feeds": [
             ("https://techcrunch.com/feed/", "TechCrunch"),
+            ("https://www.cnbc.com/id/19854910/device/rss/rss.html", "CNBC Tech"),
         ],
     },
     "ai": {
@@ -76,6 +77,7 @@ CATEGORIES: dict[str, dict] = {
         "max_items": 7,
         "feeds": [
             ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI"),
+            ("https://techcrunch.com/category/artificial-intelligence/feed/", "TechCrunch AI"),
         ],
     },
 }

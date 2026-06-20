@@ -29,8 +29,8 @@ It's a customized fork of [`Jimmuji/ai-daily-digest`](https://github.com/Jimmuji
  ├── 🇻🇳 Việt Nam               ← VnExpress (Thời sự, Thế giới)
  ├── 💰 Kinh tế / Tài chính     ← CNBC (Top News / Economy / Finance) + VnExpress Kinh doanh
  ├── 📈 Chứng khoán VN          ← CafeF (Chứng khoán, TC quốc tế, TC-Ngân hàng, Vĩ mô)
- ├── 💻 Công nghệ               ← TechCrunch
- └── 🤖 AI                      ← The Verge AI
+ ├── 💻 Công nghệ               ← TechCrunch + CNBC Tech
+ └── 🤖 AI                      ← The Verge AI + TechCrunch AI
  │
  ▼
 🧹 De-duplicate across runs (data/sent_state.json — 24h sliding window)

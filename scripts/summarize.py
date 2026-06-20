@@ -17,9 +17,9 @@ import requests
 
 from sources import CATEGORIES, DEFAULT_MAX_ITEMS
 
-# Trần số bài mỗi nguồn được đưa vào pool ứng viên CHO MỖI category (chỉ áp dụng khi
-# category có >1 nguồn), để LLM không chỉ thấy toàn tin của một đầu báo (vd CNBC) rồi
-# chọn lệch hẳn về nguồn đó. Category 1 nguồn không cần cân bằng nên bỏ qua.
+# SÀN trần số bài mỗi nguồn trong pool ứng viên của một category (chỉ khi >1 nguồn).
+# Trần thực tế = max(PER_SOURCE_CAP, max_items của category) để pool đủ rộng cho model
+# ưu tiên theo độ quan trọng, đồng thời round-robin vẫn cho mọi nguồn xuất hiện sớm.
 PER_SOURCE_CAP = int(os.environ.get("DIGEST_PER_SOURCE_CAP", "4"))
 
 
@@ -28,6 +28,7 @@ Nhiệm vụ: từ danh sách bài thô, CHỌN LỌC những tin đáng chú ý
 Quy tắc:
 - Chỉ dùng thông tin có trong bài, TUYỆT ĐỐI không bịa.
 - Số mục tối đa của MỖI category được ghi rõ trong phần yêu cầu bên dưới; gộp các bài cùng chủ đề thành một mục.
+- ƯU TIÊN THEO ĐỘ QUAN TRỌNG: trong mỗi nhóm chọn các tin quan trọng/ảnh hưởng rộng nhất và XẾP theo mức quan trọng giảm dần (tin quan trọng nhất lên đầu). Nhóm có thể TRỘN nhiều nguồn — không cần cân bằng số tin giữa các nguồn.
 - Mỗi mục: 2-3 câu tiếng Việt, nêu vì sao đáng chú ý, kèm link gốc.
 - Gắn mức quan trọng theo thang hiệu ứng/độ phủ (đừng lạm phát sao):
   ★★★★★ = sự kiện lớn tầm quốc gia/toàn cầu, ảnh hưởng nhiều người (chính sách lớn, vĩ mô, khủng hoảng).
@@ -87,8 +88,11 @@ def _build_user_prompt(grouped, date_str):
         label = items[0].get("category_label") or CATEGORIES.get(key, {}).get("label", key)
         max_items = _max_items_for(key)
         labels.append(f"{label} — tối đa {max_items} mục")
+        # Trộn nguồn nhưng KHÔNG ép cân bằng: trần mỗi nguồn = max_items để không loại
+        # sớm tin quan trọng; model tự ưu tiên theo độ quan trọng khi chọn top.
         n_sources = len({it.get("source", "") for it in items})
-        candidates = _balance_by_source(items) if n_sources > 1 else items
+        cap = max(PER_SOURCE_CAP, max_items)
+        candidates = _balance_by_source(items, cap=cap) if n_sources > 1 else items
         payload = [
             {
                 "title": it.get("title", ""),

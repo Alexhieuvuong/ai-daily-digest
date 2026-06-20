@@ -62,12 +62,13 @@ class TestBuildUserPrompt(unittest.TestCase):
         prompt = _build_user_prompt(grouped, "2026-06-20")
         self.assertEqual(prompt.count("https://x/TechCrunch"), 9)
 
-    def test_multi_source_balanced_and_capped(self):
-        grouped = {"kinh_te": self._items("kinh_te", "💰", "CNBC", 10)
+    def test_multi_source_capped_at_max_items(self):
+        # Trần mỗi nguồn = max(PER_SOURCE_CAP, max_items). kinh_te có max_items=7 nên
+        # CNBC (12 bài) bị cắt còn 7; nguồn ít tin giữ nguyên.
+        grouped = {"kinh_te": self._items("kinh_te", "💰", "CNBC", 12)
                                 + self._items("kinh_te", "💰", "VnExpress KD", 2)}
         prompt = _build_user_prompt(grouped, "2026-06-20")
-        # CNBC bị cap ở PER_SOURCE_CAP (4), VnExpress KD giữ cả 2
-        self.assertEqual(prompt.count('"source": "CNBC"'), 4)
+        self.assertEqual(prompt.count('"source": "CNBC"'), _max_items_for("kinh_te"))
         self.assertEqual(prompt.count('"source": "VnExpress KD"'), 2)
 
 
