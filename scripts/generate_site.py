@@ -686,7 +686,7 @@ HEADER_HTML = """
 FOOTER_HTML = """
 <button id="backToTop" aria-label="Lên đầu trang">↑</button>
 <footer class="site-footer">
-  © Bản tin tổng hợp · Tự động thu thập · Tóm tắt bằng AI · Cập nhật mỗi 4 giờ
+  © Bản tin tổng hợp · Tự động thu thập · Tóm tắt bằng AI · Cập nhật mỗi 6 giờ
 </footer>
 """
 
@@ -725,6 +725,10 @@ def cat_type(name: str, emoji: str = "") -> str:
     s = ((name or "") + " " + (emoji or "")).lower()
     if "việt nam" in s:
         return "vietnam"
+    if "chứng khoán" in s:        # CafeF — đặt TRƯỚC 'tài chính' để không rơi vào kinh_te
+        return "chung_khoan_vn"
+    if "🤖" in s or "trí tuệ" in s or re.search(r"\bai\b", s):
+        return "ai"
     if "kinh tế" in s or "tài chính" in s:
         return "kinh_te"
     if "công nghệ" in s:
@@ -736,7 +740,9 @@ CAT_LABELS = [
     ("all", "Tất cả"),
     ("vietnam", "🇻🇳 Việt Nam"),
     ("kinh_te", "💰 Kinh tế"),
+    ("chung_khoan_vn", "📈 Chứng khoán VN"),
     ("cong_nghe", "💻 Công nghệ"),
+    ("ai", "🤖 AI"),
 ]
 
 
@@ -982,7 +988,7 @@ def build_day_html(date_str: str, digest: dict, dates: list[str],
 
     return PAGE_TEMPLATE.format(
         title=f"{SITE_TITLE} · {label_of(date_str)}",
-        description=f"Bản tin tổng hợp ngày {label_of(date_str)}: Việt Nam, Kinh tế, Công nghệ.",
+        description=f"Bản tin tổng hợp ngày {label_of(date_str)}: Việt Nam, Tài chính, Chứng khoán, Công nghệ, AI.",
         css=CSS,
         header=HEADER_HTML.format(base="../", repo=REPO_URL),
         body=body,
@@ -1082,7 +1088,7 @@ def build_index_html(dates: list[str], latest_digest: dict,
     <div class="container">
       <div class="hero">
         <h1>{SITE_TITLE}</h1>
-        <p>Việt Nam · Kinh tế · Công nghệ — tự động thu thập, tóm tắt bằng AI, cập nhật mỗi 4 giờ</p>
+        <p>Việt Nam · Tài chính · Chứng khoán · Công nghệ · AI — tự động thu thập, tóm tắt bằng AI, cập nhật mỗi 6 giờ</p>
         <div class="stats">
           <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">kỳ bản tin</div></div>
           <div class="stat"><div class="num">3</div><div class="lbl">chuyên mục</div></div>
@@ -1096,8 +1102,8 @@ def build_index_html(dates: list[str], latest_digest: dict,
     </div>"""
 
     return PAGE_TEMPLATE.format(
-        title=f"{SITE_TITLE} · Việt Nam · Kinh tế · Công nghệ",
-        description="Bản tin tổng hợp tự động: Việt Nam, Kinh tế, Công nghệ — tóm tắt bằng AI, cập nhật mỗi 4 giờ.",
+        title=f"{SITE_TITLE} · Việt Nam · Tài chính · Chứng khoán · Công nghệ · AI",
+        description="Bản tin tổng hợp tự động: Việt Nam, Tài chính, Chứng khoán, Công nghệ, AI — tóm tắt bằng AI, cập nhật mỗi 6 giờ.",
         css=CSS,
         header=HEADER_HTML.format(base="", repo=REPO_URL),
         body=body,

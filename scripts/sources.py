@@ -29,38 +29,59 @@ socket.setdefaulttimeout(FEED_TIMEOUT)
 
 # ---- Cấu hình nguồn theo category -------------------------------------------
 # Mỗi feed: (url, tên_nguồn_hiển_thị)
-# Mỗi category nên gồm NHIỀU đầu báo để không bị một nguồn áp đảo (vd VnExpress hay
-# CNBC). Việc cân bằng số bài mỗi nguồn được xử lý ở summarize.py (round-robin + cap),
-# còn ở đây chỉ cần đảm bảo đa dạng nguồn.
+# Cấu hình nguồn theo category. `max_items` = số mục tối đa cho category đó trong bản
+# tin (Việt Nam được cắt gọn; tài chính/công nghệ/AI lấy nhiều hơn). Cân bằng số bài
+# mỗi nguồn xử lý ở summarize.py (round-robin + cap khi category có >1 nguồn).
+#
+# Chủ ý nguồn (theo yêu cầu): Việt Nam CHỈ lấy VnExpress; mảng công nghệ & AI giữ tinh
+# (không pha loãng) nên Công nghệ chỉ TechCrunch và AI chỉ The Verge AI.
 CATEGORIES: dict[str, dict] = {
     "vietnam": {
         "label": "🇻🇳 Việt Nam",
+        "max_items": 3,
         "feeds": [
             ("https://vnexpress.net/rss/thoi-su.rss", "VnExpress Thời sự"),
             ("https://vnexpress.net/rss/the-gioi.rss", "VnExpress Thế giới"),
-            ("https://tuoitre.vn/rss/thoi-su.rss", "Tuổi Trẻ Thời sự"),
-            ("https://thanhnien.vn/rss/thoi-su.rss", "Thanh Niên Thời sự"),
         ],
     },
     "kinh_te": {
         "label": "💰 Kinh tế / Tài chính",
+        "max_items": 7,
         "feeds": [
             ("https://www.cnbc.com/id/100003114/device/rss/rss.html", "CNBC Top News"),
             ("https://www.cnbc.com/id/20910258/device/rss/rss.html", "CNBC Economy"),
             ("https://www.cnbc.com/id/10000664/device/rss/rss.html", "CNBC Finance"),
             ("https://vnexpress.net/rss/kinh-doanh.rss", "VnExpress Kinh doanh"),
-            ("https://tuoitre.vn/rss/kinh-doanh.rss", "Tuổi Trẻ Kinh doanh"),
+        ],
+    },
+    "chung_khoan_vn": {
+        "label": "📈 Tài chính / Chứng khoán VN",
+        "max_items": 7,
+        "feeds": [
+            ("https://cafef.vn/thi-truong-chung-khoan.rss", "CafeF Chứng khoán"),
+            ("https://cafef.vn/tai-chinh-quoc-te.rss", "CafeF Tài chính quốc tế"),
+            ("https://cafef.vn/tai-chinh-ngan-hang.rss", "CafeF Tài chính - Ngân hàng"),
+            ("https://cafef.vn/vi-mo-dau-tu.rss", "CafeF Vĩ mô - Đầu tư"),
         ],
     },
     "cong_nghe": {
         "label": "💻 Công nghệ",
+        "max_items": 7,
         "feeds": [
             ("https://techcrunch.com/feed/", "TechCrunch"),
-            ("https://www.cnbc.com/id/19854910/device/rss/rss.html", "CNBC Tech"),
-            ("https://vnexpress.net/rss/so-hoa.rss", "VnExpress Số hóa"),
+        ],
+    },
+    "ai": {
+        "label": "🤖 AI",
+        "max_items": 7,
+        "feeds": [
+            ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge AI"),
         ],
     },
 }
+
+# Số mục mặc định nếu một category không khai báo max_items.
+DEFAULT_MAX_ITEMS = 7
 
 # Tương thích ngược: danh sách phẳng (url, name) nếu chỗ nào còn dùng kiểu cũ.
 RSS_SOURCES: list[tuple[str, str]] = [

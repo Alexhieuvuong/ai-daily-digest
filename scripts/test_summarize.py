@@ -10,7 +10,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from summarize import _balance_by_source  # noqa: E402
+from summarize import _balance_by_source, _build_user_prompt, _max_items_for  # noqa: E402
 
 
 def _mk(source, n):
@@ -43,6 +43,32 @@ class TestBalanceBySource(unittest.TestCase):
     def test_single_source_passthrough_up_to_cap(self):
         items = _mk("A", 2)
         self.assertEqual(len(_balance_by_source(items, cap=4)), 2)
+
+
+class TestBuildUserPrompt(unittest.TestCase):
+    def _items(self, key, label, source, n):
+        return [{"category": key, "category_label": label,
+                 "source": source, "title": f"{source}{i}",
+                 "url": f"https://x/{source}{i}", "summary": "s"} for i in range(n)]
+
+    def test_per_category_max_items_in_labels(self):
+        grouped = {"vietnam": self._items("vietnam", "🇻🇳 Việt Nam", "VnExpress Thời sự", 6)}
+        prompt = _build_user_prompt(grouped, "2026-06-20")
+        self.assertIn(f"tối đa {_max_items_for('vietnam')} mục", prompt)
+
+    def test_single_source_not_capped_to_per_source_cap(self):
+        # cong_nghe có 1 nguồn (TechCrunch); KHÔNG bị cap 4 — phải đưa hết ứng viên.
+        grouped = {"cong_nghe": self._items("cong_nghe", "💻 Công nghệ", "TechCrunch", 9)}
+        prompt = _build_user_prompt(grouped, "2026-06-20")
+        self.assertEqual(prompt.count("https://x/TechCrunch"), 9)
+
+    def test_multi_source_balanced_and_capped(self):
+        grouped = {"kinh_te": self._items("kinh_te", "💰", "CNBC", 10)
+                                + self._items("kinh_te", "💰", "VnExpress KD", 2)}
+        prompt = _build_user_prompt(grouped, "2026-06-20")
+        # CNBC bị cap ở PER_SOURCE_CAP (4), VnExpress KD giữ cả 2
+        self.assertEqual(prompt.count('"source": "CNBC"'), 4)
+        self.assertEqual(prompt.count('"source": "VnExpress KD"'), 2)
 
 
 if __name__ == "__main__":

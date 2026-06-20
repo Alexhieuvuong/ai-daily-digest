@@ -15,10 +15,11 @@ from collections import OrderedDict
 
 import requests
 
-from sources import CATEGORIES
+from sources import CATEGORIES, DEFAULT_MAX_ITEMS
 
-# Trần số bài mỗi nguồn được đưa vào pool ứng viên CHO MỖI category, để LLM không chỉ
-# thấy toàn tin của một đầu báo (vd VnExpress/CNBC) rồi chọn top-5 lệch hẳn về nguồn đó.
+# Trần số bài mỗi nguồn được đưa vào pool ứng viên CHO MỖI category (chỉ áp dụng khi
+# category có >1 nguồn), để LLM không chỉ thấy toàn tin của một đầu báo (vd CNBC) rồi
+# chọn lệch hẳn về nguồn đó. Category 1 nguồn không cần cân bằng nên bỏ qua.
 PER_SOURCE_CAP = int(os.environ.get("DIGEST_PER_SOURCE_CAP", "4"))
 
 
@@ -26,7 +27,7 @@ SYSTEM_PROMPT = """Bạn là một biên tập viên tin tức kỳ cựu, viế
 Nhiệm vụ: từ danh sách bài thô, CHỌN LỌC những tin đáng chú ý nhất và viết bản tin tóm tắt.
 Quy tắc:
 - Chỉ dùng thông tin có trong bài, TUYỆT ĐỐI không bịa.
-- Mỗi category giữ tối đa 5 mục; gộp các bài cùng chủ đề thành một mục.
+- Số mục tối đa của MỖI category được ghi rõ trong phần yêu cầu bên dưới; gộp các bài cùng chủ đề thành một mục.
 - Mỗi mục: 2-3 câu tiếng Việt, nêu vì sao đáng chú ý, kèm link gốc.
 - Gắn mức quan trọng theo thang hiệu ứng/độ phủ (đừng lạm phát sao):
   ★★★★★ = sự kiện lớn tầm quốc gia/toàn cầu, ảnh hưởng nhiều người (chính sách lớn, vĩ mô, khủng hoảng).
@@ -72,27 +73,29 @@ def _balance_by_source(items, cap=PER_SOURCE_CAP):
     return out
 
 
+def _max_items_for(key):
+    return CATEGORIES.get(key, {}).get("max_items", DEFAULT_MAX_ITEMS)
+
+
 def _build_user_prompt(grouped, date_str):
-    # Danh sách category_label có tin, đúng thứ tự
+    # Danh sách category_label kèm số mục tối đa, đúng thứ tự. Cân bằng nguồn trong từng
+    # category (chỉ khi >1 nguồn) trước khi đưa vào prompt để một đầu báo không lấn át.
     labels = []
+    payload = []
     for key, items in grouped.items():
         label = items[0].get("category_label") or CATEGORIES.get(key, {}).get("label", key)
-        labels.append(label)
+        labels.append(f"{label} — tối đa {_max_items_for(key)} mục")
+        n_sources = len({it.get("source", "") for it in items})
+        candidates = _balance_by_source(items) if n_sources > 1 else items
+        for it in candidates:
+            payload.append({
+                "title": it.get("title", ""),
+                "url": it.get("url", ""),
+                "summary": (it.get("summary") or "")[:500],
+                "source": it.get("source", ""),
+                "category": it.get("category_label") or it.get("category", ""),
+            })
     labels_block = "\n".join(f"- {lb}" for lb in labels)
-
-    # Dữ liệu thô dạng JSON, gọn (chỉ field cần thiết). Cân bằng nguồn trong từng
-    # category trước khi đưa vào prompt để LLM không bị một đầu báo lấn át khi chọn top-5.
-    payload = [
-        {
-            "title": it.get("title", ""),
-            "url": it.get("url", ""),
-            "summary": (it.get("summary") or "")[:500],
-            "source": it.get("source", ""),
-            "category": it.get("category_label") or it.get("category", ""),
-        }
-        for items in grouped.values()
-        for it in _balance_by_source(items)
-    ]
     json_block = json.dumps(payload, ensure_ascii=False, indent=2)
 
     return f"""Hôm nay {date_str}. Hãy tạo bản digest theo các category sau, đúng thứ tự:
