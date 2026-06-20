@@ -14,7 +14,9 @@ Phụ thuộc: feedparser  (đã có hoặc thêm vào requirements.txt)
 """
 
 from __future__ import annotations
+import html
 import os
+import re
 import socket
 import time
 import feedparser
@@ -27,12 +29,17 @@ socket.setdefaulttimeout(FEED_TIMEOUT)
 
 # ---- Cấu hình nguồn theo category -------------------------------------------
 # Mỗi feed: (url, tên_nguồn_hiển_thị)
+# Mỗi category nên gồm NHIỀU đầu báo để không bị một nguồn áp đảo (vd VnExpress hay
+# CNBC). Việc cân bằng số bài mỗi nguồn được xử lý ở summarize.py (round-robin + cap),
+# còn ở đây chỉ cần đảm bảo đa dạng nguồn.
 CATEGORIES: dict[str, dict] = {
     "vietnam": {
         "label": "🇻🇳 Việt Nam",
         "feeds": [
             ("https://vnexpress.net/rss/thoi-su.rss", "VnExpress Thời sự"),
             ("https://vnexpress.net/rss/the-gioi.rss", "VnExpress Thế giới"),
+            ("https://tuoitre.vn/rss/thoi-su.rss", "Tuổi Trẻ Thời sự"),
+            ("https://thanhnien.vn/rss/thoi-su.rss", "Thanh Niên Thời sự"),
         ],
     },
     "kinh_te": {
@@ -42,6 +49,7 @@ CATEGORIES: dict[str, dict] = {
             ("https://www.cnbc.com/id/20910258/device/rss/rss.html", "CNBC Economy"),
             ("https://www.cnbc.com/id/10000664/device/rss/rss.html", "CNBC Finance"),
             ("https://vnexpress.net/rss/kinh-doanh.rss", "VnExpress Kinh doanh"),
+            ("https://tuoitre.vn/rss/kinh-doanh.rss", "Tuổi Trẻ Kinh doanh"),
         ],
     },
     "cong_nghe": {
@@ -49,6 +57,7 @@ CATEGORIES: dict[str, dict] = {
         "feeds": [
             ("https://techcrunch.com/feed/", "TechCrunch"),
             ("https://www.cnbc.com/id/19854910/device/rss/rss.html", "CNBC Tech"),
+            ("https://vnexpress.net/rss/so-hoa.rss", "VnExpress Số hóa"),
         ],
     },
 }
@@ -62,6 +71,26 @@ RSS_SOURCES: list[tuple[str, str]] = [
 
 # Số bài tối đa lấy mỗi feed mỗi lần chạy (tránh ôm quá nhiều).
 MAX_PER_FEED = 15
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def clean_html(text: str) -> str:
+    """Lột thẻ HTML + giải mã entity từ summary của RSS, trả về văn bản thuần.
+
+    Nhiều feed (vd VnExpress) nhét sẵn `<a><img ...></a>` ~270 ký tự ở ĐẦU summary
+    trước phần chữ thật. Khối HTML này (a) làm loãng input gửi cho LLM, và (b) thổi
+    phồng độ giống token_set_ratio giữa các bài KHÁC nhau (do cùng boilerplate
+    vcdn1-vnexpress...), kéo near-dup về sát ngưỡng 0.80 → dễ bỏ nhầm tin thật.
+    Lột thẻ TRƯỚC rồi mới unescape để entity `&lt;b&gt;` không biến thành thẻ mới.
+    """
+    if not text:
+        return ""
+    stripped = _TAG_RE.sub(" ", text)
+    unescaped = html.unescape(stripped)
+    return _WS_RE.sub(" ", unescaped).strip()
 
 
 def _to_iso(entry) -> str | None:
@@ -85,9 +114,9 @@ def fetch_category(cat_key: str) -> list[dict]:
                 if not link:
                     continue
                 items.append({
-                    "title": (entry.get("title") or "").strip(),
+                    "title": clean_html(entry.get("title") or ""),
                     "url": link.strip(),
-                    "summary": (entry.get("summary") or "").strip(),
+                    "summary": clean_html(entry.get("summary") or ""),
                     "source": source_name,
                     "category": cat_key,
                     "category_label": cat["label"],

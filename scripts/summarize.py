@@ -11,10 +11,15 @@ Khác bản gốc (song ngữ Trung/Anh, nhóm news/papers/projects):
 import json
 import os
 import time
+from collections import OrderedDict
 
 import requests
 
 from sources import CATEGORIES
+
+# Trần số bài mỗi nguồn được đưa vào pool ứng viên CHO MỖI category, để LLM không chỉ
+# thấy toàn tin của một đầu báo (vd VnExpress/CNBC) rồi chọn top-5 lệch hẳn về nguồn đó.
+PER_SOURCE_CAP = int(os.environ.get("DIGEST_PER_SOURCE_CAP", "4"))
 
 
 SYSTEM_PROMPT = """Bạn là một biên tập viên tin tức kỳ cựu, viết bằng tiếng Việt tự nhiên, súc tích.
@@ -23,7 +28,12 @@ Quy tắc:
 - Chỉ dùng thông tin có trong bài, TUYỆT ĐỐI không bịa.
 - Mỗi category giữ tối đa 5 mục; gộp các bài cùng chủ đề thành một mục.
 - Mỗi mục: 2-3 câu tiếng Việt, nêu vì sao đáng chú ý, kèm link gốc.
-- Gắn mức quan trọng: ★☆☆☆☆ đến ★★★★★.
+- Gắn mức quan trọng theo thang hiệu ứng/độ phủ (đừng lạm phát sao):
+  ★★★★★ = sự kiện lớn tầm quốc gia/toàn cầu, ảnh hưởng nhiều người (chính sách lớn, vĩ mô, khủng hoảng).
+  ★★★★☆ = quan trọng, tác động rộng tới một ngành/khu vực.
+  ★★★☆☆ = đáng chú ý nhưng phạm vi vừa.
+  ★★☆☆☆ = tin địa phương/ngách, tai nạn lẻ, sắc màu đời sống.
+  ★☆☆☆☆ = bên lề, ít hệ quả.
 - Cuối bản tin thêm mục "Quan sát hôm nay": 2-3 câu nhận định xu hướng.
 - Output Markdown, đúng cấu trúc category được yêu cầu."""
 
@@ -41,6 +51,27 @@ def _group_by_category(items):
     return {k: v for k, v in grouped.items() if v}
 
 
+def _balance_by_source(items, cap=PER_SOURCE_CAP):
+    """Round-robin theo nguồn + cap mỗi nguồn, để pool ứng viên cân bằng giữa các báo.
+
+    Giữ thứ tự xuất hiện ban đầu trong mỗi nguồn; lấy lần lượt một bài mỗi nguồn cho tới
+    khi cạn hoặc chạm `cap`. Nhờ vậy các nguồn ít tin vẫn lọt vào tầm chọn của LLM thay
+    vì bị một đầu báo nhiều tin lấn át.
+    """
+    by_source = OrderedDict()
+    for it in items:
+        by_source.setdefault(it.get("source", ""), []).append(it)
+    queues = [lst[:cap] for lst in by_source.values()]
+    out = []
+    i = 0
+    while any(i < len(q) for q in queues):
+        for q in queues:
+            if i < len(q):
+                out.append(q[i])
+        i += 1
+    return out
+
+
 def _build_user_prompt(grouped, date_str):
     # Danh sách category_label có tin, đúng thứ tự
     labels = []
@@ -49,7 +80,8 @@ def _build_user_prompt(grouped, date_str):
         labels.append(label)
     labels_block = "\n".join(f"- {lb}" for lb in labels)
 
-    # Dữ liệu thô dạng JSON, gọn (chỉ field cần thiết)
+    # Dữ liệu thô dạng JSON, gọn (chỉ field cần thiết). Cân bằng nguồn trong từng
+    # category trước khi đưa vào prompt để LLM không bị một đầu báo lấn át khi chọn top-5.
     payload = [
         {
             "title": it.get("title", ""),
@@ -59,7 +91,7 @@ def _build_user_prompt(grouped, date_str):
             "category": it.get("category_label") or it.get("category", ""),
         }
         for items in grouped.values()
-        for it in items
+        for it in _balance_by_source(items)
     ]
     json_block = json.dumps(payload, ensure_ascii=False, indent=2)
 
