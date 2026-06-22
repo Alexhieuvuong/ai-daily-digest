@@ -30,18 +30,23 @@ socket.setdefaulttimeout(FEED_TIMEOUT)
 # ---- Cấu hình nguồn theo category -------------------------------------------
 # Mỗi feed: (url, tên_nguồn_hiển_thị)
 # Cấu hình nguồn theo category. `max_items` = số mục tối đa cho category đó trong bản
-# tin (Việt Nam được cắt gọn; tài chính/công nghệ/AI lấy nhiều hơn). Cân bằng số bài
-# mỗi nguồn xử lý ở summarize.py (round-robin + cap khi category có >1 nguồn).
+# tin (Việt Nam/Người Quan Sát giờ là nguồn chính nên lấy nhiều như các mảng khác).
+# Cân bằng số bài mỗi nguồn xử lý ở summarize.py (round-robin + cap khi category có >1 nguồn).
 #
-# Chủ ý nguồn (theo yêu cầu): Việt Nam CHỈ lấy VnExpress. Các mảng còn lại TRỘN nhiều
-# nguồn và để bước tóm tắt ưu tiên theo MỨC QUAN TRỌNG của tin (không ép cân bằng nguồn).
+# Chủ ý nguồn (theo yêu cầu): Việt Nam lấy Người Quan Sát (nguoiquansat.vn). Các mảng còn
+# lại TRỘN nhiều nguồn và để bước tóm tắt ưu tiên theo MỨC QUAN TRỌNG (không ép cân bằng nguồn).
+#
+# LƯU Ý nguoiquansat.vn: toàn site nằm sau Cloudflare "managed challenge" → mọi request tự
+# động (feedparser/curl) bị 403, KHÔNG đọc RSS trực tiếp được. Vì vậy lấy qua Google News RSS
+# (proxy do Google host, không bị chặn). Link bài là link redirect của Google News, bấm từ
+# email vẫn mở đúng bài (trình duyệt tự vượt Cloudflare). Đổi lại: summary chỉ có tiêu đề
+# (Google News không kèm trích đoạn), nên phần tóm tắt mảng VN dựa chủ yếu vào tiêu đề.
 CATEGORIES: dict[str, dict] = {
     "vietnam": {
         "label": "🇻🇳 Việt Nam",
-        "max_items": 3,
+        "max_items": 6,
         "feeds": [
-            ("https://vnexpress.net/rss/thoi-su.rss", "VnExpress Thời sự"),
-            ("https://vnexpress.net/rss/the-gioi.rss", "VnExpress Thế giới"),
+            ("https://news.google.com/rss/search?q=site:nguoiquansat.vn&hl=vi&gl=VN&ceid=VN:vi", "Người Quan Sát"),
         ],
     },
     "kinh_te": {
@@ -136,8 +141,16 @@ def fetch_category(cat_key: str) -> list[dict]:
                 link = entry.get("link", "")
                 if not link:
                     continue
+                title = clean_html(entry.get("title") or "")
+                # Google News RSS gắn đuôi " - <Tên nguồn>" vào tiêu đề (vd "... - nguoiquansat.vn").
+                # entry.source.title chứa tên nguồn đó — nếu title kết thúc bằng đuôi này thì bỏ đi.
+                # Feed RSS thường không có entry.source nên nhánh này không ảnh hưởng nguồn khác.
+                src = entry.get("source")
+                src_title = src.get("title") if src else None
+                if src_title and title.endswith(f" - {src_title}"):
+                    title = title[: -len(f" - {src_title}")].rstrip()
                 items.append({
-                    "title": clean_html(entry.get("title") or ""),
+                    "title": title,
                     "url": link.strip(),
                     "summary": clean_html(entry.get("summary") or ""),
                     "source": source_name,

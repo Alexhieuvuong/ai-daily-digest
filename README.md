@@ -85,7 +85,7 @@ To use a different provider, add repository **Variables**:
 - **Actions** tab → enable workflows → optionally **Run workflow** once to verify.
 - After the first run creates `docs/`, set **Settings → Pages** → source = `main` / `/docs`.
 
-The workflow runs on `cron: 0 4,10,16,22 * * *` — four times a day at 06:00 / 12:00 / 18:00 / 00:00 in UTC+2 (i.e. UTC 04/10/16/22). Dates in the digest use Vietnam time (UTC+7).
+The workflow sends **3×/day at 07:00 / 13:00 / 22:00 Rome local time, year-round**. GitHub cron is fixed UTC and doesn't follow DST, so the schedule fires at *both* seasons' UTC slots (`cron: 0 5,6,11,12,20,21 * * *` = Rome summer 05/11/20 + winter 06/12/21) and a **Gate step** drops the runs that don't match the current Rome hour (`TZ=Europe/Rome`). Result: always exactly 3 sends at the right local time with no manual DST edits — the 3 off-hour triggers exit in seconds. Dates in the digest use Vietnam time (UTC+7).
 
 ---
 
@@ -94,7 +94,7 @@ The workflow runs on `cron: 0 4,10,16,22 * * *` — four times a day at 06:00 / 
 ```
 ai-daily-digest/
 ├── .github/workflows/
-│   └── daily.yml            # GitHub Actions — 4×/day (6h), commits daily/ data/ docs/
+│   └── daily.yml            # GitHub Actions — 3×/day (Rome time), commits daily/ data/ docs/
 ├── scripts/
 │   ├── main.py              # load_state → fetch_all → filter_new → summarize → save
 │   ├── sources.py           # feeds grouped by category, fetch_all()
@@ -129,7 +129,7 @@ CATEGORIES = {
 `max_items` caps how many items that category contributes to the digest (default 7). When a category has more than one source, `summarize.py` round-robins + caps per source so no single outlet dominates.
 
 ### Change the schedule
-Edit the cron in `.github/workflows/daily.yml` (default `0 4,10,16,22 * * *` — 4×/day).
+Edit the cron in `.github/workflows/daily.yml` (default `0 5,6,11,12,20,21 * * *` — DST-proof 3×/day at 07/13/22 Rome time; the Gate step keeps only the matching local hours). To change the send hours, update both the cron slots and the `case` hours in the Gate step.
 
 ### Change the model
 Set `API_BASE_URL` / `API_MODEL` repository Variables (see Quick start).

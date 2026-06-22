@@ -1,12 +1,16 @@
-name: News Digest (6h)
+name: News Digest (3x/day)
 
 on:
   schedule:
-    # 4 lần/ngày, cách nhau 6 tiếng. Giờ gửi mong muốn: 06:00 / 12:00 / 18:00 / 00:00
-    # theo múi UTC+2  →  quy ra UTC là 04 / 10 / 16 / 22. (GitHub cron luôn dùng UTC,
-    # và lịch chạy có thể trễ vài phút–chục phút tùy tải của Actions.)
-    - cron: '0 4,10,16,22 * * *'
-  workflow_dispatch: {}         # cho phép chạy tay để test
+    # Mục tiêu: GỬI 3 lần/ngày đúng GIỜ ROME 07:00 / 13:00 / 22:00, quanh năm.
+    # GitHub cron luôn chạy theo UTC và KHÔNG tự đổi giờ mùa (DST), nên ta khai báo
+    # cả hai bộ giờ — mùa hè và mùa đông Rome — rồi để bước "Gate" bên dưới bỏ qua
+    # những lần không khớp giờ Rome. Nhờ vậy luôn còn đúng 3 lần gửi/ngày, không cần
+    # sửa tay khi đổi mùa.
+    #   Mùa hè  CEST = UTC+2 → 07/13/22 Rome = 05/11/20 UTC
+    #   Mùa đông CET = UTC+1 → 07/13/22 Rome = 06/12/21 UTC
+    - cron: '0 5,6,11,12,20,21 * * *'
+  workflow_dispatch: {}         # cho phép chạy tay để test (luôn chạy, bỏ qua Gate)
 
 permissions:
   contents: write               # cần để commit digest + state ngược repo
@@ -23,18 +27,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Gate to 07/13/22 Rome local time
+        id: gate
+        run: |
+          # Chạy tay (workflow_dispatch) thì LUÔN tiếp tục.
+          # Lịch (schedule) chỉ tiếp tục nếu giờ-Rome hiện tại là 07, 13 hoặc 22.
+          # Nhờ TZ=Europe/Rome, DST được xử lý tự động: trong 6 lần cron/ngày chỉ có
+          # đúng 3 lần khớp giờ Rome, 3 lần còn lại thoát ngay (no-op vài giây).
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual/non-schedule run → proceed"
+            exit 0
+          fi
+          HOUR=$(TZ=Europe/Rome date +%H)
+          echo "Rome local hour: $HOUR"
+          case "$HOUR" in
+            07|13|22)
+              echo "run=true"  >> "$GITHUB_OUTPUT"
+              echo "Target Rome hour → proceed" ;;
+            *)
+              echo "run=false" >> "$GITHUB_OUTPUT"
+              echo "Off-hour for Rome → skip this run" ;;
+          esac
+
       - name: Setup Python
+        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: Install deps
+        if: steps.gate.outputs.run == 'true'
         run: pip install -r requirements.txt
 
       - name: Run digest
+        if: steps.gate.outputs.run == 'true'
         env:
-          # Lịch đã cố định 4 lần/ngày (mỗi 6h) nên mỗi lần chạy là một lần GỬI: chỉ cần
-          # có >=1 tin mới là gửi, không gom-chờ như mô hình chạy 4h trước đây.
+          # Lịch đã cố định 3 lần/ngày (07:00 / 13:00 / 22:00 giờ Rome) nên mỗi lần chạy là
+          # một lần GỬI: chỉ cần có >=1 tin mới là gửi, không gom-chờ.
           DIGEST_MIN_ITEMS: '1'
           API_KEY: ${{ secrets.API_KEY }}
           # Mặc định DeepSeek. Muốn dùng Claude qua OpenRouter:
@@ -49,6 +79,7 @@ jobs:
         run: python scripts/main.py
 
       - name: Commit results
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -61,7 +92,7 @@ jobs:
           fi
 
       - name: Notify on failure
-        if: failure()
+        if: failure() && steps.gate.outputs.run == 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ vars.EMAIL_TO || 'hieuvuongforwork@gmail.com' }}
