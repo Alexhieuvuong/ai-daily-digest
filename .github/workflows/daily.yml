@@ -88,7 +88,23 @@ jobs:
             echo "Không có thay đổi — không có tin mới."
           else
             git commit -m "digest: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # Đẩy lên với rebase + thử lại: nếu một run khác vừa push (đua nhau),
+            # ta rebase lên main mới rồi push lại, tránh lỗi non-fast-forward giả.
+            # Dùng "if" để không bị 'bash -e' thoát giữa chừng; chỉ fail thật khi
+            # đã thử hết 5 lần mà vẫn không push được.
+            pushed=false
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin main && git push; then
+                pushed=true
+                break
+              fi
+              echo "Push bị từ chối do đua commit — thử lại lần $i..."
+              sleep 5
+            done
+            if [ "$pushed" != true ]; then
+              echo "::error::Không push được sau 5 lần thử."
+              exit 1
+            fi
           fi
 
       - name: Notify on failure
