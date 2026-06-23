@@ -58,6 +58,15 @@ MIN_ITEMS = int(os.environ.get("DIGEST_MIN_ITEMS", "5"))
 DAILY_MAX_GAP_HOURS = int(os.environ.get("DIGEST_MAX_GAP_HOURS", "20"))
 # Tin nằm trong buffer quá lâu thì bỏ (tránh gửi tin quá cũ).
 PENDING_MAX_HOURS = int(os.environ.get("PENDING_MAX_HOURS", "48"))
+# Khoảng cách TỐI THIỂU giữa hai lần gửi (giờ) — "van tiết lưu" thay cho cổng chặn-đúng-
+# giờ cũ ở workflow. GitHub Actions cron chạy theo UTC, hay bắn TRỄ (đôi khi 1–3h) hoặc
+# rớt hẳn, nên khớp ĐÚNG giờ Rome rất mong manh: bắn trễ là cả buổi bị bỏ. Thay vào đó
+# cron bắn nhiều tick/ngày (mỗi mốc một CẶP cách ~1h) còn việc chống gửi-dồn dồn về đây:
+# chỉ tick ĐẦU mỗi cụm vượt van, tick quá gần bị chặn. DST-an-toàn, không sợ trễ/rớt.
+# Mặc định 4h → ~3 bản/ngày từ 3 cụm cron.
+MIN_SEND_GAP_HOURS = int(os.environ.get("DIGEST_MIN_SEND_GAP_HOURS", "4"))
+# Chạy tay (workflow_dispatch) đặt cờ này = "1" để GỬI NGAY, bỏ qua van — tiện test.
+FORCE_SEND = os.environ.get("DIGEST_FORCE_SEND", "") == "1"
 
 # Tham số query mang tính tracking — loại bỏ khi chuẩn hóa URL.
 _TRACKING_PARAMS = {
@@ -255,18 +264,30 @@ def prune_pending(items: list[dict], now: datetime | None = None) -> list[dict]:
 
 
 def should_send(items: list[dict], last_sent, now: datetime | None = None) -> bool:
-    """Gửi khi: đủ MIN_ITEMS tin, HOẶC có tin và đã quá DAILY_MAX_GAP_HOURS từ lần gửi trước.
+    """Quyết định có GỬI ngay không (xét theo thứ tự):
+
+      1. Không có tin          -> không gửi.
+      2. FORCE_SEND (chạy tay) -> gửi ngay, bỏ qua mọi van (tiện test).
+      3. Van tiết lưu          -> mới gửi cách đây < MIN_SEND_GAP_HOURS thì KHÔNG gửi
+                                  (chống gửi-dồn khi cron bắn cặp / bắn trễ).
+      4. Đủ MIN_ITEMS tin      -> gửi.
+      5. Còn lại               -> chỉ gửi khi đã quá DAILY_MAX_GAP_HOURS kể từ lần trước
+                                  (đảm bảo mỗi ~ngày tối thiểu một bản dù tin lác đác).
 
     `last_sent`: datetime (đã parse) hoặc None.
     """
     if not items:
         return False
-    if len(items) >= MIN_ITEMS:
+    if FORCE_SEND:
         return True
     now = now or _now_vn()
+    if last_sent is not None and (now - last_sent) < timedelta(hours=MIN_SEND_GAP_HOURS):
+        return False  # van tiết lưu: quá gần lần gửi trước
+    if len(items) >= MIN_ITEMS:
+        return True
     if last_sent is None:
-        # Chưa có mốc -> KHÔNG gửi vội (tránh email lèo tèo lần đầu); caller sẽ đặt
-        # baseline để đồng hồ "đảm bảo ngày" bắt đầu chạy từ bây giờ.
+        # Chưa từng gửi và tin còn lác đác -> chờ tích thêm; caller đặt baseline để
+        # đồng hồ "đảm bảo ngày" bắt đầu chạy từ bây giờ.
         return False
     return (now - last_sent) >= timedelta(hours=DAILY_MAX_GAP_HOURS)
 
