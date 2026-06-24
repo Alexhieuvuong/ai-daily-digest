@@ -10,7 +10,7 @@ import sys
 import json
 import tempfile
 import unittest
-from datetime import timedelta
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -177,24 +177,36 @@ class TestAccumulation(unittest.TestCase):
         # record=False -> không đánh dấu đã gửi
         self.assertEqual(state, {})
 
-    def test_should_send_threshold(self):
-        items5 = [{"title": f"t{i}"} for i in range(dedup.MIN_ITEMS)]
-        items_few = [{"title": "t0"}]
-        # đủ ngưỡng -> gửi
-        self.assertTrue(dedup.should_send(items5, self.now, self.now))
-        # ít tin + vừa gửi gần đây -> chưa gửi
-        self.assertFalse(dedup.should_send(
-            items_few, self.now - timedelta(hours=2), self.now))
-        # rỗng -> không gửi
-        self.assertFalse(dedup.should_send([], None, self.now))
+    # Mốc thời gian cố định để map sang khung Rome xác định (mùa hè CEST = UTC+2):
+    #   11:00 UTC -> 13:00 Rome -> khung 'noon';  16:00 UTC -> 18:00 Rome -> ngoài khung.
+    NOON_UTC = datetime(2026, 7, 15, 11, 0, tzinfo=timezone.utc)
+    DEAD_UTC = datetime(2026, 7, 15, 16, 0, tzinfo=timezone.utc)
 
-    def test_should_send_daily_guarantee(self):
-        items_few = [{"title": "t0"}]
-        # quá DAILY_MAX_GAP_HOURS kể từ lần gửi trước, có >=1 tin -> flush
-        old = self.now - timedelta(hours=dedup.DAILY_MAX_GAP_HOURS + 1)
-        self.assertTrue(dedup.should_send(items_few, old, self.now))
-        # chưa có mốc (None) + ít tin -> KHÔNG gửi vội (caller đặt baseline)
-        self.assertFalse(dedup.should_send(items_few, None, self.now))
+    def test_should_send_slot(self):
+        items = [{"title": "t0"}]
+        # khung 'noon' chưa gửi + có tin -> GỬI
+        self.assertEqual(dedup.current_slot(self.NOON_UTC), "noon")
+        self.assertTrue(dedup.should_send(items, {}, self.NOON_UTC))
+        # khung 'noon' đã gửi hôm đó -> KHÔNG gửi (chặn tick thứ hai của cặp cron)
+        self.assertFalse(
+            dedup.should_send(items, {"2026-07-15": ["noon"]}, self.NOON_UTC))
+        # rỗng -> không gửi
+        self.assertFalse(dedup.should_send([], {}, self.NOON_UTC))
+        # ngoài 3 khung -> không gửi dù có tin
+        self.assertIsNone(dedup.current_slot(self.DEAD_UTC))
+        self.assertFalse(dedup.should_send(items, {}, self.DEAD_UTC))
+
+    def test_mark_and_prune_slots(self):
+        slots = dedup.mark_slot_sent({}, self.NOON_UTC)
+        self.assertIn("noon", slots["2026-07-15"])
+        # đánh dấu lại không nhân đôi
+        slots = dedup.mark_slot_sent(slots, self.NOON_UTC)
+        self.assertEqual(slots["2026-07-15"], ["noon"])
+        # prune bỏ ngày quá cũ, giữ ngày gần
+        pruned = dedup.prune_sent_slots(
+            {"2026-01-01": ["noon"], "2026-07-15": ["noon"]}, self.NOON_UTC)
+        self.assertNotIn("2026-01-01", pruned)
+        self.assertIn("2026-07-15", pruned)
 
     def test_prune_pending_drops_stale(self):
         items = [
@@ -218,7 +230,7 @@ class TestAccumulation(unittest.TestCase):
 
     def test_load_pending_missing_file(self):
         loaded = dedup.load_pending("/nonexistent/pending.json")
-        self.assertEqual(loaded, {"last_sent": None, "items": []})
+        self.assertEqual(loaded, {"last_sent": None, "items": [], "sent_slots": {}})
 
 
 class TestRobustness(unittest.TestCase):

@@ -17,7 +17,8 @@ from dedup import (
     load_state, save_state, record_sent,
     load_pending, save_pending, prune_pending,
     filter_new_articles, should_send,
-    MIN_ITEMS, _now_vn, _parse_ts,
+    current_slot, mark_slot_sent, prune_sent_slots,
+    MIN_ITEMS, FORCE_SEND, _now_vn,
 )
 from email_brief import send_email
 
@@ -31,10 +32,11 @@ def main():
 
     print(f"=== News Digest · {date_str} {stamp} (giờ VN) ===\n")
 
-    # Step 1: nạp trạng thái đã-gửi (dedup 24h) + buffer tích lũy
+    # Step 1: nạp trạng thái đã-gửi (dedup 24h) + buffer tích lũy + lịch sử khung
     state = load_state()
     buf = load_pending()
     pending = prune_pending(buf.get("items", []), now)
+    sent_slots = prune_sent_slots(buf.get("sent_slots", {}), now)
 
     # Step 2: fetch toàn bộ nguồn (list phẳng, mỗi item có 'category')
     print("[Bước 1] Lấy tin từ các nguồn...")
@@ -49,15 +51,17 @@ def main():
     pending.extend(survivors)
     print(f"  +{len(survivors)} tin mới — buffer hiện có {len(pending)} tin.")
 
-    # Step 4: quyết định — gửi hay gom tiếp?
-    if not should_send(pending, _parse_ts(buf.get("last_sent")), now):
-        # Lần đầu chưa có mốc -> đặt baseline để đồng hồ "đảm bảo ngày" chạy từ giờ.
-        save_pending({"last_sent": buf.get("last_sent") or now_iso, "items": pending})
-        print(f"Chưa đủ {MIN_ITEMS} tin và chưa tới hạn ngày — gom tiếp, "
-              f"bỏ qua LLM/email (tiết kiệm token).")
+    # Step 4: quyết định — gửi (khung Rome chưa gửi hôm nay) hay gom tiếp?
+    slot = current_slot(now)
+    if not should_send(pending, sent_slots, now):
+        # Chưa tới khung / khung đã gửi / chưa đủ tin -> gom tiếp, bỏ qua LLM (tiết kiệm token).
+        save_pending({"last_sent": buf.get("last_sent"),
+                      "items": pending, "sent_slots": sent_slots})
+        print(f"Chưa gửi (khung Rome='{slot}', đã có {len(pending)}/{MIN_ITEMS} tin) — "
+              f"gom tiếp, bỏ qua LLM/email.")
         return
 
-    print(f"  Đủ điều kiện gửi ({len(pending)} tin) — tạo bản tin...")
+    print(f"  Đủ điều kiện gửi — khung Rome='{slot}', {len(pending)} tin — tạo bản tin...")
 
     # Step 5: lưu dữ liệu thô để truy vết
     root = Path(__file__).parent.parent
@@ -93,11 +97,15 @@ def main():
     print("\n[Bước 6] Gửi email...")
     send_email(f"Bản tin tổng hợp · {date_str} {now.strftime('%H:%M')}", markdown)
 
-    # Step 10: đánh dấu các tin vừa gửi (dedup 24h) + xóa buffer pending
+    # Step 10: đánh dấu tin đã gửi (dedup 24h) + đánh dấu khung Rome đã gửi + xóa buffer
     record_sent(state, pending, now)
     save_state(state, now=now)
-    save_pending({"last_sent": now_iso, "items": []})
-    print("\nXong! Đã gửi, cập nhật sent_state.json và xóa buffer pending.")
+    # Gửi tay (FORCE_SEND) KHÔNG đánh dấu khung -> không "ăn" mất 1 trong 3 bản thật.
+    if not FORCE_SEND:
+        sent_slots = mark_slot_sent(sent_slots, now)
+    save_pending({"last_sent": now_iso, "items": [], "sent_slots": sent_slots})
+    print(f"\nXong! Đã gửi (khung '{slot}'), cập nhật sent_state.json + đánh dấu khung, "
+          f"xóa buffer pending.")
 
 
 if __name__ == "__main__":

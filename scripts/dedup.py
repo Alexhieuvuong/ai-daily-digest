@@ -38,8 +38,10 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 try:  # zoneinfo có sẵn từ Python 3.9
     from zoneinfo import ZoneInfo
     VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
-except Exception:  # fallback: UTC+7 cố định (VN không có DST nên tương đương)
-    VN_TZ = timezone(timedelta(hours=7))
+    ROME_TZ = ZoneInfo("Europe/Rome")
+except Exception:  # fallback: offset cố định (kém chính xác khi đổi giờ mùa/DST)
+    VN_TZ = timezone(timedelta(hours=7))    # VN không có DST -> tương đương
+    ROME_TZ = timezone(timedelta(hours=1))  # CET; KHÔNG khớp CEST mùa hè
 
 from rapidfuzz import fuzz
 
@@ -49,24 +51,32 @@ WINDOW_HOURS = 24
 NEAR_DUP_THRESHOLD = 0.80
 BODY_CHARS = 200  # số ký tự đầu của body đưa vào content hash / lead
 
-# ── Gom tin & ngưỡng gửi (tránh email lèo tèo + tiết kiệm token) ──────────────
+# ── Gom tin & quyết định gửi: ĐÚNG 3 EMAIL/NGÀY theo 3 khung giờ Rome ─────────
 # Buffer tích lũy các tin ĐÃ khử trùng nhưng CHƯA gửi (giữ qua các lần chạy).
 PENDING_PATH = os.environ.get("PENDING_PATH", "data/pending.json")
-# Chỉ gửi khi tích đủ MIN_ITEMS tin...
-MIN_ITEMS = int(os.environ.get("DIGEST_MIN_ITEMS", "5"))
-# ...HOẶC đã quá DAILY_MAX_GAP_HOURS kể từ lần gửi trước (đảm bảo mỗi ~ngày một bản).
-DAILY_MAX_GAP_HOURS = int(os.environ.get("DIGEST_MAX_GAP_HOURS", "20"))
+# Cần tối thiểu bao nhiêu tin mới thì khung đó mới gửi (để không gửi email rỗng).
+# Mặc định 1: thực tế luôn có >=1 tin nên mỗi khung gửi đúng 1 bản.
+MIN_ITEMS = int(os.environ.get("DIGEST_MIN_ITEMS", "1"))
 # Tin nằm trong buffer quá lâu thì bỏ (tránh gửi tin quá cũ).
 PENDING_MAX_HOURS = int(os.environ.get("PENDING_MAX_HOURS", "48"))
-# Khoảng cách TỐI THIỂU giữa hai lần gửi (giờ) — "van tiết lưu" thay cho cổng chặn-đúng-
-# giờ cũ ở workflow. GitHub Actions cron chạy theo UTC, hay bắn TRỄ (đôi khi 1–3h) hoặc
-# rớt hẳn, nên khớp ĐÚNG giờ Rome rất mong manh: bắn trễ là cả buổi bị bỏ. Thay vào đó
-# cron bắn nhiều tick/ngày (mỗi mốc một CẶP cách ~1h) còn việc chống gửi-dồn dồn về đây:
-# chỉ tick ĐẦU mỗi cụm vượt van, tick quá gần bị chặn. DST-an-toàn, không sợ trễ/rớt.
-# Mặc định 4h → ~3 bản/ngày từ 3 cụm cron.
-MIN_SEND_GAP_HOURS = int(os.environ.get("DIGEST_MIN_SEND_GAP_HOURS", "4"))
-# Chạy tay (workflow_dispatch) đặt cờ này = "1" để GỬI NGAY, bỏ qua van — tiện test.
+# Chạy tay (workflow_dispatch) đặt cờ này = "1" để GỬI NGAY, bỏ qua khung — tiện test.
+# (Lần gửi tay KHÔNG đánh dấu khung -> không "ăn" mất 1 trong 3 bản thật trong ngày.)
 FORCE_SEND = os.environ.get("DIGEST_FORCE_SEND", "") == "1"
+
+# 3 khung giờ cố định theo GIỜ ROME, mỗi khung gửi ĐÚNG MỘT email/ngày (ngày tính theo
+# lịch Rome). Mỗi khung là một KHOẢNG giờ địa phương đủ rộng để dù GitHub Actions cron
+# bắn trễ 1–2h thì tick vẫn rơi đúng khung. Cron bắn một CẶP tick cho mỗi khung (phủ cả
+# CEST mùa hè lẫn CET mùa đông); cờ "khung đã gửy" chặn tick thứ hai gửi trùng.
+#   morning ~07:00 Rome  | noon ~13:00 Rome | night ~22:00 Rome
+#   CEST(UTC+2): cron 05,06 / 11,12 / 20,21 UTC  -> 07,08 / 13,14 / 22,23 Rome
+#   CET (UTC+1): cùng cron đó                     -> 06,07 / 12,13 / 21,22 Rome
+SLOTS = (
+    ("morning", 5, 11),   # giờ Rome trong [05:00, 11:00)
+    ("noon",    11, 17),  # giờ Rome trong [11:00, 17:00)
+    ("night",   20, 24),  # giờ Rome trong [20:00, 24:00)
+)
+# Giữ lịch sử "khung đã gửi" của vài ngày gần nhất rồi prune (tránh phình state).
+SENT_SLOTS_KEEP_DAYS = 3
 
 # Tham số query mang tính tracking — loại bỏ khi chuẩn hóa URL.
 _TRACKING_PARAMS = {
@@ -229,17 +239,20 @@ def save_state(state: dict, path: str = STATE_PATH, now: datetime | None = None)
 # ── Buffer tích lũy (pending) + quyết định gửi ───────────────────────────────
 
 def load_pending(path: str = PENDING_PATH) -> dict:
-    """Trả về {'last_sent': iso|None, 'items': [article+first_seen, ...]}."""
+    """Trả về {'last_sent': iso|None, 'items': [...], 'sent_slots': {ngày: [khung]}}."""
+    empty = {"last_sent": None, "items": [], "sent_slots": {}}
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        return {"last_sent": None, "items": []}
+        return dict(empty)
     if not isinstance(data, dict):
-        return {"last_sent": None, "items": []}
+        return dict(empty)
     data.setdefault("last_sent", None)
     items = data.get("items")
     data["items"] = items if isinstance(items, list) else []
+    slots = data.get("sent_slots")
+    data["sent_slots"] = slots if isinstance(slots, dict) else {}
     return data
 
 
@@ -263,33 +276,70 @@ def prune_pending(items: list[dict], now: datetime | None = None) -> list[dict]:
     return kept
 
 
-def should_send(items: list[dict], last_sent, now: datetime | None = None) -> bool:
-    """Quyết định có GỬI ngay không (xét theo thứ tự):
+def _now_rome(now: datetime | None = None) -> datetime:
+    """Giờ địa phương Rome (tự xử lý CEST/CET) từ `now` bất kỳ tz, hoặc thời điểm hiện tại."""
+    base = now or datetime.now(timezone.utc)
+    if base.tzinfo is None:
+        base = base.replace(tzinfo=timezone.utc)
+    return base.astimezone(ROME_TZ)
 
-      1. Không có tin          -> không gửi.
-      2. FORCE_SEND (chạy tay) -> gửi ngay, bỏ qua mọi van (tiện test).
-      3. Van tiết lưu          -> mới gửi cách đây < MIN_SEND_GAP_HOURS thì KHÔNG gửi
-                                  (chống gửi-dồn khi cron bắn cặp / bắn trễ).
-      4. Đủ MIN_ITEMS tin      -> gửi.
-      5. Còn lại               -> chỉ gửi khi đã quá DAILY_MAX_GAP_HOURS kể từ lần trước
-                                  (đảm bảo mỗi ~ngày tối thiểu một bản dù tin lác đác).
 
-    `last_sent`: datetime (đã parse) hoặc None.
+def current_slot(now: datetime | None = None) -> str | None:
+    """Tên khung ('morning'/'noon'/'night') mà thời điểm `now` rơi vào theo giờ Rome,
+    hoặc None nếu nằm NGOÀI cả 3 khung (giờ chết -> không gửi)."""
+    h = _now_rome(now).hour
+    for name, lo, hi in SLOTS:
+        if lo <= h < hi:
+            return name
+    return None
+
+
+def slot_day(now: datetime | None = None) -> str:
+    """Khóa 'ngày' (theo lịch Rome) để đánh dấu khung đã gửi."""
+    return _now_rome(now).strftime("%Y-%m-%d")
+
+
+def slot_already_sent(sent_slots: dict, now: datetime | None = None) -> bool:
+    """Khung hiện tại đã gửi trong ngày (Rome) chưa? Ngoài giờ khung -> coi như 'đã gửi'."""
+    slot = current_slot(now)
+    if slot is None:
+        return True
+    return slot in (sent_slots.get(slot_day(now)) or [])
+
+
+def mark_slot_sent(sent_slots: dict, now: datetime | None = None) -> dict:
+    """Đánh dấu khung hiện tại đã gửi cho ngày (Rome) hiện tại, rồi prune ngày cũ."""
+    slot = current_slot(now)
+    if slot is not None:
+        day = slot_day(now)
+        done = sent_slots.setdefault(day, [])
+        if slot not in done:
+            done.append(slot)
+    return prune_sent_slots(sent_slots, now)
+
+
+def prune_sent_slots(sent_slots: dict, now: datetime | None = None) -> dict:
+    """Chỉ giữ lịch sử khung của SENT_SLOTS_KEEP_DAYS ngày gần nhất (theo lịch Rome)."""
+    cutoff = (_now_rome(now).date() - timedelta(days=SENT_SLOTS_KEEP_DAYS)).isoformat()
+    return {d: v for d, v in sent_slots.items() if d >= cutoff}
+
+
+def should_send(items: list[dict], sent_slots: dict, now: datetime | None = None) -> bool:
+    """Quyết định có GỬI ngay không — mô hình "ĐÚNG 3 EMAIL/NGÀY theo khung Rome":
+
+      1. FORCE_SEND (chạy tay) -> gửi ngay, bỏ qua khung (tiện test).
+      2. Chưa đủ MIN_ITEMS tin -> không gửi (tránh email rỗng).
+      3. Ngoài 3 khung giờ     -> không gửi.
+      4. Khung hiện tại đã gửi -> không gửi (chặn tick thứ hai của cặp cron gửi trùng).
+      5. Còn lại               -> gửi (đây là email đầu tiên của khung này hôm nay).
+
+    `sent_slots`: dict {ngày_Rome: [tên_khung_đã_gửi,...]} lấy từ buffer pending.
     """
-    if not items:
-        return False
     if FORCE_SEND:
         return True
-    now = now or _now_vn()
-    if last_sent is not None and (now - last_sent) < timedelta(hours=MIN_SEND_GAP_HOURS):
-        return False  # van tiết lưu: quá gần lần gửi trước
-    if len(items) >= MIN_ITEMS:
-        return True
-    if last_sent is None:
-        # Chưa từng gửi và tin còn lác đác -> chờ tích thêm; caller đặt baseline để
-        # đồng hồ "đảm bảo ngày" bắt đầu chạy từ bây giờ.
+    if len(items) < MIN_ITEMS:
         return False
-    return (now - last_sent) >= timedelta(hours=DAILY_MAX_GAP_HOURS)
+    return not slot_already_sent(sent_slots, now)
 
 
 # ── Pipeline 3 tầng ──────────────────────────────────────────────────────────

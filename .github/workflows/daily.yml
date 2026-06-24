@@ -1,16 +1,15 @@
-name: News Digest (3x/day)
+name: News Digest (exactly 3x/day)
 
 on:
   schedule:
-    # Mục tiêu: ~3 bản/ngày quanh 07:00 / 13:00 / 22:00 giờ Rome, quanh năm.
+    # Mục tiêu: ĐÚNG 3 email/ngày tại 3 KHUNG giờ Rome ~07:00 / 13:00 / 22:00, quanh năm.
     # GitHub Actions cron chạy theo UTC, KHÔNG tự đổi giờ mùa (DST) và hay bắn TRỄ
-    # (đôi khi 1–3h) hoặc rớt hẳn. Vì vậy KHÔNG còn cổng chặn-đúng-giờ (bắn trễ là cả
-    # buổi bị bỏ). Thay vào đó: bắn 6 tick/ngày thành 3 CẶP (mỗi cặp cách ~1h, phủ cả
-    # CEST/CET) rồi để "van tiết lưu" trong scripts/dedup.py (DIGEST_MIN_SEND_GAP_HOURS,
-    # mặc định 4h) chỉ cho tick ĐẦU mỗi cụm gửi, chặn tick quá gần. Trễ/rớt một tick
-    # vẫn còn tick kia trong cặp → không mất buổi.
+    # (đôi khi 1–3h) hoặc rớt hẳn. Cách chống: bắn 6 tick/ngày thành 3 CẶP (mỗi cặp cách
+    # ~1h, phủ cả CEST/CET) rồi để scripts/dedup.py quản "KHUNG": mỗi khung Rome gửi ĐÚNG
+    # MỘT email/ngày (cờ "khung đã gửi" chặn tick thứ hai của cặp gửi trùng). Trễ/rớt một
+    # tick vẫn còn tick kia trong cặp → khung vẫn gửi; không bao giờ quá 3 bản/ngày.
     #   Mùa hè  CEST = UTC+2 → 05/11/20 UTC ≈ 07/13/22 Rome
-    #   Mùa đông CET = UTC+1 → 05/11/20 UTC ≈ 06/12/21 Rome (sớm ~1h, chấp nhận được)
+    #   Mùa đông CET = UTC+1 → 05/11/20 UTC ≈ 06/12/21 Rome (sớm ~1h, vẫn trong khung)
     - cron: '0 5,6,11,12,20,21 * * *'
   workflow_dispatch: {}         # chạy tay để test — GỬI NGAY (đặt DIGEST_FORCE_SEND=1)
 
@@ -39,8 +38,8 @@ jobs:
 
       - name: Run digest
         env:
-          # Có >=1 tin mới là đủ để gửi; nhịp ~3 bản/ngày do "van tiết lưu" 4h trong
-          # scripts/dedup.py điều tiết (xem ghi chú khối schedule), không chặn-đúng-giờ nữa.
+          # Mỗi khung cần >=1 tin mới để gửi (tránh email rỗng); việc "đúng 3 bản/ngày"
+          # do mô hình KHUNG trong scripts/dedup.py lo (xem ghi chú khối schedule).
           DIGEST_MIN_ITEMS: '1'
           # Chạy tay -> gửi ngay (bỏ van); chạy theo lịch -> để trống (áp van bình thường).
           DIGEST_FORCE_SEND: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
