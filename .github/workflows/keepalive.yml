@@ -40,8 +40,8 @@ jobs:
 
       - name: Keepalive commit (prevent GitHub from disabling schedules)
         run: |
-          git config user.name "Keepalive Bot"
-          git config user.email "bot@github.com"
+          git config user.name  "${{ github.repository_owner }}"
+          git config user.email "${{ secrets.COMMIT_EMAIL }}"
           git commit --allow-empty -m "keepalive: $(date -u +%Y-%m-%d)"
           git pull --rebase
           git push
