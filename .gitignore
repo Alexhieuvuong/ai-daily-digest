@@ -6,3 +6,6 @@ __pycache__/
 
 # Bản dump tin thô — chỉ để debug cục bộ, không cần commit (tránh phình git).
 data/*.raw.json
+
+# Trang tĩnh sinh tự động — deploy qua Pages artifact (daily.yml), không commit.
+docs/
