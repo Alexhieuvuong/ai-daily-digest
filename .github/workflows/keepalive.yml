@@ -1,47 +1,73 @@
 name: Keepalive
 
-# GitHub disables scheduled workflows on repos with no activity for 60 days.
-# This workflow keeps the repo "alive" by making a lightweight commit every 50 days.
-# It also serves as a fallback: if the daily digest somehow missed, re-trigger it.
+# Hai nhiệm vụ nhẹ, chạy 1 lần/ngày:
+# 1) Canary: nếu NGÀY HÔM QUA (giờ VN) không có bản tin nào trong daily/ -> gửi email
+#    cảnh báo. KHÔNG tự re-trigger daily.yml: 6 tick/ngày đã xếp cặp tự vá cho nhau,
+#    và việc cưỡng bức chạy lại (DIGEST_FORCE_SEND) từng gây gửi email trùng/lệch khung
+#    (forced send không đánh dấu khung nên tick sau vẫn gửi lại).
+# 2) Bảo hiểm 60 ngày: GitHub tắt schedule nếu repo im lặng 60 ngày. Digest tự commit
+#    hằng ngày nên nhánh này gần như không bao giờ chạy — chỉ commit rỗng khi commit
+#    cuối trên main đã cũ hơn 45 ngày.
 
 on:
   schedule:
-    - cron: '30 20 * * *'  # UTC 20:30 = ICT 03:30 (giờ Việt Nam, ngày hôm sau)
+    - cron: '0 2 * * *'   # 02:00 UTC = 09:00 VN — mọi khung của "hôm qua" đã xong
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   keepalive:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      actions: write
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v5
 
-      - name: Check if today's digest exists
+      - name: Check yesterday's digest (VN date)
         id: check
         run: |
-          DATE=$(TZ=Asia/Ho_Chi_Minh date +"%Y-%m-%d")
-          echo "date=$DATE" >> $GITHUB_OUTPUT
-          if ls daily/${DATE}-*.md >/dev/null 2>&1; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-            echo "Today's digest already exists"
+          Y=$(TZ=Asia/Ho_Chi_Minh date -d yesterday +%Y-%m-%d)
+          echo "yesterday=$Y" >> "$GITHUB_OUTPUT"
+          if ls daily/${Y}-*.md >/dev/null 2>&1; then
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+            echo "OK — có bản tin cho ${Y} (giờ VN)."
           else
-            echo "exists=false" >> $GITHUB_OUTPUT
-            echo "Today's digest is MISSING - will trigger"
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Không có bản tin nào cho ${Y} (giờ VN)."
           fi
 
-      - name: Trigger daily digest if missing
-        if: steps.check.outputs.exists == 'false'
-        run: gh workflow run daily.yml
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Setup Python
+        if: steps.check.outputs.missing == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
 
-      - name: Keepalive commit (prevent GitHub from disabling schedules)
+      - name: Alert — no digest yesterday
+        if: steps.check.outputs.missing == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ vars.EMAIL_TO || 'hieuvuongforwork@gmail.com' }}
+          EMAIL_FROM: ${{ vars.EMAIL_FROM || 'onboarding@resend.dev' }}
+          NOTIFY_SUBJECT: "⚠️ Bản tin tổng hợp — hôm qua KHÔNG có bản tin nào"
+          NOTIFY_BODY: "Không tìm thấy daily/${{ steps.check.outputs.yesterday }}-*.md. Kiểm tra tab Actions của daily.yml (API key hết credit? feed đổi địa chỉ? schedule bị GitHub tắt?)."
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/workflows/daily.yml
         run: |
+          pip install requests markdown
+          python scripts/notify_failure.py
+
+      - name: Keepalive commit (only if repo idle 45+ days)
+        run: |
+          last=$(git log -1 --format=%ct)
+          age_days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "Commit cuối cách đây ${age_days} ngày."
+          if [ "$age_days" -lt 45 ]; then
+            echo "Repo vẫn hoạt động — bỏ qua commit rỗng."
+            exit 0
+          fi
           git config user.name  "${{ github.repository_owner }}"
           git config user.email "${{ secrets.COMMIT_EMAIL }}"
           git commit --allow-empty -m "keepalive: $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          git pull --rebase origin main
           git push
