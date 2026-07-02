@@ -175,8 +175,12 @@ def summarize(items, date_str):
 
     print(f"Calling {model}...")
     result = _post_with_retry(url, headers, payload)
-    text = result["choices"][0]["message"]["content"].strip()
-    return _wrap(text, date_str, model)
+    choices = result.get("choices") or []
+    content = (choices[0].get("message") or {}).get("content") if choices else None
+    if not content:
+        # Fail loudly: bước "Notify on failure" của workflow sẽ gửi email cảnh báo.
+        raise ValueError(f"API trả về không có choices/content: {str(result)[:300]}")
+    return _wrap(content.strip(), date_str, model)
 
 
 # Số lần thử lại + khoảng chờ tối đa khi gặp 429 / 5xx (free model hay bị rate-limit).
@@ -185,10 +189,23 @@ MAX_BACKOFF = 60
 
 
 def _post_with_retry(url, headers, payload):
-    """POST có retry với backoff, tôn trọng header Retry-After khi bị 429/5xx."""
+    """POST có retry với backoff: 429/5xx, timeout và lỗi kết nối.
+
+    Tôn trọng header Retry-After khi bị 429/5xx; timeout/lỗi mạng thì backoff mũ.
+    """
     last_exc = None
     for attempt in range(MAX_RETRIES):
-        resp = requests.post(url, headers=headers, json=payload, timeout=180)
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=180)
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_exc = e
+            if attempt < MAX_RETRIES - 1:
+                wait = min(2 ** attempt, MAX_BACKOFF) + 1
+                print(f"  [retry] {type(e).__name__} — chờ {wait:.0f}s rồi thử lại "
+                      f"(lần {attempt + 1}/{MAX_RETRIES})...")
+                time.sleep(wait)
+                continue
+            raise
         if resp.status_code == 429 or resp.status_code >= 500:
             # Ưu tiên Retry-After (giây) nếu nhà cung cấp trả về, nếu không thì backoff mũ.
             retry_after = resp.headers.get("Retry-After")

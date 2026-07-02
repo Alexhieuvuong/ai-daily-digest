@@ -7,10 +7,17 @@ Chạy:  python3 -m unittest scripts/test_summarize.py -v
 import os
 import sys
 import unittest
+from unittest import mock
+
+import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from summarize import _balance_by_source, _build_user_prompt, _max_items_for  # noqa: E402
+import summarize  # noqa: E402
+from summarize import (  # noqa: E402
+    _balance_by_source, _build_user_prompt, _max_items_for,
+    _post_with_retry, MAX_RETRIES,
+)
 
 
 def _mk(source, n):
@@ -70,6 +77,61 @@ class TestBuildUserPrompt(unittest.TestCase):
         prompt = _build_user_prompt(grouped, "2026-06-20")
         self.assertEqual(prompt.count('"source": "CNBC"'), _max_items_for("kinh_te"))
         self.assertEqual(prompt.count('"source": "VnExpress KD"'), 2)
+
+
+def _ok_response(payload=None):
+    resp = mock.Mock()
+    resp.status_code = 200
+    resp.json.return_value = payload or {"choices": [{"message": {"content": "ok"}}]}
+    return resp
+
+
+class TestPostWithRetry(unittest.TestCase):
+    @mock.patch("summarize.time.sleep")
+    @mock.patch("summarize.requests.post")
+    def test_retries_timeout_then_succeeds(self, mock_post, mock_sleep):
+        mock_post.side_effect = [requests.exceptions.Timeout("slow"), _ok_response()]
+        result = _post_with_retry("http://x", {}, {})
+        self.assertEqual(result, {"choices": [{"message": {"content": "ok"}}]})
+        self.assertEqual(mock_post.call_count, 2)
+        self.assertEqual(mock_sleep.call_count, 1)
+
+    @mock.patch("summarize.time.sleep")
+    @mock.patch("summarize.requests.post")
+    def test_retries_connection_error_then_succeeds(self, mock_post, mock_sleep):
+        mock_post.side_effect = [requests.exceptions.ConnectionError("down"), _ok_response()]
+        result = _post_with_retry("http://x", {}, {})
+        self.assertEqual(result["choices"][0]["message"]["content"], "ok")
+        self.assertEqual(mock_post.call_count, 2)
+
+    @mock.patch("summarize.time.sleep")
+    @mock.patch("summarize.requests.post")
+    def test_gives_up_after_max_retries(self, mock_post, mock_sleep):
+        mock_post.side_effect = requests.exceptions.Timeout("always slow")
+        with self.assertRaises(requests.exceptions.Timeout):
+            _post_with_retry("http://x", {}, {})
+        self.assertEqual(mock_post.call_count, MAX_RETRIES)
+
+
+class TestChoicesGuard(unittest.TestCase):
+    @mock.patch.dict(os.environ, {"API_KEY": "x"}, clear=False)
+    @mock.patch("summarize._post_with_retry", return_value={})
+    def test_missing_choices_raises(self, _mock_post):
+        items = [{"category": "ai", "category_label": "🤖 AI",
+                  "source": "TheVerge", "title": "t",
+                  "url": "https://x/t", "summary": "s"}]
+        with self.assertRaises(ValueError):
+            summarize.summarize(items, "2026-07-02")
+
+    @mock.patch.dict(os.environ, {"API_KEY": "x"}, clear=False)
+    @mock.patch("summarize._post_with_retry",
+                return_value={"choices": [{"message": {"content": ""}}]})
+    def test_empty_content_raises(self, _mock_post):
+        items = [{"category": "ai", "category_label": "🤖 AI",
+                  "source": "TheVerge", "title": "t",
+                  "url": "https://x/t", "summary": "s"}]
+        with self.assertRaises(ValueError):
+            summarize.summarize(items, "2026-07-02")
 
 
 if __name__ == "__main__":
