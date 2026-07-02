@@ -13,9 +13,6 @@ on:
     - cron: '0 5,6,11,12,20,21 * * *'
   workflow_dispatch: {}         # chạy tay để test — GỬI NGAY (đặt DIGEST_FORCE_SEND=1)
 
-permissions:
-  contents: write               # cần để commit digest + state ngược repo
-
 concurrency:
   group: news-digest
   cancel-in-progress: false
@@ -24,6 +21,13 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     timeout-minutes: 15        # chặn trên: một feed/treo bất ngờ không đốt cả tiếng Actions
+    permissions:
+      contents: write          # cần để commit digest + state ngược repo
+    outputs:
+      # 'true' nếu lần chạy này đã sinh site (tức là ĐÃ gửi bản tin). generate_site()
+      # chỉ chạy trong nhánh gửi của main.py, và docs/ đã bỏ track nên checkout không
+      # còn dựng sẵn -> docs/index.html chỉ tồn tại khi lần chạy này thật sự gửi.
+      site: ${{ steps.site.outputs.generated }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -83,6 +87,20 @@ jobs:
             fi
           fi
 
+      - name: Check site generated
+        id: site
+        run: echo "generated=$([ -f docs/index.html ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Configure Pages
+        if: steps.site.outputs.generated == 'true'
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        if: steps.site.outputs.generated == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs/
+
       - name: Notify on failure
         if: failure()
         env:
@@ -91,3 +109,21 @@ jobs:
           EMAIL_FROM: ${{ vars.EMAIL_FROM || 'onboarding@resend.dev' }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: python scripts/notify_failure.py
+
+  # Deploy site lên GitHub Pages — CHỈ khi digest job đã sinh site (tức đã gửi bản tin).
+  # Job riêng + skippable để các tick không gửi không tạo bản ghi deployment thừa.
+  deploy:
+    needs: digest
+    if: needs.digest.outputs.site == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
