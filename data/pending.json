@@ -1,12 +1,218 @@
 {
   "last_sent": "2026-07-05T03:56:51+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "First known congressional SpaceX stock buys surface after record IPO",
+      "url": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
+      "summary": "The SpaceX stock purchases come as Elon Musk’s company deepens its role in federal contracting and remains closely tied to President Donald Trump’s Washington.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-03T18:16:43",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "5 takeaways from President Donald Trump's interview with CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/5-takeaways-from-president-donald-trumps-interview-with-cnbc.html",
+      "summary": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-02T23:20:58",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
+      "url": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
+      "summary": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-04T01:04:34",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "The hunt for AI's next winners defined the stock market's holiday-shortened week",
+      "url": "https://www.cnbc.com/2026/07/03/the-hunt-for-ais-next-winners-defined-the-stock-markets-holiday-shortened-week.html",
+      "summary": "Wall Street kicked off the third quarter with mixed results after a blockbuster first half for stocks.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-03T15:51:06",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+      "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
+      "summary": "Nonfarm payrolls were expected to rise by 115,000 in June and the unemployment rate to hold steady at 4.3%.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-02T16:50:27",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "North Sea oil and renewables: The UK’s next PM faces a defining energy policy decision",
+      "url": "https://www.cnbc.com/2026/07/01/burnham-north-sea-oil-energy-security.html",
+      "summary": "Andy Burnham could face an early test over North Sea oil drilling as energy shocks revive the UK energy security debate.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-01T06:28:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Don't throw away your shot to speak to an AI Alexander Hamilton at Boston's new finance museum",
+      "url": "https://www.cnbc.com/2026/07/03/the-museum-of-american-finance-opens-its-doors-in-boston.html",
+      "summary": "Nearly a decade after leaving its former home, the Museum of American Finance is opening its new doors to the public.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-03T13:16:09",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "SpaceX may emerge as ultimate blueprint for new wave of mega-cap IPOs",
+      "url": "https://www.cnbc.com/2026/07/02/spacex-as-ultimate-blueprint-for-new-wave-of-mega-cap-ipos.html",
+      "summary": "\"It would not surprise me at all to see a similar dynamic play out with some of these [IPOs] set to come in the months ahead,\" the Kathmere Capital CIO says.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-02T11:00:01",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Xi touts China Communist Party's global influence in speech marking 105th anniversary",
+      "url": "https://www.cnbc.com/2026/07/01/china-xi-jinping-ccp-105th-anniversary-global-influence-taiwan.html",
+      "summary": "Chinese President Xi Jinping spoke Wednesday to commemorate the 105th anniversary of the ruling Communist Party of China.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-01T07:07:57",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "China-linked actors target more than technology as AI competition with U.S. intensifies",
+      "url": "https://www.cnbc.com/2026/07/01/china-ai-cyberattacks-startups-insider-risks-espionage.html",
+      "summary": "Cyberattacks from China-based entities are on the rise and not just targeting specific tech, analysts warn, as the U.S. AI race intensifies.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-01T22:55:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Giá vàng nhẫn trơn, vàng miếng chiều 3/7 tăng hơn 3 triệu đồng/lượng",
+      "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-chieu-3-7-tang-hon-3-trieu-dong-luong-188260703065958132.chn",
+      "summary": "Giá vàng trong nước tăng mạnh trong phiên 3/7 khi các doanh nghiệp đồng loạt tăng giá từ 3 - 3,3 triệu đồng/lượng so với cuối phiên trước, đưa giá vàng miếng vượt mốc 151 triệu đồng/lượng. Đà tăng diễn ra trong bối cảnh giá vàng thế giới tiếp tục phục hồi nhờ kỳ vọng Fed sẽ bớt cứng rắn hơn sau loạt dữ liệu kinh tế Mỹ kém khả quan.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-07-03T09:59:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-03T18:43:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "The Dune keypad device can be your meeting controller and more",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "summary": "The gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-03T18:28:30",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "summary": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-03T16:30:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Rivian raises 2026 delivery outlook while Lucid misses Wall Street expectations for second quarter",
+      "url": "https://www.cnbc.com/2026/07/02/rivian-lucid-q2-deliveries-demand.html",
+      "summary": "Rivian is increasing its delivery outlook to between 65,000 and 70,000 EVs, up from 62,000 to 67,000 units.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-02T15:20:57",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Meta’s push into cloud computing means Wall Street has to prepare for lower margins",
+      "url": "https://www.cnbc.com/2026/07/02/metas-push-into-cloud-excites-wall-street-despite-lower-margins.html",
+      "summary": "Meta appears poised to enter the cloud computing market in an effort to monetize its massive AI infrastructure.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-02T12:22:51",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "AI agents will soon be able to match human traders, Robinhood CEO tells CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/robinhood-ceo-ai-agents.html",
+      "summary": "Vlad Tenev spoke about the potential of AI agents in trading in an interview with CNBC.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-02T10:51:06",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Anthropic wants to develop its own drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-07-03T13:56:52",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-07-02T10:23:27",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Anthropic’s long-sidelined Fable 5 is greenlit to return",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-07-01T00:03:55",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    },
+    {
+      "title": "Yep, we’re using OpenClaw to date now",
+      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "summary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-07-02T12:00:00",
+      "first_seen": "2026-07-05T05:01:51+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-07-01": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-07-02": [
       "morning",
       "noon",
