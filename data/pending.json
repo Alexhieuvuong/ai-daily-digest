@@ -1,12 +1,28 @@
 {
   "last_sent": "2026-07-06T03:59:09+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Cầu vượt sông 8.000 tỷ xoá bỏ toàn bộ các bến phà lâu đời, rút ngắn khoảng 80km từ miền Tây đến TP. HCM: Phấn đấu hoàn thành sớm 6 tháng",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNaHprdXI3eUlBcjU1VnN4TVo1dzl4cEJBS2VQcE0zcVJIWVRNVDVEdHQyQ09RUGtiT1U3UW9aZDJFczM1VTRDOE1hazRockFVc2wwUWxxNHZiVTZnMnlxTTRxSVpvZlkyM0kxaEw1N0JLOVByY2NoeWNHbWotbl9mRWowMlFEV1NXMGhraVZPYWZmYnlISnpVS0hsaS1SREwtVFkzTTJ6bm9qM1pKbUFNTklvMlFaZXo5UExmS1hqd284dEtwLVIxLV9wTkpKRFI2a0VCSVd0ZTJhQnhiQ3pwaXp1SUhyVmVuZ1dpcHd2bkpzVGVubFJGaVlqczNUQQ?oc=5",
+      "summary": "Cầu vượt sông 8.000 tỷ xoá bỏ toàn bộ các bến phà lâu đời, rút ngắn khoảng 80km từ miền Tây đến TP. HCM: Phấn đấu hoàn thành sớm 6 tháng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-07-05T17:09:01",
+      "first_seen": "2026-07-06T05:08:39+07:00"
+    },
+    {
+      "title": "Uber’s European expansion plans may have hit a speed bump",
+      "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+      "summary": "Back in February, Uber announced ambitious plans to launch in seven new European markets in 2026 — but now five of those launches are reportedly on hold.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-07-05T21:35:17",
+      "first_seen": "2026-07-06T05:08:39+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-07-02": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-07-03": [
       "morning",
       "noon",
