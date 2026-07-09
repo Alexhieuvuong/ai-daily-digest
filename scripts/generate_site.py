@@ -752,7 +752,9 @@ def parse_digest(text: str) -> dict:
     lines = text.splitlines()
     categories = []
     observation_lines = []
+    outlook_lines = []
     in_observation = False
+    in_outlook = False
     current_cat = None
     current_item = None
 
@@ -763,20 +765,36 @@ def parse_digest(text: str) -> dict:
 
         if name is not None:
             low = name.lower()
-            if "quan sát" in low or "nhận định" in low:
+            # Nhận định xu hướng (market_outlook) — kiểm tra TRƯỚC vì tiêu đề chứa
+            # "nhận định" sẽ bị nhánh observation bên dưới nuốt mất.
+            if "🧭" in name or "xu hướng" in low:
+                in_outlook = True
+                in_observation = False
+                current_cat = None
+            elif "quan sát" in low or "nhận định" in low:
                 in_observation = True
+                in_outlook = False
                 current_cat = None
             else:
                 in_observation = False
+                in_outlook = False
                 current_cat = {"emoji": "", "name": name,
                                "type": cat_type(name), "items": []}
                 categories.append(current_cat)
                 current_item = None
             continue
 
+        if in_outlook:
+            # Giữ NGUYÊN dòng (bullet, **đậm**...) — chỉ bỏ footer.
+            stripped = line.strip()
+            if stripped.startswith('---') or stripped.startswith('*Tạo tự động') or stripped.startswith('*Generated'):
+                continue
+            outlook_lines.append(line)
+            continue
+
         if in_observation:
             stripped = line.strip()
-            if stripped and not stripped.startswith('#') and not stripped.startswith('---') and not stripped.startswith('*Generated'):
+            if stripped and not stripped.startswith('#') and not stripped.startswith('---') and not stripped.startswith('*Tạo tự động') and not stripped.startswith('*Generated'):
                 observation_lines.append(stripped)
             continue
 
@@ -825,7 +843,8 @@ def parse_digest(text: str) -> dict:
             current_item["sources"] = [{"name": n, "url": u} for n, u in links]
             continue
 
-    return {"categories": categories, "observation": " ".join(observation_lines)}
+    return {"categories": categories, "observation": " ".join(observation_lines),
+            "outlook": "\n".join(outlook_lines).strip()}
 
 
 # ── HTML builders ───────────────────────────────────────────────────────────────
@@ -879,6 +898,43 @@ def build_filter_bar(present_types: set) -> str:
     </div>"""
 
 
+def _inline_md(s: str) -> str:
+    """**đậm** → <strong>, _nghiêng_ → <em> (đủ cho định dạng của outlook)."""
+    s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+    s = re.sub(r'(?<![\w_])_([^_]+)_(?![\w_])', r'<em>\1</em>', s)
+    return s
+
+
+def build_outlook_html(outlook_md: str) -> str:
+    """Render section 'Nhận định xu hướng' (shape đã biết: đoạn + bullet) thành card.
+
+    Dùng lại class .observation nên không cần CSS mới.
+    """
+    if not outlook_md:
+        return ""
+    parts = []
+    bullets = []
+    for raw in outlook_md.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith('- '):
+            bullets.append(f"<li>{_inline_md(line[2:].strip())}</li>")
+            continue
+        if bullets:
+            parts.append("<ul>" + "".join(bullets) + "</ul>")
+            bullets = []
+        parts.append(f"<p>{_inline_md(line)}</p>")
+    if bullets:
+        parts.append("<ul>" + "".join(bullets) + "</ul>")
+    body = "".join(parts)
+    return f"""
+        <div class="observation outlook">
+          <h2>🧭 Nhận định xu hướng</h2>
+          {body}
+        </div>"""
+
+
 def build_digest_body(digest: dict) -> str:
     """Filter bar + categories + observation, wrapped in a .digest-scope."""
     present_types = {c["type"] for c in digest["categories"] if c["items"]}
@@ -910,12 +966,15 @@ def build_digest_body(digest: dict) -> str:
           <button class="speak-btn" data-label="🔊 Đọc to" data-stop="⏹ Dừng" data-speak-lang="vi-VN" data-text="{speak_text}">🔊 Đọc to</button>
         </div>"""
 
+    outlook_html = build_outlook_html(digest.get("outlook", ""))
+
     return f"""
     <div class="digest-scope">
       {filter_bar}
       {cats_html}
       <div class="empty-filter">{empty_msg}</div>
       {obs_html}
+      {outlook_html}
     </div>"""
 
 

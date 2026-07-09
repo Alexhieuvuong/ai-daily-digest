@@ -21,6 +21,7 @@ from dedup import (
     MIN_ITEMS, FORCE_SEND, _now_vn,
 )
 from email_brief import send_email
+from market_outlook import generate_outlook, append_outlook, is_first_send_of_day
 
 
 def main():
@@ -80,6 +81,15 @@ def main():
     # Step 6: tóm tắt tiếng Việt (gom theo category) — LLM chỉ chạy khi thật sự gửi
     print("\n[Bước 3] Tạo bản tóm tắt...")
     markdown = summarize(pending, date_str)
+
+    # Step 6b: nhận định xu hướng thị trường — CHỈ ở bản tin ĐẦU TIÊN của ngày (VN),
+    # dựa trên tin tài chính 7 ngày qua. Lỗi -> bỏ qua, bản tin chính vẫn gửi.
+    # (Check phải chạy TRƯỚC khi ghi file daily/ của chính lần này.)
+    if is_first_send_of_day(root, date_str):
+        print("\n[Bước 3b] Bản tin đầu ngày — tạo nhận định xu hướng...")
+        outlook_md = generate_outlook(pending, now, root)
+        if outlook_md:
+            markdown = append_outlook(markdown, outlook_md)
 
     # Step 7: lưu digest — tên kèm giờ để không đè các lần chạy khác trong ngày
     output_dir = root / "daily"
