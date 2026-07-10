@@ -1,7 +1,10 @@
 """
 dedup.py — khử trùng lặp ĐA TẦNG (pure Python, không dùng LLM).
 
-Mục tiêu: đảm bảo MỘT bài không bao giờ được gửi hai lần trong cửa sổ trượt 24 giờ.
+Mục tiêu: đảm bảo MỘT bài không bao giờ được gửi hai lần trong cửa sổ trượt
+WINDOW_HOURS (72h — phải DÀI hơn thời gian một bài còn nằm trong RSS feed, vì feed
+chậm như TechCrunch AI/CafeF giữ bài nhiều ngày; cửa sổ 24h từng khiến bài cũ
+quay lại buffer sau khi bị prune và bị gửi lần hai).
 Trạng thái lưu ở data/sent_state.json (được workflow commit ngược repo để giữ qua các
 lần Actions chạy). Mọi mốc thời gian + ranh giới "ngày" dùng Asia/Ho_Chi_Minh.
 
@@ -47,7 +50,7 @@ from rapidfuzz import fuzz
 
 
 STATE_PATH = os.environ.get("SENT_STATE_PATH", "data/sent_state.json")
-WINDOW_HOURS = 24
+WINDOW_HOURS = 72
 NEAR_DUP_THRESHOLD = 0.80
 BODY_CHARS = 200  # số ký tự đầu của body đưa vào content hash / lead
 
@@ -347,7 +350,7 @@ def should_send(items: list[dict], sent_slots: dict, now: datetime | None = None
 def filter_new_articles(articles: list[dict], state: dict,
                         extra_window: list[dict] | None = None,
                         now: datetime | None = None, record: bool = True) -> list[dict]:
-    """Lọc ra các bài MỚI (không trùng trong cửa sổ 24h) qua 3 tầng và ghi vào state.
+    """Lọc ra các bài MỚI (không trùng trong cửa sổ WINDOW_HOURS) qua 3 tầng và ghi vào state.
 
     `extra_window`: danh sách bài đã biết (vd buffer pending) cũng đưa vào so trùng,
     để không thêm lại tin đã chờ gửi. `record=False` để KHÔNG đánh dấu đã gửi (dùng khi

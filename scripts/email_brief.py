@@ -3,7 +3,10 @@ email_brief.py — gửi bản tin qua email (Resend).
 
 Chuyển digest Markdown -> HTML rồi gửi bằng API của Resend.
 Tự bỏ qua (no-op) nếu thiếu RESEND_API_KEY, để một lần chạy không bao giờ
-thất bại chỉ vì email chưa được cấu hình.
+thất bại chỉ vì email chưa được cấu hình. Nhưng khi ĐÃ cấu hình mà gửi
+thất bại (HTTP lỗi/timeout) thì RAISE — main.py phải thấy lỗi TRƯỚC khi
+đánh dấu "khung đã gửi", nếu không bản tin mất trong im lặng và tick thứ
+hai của cặp cron không gửi lại.
 
 Biến môi trường:
 - RESEND_API_KEY  (bắt buộc để gửi; thiếu -> bỏ qua)
@@ -38,7 +41,8 @@ def _wrap_html(inner: str) -> str:
 
 
 def send_email(subject: str, markdown_body: str) -> None:
-    """Gửi bản tin qua Resend. Bỏ qua nếu chưa cấu hình RESEND_API_KEY."""
+    """Gửi bản tin qua Resend. Bỏ qua nếu chưa cấu hình RESEND_API_KEY;
+    raise RuntimeError nếu đã cấu hình mà gửi thất bại."""
     api_key = os.environ.get("RESEND_API_KEY")
     if not api_key:
         print("[email] RESEND_API_KEY chưa đặt — bỏ qua gửi email.")
@@ -51,24 +55,22 @@ def send_email(subject: str, markdown_body: str) -> None:
     # mới không còn dùng dấu gạch đầu dòng cho ba trường này.
     html = _wrap_html(md_lib.markdown(markdown_body, extensions=["extra", "nl2br"]))
 
-    try:
-        resp = requests.post(
-            "https://api.resend.com/emails",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "from": from_addr,
-                "to": [to_addr],
-                "subject": subject,
-                "html": html,
-            },
-            timeout=30,
-        )
-        if resp.status_code in (200, 201):
-            print(f"[email] Đã gửi tới {to_addr} (id: {resp.json().get('id')})")
-        else:
-            print(f"[email] Gửi thất bại {resp.status_code}: {resp.text[:200]}")
-    except Exception as e:  # email lỗi không được làm hỏng cả run
-        print(f"[email] Lỗi khi gửi: {e}")
+    resp = requests.post(
+        "https://api.resend.com/emails",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "from": from_addr,
+            "to": [to_addr],
+            "subject": subject,
+            "html": html,
+        },
+        timeout=30,
+    )
+    if resp.status_code in (200, 201):
+        print(f"[email] Đã gửi tới {to_addr} (id: {resp.json().get('id')})")
+    else:
+        raise RuntimeError(
+            f"[email] Gửi thất bại {resp.status_code}: {resp.text[:200]}")

@@ -117,10 +117,11 @@ class TestFilterPipelineAndState(unittest.TestCase):
         self.assertEqual(len(survivors), 1, f"chỉ 1 bài mới được qua, got {titles}")
         self.assertIn("OpenAI faces investigation", titles[0])
 
-    def test_prune_removes_entries_older_than_24h(self):
+    def test_prune_removes_entries_older_than_window(self):
         state = {}
         dedup.record_sent(state, [{"url": "https://x.com/old", "title": "Tin cũ",
-                                   "summary": "..."}], self.now - timedelta(hours=30))
+                                   "summary": "..."}],
+                          self.now - timedelta(hours=dedup.WINDOW_HOURS + 6))
         dedup.record_sent(state, [{"url": "https://x.com/new", "title": "Tin mới",
                                    "summary": "..."}], self.now - timedelta(hours=1))
         dedup.prune_state(state, self.now)

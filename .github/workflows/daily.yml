@@ -10,7 +10,9 @@ on:
     # tick vẫn còn tick kia trong cặp → khung vẫn gửi; không bao giờ quá 3 bản/ngày.
     #   Mùa hè  CEST = UTC+2 → 05/11/20 UTC ≈ 07/13/22 Rome
     #   Mùa đông CET = UTC+1 → 05/11/20 UTC ≈ 06/12/21 Rome (sớm ~1h, vẫn trong khung)
-    - cron: '0 5,6,11,12,20,21 * * *'
+    # Phút :15 thay vì :00 — phút tròn giờ là cao điểm của GitHub Actions, cron hay bị
+    # bắn trễ 1–3h (thực tế 07/2026: khung sáng đến ~10:20 Rome). Phút lệch giảm hẳn trễ.
+    - cron: '15 5,6,11,12,20,21 * * *'
   workflow_dispatch: {}         # chạy tay để test — GỬI NGAY (đặt DIGEST_FORCE_SEND=1)
 
 concurrency:

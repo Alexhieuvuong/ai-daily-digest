@@ -11,7 +11,6 @@ Features:
 
 import json
 import re
-import markdown as md_lib
 from pathlib import Path
 from datetime import datetime
 
@@ -686,7 +685,7 @@ HEADER_HTML = """
 FOOTER_HTML = """
 <button id="backToTop" aria-label="Lên đầu trang">↑</button>
 <footer class="site-footer">
-  © Bản tin tổng hợp · Tự động thu thập · Tóm tắt bằng AI · Cập nhật mỗi 6 giờ
+  © Bản tin tổng hợp · Tự động thu thập · Tóm tắt bằng AI · 3 bản mỗi ngày
 </footer>
 """
 
@@ -860,22 +859,33 @@ def attr_escape(s: str) -> str:
     )
 
 
+def text_escape(s: str) -> str:
+    """Escape nội dung parse từ digest (gốc là tiêu đề RSS/output LLM) trước khi
+    chèn vào HTML — tiêu đề chứa <, & hay markup không được phá trang/inject."""
+    return (
+        (s or "")
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
 def build_item_html(item: dict) -> str:
     sources_html = ""
     if item["sources"]:
         links = " · ".join(
-            f'<a href="{s["url"]}" target="_blank">{s["name"]}</a>'
+            f'<a href="{attr_escape(s["url"])}" target="_blank">{text_escape(s["name"])}</a>'
             for s in item["sources"]
         )
         sources_html = f'<div class="item-sources">{links}</div>'
 
-    value_html = f'<span class="item-value">{item["value"]}</span>' if item["value"] else ""
+    value_html = f'<span class="item-value">{text_escape(item["value"])}</span>' if item["value"] else ""
     stars_html = f'<span class="stars">{item["stars"]}</span>' if item["stars"] else ""
 
     return f"""
     <div class="item-card" data-stars="{item['star_count']}">
-      <div class="item-title">{item["title"]}</div>
-      {"<div class='item-desc'>" + item["desc"] + "</div>" if item["desc"] else ""}
+      <div class="item-title">{text_escape(item["title"])}</div>
+      {"<div class='item-desc'>" + text_escape(item["desc"]) + "</div>" if item["desc"] else ""}
       <div class="item-meta">
         {stars_html}
         {value_html}
@@ -899,7 +909,9 @@ def build_filter_bar(present_types: set) -> str:
 
 
 def _inline_md(s: str) -> str:
-    """**đậm** → <strong>, _nghiêng_ → <em> (đủ cho định dạng của outlook)."""
+    """**đậm** → <strong>, _nghiêng_ → <em> (đủ cho định dạng của outlook).
+    Escape HTML TRƯỚC rồi mới thay markdown, để nội dung LLM không chèn được thẻ."""
+    s = text_escape(s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
     s = re.sub(r'(?<![\w_])_([^_]+)_(?![\w_])', r'<em>\1</em>', s)
     return s
@@ -948,7 +960,7 @@ def build_digest_body(digest: dict) -> str:
         cats_html += f"""
         <div class="category" data-cat="{cat['type']}">
           <div class="category-header">
-            <h2>{cat["name"]}</h2>
+            <h2>{text_escape(cat["name"])}</h2>
             <div class="cat-line"></div>
           </div>
           {items_html}
@@ -962,7 +974,7 @@ def build_digest_body(digest: dict) -> str:
         obs_html = f"""
         <div class="observation">
           <h2>💡 Quan sát hôm nay</h2>
-          <p>{digest["observation"]}</p>
+          <p>{text_escape(digest["observation"])}</p>
           <button class="speak-btn" data-label="🔊 Đọc to" data-stop="⏹ Dừng" data-speak-lang="vi-VN" data-text="{speak_text}">🔊 Đọc to</button>
         </div>"""
 
@@ -1147,11 +1159,11 @@ def build_index_html(dates: list[str], latest_digest: dict,
     <div class="container">
       <div class="hero">
         <h1>{SITE_TITLE}</h1>
-        <p>Việt Nam · Tài chính · Chứng khoán · Công nghệ · AI — tự động thu thập, tóm tắt bằng AI, cập nhật mỗi 6 giờ</p>
+        <p>Việt Nam · Tài chính · Chứng khoán · Công nghệ · AI — tự động thu thập, tóm tắt bằng AI, 3 bản mỗi ngày</p>
         <div class="stats">
           <div class="stat"><div class="num">{len(dates)}</div><div class="lbl">kỳ bản tin</div></div>
-          <div class="stat"><div class="num">3</div><div class="lbl">chuyên mục</div></div>
-          <div class="stat"><div class="num">4h</div><div class="lbl">tự cập nhật</div></div>
+          <div class="stat"><div class="num">5</div><div class="lbl">chuyên mục</div></div>
+          <div class="stat"><div class="num">3</div><div class="lbl">bản mỗi ngày</div></div>
         </div>
       </div>
       {trends_html}
@@ -1162,7 +1174,7 @@ def build_index_html(dates: list[str], latest_digest: dict,
 
     return PAGE_TEMPLATE.format(
         title=f"{SITE_TITLE} · Việt Nam · Tài chính · Chứng khoán · Công nghệ · AI",
-        description="Bản tin tổng hợp tự động: Việt Nam, Tài chính, Chứng khoán, Công nghệ, AI — tóm tắt bằng AI, cập nhật mỗi 6 giờ.",
+        description="Bản tin tổng hợp tự động: Việt Nam, Tài chính, Chứng khoán, Công nghệ, AI — tóm tắt bằng AI, 3 bản mỗi ngày.",
         css=CSS,
         header=HEADER_HTML.format(base="", repo=REPO_URL),
         body=body,

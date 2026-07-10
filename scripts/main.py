@@ -18,7 +18,7 @@ from dedup import (
     load_pending, save_pending, prune_pending,
     filter_new_articles, should_send,
     current_slot, mark_slot_sent, prune_sent_slots,
-    MIN_ITEMS, FORCE_SEND, _now_vn,
+    MIN_ITEMS, FORCE_SEND, _now_vn, ROME_TZ,
 )
 from email_brief import send_email
 from market_outlook import generate_outlook, append_outlook, is_first_send_of_day
@@ -103,9 +103,12 @@ def main():
     generate_site(root=root)
     print("  Đã dựng → docs/")
 
-    # Step 9: gửi bản tin qua email (tự bỏ qua nếu chưa cấu hình)
+    # Step 9: gửi bản tin qua email (tự bỏ qua nếu chưa cấu hình; gửi LỖI thì raise
+    # -> run fail TRƯỚC khi đánh dấu khung, tick còn lại của cặp cron sẽ gửi lại).
+    # Tiêu đề dùng giờ ROME (giờ người nhận) — nội dung/slug vẫn theo ngày VN.
     print("\n[Bước 6] Gửi email...")
-    send_email(f"Bản tin tổng hợp · {date_str} {now.strftime('%H:%M')}", markdown)
+    now_rome = now.astimezone(ROME_TZ)
+    send_email(f"Bản tin tổng hợp · {now_rome.strftime('%Y-%m-%d %H:%M')}", markdown)
 
     # Step 10: đánh dấu tin đã gửi (dedup 24h) + đánh dấu khung Rome đã gửi + xóa buffer
     record_sent(state, pending, now)
