@@ -1,57 +1,6 @@
 {
-  "last_sent": "2026-07-18T04:07:14+07:00",
-  "items": [
-    {
-      "title": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
-      "url": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
-      "summary": "Following a wave of price hikes, at-home pastimes like streaming movies or playing video games are pinching pocketbooks.",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-13T15:20:06",
-      "first_seen": "2026-07-18T05:06:13+07:00"
-    },
-    {
-      "title": "The AI boom just found two new winners: Goldman Sachs and JPMorgan Chase",
-      "url": "https://www.cnbc.com/2026/07/14/goldman-sachs-and-jpmorgan-chase-are-emerging-as-ai-winners.html",
-      "summary": "Goldman Sachs and JPMorgan showed that Wall Street is a major beneficiary of the AI boom, with record revenue driven by surging trading and investment banking.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-15T18:45:53",
-      "first_seen": "2026-07-18T05:06:13+07:00"
-    },
-    {
-      "title": "Watch: Fed Chairman Kevin Warsh testifies to House Financial Services committee",
-      "url": "https://www.cnbc.com/2026/07/14/watch-fed-chairman-kevin-warsh-testify-live-to-house-financial-services-committee.html",
-      "summary": "In remarks prepared for the appearance, Warsh promised a vigilant fight to return inflation to the Fed's 2% target.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-14T17:26:37",
-      "first_seen": "2026-07-18T05:06:13+07:00"
-    },
-    {
-      "title": "The Zoom hack that says, ‘Don’t record me’",
-      "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-      "summary": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-07-17T21:20:47",
-      "first_seen": "2026-07-18T05:06:13+07:00"
-    },
-    {
-      "title": "Chip stock sell-off, Netflix earnings, Trump's approval rating and more in Morning Squawk",
-      "url": "https://www.cnbc.com/2026/07/17/5-things-to-know-before-the-stock-market-opens.html",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "source": "CNBC Tech",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-07-17T12:41:52",
-      "first_seen": "2026-07-18T05:06:13+07:00"
-    }
-  ],
+  "last_sent": "2026-07-18T14:07:49+07:00",
+  "items": [],
   "sent_slots": {
     "2026-07-15": [
       "morning",
@@ -67,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-07-18": [
+      "morning"
     ]
   }
 }
