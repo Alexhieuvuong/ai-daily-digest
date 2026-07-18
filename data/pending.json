@@ -1,12 +1,88 @@
 {
   "last_sent": "2026-07-19T04:05:41+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Vương quốc giàu có bậc nhất Trung Đông muốn xây tháp chọc trời cao nhất hành tinh, tiêu tốn 5 tỷ USD",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVzZ3MjRLSm9CZmlGSnFjNlk1MG1IdzhHNnkzTmE2cTFvb21iR3RsNXVaQ1g4UTM0Q1lJRWJlRWpFZU9uVldwbFl0QTdxQ2hVY2luUlFKWE1sY0hxV0wxY1EybmZQZGpFVkxKN00wUkdVTk8xeHItM0V0R3hISERuenJMV1I2QnNNZkx1QV9pOHdOendYQ3pyMlpyREdwa2c3MHVpSzQ3Z0o5WmlUTW90S2xZWW5NNk0yZFh5bjV2b3JKM3hhZkk1cVVNWWM3ckJt?oc=5",
+      "summary": "Vương quốc giàu có bậc nhất Trung Đông muốn xây tháp chọc trời cao nhất hành tinh, tiêu tốn 5 tỷ USD nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-07-18T15:30:01",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
+      "url": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html",
+      "summary": "The latest edition of the Fed's Beige Book indicated that the soccer tournament wasn't necessarily translating to broader economic growth.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T21:53:10",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "Anthropic moves closer to mega-IPO as bankers line up investor meetings",
+      "url": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
+      "summary": "Anthropic is lining up investor meetings ahead of a potential IPO as soon as October as the AI startup behind looks to beat rival OpenAI to the public markets.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T17:22:51",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
+      "url": "https://www.cnbc.com/2026/07/15/watch-fed-chairman-kevin-warsh-testify-live-before-senate-banking-committee.html",
+      "summary": "As part of congressionally mandated Capitol Hill appearances for the central bank leader, Warsh spoke Tuesday to the House financial services committee.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T22:05:14",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "‘Arsenal of democracy’: Jamie Dimon announces $24 million effort to boost American shipbuilding",
+      "url": "https://www.cnbc.com/2026/07/15/jamie-dimon-jpmorgan-chase-defense.html",
+      "summary": "JPMorgan Chase CEO Jamie Dimon unveiled a $24 million package to bolster American shipbuilding, funding a new submarine facility at the Philadelphia Navy Yard.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T13:45:27",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'",
+      "url": "https://www.cnbc.com/2026/07/15/warren-buffett-on-the-market-today-its-tough-to-find-values-when-everybody-is-preferring-gambling.html",
+      "summary": "The investor has been sharply critical of the stock market, one that he says is increasingly defined by speculative trading as opposed to long-term investing.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T15:08:40",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "New York Fed President Williams says inflation has peaked, rates 'well positioned'",
+      "url": "https://www.cnbc.com/2026/07/15/new-york-fed-president-williams-says-inflation-has-peaked-rates-well-positioned.html",
+      "summary": "Williams cited five reasons why he expects the latest price surge has run its course.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-07-15T17:31:41",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    },
+    {
+      "title": "Lãi suất ngân hàng 18/7 tại MB, Sacombank, HDBank, Agribank, Vietcombank, BIDV, VietinBank,...",
+      "url": "https://cafef.vn/lai-suat-ngan-hang-18-7-tai-mb-sacombank-hdbank-agribank-vietcombank-bidv-vietinbank-188260718202708241.chn",
+      "summary": "Khảo sát ngày 18/7 cho thấy mặt bằng lãi suất huy động trực tuyến tiếp tục ổn định. Hiện có 6 ngân hàng niêm yết lãi suất từ 7%/năm trở lên cho kỳ hạn 12 tháng, trong khi nhóm Big4 duy trì mức 6,8%/năm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-07-18T13:24:00",
+      "first_seen": "2026-07-19T05:06:35+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-07-15": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-07-16": [
       "morning",
       "noon",
