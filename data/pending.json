@@ -1,12 +1,7 @@
 {
-  "last_sent": "2026-07-24T04:20:38+07:00",
+  "last_sent": "2026-07-24T14:42:04+07:00",
   "items": [],
   "sent_slots": {
-    "2026-07-20": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-07-21": [
       "morning",
       "noon",
@@ -21,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-07-24": [
+      "morning"
     ]
   }
 }
