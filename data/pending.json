@@ -1,77 +1,6 @@
 {
-  "last_sent": "2026-08-02T04:08:32+07:00",
-  "items": [
-    {
-      "title": "Đất đa mục đích: Được mở cửa khai thác, nhưng cấm 'hô biến' thành homestay, farmstay",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWVTN09Bd2Y2cnRwM2tEY0h3RWVRNmZiTXdlUFB6ZjByMVVXeThQMmNOX1duNU1oM3YtS0FwVjVBa3d4QVc0ZXRiM3FHOU9qNDVCVXoyVTVXRHA4OU9odGowUGNmVVg0dEdkSDU5OG9hakk4TUItMDBtNEV1MHJMWktNclM0Q2Z4amZHQVdJS01iVFBKN09QbWhtUEREMUFhVVZreW5rT0VEd0FORjdfVnhDSmlPdw?oc=5",
-      "summary": "Đất đa mục đích: Được mở cửa khai thác, nhưng cấm 'hô biến' thành homestay, farmstay nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-01T09:00:01",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "India's inflation accelerates to 4.38% in June, exceeding forecasts",
-      "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html",
-      "summary": "Inflation has risen for the eighth straight month in India, as food and energy prices rise due to the Iran war and deficient rainfall.",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-13T10:56:52",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "Here are the five big takeaways from this week's Fed meeting",
-      "url": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html",
-      "summary": "The Federal Reserve on Wednesday followed through on expectations for no interest rate change.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-29T22:54:09",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "Jeffrey Gundlach says the bond market is telling Warsh the Fed has to start acting on inflation",
-      "url": "https://www.cnbc.com/2026/07/29/gundlach-says-the-bond-market-is-signaling-the-fed-has-to-act-on-inflation.html",
-      "summary": "Gundlach said the divergent moves across the Treasury curve showed investors' skepticism that the Fed will ultimately follow through.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-29T22:20:18",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "Here's what changed in the second Fed statement under Warsh",
-      "url": "https://www.cnbc.com/2026/07/29/fed-decision-redline-heres-what-changed-in-the-second-statement-under-warsh.html",
-      "summary": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in June.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-30T13:42:07",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "Lãi suất ngân hàng 1/8 tại Agribank, Vietcombank, BIDV, VietinBank, MB, Sacombank, HDBank,...",
-      "url": "https://cafef.vn/lai-suat-ngan-hang-1-8-tai-agribank-vietcombank-bidv-vietinbank-mb-sacombank-hdbank-188260801205254277.chn",
-      "summary": "Khảo sát lãi suất huy động ngày 1/8 cho thấy có 7 ngân hàng đang niêm yết lãi suất từ 7%/năm trở lên cho kỳ hạn 12 tháng.",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "category": "chung_khoan_vn",
-      "category_label": "📈 Tài chính / Chứng khoán VN",
-      "published": "2026-08-01T13:51:00",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    },
-    {
-      "title": "Inside the London hacker house taking a stand against founder burnout",
-      "url": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
-      "summary": "How one founder house is betting work-life balance can beat burnout .",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-01T21:14:48",
-      "first_seen": "2026-08-02T05:10:15+07:00"
-    }
-  ],
+  "last_sent": "2026-08-02T14:40:44+07:00",
+  "items": [],
   "sent_slots": {
     "2026-07-30": [
       "morning",
@@ -87,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-02": [
+      "morning"
     ]
   }
 }
