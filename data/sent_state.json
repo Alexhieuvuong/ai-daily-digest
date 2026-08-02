@@ -1,454 +1,4 @@
 {
-  "2026-07-30": {
-    "94034748aa38fc15": {
-      "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
-      "title": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-      "source": "CNBC Top News",
-      "lead": "",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "319b6ddc05df9096": {
-      "url": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html",
-      "title": "Yum Brands CEO says cyclospora outbreak has hurt Taco Bell, but sales are already improving",
-      "source": "CNBC Top News",
-      "lead": "The restaurant company provided no update on the cyclospora outbreak tied to Taco Bell restaurants is affecting its business.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "a94f1e2181991290": {
-      "url": "https://www.cnbc.com/2026/07/30/egypt-drone-gas-ship-damietta-port-iran-war.html",
-      "title": "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
-      "source": "CNBC Top News",
-      "lead": "The unclaimed attack comes as Iran, its Houthi alllies in Yemen and Iraqi militias have widened strikes on energy infrastructure across the region.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "42f6cf5886be1176": {
-      "url": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html",
-      "title": "Meta tanks nearly 9%, Microsoft jumps 9% as the AI trade splits Big Tech",
-      "source": "CNBC Top News",
-      "lead": "Microsoft posted strong Azure and Copilot growth, while Meta missed revenue guidance forecasts as free cash flow plunged leading to diverging stock moves.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "adb7d72e76d2e03e": {
-      "url": "https://www.cnbc.com/2026/07/30/kelly-loeffler-husband-jeffrey-sprecher-executive-branch-club-donald-trump-jr.html",
-      "title": "Loeffler's financial disclosure reveals husband’s ties to exclusive Trump Jr.-backed private club",
-      "source": "CNBC Top News",
-      "lead": "The Executive Branch club, where members include Trump administration officials, investors and business leaders, charges a $500,000 entry fee.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "16309e1b6ce4b82c": {
-      "url": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html",
-      "title": "Ferrari raises 2026 guidance after Q2 earnings beat",
-      "source": "CNBC Top News",
-      "lead": "Ferrari is bumping up its 2026 guidance after beating Wall Street's second quarter expectations amid \"healthy\" demand for its products.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "143d76da9b8cd1d1": {
-      "url": "https://www.cnbc.com/2026/07/30/trump-iowa-farmers-agriculture.html",
-      "title": "Trump promised a 'golden age' for agriculture. Farmers in Iowa say they're still waiting",
-      "source": "CNBC Top News",
-      "lead": "President Donald Trump has promised a \"golden age\" for agriculture, but farmers in Iowa and elsewhere are struggling with tariffs and the Iran war.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "dde02a9b01f277e3": {
-      "url": "https://www.cnbc.com/2026/07/30/wealth-managers-ai-chatbots.html",
-      "title": "Wealth managers face a new challenger: their clients’ AI chatbots",
-      "source": "CNBC Top News",
-      "lead": "Large language models may give financial advisors a run for their money, but wealth management leaders say the human touch can't be replaced.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "5e8ce218c1343d8f": {
-      "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
-      "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
-      "source": "CNBC Economy",
-      "lead": "Unlike most central banks, the MAS manages medium-term price stability by managing the Singapore dollar exchange rate against a trade-weighted basket of currencies.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "46e8fd8b623112a6": {
-      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-      "title": "Trump's new global tariff draws rebukes from trade partners over forced labor justification",
-      "source": "CNBC Economy",
-      "lead": "U.S. trading partners have rejected the forced labor rationale behind Trump's new global tariffs, while most signaled plans to keep negotiating.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "fcdf088cd9d0bb5d": {
-      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-      "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-      "source": "CNBC Economy",
-      "lead": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "de08b8965f26922d": {
-      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-      "source": "CNBC Economy",
-      "lead": "The consumer price index in June was expected to increase 3.8% from a year ago.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "43880e105ebe1346": {
-      "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
-      "title": "U.S., other nations back open-source AI with 'strong security' at China summit",
-      "source": "CNBC Finance",
-      "lead": "The APEC statement is the first to include open-source cooperation at a minister level, said Li Lecheng, China's industry and information technology minister.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "04d748f58cca71eb": {
-      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "source": "CNBC Finance",
-      "lead": "Investors are increasingly readying for the Federal Reserve to hike interest rates in September.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "0be604ff7dd0ad13": {
-      "url": "https://vnexpress.net/pnj-lo-ky-luc-vi-du-phong-mua-lai-kim-cuong-vang-5103486.html",
-      "title": "PNJ lỗ kỷ lục vì dự phòng mua lại kim cương, vàng",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Quý II, PNJ báo lỗ gần 283 tỷ đồng, mức kỷ lục từ khi công bố thông tin, do trích lập dự phòng 865 tỷ mua lại sản phẩm.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "8f0b3eb8cba30632": {
-      "url": "https://vnexpress.net/sau-rieng-viet-duoc-xuat-chinh-ngach-sang-an-do-5103476.html",
-      "title": "Sầu riêng Việt được xuất chính ngạch sang Ấn Độ",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Ấn Độ cho phép nhập khẩu sầu riêng tươi Việt Nam, mở ra thị trường 1,4 tỷ dân, và giúp doanh nghiệp xuất khẩu giảm phụ thuộc vào các thị trường truyền thống.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "c3b1626059327384": {
-      "url": "https://vnexpress.net/vietnam-airlines-van-co-lai-trong-6-thang-dau-nam-5103370.html",
-      "title": "Vietnam Airlines vẫn có lãi trong 6 tháng đầu năm",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Dù giá nhiên liệu lên cao ảnh hưởng đến hoạt động quý II, Vietnam Airlines vẫn lãi hơn 3.800 tỷ đồng nửa đầu năm nay.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "12247eec9df3b681": {
-      "url": "https://vnexpress.net/the-gioi-di-dong-bao-lai-gan-gap-doi-5103339.html",
-      "title": "Thế Giới Di Động báo lãi gần gấp đôi",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Lợi nhuận nửa đầu năm của Thế Giới Di Động tăng gần gấp đôi lên hơn 6.100 tỷ đồng, khi cả hoạt động kinh doanh cốt lõi và doanh thu tài chính đều tăng cao.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "6a3d1e013b3e5fe8": {
-      "url": "https://vnexpress.net/cong-ty-khai-thac-vang-bac-duy-nhat-tren-san-bao-lai-ky-luc-5103425.html",
-      "title": "Công ty khai thác vàng bạc duy nhất trên sàn báo lãi kỷ lục",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Vimico, công ty chuyên khai thác vàng, bạc duy nhất trên sàn chứng khoán, báo lãi sau thuế 1.531 tỷ đồng, nhờ sản lượng khai thác và giá thành phẩm tăng vọt.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "f8a720a8f63423fe": {
-      "url": "https://vnexpress.net/chung-khoan-tang-manh-nhat-gan-4-thang-5103372.html",
-      "title": "Chứng khoán tăng mạnh nhất gần 4 tháng",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Lực cầu áp đảo, được dẫn dắt bởi cổ phiếu chứng khoán, bán lẻ, ngân hàng… giúp VN-Index tăng gần 40 điểm, mạnh nhất kể từ đầu tháng 4.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "7f3e6bccb2f42cbb": {
-      "url": "https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-30-7-5103326.html",
-      "title": "Giá xăng tiếp tục tăng",
-      "source": "VnExpress Kinh doanh",
-      "lead": "Từ 15h hôm nay, giá xăng, dầu trong nước cùng điều chỉnh phiên thứ 3 liên tiếp, theo đà biến động của thị trường năng lượng thế giới.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "8edd4913846e0b79": {
-      "url": "https://cafef.vn/pnj-bat-ngo-lo-gan-300-ty-quy-2-nam-4000-ty-tien-mat-truoc-bien-co-kim-cuong-188260730194423193.chn",
-      "title": "PNJ bất ngờ lỗ gần 300 tỷ quý 2, nắm 4.000 tỷ tiền mặt trước biến cố kim cương",
-      "source": "CafeF Chứng khoán",
-      "lead": "Số dư tiền, tương đương tiền và tiền gửi ngắn hạn của PNJ tính đến cuối quý 2 vào khoảng 4.000 tỷ đồng, tăng mạnh so với đầu năm.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "7db28e94ec478f05": {
-      "url": "https://cafef.vn/vinpearl-bao-lai-nua-dau-nam-cao-gap-8-lan-cung-ky-188260730182718246.chn",
-      "title": "Vinpearl báo lãi nửa đầu năm cao gấp 8 lần cùng kỳ",
-      "source": "CafeF Chứng khoán",
-      "lead": "Tại thời điểm 30/06/2026, Vinpearl ghi nhận tổng tài sản đạt 119.200 tỷ đồng, vốn chủ sở hữu đạt 45.300 tỷ đồng, lần lượt tăng 37% và 24% so với thời điểm cuối năm 2025.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "86ade7c6976afba1": {
-      "url": "https://cafef.vn/mot-the-luc-vua-xa-gan-200-ty-dong-trong-phien-index-tang-40-diem-188260730181724032.chn",
-      "title": "Một thế lực vừa \"xả\" gần 200 tỷ đồng trong phiên Index tăng 40 điểm",
-      "source": "CafeF Chứng khoán",
-      "lead": "Tự doanh CTCK bán ròng 192 tỷ đồng trên HoSE.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "dc7cbc68c48bd9bf": {
-      "url": "https://cafef.vn/pnj-phat-thong-bao-quan-trong-188260730180934815.chn",
-      "title": "PNJ phát thông báo quan trọng",
-      "source": "CafeF Chứng khoán",
-      "lead": "Trước đó, PNJ vừa cập nhật tình hình kinh doanh gửi cổ đông và nhà đầu tư, sau giai đoạn thị trường xuất hiện nhiều thông tin liên quan đến hoạt động thu đổi trang sức kim cương.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "94064ac3787396b8": {
-      "url": "https://cafef.vn/thong-tin-moi-nhat-vu-vingroup-khoi-kien-68-ca-nhan-to-chuc-toa-an-canada-vua-bac-don-cua-phuong-ngo-188260730173445643.chn",
-      "title": "Thông tin mới nhất vụ Vingroup khởi kiện 68 cá nhân, tổ chức: Tòa án Canada vừa bác đơn của Phương Ngô",
-      "source": "CafeF Chứng khoán",
-      "lead": "Tòa án Tối cao British Columbia (Canada) vừa chính thức bác bỏ hoàn toàn yêu cầu “hủy bỏ vụ kiện” (đơn anti-SLAPP) của phía Ngô Thị Oanh Phương (Phương Ngô).",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "7af20aaac15d9ef4": {
-      "url": "https://cafef.vn/vietnam-airlines-va-nhieu-doanh-nghiep-lai-dam-188260730162457321.chn",
-      "title": "Vietnam Airlines và nhiều doanh nghiệp lãi đậm",
-      "source": "CafeF Chứng khoán",
-      "lead": "Nửa đầu năm nay, Vietnam Airlines đạt lợi nhuận 3.852 tỷ đồng. Hoàng Anh Gia Lai có lợi nhuận ròng hơn 2.100 tỷ đồng, gấp 2,4 lần cùng kỳ. Phân bón Dầu khí Cà Mau đạt lãi ròng gần 1.860 tỷ đồng, vượt ",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "2497b8773e3cc9f5": {
-      "url": "https://cafef.vn/them-chung-khoan-vietcap-call-margin-dig-cua-gia-dinh-ong-nguyen-hung-cuong-18826073016465378.chn",
-      "title": "Thêm Chứng khoán Vietcap \"call margin\" DIG của gia đình ông Nguyễn Hùng Cường",
-      "source": "CafeF Chứng khoán",
-      "lead": "Vietcap cho biết sẽ bán giải chấp số cổ phiếu trên từ ngày 29/07/2026 cho đến khi bán xong lượng cổ phiếu đã công bố hoặc cho đến khi có thông báo khác.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "f8f96764a625b809": {
-      "url": "https://cafef.vn/kinh-te-truong-ssi-chi-ra-dieu-can-luu-y-sau-quyet-dinh-cua-fed-188260730163304998.chn",
-      "title": "Kinh tế trưởng SSI chỉ ra điều cần lưu ý sau quyết định của Fed",
-      "source": "CafeF Chứng khoán",
-      "lead": "Theo ông Phạm Lưu Hưng, khả năng Fed tăng lãi suất trong giai đoạn tháng 9-12/2026 cần được theo dõi sát. Tuy nhiên, các yếu tố bên ngoài chủ yếu gây biến động ngắn hạn và khó làm thay đổi xu hướng cơ",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "8201cc4f403bf94b": {
-      "url": "https://cafef.vn/sjc-phat-canh-bao-khan-ve-tinh-trang-gia-mao-thuong-hieu-lua-doi-kim-cuong-lay-vang-188260730153232288.chn",
-      "title": "SJC phát cảnh báo khẩn về tình trạng giả mạo thương hiệu lừa đổi kim cương lấy vàng",
-      "source": "CafeF Chứng khoán",
-      "lead": "Công ty TNHH MTV Vàng bạc Đá quý Sài Gòn (SJC) vừa phát đi cảnh báo về tình trạng nhiều đối tượng lợi dụng thương hiệu SJC để thực hiện các hành vi lừa đảo trên mạng xã hội.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "c1d2f562942c938b": {
-      "url": "https://cafef.vn/cu-mo-cua-hang-la-lai-loi-nhuan-bach-hoa-xanh-lap-ky-luc-188260730154655.chn",
-      "title": "“Cứ mở cửa hàng là lãi”, lợi nhuận Bách Hóa Xanh lập kỷ lục",
-      "source": "CafeF Chứng khoán",
-      "lead": "Số lãi trong nửa đầu năm của Bách Hóa Xanh thập chí còn cao hơn cả mức cả năm 2025 trước đó.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "dca6b0983502ee21": {
-      "url": "https://cafef.vn/khoi-ngoai-chi-gan-700-ty-dong-gom-co-phieu-viet-nam-trong-ngay-vn-index-bat-tang-40-diem-188260730152332703.chn",
-      "title": "Khối ngoại chi gần 700 tỷ đồng \"gom\" cổ phiếu Việt Nam trong ngày VN-Index bật tăng 40 điểm",
-      "source": "CafeF Chứng khoán",
-      "lead": "Chiều mua, khối ngoại mua ròng mạnh nhất cổ phiếu VIC với giá trị khoảng 195 tỷ đồng.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "ae966c2977321f84": {
-      "url": "https://cafef.vn/chung-khoan-roi-30-noi-te-do-lua-thong-doc-ngan-hang-bat-ngo-tu-chuc-dieu-gi-dang-xay-ra-voi-nen-kinh-te-lon-nhat-dna-188260730153340499.chn",
-      "title": "Chứng khoán rơi 30%, nội tệ đỏ lửa, Thống đốc Ngân hàng bất ngờ từ chức: Điều gì đang xảy ra với nền kinh tế lớn nhất ĐNÁ?",
-      "source": "CafeF Chứng khoán",
-      "lead": "Sự rút lui của vị Thống đốc tại thời điểm nhạy cảm đối với nền kinh tế lớn nhất Đông Nam Á đang làm gia tăng thêm nhiều lo ngại.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "92c3fe330b7d02ec": {
-      "url": "https://cafef.vn/de-xuat-giam-sat-thi-truong-vang-lam-ro-trach-nhiem-cac-bo-nganh-18826073015264192.chn",
-      "title": "Đề xuất giám sát thị trường vàng, làm rõ trách nhiệm các bộ, ngành",
-      "source": "CafeF Chứng khoán",
-      "lead": "Đại biểu đề nghị Quốc hội khóa XVI giám sát, làm rõ trách nhiệm liên bộ, liên ngành về vàng miếng, thể chế quản lý thị trường vàng và cơ chế kiểm định độc lập ra sao.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "cd473909faf385d9": {
-      "url": "https://cafef.vn/them-mot-doanh-nghiep-ho-vin-co-tai-san-vuot-moc-trieu-ty-188260730144825423.chn",
-      "title": "Thêm một doanh nghiệp \"họ\" Vin có tài sản vượt mốc triệu tỷ",
-      "source": "CafeF Chứng khoán",
-      "lead": "Quy mô tổng tài sản của Vinhomes tại ngày 30/6 lên đến hơn 1,1 triệu tỷ đồng, là mức kỷ lục kể từ khi doanh nghiệp hoạt động.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "c4a7c1e8ee7cf3fe": {
-      "url": "https://cafef.vn/houthi-buoc-moi-tau-thuyen-qua-bien-do-phai-nop-phi-tru-trung-quoc-188260730194853065.chn",
-      "title": "Houthi buộc mọi tàu thuyền qua Biển Đỏ phải nộp phí, trừ Trung Quốc",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Động thái của phiến quân Houthi có thể khiến họ phải hứng chịu những cuộc tấn công từ quốc tế.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "5f6305d456489cec": {
-      "url": "https://cafef.vn/khoan-sau-xuong-long-dat-phat-hien-mo-vang-tru-luong-hon-1400-tan-lap-ky-luc-ca-nuoc-188260730180506562.chn",
-      "title": "Khoan sâu xuống lòng đất, phát hiện mỏ vàng trữ lượng hơn 1.400 tấn, lập kỷ lục cả nước",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Vị trí chính xác của mỏ vàng này vẫn chưa được công bố sau 1 năm.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "abca7f70ba3eef6e": {
-      "url": "https://cafef.vn/khong-phai-tien-bac-huyen-thoai-warren-buffett-tiet-lo-thu-giup-nhan-boi-thanh-cong-gia-tri-hon-bao-gio-het-trong-ky-nguyen-ai-188260730170050378.chn",
-      "title": "Không phải tiền bạc, huyền thoại Warren Buffett tiết lộ thứ giúp nhân bội thành công, giá trị hơn bao giờ hết trong kỷ nguyên AI",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Giữa kỷ nguyên AI, khi công nghệ có thể viết email, tóm tắt cuộc họp hay lập kế hoạch trong vài giây, kỹ năng này của con người trở thành lợi thế cạnh tranh cốt lõi.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "f13d656c6dcde376": {
-      "url": "https://cafef.vn/dang-cho-hon-650-tan-dau-mot-tau-trung-quoc-bi-chan-bat-giua-bien-sau-khi-bi-theo-doi-ca-tuan-188260730154407424.chn",
-      "title": "Đang chở hơn 650 tấn dầu, một tàu Trung Quốc bị chặn bắt giữa biển sau khi bị theo dõi cả tuần",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Cuộc điều tra về con tàu vẫn đang được tiến hành.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "2c67f3da32c3868d": {
-      "url": "https://cafef.vn/nga-bi-mot-nuoc-brics-vuot-mat-trong-cuoc-dua-mua-o-to-trung-quoc-188260730154543095.chn",
-      "title": "Nga bị một nước BRICS vượt mặt trong cuộc đua mua ô tô Trung Quốc",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Giá trị nhập khẩu tăng gần 147% trong 5 tháng đầu năm nay.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "2a80ac87524cbfa2": {
-      "url": "https://cafef.vn/it-nhat-17-nguoi-thiet-mang-trong-tran-dong-dat-tai-nhat-ban-188260730151104594.chn",
-      "title": "Ít nhất 17 người thiệt mạng trong trận động đất tại Nhật Bản",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "13 người thiệt mạng sau trận động đất lớn ở Nhật Bản sau khi 4 thi thể được tìm thấy trong đống đổ nát của một trung tâm mua sắm.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "a55a37ea1dfa15df": {
-      "url": "https://cafef.vn/o-to-lao-len-khong-trung-cam-thang-vao-hong-xe-buyt-dang-chay-tren-duong-hien-truong-khien-ai-cung-sung-so-188260730145857359.chn",
-      "title": "Ô tô lao lên không trung, \"cắm\" thẳng vào hông xe buýt đang chạy trên đường: Hiện trường khiến ai cũng sững sờ",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Một vụ tai nạn giao thông hy hữu xảy ra tại thành phố Brisbane (Australia) khi một chiếc ô tô bất ngờ lao lên không trung rồi đâm mạnh vào hông một xe buýt đang lưu thông qua ngã tư. Hình ảnh từ hiện ",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "0067f73240b5d532": {
-      "url": "https://cafef.vn/the-gioi-ngo-ngang-khi-trung-quoc-khong-ngung-nang-cap-toc-do-sac-pin-xe-dien-nap-day-97-trong-8-phut-cho-sac-xe-chi-bang-thoi-gian-mua-coc-ca-phe-188260730154519159.chn",
-      "title": "Thế giới ngỡ ngàng khi Trung Quốc không ngừng nâng cấp tốc độ sạc pin xe điện: Nạp đầy 97% trong 8 phút, chờ sạc xe chỉ bằng thời gian mua cốc cà phê",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Các hãng xe điện đang chạy đua rút ngắn thời gian sạc, hướng tới trải nghiệm tương đương việc đổ xăng. Mục tiêu là người dùng chỉ cần dừng xe, nghỉ ngơi uống tách cà phê và quay lại với bộ pin gần như",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "859e10a2ad7bf4df": {
-      "url": "https://cafef.vn/ong-trump-bat-ngo-tuyen-bo-khong-co-ke-hoach-cham-dut-cuoc-chien-voi-iran-188260730150448813.chn",
-      "title": "Ông Trump bất ngờ tuyên bố không có kế hoạch chấm dứt cuộc chiến với Iran",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Trong phát biểu mới đây trước truyền thông, ông Trump thẳng thắn thừa nhận không có kế hoạch chấm dứt cuộc chiến với Iran, vì họ tấn công vào căn cứ của Mỹ.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "e1091334d0e062e0": {
-      "url": "https://cafef.vn/han-quoc-vua-chinh-thuc-buoc-vao-ky-nguyen-xa-hoi-sieu-gia-cau-chuyen-da-ke-nhieu-nam-nhung-hay-thuc-su-nhin-vao-cach-ho-doi-mat-188260730150551731.chn",
-      "title": "Hàn Quốc vừa chính thức bước vào kỷ nguyên xã hội siêu già: Câu chuyện đã kể nhiều năm nhưng hãy thực sự nhìn vào cách họ đối mặt",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Hiện cứ 5 người Hàn Quốc thì 1 người trên 65 tuổi và xã hội siêu già không còn là cảnh báo suông.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "034d1623cbe10a76": {
-      "url": "https://cafef.vn/nhieu-tieng-no-lon-vang-len-o-iran-my-tuyen-bo-hoan-thanh-dot-khong-kich-moi-nhat-188260730121026326.chn",
-      "title": "Nhiều tiếng nổ lớn vang lên ở Iran, Mỹ tuyên bố hoàn thành đợt không kích mới nhất",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Quân đội Mỹ tuyên bố đã hoàn tất một đợt không kích quy mô lớn nhằm vào Iran để đáp trả vụ tấn công của Tehran nhằm vào lực lượng Mỹ tại Trung Đông một ngày trước đó.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "d5b67c3159d186a0": {
-      "url": "https://cafef.vn/loi-suat-trai-phieu-my-vot-len-dinh-gan-20-nam-da-ban-thao-chua-dut-sau-quyet-dinh-lai-suat-cua-fed-188260730150724038.chn",
-      "title": "Lợi suất trái phiếu Mỹ vọt lên đỉnh gần 20 năm, đà bán tháo chưa dứt sau quyết định lãi suất của Fed",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Lợi suất trái phiếu kho bạc Mỹ tiếp tục tăng trong phiên giao dịch ngày 30/7 khi nhà đầu tư đánh giá quyết định giữ nguyên lãi suất của Cục Dự trữ Liên bang Mỹ (Fed) và tìm kiếm thêm thông tin về định",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "b8d9d6195991db51": {
-      "url": "https://cafef.vn/buon-cua-nen-kinh-te-lon-chau-a-hang-chuc-trieu-nha-dau-tu-om-2-co-phieu-lo-den-80-chi-sau-1-tuan-188260730150228342.chn",
-      "title": "Buồn của nền kinh tế lớn châu Á: Hàng chục triệu nhà đầu tư 'ôm' 2 cổ phiếu, lỗ đến 80% chỉ sau 1 tuần",
-      "source": "CafeF Tài chính quốc tế",
-      "lead": "Hàng chục triệu nhà đầu tư đã bị cuốn vào đợt bán tháo cổ phiếu công nghệ trong tuần này.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "ee7b31b9d87bcb77": {
-      "url": "https://cafef.vn/moodys-nang-trien-vong-tpbank-len-tich-cuc-giua-da-tang-truong-ban-nien-188260730180623705.chn",
-      "title": "Moody’s nâng triển vọng TPBank lên “Tích cực” giữa đà tăng trưởng bán niên",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Tổ chức xếp hạng tín nhiệm quốc tế Moody’s Ratings (Moody’s) vừa chính thức công bố nâng triển vọng xếp hạng của Ngân hàng TMCP Tiên Phong (TPBank: HOSE TPB) từ \"Ổn định\" sang \"Tích cực\", đồng thời xá",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "8dcb7f3e0b486628": {
-      "url": "https://cafef.vn/hdbank-lap-ky-luc-voi-khoan-vay-xa-hoi-ben-vung-hop-von-quoc-te-lon-nhat-tu-truoc-toi-nay-tai-viet-nam-188260730175228182.chn",
-      "title": "HDBank lập kỷ lục với khoản vay xã hội, bền vững hợp vốn quốc tế lớn nhất từ trước tới nay tại Việt Nam",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Khoản vay xã hội hợp vốn quốc tế trị giá 721 triệu USD mà HDBank ký kết ngày 30/7 đã thiết lập một dấu mốc mới trên thị trường vốn Việt Nam. Đây là khoản vay xã hội hợp vốn quốc tế lớn nhất từ trước t",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "c4c816c59b1ac735": {
-      "url": "https://cafef.vn/tu-phat-trien-ben-vung-den-lan-song-cong-nghe-luong-tu-tuong-lai-188260730161604686.chn",
-      "title": "Từ phát triển bền vững đến làn sóng công nghệ lượng tử tương lai",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Trong chiến lược phát triển bền vững, Nam A Bank tiếp tục khẳng định vị thế tiên phong khi chủ động xây dựng hệ sinh thái nghiên cứu và ứng dụng công nghệ lượng tử trong các hoạt động an ninh, bảo mật",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "a26e6c4495e299c4": {
-      "url": "https://cafef.vn/ocb-bao-cao-loi-nhuan-tang-hon-30-trong-6-thang-dau-nam-188260730162805228.chn",
-      "title": "OCB báo cáo lợi nhuận tăng hơn 30% trong 6 tháng đầu năm",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Ngân hàng TMCP Phương Đông (HoSE: OCB) vừa công bố báo cáo tài chính quý 2/2026, ghi nhận lợi nhuận trước thuế đạt 1.246 tỷ đồng, tăng gần 25% so với cùng kỳ; lũy kế 6 tháng đầu năm đạt 2.470 tỷ đồng,",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "769ce5b10851aaae": {
-      "url": "https://cafef.vn/vietcombank-vietinbank-agribank-tam-ngung-toan-bo-giao-dich-rut-chuyen-tien-doi-voi-cac-truong-hop-sau-188260729154542062.chn",
-      "title": "Vietcombank, VietinBank, Agribank… tạm ngừng toàn bộ giao dịch rút/chuyển tiền đối với các trường hợp sau",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Có 5 trường hợp tài khoản ngân hàng sẽ bị tạm dừng giao dịch, bao gồm rút tiền và chuyển tiền mà người dùng cần lưu ý.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "bd1ad5ddbb9e477d": {
-      "url": "https://cafef.vn/chu-tich-hdqt-mb-tu-nhung-bai-toan-thuc-tien-den-nhung-mo-hinh-co-the-vuon-ra-the-gioi-188260730151510031.chn",
-      "title": "Chủ tịch HĐQT MB: Từ những bài toán thực tiễn đến những mô hình có thể vươn ra thế giới",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Tại phiên khai mạc Diễn đàn Đổi mới sáng tạo toàn cầu Việt Nam 2026 (VGIC 2026) ngày 29/7 vừa qua, ông Lưu Trung Thái, Chủ tịch HĐQT MB, cho rằng Việt Nam đang đứng trước \"cửa sổ cơ hội\" để tạo ra bướ",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "41aa422fc317a950": {
-      "url": "https://cafef.vn/toan-canh-loi-nhuan-cua-27-ngan-hang-trong-6-thang-dau-nam-2026-188260730152540587.chn",
-      "title": "Toàn cảnh lợi nhuận của 27 ngân hàng trong 6 tháng đầu năm 2026",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Trong ngày hôm nay (30/7), 27 ngân hàng sẽ hoàn tất việc công bố báo cáo tài chính quý 2/2026.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "08427719d63ada31": {
-      "url": "https://cafef.vn/hsbc-ai-nang-cao-su-tu-tin-cua-nha-dau-tu-nhung-chuyen-mon-con-nguoi-giu-vai-tro-then-chot-o-thoi-diem-ra-quyet-dinh-188260730142332538.chn",
-      "title": "HSBC: AI nâng cao sự tự tin của nhà đầu tư nhưng chuyên môn con người giữ vai trò then chốt ở thời điểm ra quyết định",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Theo nghiên cứu của HSBC, nhà đầu tư đang dùng các công cụ AI để tìm hiểu và đánh giá các lựa chọn, nhưng họ vẫn ưu tiên tham vấn chuyên gia đáng tin cậy khi ra quyết định tài chính.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "606bf929f6679962": {
-      "url": "https://cafef.vn/vietbank-lai-truoc-thue-777-ty-dong-trong-quy-ii-2026-gan-gap-3-lan-cung-ky-cho-vay-khach-hang-tang-manh-188260730134937097.chn",
-      "title": "Vietbank lãi trước thuế 777 tỷ đồng trong quý II/2026, gần gấp 3 lần cùng kỳ, cho vay khách hàng tăng mạnh",
-      "source": "CafeF Tài chính - Ngân hàng",
-      "lead": "Ngân hàng TMCP Việt Nam Thương Tín (Vietbank – mã chứng khoán VBB) vừa công bố báo cáo tài chính hợp nhất giữa niên độ quý II/2026.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "6cd74a2027c2883b": {
-      "url": "https://cafef.vn/gap-pho-thu-tuong-chu-tich-hiep-hoi-hon-3000-dn-thua-nhan-3-loi-the-cua-vn-trong-linh-vuc-1000-ty-usd-188260730164609992.chn",
-      "title": "Gặp Phó Thủ tướng, Chủ tịch hiệp hội hơn 3.000 DN thừa nhận 3 lợi thế của VN trong lĩnh vực 1.000 tỷ USD",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Đây là lĩnh vực sẽ mang lại nhiều giá trị lớn cho nền kinh tế toàn cầu.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "a6d7f3e119dcd07f": {
-      "url": "https://cafef.vn/ha-noi-cong-khai-danh-sach-can-ra-soat-ma-so-thue-18826073009461644.chn",
-      "title": "Hà Nội công khai danh sách cần rà soát mã số thuế",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Thuế TP. Hà Nội công khai danh sách 150.459 người nộp thuế ngừng hoạt động cần rà soát mã số thuế.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "d3982bbf64bf15a5": {
-      "url": "https://cafef.vn/tinh-nao-co-thu-nhap-binh-quan-dau-nguoi-cao-nhat-ca-nuoc-188260730155322866.chn",
-      "title": "Tỉnh nào có thu nhập bình quân đầu người cao nhất cả nước?",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Đây là tỉnh được ví như \"Việt Nam thu nhỏ\" do sở hữu địa hình đa dạng.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "eb766bf361d236c0": {
-      "url": "https://cafef.vn/viet-nam-sap-co-ham-xuyen-ngon-nui-hinh-dau-rong-noi-tieng-o-thi-tran-tren-may-dai-14km-von-2500-ty-dong-18826073015025678.chn",
-      "title": "Việt Nam sắp có hầm xuyên ngọn núi hình đầu rồng nổi tiếng ở \"thị trấn trên mây\", dài 1,4km, vốn 2.500 tỷ đồng",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Chủ trương đầu tư hầm xuyên núi trị giá 2.500 tỷ đồng này đã được thông qua.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "bbb0a0a692fbf0cc": {
-      "url": "https://cafef.vn/can-canh-cao-toc-tphcm-long-thanh-sau-gan-1-nam-mo-rong-188260730155547464.chn",
-      "title": "Cận cảnh cao tốc TP.HCM - Long Thành sau gần 1 năm mở rộng",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Sau gần 1 năm thi công, dự án mở rộng cao tốc TP.HCM - Long Thành ghi nhận những thảm nhựa đầu tiên, nhiều cầu đã lao lắp dầm, thi công bản mặt cầu.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "1b2834e2e0267f3b": {
-      "url": "https://cafef.vn/ha-noi-hoan-nghenh-central-retail-viet-nam-mo-rong-dau-tu-phat-trien-chuoi-ban-le-hien-dai-18826073014432659.chn",
-      "title": "Hà Nội hoan nghênh Central Retail Việt Nam mở rộng đầu tư, phát triển chuỗi bán lẻ hiện đại",
-      "source": "CafeF Vĩ mô - Đầu tư",
-      "lead": "Ngày 30-7, Ủy viên Bộ Chính trị, Bí thư Thành ủy, Trưởng Đoàn đại biểu Quốc hội thành phố Hà Nội Trần Đức Thắng đã tiếp và làm việc với đoàn công tác của Central Retail Việt Nam do Tổng Giám đốc Olivi",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    },
-    "37bf0754d1b01e6c": {
-      "url": "https://www.cnbc.com/2026/07/30/5-things-to-know-before-the-stock-market-opens.html",
-      "title": "Warsh's inflation problem, Meta's weak guidance, Chipotle earnings and more in Morning Squawk",
-      "source": "CNBC Tech",
-      "lead": "Here are five key things investors need to know to start the trading day.",
-      "sent_at": "2026-07-30T19:54:40+07:00"
-    }
-  },
   "2026-07-31": {
     "bde22655cdcf78ad": {
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWdSdFRSN19jRlZ5ZTNLczJESGxaRTFPSVBwY2kxU0dmVWpLMmhEaXlzVmtMN0pkb0pXOXpfTi0yTW5uYUI1QmltQVg0Ul9KaVRmbnA3Rm9hWlE4VS12VDFiSWY2dzB0aFk3WmY4VzRDQnRPZXZtUTJlVm9RUW5FNU4tSWNIUUNkckI1SmlOTzJhTmpMQlE4?oc=5",
@@ -4149,6 +3699,358 @@
       "source": "CafeF Vĩ mô - Đầu tư",
       "lead": "Bảy tháng đầu năm 2026, công tác điều hành thu, chi ngân sách Nhà nước trên địa bàn thành phố Hà Nội đạt kết quả tích cực, đảm bảo các mục tiêu cân đối lớn và giữ vững kỷ cương tài chính quốc gia.",
       "sent_at": "2026-08-02T19:15:24+07:00"
+    }
+  },
+  "2026-08-03": {
+    "d5d89a8570a4b951": {
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV3p4dmpSOF9MQTJIMElOekxldlV5SllRNktEMjlHNlYwLTQ2S1dJY0xvRW1QaEZ2X2Y1aUlGeWVBQWZndjBKNndFa0VUOTdTaXhqQU1JQ1dhVnY3U2JjSVNtcTNQeXl0MklhSi1kQkpnNUVoNkg3X3RFMXg4V2dPOWlB?oc=5",
+      "title": "Cổ phiếu đáng chú ý ngày 3/8: MSN, VIB, PVD",
+      "source": "Người Quan Sát",
+      "lead": "Cổ phiếu đáng chú ý ngày 3/8: MSN, VIB, PVD nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "d62576ac8e6bb795": {
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORGJEX1BiV3pvcVpSajJndm5KU2szM01QSXBvamVsaTd2aXlDWXJpeWloM3ZGRHNPM2c2bkpLSG8yZjlKSGRFaXJmUk5UWmJhRlFkWklSRU5ldXpCNFZPLTlZQXJ5WXNoUnU4bGNQRElQNEs2a21JcGI2SFduNEpRd3RSNTZKb2Zvc3A0d0plTzFFVVhmZHlVbTJ4c1JOYUEtbndlb1ZSZThkVG12R2RuX0VvdXNVcnpmNlZKakJNaTZXUjgxbElRNEpFb0h6RjJWckJ6THpiTGp0ZkhUdU1Wc1V1UWhxVVBOUWZpLQ?oc=5",
+      "title": "Lần đầu tiên trong lịch sử Việt Nam dự kiến làm công trình hầm hơn 10.000 tỷ đi ngầm dưới sân bay quốc tế đang khai thác",
+      "source": "Người Quan Sát",
+      "lead": "Lần đầu tiên trong lịch sử Việt Nam dự kiến làm công trình hầm hơn 10.000 tỷ đi ngầm dưới sân bay quốc tế đang khai thác nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "a81efcab2378c01d": {
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVhkU3NVVEZWeHppXzhhVGFNQ193R0E5SVdHRXdUcllaMGJVQ2hJNWNhWnRLWFNrVHE4cmllYUFMVWxRNTFUTkk2VVp1WEk3NENFZXN5bTF6cm1ad1dzQXAtR1h4eWpVWU02TVFxbWEzMko1ME5VMTBtWXFrQjdtUzM0R2tfYW1FZXNzNDhMUE00NEcxSzBlZFRPLWVSNzQ2TW5PS2JuZTVld0t6RDFQTVFsRzFtdjBobnFlVg?oc=5",
+      "title": "Sắp tới, Chủ tịch UBND xã được nâng thẩm quyền xử phạt vi phạm đất đai lên gấp 50 lần",
+      "source": "Người Quan Sát",
+      "lead": "Sắp tới, Chủ tịch UBND xã được nâng thẩm quyền xử phạt vi phạm đất đai lên gấp 50 lần nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "ecdcda3eb840c975": {
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWHBjdHNocmNxVWJFRWFNSzl5YXhETTFpdEkyZkRjOVN4R21PRDJrLURvOG9NX3d5UHZUNkJQTnRlaWdGaHQtUE5DaklqVjJIZU9majJUUHo2OTJ1RXdldUhSR3FOZlNWX2VFa2lhVWxWb1lBdTFsQlp0QTVQLVBBMzJNNjZXWG1ESlgxSkQtcy1zNHZyUmhiZWRGZTF3aUR2dzR2Y1NERWI3TjNndFdUWjdEUFZGUkJKQ1ktakNsbjNZR3dHM19MSHRiSTQ3TEdz?oc=5",
+      "title": "Miền Bắc sẽ xây dựng cao tốc mới 29.000 tỷ kết nối hàng loạt khu công nghiệp với miền núi giáp biên",
+      "source": "Người Quan Sát",
+      "lead": "Miền Bắc sẽ xây dựng cao tốc mới 29.000 tỷ kết nối hàng loạt khu công nghiệp với miền núi giáp biên nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "13b0ef7445d9b736": {
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTkpnRFh1eFBEZkZkbTZYenhZRDE1SXFsVUplYXNjQVFsWFpPTGxDZnVISjNfaHkwNjJjUXplN184OVJLaS1PX3dQdlZTdzVjaVdrYVptZmo4Z3RqQno5VkROT2pwZTZZczJOZU1kUG9iQXNkdUI5Z0VtMWFub2N3cVZMWTVYNlMtdGlzRzBGWHU0MUZ3eWZXbU44dlpfZjBUa3lsWU94bHlaSFBmV056dWttQUgyOGEwZnVvUHJOY2p4R1VhaTNqaTVWYXNvbXZpUF9kVldXa0M?oc=5",
+      "title": "Mỗi hộ gia đình được nhận 2.000.000 đồng tiền mặt và được thông qua từ 15/7, ai thuộc nhóm đối tượng hưởng?",
+      "source": "Người Quan Sát",
+      "lead": "Mỗi hộ gia đình được nhận 2.000.000 đồng tiền mặt và được thông qua từ 15/7, ai thuộc nhóm đối tượng hưởng? nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "61b864b7a2354c6d": {
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdUlYZmtGMUE1TlgxZU1Ec25keTFiLThBaVN5SDZjeV90QzluVlg0ZFdFUkg0S1ZSdnpVRGJhSzlSemc1Vm9YOVg5cEQwaTViVG83VWNlT2s0a25McTVETHNWU1BkSDZmczFoa3NnYnBBeVhHeXVxMy1XVzFlQmFfZjNlS3J5UlZNdWtucjBMdVR2UEkyVUY2ajJjU25lR2hvQTlaSUdsQW9IMlZnQ2tFa3htcjJ6N3ZJSnlXTjlOaTRwWUZPMU9abVRUSHpJckNZcGRCOTlyU1dYSEl0aVlyaXZxX0JEUUxJa1JiS05tdnZOSGFVQjZtaThR?oc=5",
+      "title": "Phát hiện thác nước 50m đẹp thứ 2 Việt Nam, được ví như 'nàng thơ ngủ quên' giữa đại ngàn Tây Nguyên, nơi hàng trăm con chim én làm tổ",
+      "source": "Người Quan Sát",
+      "lead": "Phát hiện thác nước 50m đẹp thứ 2 Việt Nam, được ví như 'nàng thơ ngủ quên' giữa đại ngàn Tây Nguyên, nơi hàng trăm con chim én làm tổ nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "9b29113080261850": {
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOTF3aUY3TVp5bFBta2xmV0RJOU0tZmxoUnViTExwWE9ITGI3dWxaMC1sajZsMDlRSHhEaEg0cjJaNTdxekJrdGtTT3JkdzJBcWdfS2N2OTU1aGg2aURtakxkRUhwbFVrM2JtMmV5WGpNMFdET1NLYUxscjNhZDd5cU5id2pYSDF4UkFMckFSWkg0amVHb3dYajA4Nzdyel9RZUd3cUpRWk0xQWZRb0lJd3pHOGNkd3VWOFhlNDBsQXAzZw?oc=5",
+      "title": "Báo Nga: Điều trùng hợp hiếm thấy của các tỷ phú USD Việt Nam trong hành trình lập nghiệp",
+      "source": "Người Quan Sát",
+      "lead": "Báo Nga: Điều trùng hợp hiếm thấy của các tỷ phú USD Việt Nam trong hành trình lập nghiệp nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "718f7c9671703a44": {
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNFRueHFBVG9CTzc3bVpzeEpDTllwT2JjRXFhcWViWGpNMHRSTGJNT2w1MUJsanFmZ3RNSkVON082M0hrQlZCU3l0b2FheElSTE9leGtVTU5VaVR4MjF6dWZVdXhXZElwMEZFT3NjTGZFS05GUnlDOXQ4OUhqZndtWGNfMUhoTWZhZ3VDTTdlUzZIOFkyS1BHbE1pdkdDbTFEM2dFbUp1VXlqZU1mZGNRN2ZoYlZtaUhqakFRVmtzOHFwSHc?oc=5",
+      "title": "Nỗi lo mất thị trường tỷ dân: Sầu riêng nước láng giềng đối diện làn sóng gian lận xuất xứ",
+      "source": "Người Quan Sát",
+      "lead": "Nỗi lo mất thị trường tỷ dân: Sầu riêng nước láng giềng đối diện làn sóng gian lận xuất xứ nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "451b8ad21d0c7a6b": {
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTW5xOThEb3lLaGhvcUFQc1AxLWFHM3BwSkt0VXUwMnh6emVBbnBiUDg3NW5Kd1ZURlZ1QWRQa0U2b3I3UXR3RTFzNUplOEptSGRUNFQwQVZVUG9MUjhNbWdzNmFKRUJ4TmZwRGF4NUlsVGFXamIxR2Q3RmhfNVBXU2d0Rmh2QUFQV0Fhc0VqeVNPblUwaFhHSzFqb3Q2RVZabU1PZ3R6Mm5LNEozSlRoRkpFdnhiWUlIYkpEUzlVZEcyMXJPOWJ2WUtnclRQUTlyUzdsNVpLMDdRbmZ3ZFJrS2k5T3FHZVZQdWhyclFNTTBadWkxTVNiaXlwTEoySXdGUUF1TQ?oc=5",
+      "title": "Sân bay duy nhất của Việt Nam lấy cảm hứng từ hoa dã quỳ: Được Pháp xây dựng gần 100 năm trước, cửa ngõ giao thông quan trọng của 'tiểu Paris'",
+      "source": "Người Quan Sát",
+      "lead": "Sân bay duy nhất của Việt Nam lấy cảm hứng từ hoa dã quỳ: Được Pháp xây dựng gần 100 năm trước, cửa ngõ giao thông quan trọng của 'tiểu Paris' nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "6ff3c1687b8ec082": {
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPdjg4M2pLTnpzX2Jxd2txcUE3Rm9yVW5SelhnLXlWVzRYSjJyZEJmM1dFNFFyZ1dXR2FwbDlMeWREOXNvQS1ocW9ESTE5eE1kU3E2LWVBeE5VanlQa05fUUZZSWJxQ1R1bVRkOExDVzJtZ0dyZk1xZlRTTEM2d2hCNFJtQW9JT2RaT1J2RDdhck1IcnNjWFBKclBEdG1MM3RDcHF5RHpCbnE1aGFFUWUzZjVFYTZFWXMwODRxOGZyY3lTN0J3MlJURko0QzRURnZJcE9RNFVaejFFS1FsRFpmcUlmRThIX2NabE1ZelJPb21nVWkySm1NZWM3cWlEUXhMR0pKQTBMeC1KcFNBTW5tWDBjUXZMV1ZfeVI5OGEyal9nUQ?oc=5",
+      "title": "Buộc thôi việc, tịch thu tài sản, khai trừ khỏi Đảng đối với nguyên Thanh tra cấp hai thuộc Văn phòng Lưu trữ tỉnh vì nghi ngờ phạm tội nhận hối lộ tại Trung Quốc",
+      "source": "Người Quan Sát",
+      "lead": "Buộc thôi việc, tịch thu tài sản, khai trừ khỏi Đảng đối với nguyên Thanh tra cấp hai thuộc Văn phòng Lưu trữ tỉnh vì nghi ngờ phạm tội nhận hối lộ tại Trung Quốc nguoiquansat.vn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "904309ebd8a7d62a": {
+      "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html",
+      "title": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
+      "source": "CNBC Top News",
+      "lead": "U.K. pharmaceutical giant AstraZeneca is considering a deal to merge with its U.S. rival Bristol Myers Squibb.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "b3c2392dfa8d0149": {
+      "url": "https://www.cnbc.com/2026/08/02/spider-man-brand-new-day-box-office-355-million-domestic-opening.html",
+      "title": "'Spider-Man: Brand New Day' chases 'Avengers: Endgame' opening record with $355 million domestic debut",
+      "source": "CNBC Top News",
+      "lead": "Sony and Marvel's \"Spider-Man: Brand New Day\" snared $355 million in estimated domestic box office on its opening weekend, the second-highest debut of all time.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "c62738efcfa5ded4": {
+      "url": "https://www.cnbc.com/2026/08/02/bernie-moreno-max-miller-house-psychological-help-emily-moreno.html",
+      "title": "GOP Sen. Moreno says ex-son-in-law Max Miller shouldn't serve in House, needs 'serious psychological help'",
+      "source": "CNBC Top News",
+      "lead": "Miller has denied the allegations made against him by his ex-wife Emily Moreno, daughter of Ohio Sen. Bernie Moreno.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "41a2e0e7ebeac7c8": {
+      "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+      "title": "Investors scored on Iran war's oil market boom. Staying long the trade will get trickier",
+      "source": "CNBC Top News",
+      "lead": "Oil price volatility caused by U.S.-Iran war created big market winners, but for buy-and-hold investors, there are better long-term energy themes to monitor.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "63efee69a3d18ef6": {
+      "url": "https://www.cnbc.com/2026/08/02/state-student-loans.html",
+      "title": "States expand student loan options as new federal borrowing caps take effect — but they come with trade-offs",
+      "source": "CNBC Top News",
+      "lead": "Some states — including Connecticut, Minnesota and Rhode Island — have expanded their own student loan programs amid new limits on federal borrowing.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "9e8c4c30ef079236": {
+      "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
+      "title": "Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy",
+      "source": "CNBC Top News",
+      "lead": "AI debate in recent years has centered on whether the U.S. can develop a strategy capable of preserving an edge over China. The answer isn't looking positive.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "6ae3cac87a91ab42": {
+      "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+      "title": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
+      "source": "CNBC Economy",
+      "lead": "While the GDP number was below expectations, the miss appeared to come from a decline in federal government spending and inventories.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "5e8ce218c1343d8f": {
+      "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
+      "source": "CNBC Economy",
+      "lead": "Unlike most central banks, the MAS manages medium-term price stability by managing the Singapore dollar exchange rate against a trade-weighted basket of currencies.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "46e8fd8b623112a6": {
+      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
+      "title": "Trump's new global tariff draws rebukes from trade partners over forced labor justification",
+      "source": "CNBC Economy",
+      "lead": "U.S. trading partners have rejected the forced labor rationale behind Trump's new global tariffs, while most signaled plans to keep negotiating.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "fcdf088cd9d0bb5d": {
+      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+      "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+      "source": "CNBC Economy",
+      "lead": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "de08b8965f26922d": {
+      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+      "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+      "source": "CNBC Economy",
+      "lead": "The consumer price index in June was expected to increase 3.8% from a year ago.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "8abad8626052e726": {
+      "url": "https://vnexpress.net/bong-dung-dung-ten-doanh-nghiep-ho-kinh-doanh-5102337.html",
+      "title": "Bỗng dưng đứng tên doanh nghiệp, hộ kinh doanh",
+      "source": "VnExpress Kinh doanh",
+      "lead": "Chưa từng kinh doanh, anh Vũ Văn Thành (Hà Nội) bất ngờ nhận thông báo nợ thuế và nguy cơ hoãn xuất cảnh do tên mình bị mạo danh lập doanh nghiệp.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "c86bc6503bf2ef64": {
+      "url": "https://vnexpress.net/acv-giam-hon-2-300-nhan-su-trong-nua-nam-5104359.html",
+      "title": "ACV giảm hơn 2.300 nhân sự trong nửa năm",
+      "source": "VnExpress Kinh doanh",
+      "lead": "Quy mô nhân sự của Tổng công ty Cảng hàng không Việt Nam (ACV) giảm hơn 20% trong nửa đầu năm, từ gần 11.000 người xuống khoảng 8.500 người.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "b6fd57b2b9c7aeec": {
+      "url": "https://vnexpress.net/lap-pin-mat-troi-dung-xe-dien-de-xanh-hoa-nha-kho-5104295.html",
+      "title": "Lắp pin mặt trời, dùng xe điện để 'xanh hóa' nhà kho",
+      "source": "VnExpress Kinh doanh",
+      "lead": "Nhiều chủ đầu tư nhà kho vận đang tích cực lắp điện mặt trời, dùng xe nâng điện để đáp ứng tiêu chí môi trường, giảm phát thải từ các tập đoàn toàn cầu.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "3be8e6a9cb4b1470": {
+      "url": "https://cafef.vn/dai-gia-viet-kiem-tien-than-toc-tap-doan-cua-ong-pham-nhat-vuong-thu-hon-50-ty-moi-gio-van-ve-nhi-188260802233012751.chn",
+      "title": "Đại gia Việt kiếm tiền thần tốc: Tập đoàn của ông Phạm Nhật Vượng thu hơn 50 tỷ mỗi giờ vẫn “về nhì”",
+      "source": "CafeF Chứng khoán",
+      "lead": "Tất cả các doanh nghiệp phi tài chính trên sàn chứng khoán kiếm trên 1 tỷ USD trong nửa đầu năm 2026 đều ghi nhận doanh thu tăng trưởng cao so với cùng kỳ năm ngoái.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "96a44ec2929d36b4": {
+      "url": "https://cafef.vn/chung-khoan-sau-cu-roi-manh-nhat-tu-dau-nam-thang-8-co-de-tho-hon-188260802163705079.chn",
+      "title": "Chứng khoán sau cú rơi mạnh nhất từ đầu năm: Tháng 8 có 'dễ thở' hơn?",
+      "source": "CafeF Chứng khoán",
+      "lead": "Sau 4 tuần liên tiếp lao dốc, VN-Index có tuần hồi phục đầu tiên để khép lại tháng 7. Dù thị trường vẫn đối mặt áp lực chốt lời, khối ngoại chưa ngừng bán ròng, giới phân tích cho rằng, nhịp điều chỉn",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "1e52a67b68805470": {
+      "url": "https://cafef.vn/xuat-hien-tin-hieu-tao-day-chuyen-gia-vinacapital-chi-ra-loat-co-hoi-dau-tu-hiem-co-tren-thi-truong-18826080222145007.chn",
+      "title": "Xuất hiện tín hiệu tạo đáy, chuyên gia VinaCapital chỉ ra loạt cơ hội đầu tư \"hiếm có\" trên thị trường",
+      "source": "CafeF Chứng khoán",
+      "lead": "Theo vị chuyên gia, lịch sử thị trường cho thấy mỗi khi định giá rơi xuống vùng đủ hấp dẫn, cơ hội dành cho nhà đầu tư dài hạn thường xuất hiện.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "dd02d81190f2edc9": {
+      "url": "https://cafef.vn/chuyen-gia-vinacapital-lich-su-cho-thay-chung-khoan-co-the-hoi-phuc-80100-sau-moi-cu-roi-manh-188260802221343718.chn",
+      "title": "Chuyên gia Vinacapital: Lịch sử cho thấy chứng khoán có thể hồi phục 80–100% sau mỗi cú rơi mạnh",
+      "source": "CafeF Chứng khoán",
+      "lead": "Ở thời điểm hiện tại, đa số cổ phiếu đã giảm khá sâu, nhưng theo ông Minh, thị trường không hẳn đang đối mặt với một thông tin xấu cụ thể.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "cdcfde512a9ddacc": {
+      "url": "https://cafef.vn/choang-voi-doanh-thu-cua-dai-gia-xang-dau-188260802210241422.chn",
+      "title": "Choáng với doanh thu của 'đại gia' xăng dầu",
+      "source": "CafeF Chứng khoán",
+      "lead": "Giá xăng dầu tăng giúp doanh thu của các doanh nghiệp đầu ngành bứt phá, nhưng áp lực giá vốn, chi phí tài chính và rủi ro hàng tồn kho tiếp tục bào mòn lợi nhuận.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "26356427354d387d": {
+      "url": "https://cafef.vn/chung-khoan-viet-dien-bien-the-nao-khi-fed-giu-nguyen-lai-suat-188260802210950666.chn",
+      "title": "Chứng khoán Việt diễn biến thế nào khi Fed giữ nguyên lãi suất?",
+      "source": "CafeF Chứng khoán",
+      "lead": "Quyết định giữ nguyên lãi suất của Fed được giới phân tích đánh giá là yếu tố tích cực giúp chứng khoán Việt Nam giải tỏa tâm lý, củng cố đà phục hồi thời gian tới.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "47fe7a5493d61a4d": {
+      "url": "https://cafef.vn/bat-3-mat-xich-cuoi-xoa-so-duong-day-lua-dao-2300-ty-dong-bang-app-tinh-cam-188260802210044704.chn",
+      "title": "Bắt 3 'mắt xích' cuối, xóa sổ đường dây lừa đảo 2.300 tỷ đồng bằng 'app tình cảm'",
+      "source": "CafeF Chứng khoán",
+      "lead": "Với việc bắt giữ thêm 3 đối tượng 'chủ chốt', Công an Cao Bằng đã bóc gỡ trọn vẹn chuyên án lừa đảo công nghệ cao xuyên biên giới, từng chiếm đoạt hơn 2.300 tỷ đồng của các nạn nhân.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "dcf9b0a1aa2942ce": {
+      "url": "https://cafef.vn/loat-duoc-si-tai-mot-cong-ty-tren-san-chung-khoan-bi-tuyt-coi-188260802210449399.chn",
+      "title": "Loạt dược sĩ tại một công ty trên sàn chứng khoán bị “tuýt còi”",
+      "source": "CafeF Chứng khoán",
+      "lead": "Mỗi cá nhân bị phạt 4 triệu đồng, đồng thời bị buộc nộp lại chứng chỉ hành nghề dược.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "165e5cf5a0c9d932": {
+      "url": "https://cafef.vn/vi-sao-khu-vuc-quanh-co-cung-bac-kinh-trung-quoc-lai-co-nhieu-qua-den-vay-188260802210557629.chn",
+      "title": "Vì sao khu vực quanh Cố Cung Bắc Kinh, Trung Quốc lại có nhiều quạ đến vậy?",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Nhiều lời đồn cho rằng đây là dấu hiệu của \"âm khí\" trong Tử Cấm Thành, nhưng sự thật phía sau lại bắt nguồn từ lịch sử, sinh học và khả năng thích nghi đáng kinh ngạc của loài chim này.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "f49e1670f593be1c": {
+      "url": "https://cafef.vn/ma-roc-neu-ly-do-dat-ten-tong-thong-my-donald-trump-cho-duong-cao-toc-ty-do-188260802210400318.chn",
+      "title": "Ma Rốc nêu lý do đặt tên Tổng thống Mỹ Donald Trump cho đường cao tốc tỷ đô",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Quốc vương Ma Rốc Mohammed VI cho biết, quyết định đặt tên Tổng thống Mỹ Donald Trump cho tuyến đường cao tốc trị giá 1 tỷ USD đi qua vùng Tây Sahara thể hiện sự “trân trọng sâu sắc” của ông đối với n",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "6b295f273f66c952": {
+      "url": "https://cafef.vn/indonesia-chay-pha-cho-270-nguoi-nhieu-nguoi-chet-va-mat-tich-188260802210233276.chn",
+      "title": "Indonesia: Cháy phà chở 270 người, nhiều người chết và mất tích",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Ít nhất 5 người đã thiệt mạng và 41 người khác vẫn còn mất tích sau khi một chiếc phà bốc cháy ngoài khơi đảo Madura của Indonesia, cơ quan tìm kiếm và cứu hộ của nước này cho biết trong một tuyên bố.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "87820d68309a769e": {
+      "url": "https://cafef.vn/bat-4-nghi-pham-sat-hai-gia-dinh-thai-lan-va-2-chi-em-nguoi-nga-188260802210102712.chn",
+      "title": "Bắt 4 nghi phạm sát hại gia đình Thái Lan và 2 chị em người Nga",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Truyền thông và cơ quan chức năng cập nhật các diễn biến mới liên quan vụ án gây chấn động Thái Lan trong những ngày qua, khiến 5 người thiệt mạng.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "c9327b06e8466064": {
+      "url": "https://cafef.vn/nga-danh-odessa-ban-chay-tau-lien-tiep-cau-da-sap-tin-hieu-sap-do-bo-loat-manh-moi-ve-dieu-dang-xay-ra-188260802205919242.chn",
+      "title": "Nga đánh Odessa, bắn cháy tàu liên tiếp: Cầu đã sập, tín hiệu sắp đổ bộ - Loạt manh mối về điều đang xảy ra",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Các đòn tấn công của Nga trong 24 giờ qua tiếp tục dồn về Odessa và vùng biển phía tây bắc Biển Đen. Loạt diễn biến mới nhất vừa được ghi nhận.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "17147b57b4abecd9": {
+      "url": "https://cafef.vn/ukraine-tap-kich-can-cu-may-bay-nem-bom-chien-luoc-tan-cong-nha-may-loc-dau-lon-cua-nga-188260802200032393.chn",
+      "title": "Ukraine tập kích căn cứ máy bay ném bom chiến lược, tấn công nhà máy lọc dầu lớn của Nga",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Ukraine tuyên bố tiến hành chiến dịch tập kích quy mô lớn bằng máy bay không người lái vào nhiều mục tiêu quân sự và hậu cần của Nga, trong đó có căn cứ không quân chiến lược Engels, nhà máy lọc dầu S",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "021169e53f58a3fa": {
+      "url": "https://cafef.vn/dong-minh-lau-nam-bat-ngo-doi-nga-tra-mot-loai-phi-len-toi-2-ty-usd-nam-moscow-len-tieng-dap-tra-188260802185754945.chn",
+      "title": "Đồng minh lâu năm bất ngờ đòi Nga trả một loại phí lên tới 2 tỷ USD/năm, Moscow lên tiếng đáp trả",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Nga cho rằng yêu cầu này là vô căn cứ.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "e88082ec35c3948d": {
+      "url": "https://cafef.vn/khmelnytskyi-no-lon-1-gio-dong-ho-song-xung-kich-pha-vo-cua-kinh-poseidon-cua-ong-putin-lam-day-song-nato-188260802194216254.chn",
+      "title": "Khmelnytskyi nổ lớn 1 giờ đồng hồ, sóng xung kích phá vỡ cửa kính - \"Poseidon của ông Putin\" làm dậy sóng NATO",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Loạt tiếng nổ liên tiếp làm rung chuyển thành phố trong hơn một giờ, sóng xung kích rung chuyển các tòa nhà và làm vỡ cửa kính. Cuộc tấn công của Nga đang làm rúng động Kiev.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "5bbb44949d580f10": {
+      "url": "https://cafef.vn/lai-suat-ngan-hang-quan-doi-mb-thang-8-2026-muc-cao-nhat-la-bao-nhieu-188260802221559893.chn",
+      "title": "Lãi suất ngân hàng Quân đội (MB) tháng 8/2026: Mức cao nhất là bao nhiêu?",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "lead": "Đầu tháng 8/2026, mức lãi suất cao nhất được ngân hàng MB niêm yết là 7%/năm dành cho các khoản tiền gửi kỳ hạn từ 24-60 tháng, trong khi gửi tiết kiệm online vẫn có lợi thế hơn gửi tại quầy ở nhiều k",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "c0cfd63fa7135d36": {
+      "url": "https://cafef.vn/no-xau-ngan-hang-gia-tang-188260802200644186.chn",
+      "title": "Nợ xấu ngân hàng gia tăng",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "lead": "Bức tranh nợ xấu của nhiều ngân hàng trong 6 tháng đầu năm cho thấy dấu hiệu đáng chú ý khi tốc độ gia tăng nợ xấu vượt xa tốc độ mở rộng tín dụng, dù tỷ lệ nợ xấu của hầu hết nhà băng vẫn dưới ngưỡng",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "7438c9db522942b5": {
+      "url": "https://cafef.vn/cong-an-de-nghi-617-chu-phuong-tien-vi-pham-co-bien-so-sau-nhanh-chong-den-nop-phat-nguoi-theo-nghi-dinh-168-188260802203103688.chn",
+      "title": "Công an đề nghị 617 chủ phương tiện vi phạm có biển số sau nhanh chóng đến nộp phạt nguội theo Nghị định 168",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "lead": "Tại thông báo, lực lượng chức năng khuyến cáo người dân nghiêm chỉnh tuân thủ quy định về tốc độ, chú ý quan sát biển báo giao thông và điều khiển phương tiện an toàn.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "b5e11d916dca92c9": {
+      "url": "https://cafef.vn/cong-khai-danh-sach-nguoi-nop-thue-can-ra-soat-188260802155353823.chn",
+      "title": "Công khai danh sách người nộp thuế cần rà soát",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "lead": "Hàng loạt địa phương công khai danh sách người nộp thuế ngừng hoạt động nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế và không hoạt động tại địa chỉ đã đăng ký.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "e2c1cb44910bfe6d": {
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "title": "Sam Altman and AI’s decel debate",
+      "source": "TechCrunch",
+      "lead": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "ac929575f7e7db82": {
+      "url": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
+      "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
+      "source": "TechCrunch",
+      "lead": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "730b9e89efda241f": {
+      "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
+      "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
+      "source": "TechCrunch",
+      "lead": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "4a866a2690c239dd": {
+      "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+      "source": "TechCrunch",
+      "lead": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital ",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "a691d418d006d526": {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "source": "The Verge AI",
+      "lead": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started mak",
+      "sent_at": "2026-08-03T04:09:43+07:00"
+    },
+    "766e29f1aef351a1": {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "title": "Is paying artists enough to convince them to embrace AI?",
+      "source": "The Verge AI",
+      "lead": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is ta",
+      "sent_at": "2026-08-03T04:09:43+07:00"
     }
   }
 }
