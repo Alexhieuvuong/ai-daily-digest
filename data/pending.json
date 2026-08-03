@@ -1,57 +1,6 @@
 {
-  "last_sent": "2026-08-03T04:09:43+07:00",
-  "items": [
-    {
-      "title": "Chưa đầy 1 tháng nữa, KDL 6.000 tỷ lớn bậc nhất Đông Nam Á của vợ chồng bà Nguyễn Phương Hằng chính thức kết thúc chương trình đặc biệt",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOV0lFSEJQRXNhMDBYTmlqazZVa05wYkU5ODNiTEhZX3YzUnNrQkxRc0hwRXlBUi1RT19KLVZTdTJwUUxDN2YzWVp4UkprSHJ5VTdPQzAyOUNScEFHNGg0LTVGMzhjcHhITmFXOTBzUThNQi1mUkl0V1VoZVhWYlQzbWd4T2lQdnhJOFF1dlczLXh1dU41Y0FTUzg4Sk1HaUlYSE14WjdVdkJWOW95dWRUMEFlUjdSeW9sSU83X1VRSFNkZi1MVkViSDI0emllakJWbWlWb21UN3BsOTQwdVB6cDdGTDB2TzR5dnB6b0pRUHdibU9LOVl5QVhLRGpPRDA?oc=5",
-      "summary": "Chưa đầy 1 tháng nữa, KDL 6.000 tỷ lớn bậc nhất Đông Nam Á của vợ chồng bà Nguyễn Phương Hằng chính thức kết thúc chương trình đặc biệt nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-02T17:19:01",
-      "first_seen": "2026-08-03T05:09:34+07:00"
-    },
-    {
-      "title": "Viconship (VSC) báo lãi kỷ lục, đầu tư gần 2.500 tỷ vào HAH",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT1NMdHlmU21sU3U5c3ZBZ3J2WEhYVDE1R1ZWQWo1TUs2aDJXb1hMYWhYZHN0WFhnUWhiSEJLenpjX0h0dGRuZ2VRdzV4U2VTaWxRQWZQUlkySTIyaXNfNWQwZ0tjR3hwTEY5Y1RSWHBzWUNsTms2RklrcnBoY2FfUkc4TzA3T2FtMlQ0QmhsU3E1WDBCOXlR?oc=5",
-      "summary": "Viconship (VSC) báo lãi kỷ lục, đầu tư gần 2.500 tỷ vào HAH nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-02T15:16:01",
-      "first_seen": "2026-08-03T05:09:34+07:00"
-    },
-    {
-      "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
-      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
-      "summary": "That second-quarter growth came below Beijing's full-year growth target range of 4.5% to 5%, the least ambitious goal in decades.",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-07-15T05:14:11",
-      "first_seen": "2026-08-03T05:09:34+07:00"
-    },
-    {
-      "title": "The global memory shortage hits the MacBook Air",
-      "url": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
-      "summary": "The global memory chip shortage appears to be affecting the availability of Apple’s most popular Mac.",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-02T21:33:59",
-      "first_seen": "2026-08-03T05:09:34+07:00"
-    },
-    {
-      "title": "The loss of Situational Awareness",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
-      "summary": "I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management\" or \"Amaranth Advisors\" (named for the floral symbol for […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-07-30T20:46:25",
-      "first_seen": "2026-08-03T05:09:34+07:00"
-    }
-  ],
+  "last_sent": "2026-08-03T15:41:58+07:00",
+  "items": [],
   "sent_slots": {
     "2026-07-31": [
       "morning",
@@ -67,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-03": [
+      "morning"
     ]
   }
 }
