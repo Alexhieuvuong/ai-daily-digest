@@ -1,6 +1,87 @@
 {
   "last_sent": "2026-08-08T12:55:49+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Chính phủ cơ cấu lại vốn Nhà nước, chuyên gia chỉ đích danh các doanh nghiệp hưởng lợi",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVkowb0FKdmNHVGYydm0wdDdBZURtSUtrd2IyLVpaVjRlNEJvUzJxdkpXZnF2QnMzRU9DcDF4UWJ3Ym9pQ21GVHhtWmdSWk83MEhlNVpaWmg0bGdSSWhacXl3aWJwcFFDcUg2c2VORXpxSVdwNlVfVGg5TlZ1aURMZ0I0M09rUmlBU0UwZDcxRVZTdFVWOU9BZnBtWDZ0ZlROajZEeE5sTHBWTzM5YXlwMGtselhNVHVBZlZuOW5n?oc=5",
+      "summary": "Chính phủ cơ cấu lại vốn Nhà nước, chuyên gia chỉ đích danh các doanh nghiệp hưởng lợi nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-08-08T05:01:01",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Inside the startup drone maker powering Ukraine's deep-strike campaign",
+      "url": "https://www.cnbc.com/2026/08/08/ukraine-russia-war-fire-point-drones.html",
+      "summary": "Fire Point CEO Iryna Terekh says Ukraine has \"learned the hard way\" that military leverage is integral to to bringing diplomacy within reach.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-08T05:21:12",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "'Cá voi' và 'cá mập' đang gom Bitcoin",
+      "url": "https://vnexpress.net/ca-voi-va-ca-map-dang-gom-bitcoin-5106773.html",
+      "summary": "Các nhà đầu tư lớn đang mua vào khoảng 1,2 tỷ USD Bitcoin từ cuối tháng 7, còn các ETF thu hút gần 755 triệu USD trong tuần này.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-08T06:14:32",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Bê bối đế chế du lịch lớn nhất Trung Quốc: Ép khách sạn ký hợp đồng độc quyền, đối tác không thể tự quyết định giá",
+      "url": "https://cafef.vn/be-boi-de-che-du-lich-lon-nhat-trung-quoc-ep-khach-san-ky-hop-dong-doc-quyen-doi-tac-khong-the-tu-quyet-dinh-gia-188260808114901449.chn",
+      "summary": "Đây là bài học đắt giá cho các siêu ứng dụng lạm dụng vị thế độc quyền.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-08T07:06:00",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Trung Quốc xây siêu đập thủy điện lớn nhất thế giới, gấp 3 lần Tam Hiệp: Nước láng giềng Tây Nam lo ngại, lập tức ra đề nghị với Bắc Kinh",
+      "url": "https://cafef.vn/trung-quoc-xay-sieu-dap-thuy-dien-lon-nhat-the-gioi-gap-3-lan-tam-hiep-nuoc-lang-gieng-tay-nam-lo-ngai-lap-tuc-ra-de-nghi-voi-bac-kinh-188260808124824707.chn",
+      "summary": "Siêu đập này được ví như một \"quả bom nước\" khổng lồ.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-08T06:40:00",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Chiến lược bóp nghẹt lực lượng Ukraine",
+      "url": "https://cafef.vn/chien-luoc-bop-nghet-luc-luong-ukraine-188260808114750005.chn",
+      "summary": "Gần một tháng nay, Nga đã và đang từng bước cắt đứt đường tiếp tế của quân đội Ukraine ra Biển Đen, một chiến lược được Nga lựa chọn.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-08T06:17:00",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Các nhà khoa học tạo ra virus bằng AI",
+      "url": "https://cafef.vn/cac-nha-khoa-hoc-tao-ra-virus-bang-ai-188260808113250261.chn",
+      "summary": "Các nhà khoa học Mỹ đã sử dụng trí tuệ nhân tạo (AI) để tạo ra các loại virus hoạt động được mà không tồn tại trong tự nhiên lần đầu tiên.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-08T06:00:00",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    },
+    {
+      "title": "Hai “siêu cẩu” 1.450 tấn cùng nâng khung thép 125 tấn cho nhà hát APEC",
+      "url": "https://cafef.vn/hai-sieu-cau-1450-tan-cung-nang-khung-thep-125-tan-cho-nha-hat-apec-18826080813282761.chn",
+      "summary": "Hai hệ thống cẩu có tổng trọng lượng khoảng 1.450 tấn được huy động đồng thời để nâng giàn khung thép cuối cùng, nặng 125 tấn, lên mái Nhà biểu diễn đa năng phục vụ APEC tại Phú Quốc.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-08T06:36:00",
+      "first_seen": "2026-08-08T14:13:57+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-05": [
       "morning",
