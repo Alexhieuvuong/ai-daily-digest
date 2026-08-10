@@ -1,32 +1,7 @@
 {
-  "last_sent": "2026-08-10T03:50:26+07:00",
-  "items": [
-    {
-      "title": "Hòa Phát mở rộng 'cuộc chơi' đường sắt, dự kiến tăng vốn siêu nhà máy sản xuất thép thêm 20.000 tỷ đồng",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUFVUN2YzeEJJYVktd3dNZ0FNZlJ5bTZKX1lvc0Z1OXNHMGtOc2tWdGhxNF9RT2htTWl3dm5LMzNIMlF1bkJHTVNGb2dqWFJ3V1p6MmVvS0Z4V3NHZXZFTUtMYUtCVE01dDk2WmNRMlJZQ1FfRDdlVGtFb0pKblRya1p6Y0RwcEtNS3Voa3FzTnlwbEpJWk5VT0tYR1JucUdfanJLaVZKaEJBM2wtSGw4ZFJoRk8zWlJBSDZ0YzhCa3JxcVUyeWtmRk5wTHV6dm9jZFE?oc=5",
-      "summary": "Hòa Phát mở rộng 'cuộc chơi' đường sắt, dự kiến tăng vốn siêu nhà máy sản xuất thép thêm 20.000 tỷ đồng nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-09T11:00:01",
-      "first_seen": "2026-08-10T04:47:20+07:00"
-    },
-    {
-      "title": "Đơn vị chủ quản của HoSE và HNX lãi đậm",
-      "url": "https://vnexpress.net/don-vi-chu-quan-cua-hose-va-hnx-lai-dam-5107134.html",
-      "summary": "Sở Giao dịch Chứng khoán Việt Nam lãi sau thuế gần 1.420 tỷ đồng trong nửa đầu năm, tăng mạnh nhờ thanh khoản thị trường cải thiện.",
-      "source": "VnExpress Kinh doanh",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-09T21:00:00",
-      "first_seen": "2026-08-10T04:47:20+07:00"
-    }
-  ],
+  "last_sent": "2026-08-10T13:41:09+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-06": [
-      "morning",
-      "noon"
-    ],
     "2026-08-07": [
       "morning",
       "noon",
@@ -41,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-10": [
+      "morning"
     ]
   }
 }
