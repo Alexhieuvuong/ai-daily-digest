@@ -1,53 +1,7 @@
 {
-  "last_sent": "2026-08-11T04:01:18+07:00",
-  "items": [
-    {
-      "title": "Việt Nam xây dựng hầm xuyên núi qua đèo dài nhất cả nước, rút ngắn thời gian di chuyển từ 2 giờ xuống còn 10 phút: Vừa bắt đầu khoan hầm, lãnh đạo tỉnh lập tức khảo sát thực địa",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNbzRpRExtei14MHJfYVZ2cGE3aFhDS0FtdEw1T1JvRWdoY0duSXFpcDdQbXJ5V2lMRTd2c3RGRWFCUFJpellrZWlhWUx6QksyLXRnN3Y3OXhSMWZ0elA0OC1XYUl5eDYzZkVGUXdmYkhiUlYwaU03SzV5TDlRMUJFSkI3QkphMHE5bzVVNmVWZWpjV3ZHWDBCMEVNMUZacFRRb0o4WHVnVEhqOXhnbDBPTWhJdkI3S0J6cHlsaWpkRTVSTDI1X183eEZuLVRLdHhWR1NMeS1ObHFON1ZUX1RSNVNrNXpWYjJJbWFxNjVSYWZaY01VLUUtWUhxQjdiUHFRUHVLT1ZJc25QQ3hkX2hNRmtxOVM2Mi1ENlFmX0ZzMTJ1cUI1dk9aaHZmbFEyUzljSjEzTA?oc=5",
-      "summary": "Việt Nam xây dựng hầm xuyên núi qua đèo dài nhất cả nước, rút ngắn thời gian di chuyển từ 2 giờ xuống còn 10 phút: Vừa bắt đầu khoan hầm, lãnh đạo tỉnh lập tức khảo sát thực địa nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-10T17:19:01",
-      "first_seen": "2026-08-11T04:57:15+07:00"
-    },
-    {
-      "title": "Trump extends limited waiver of shipping law to keep oil flowing in U.S. amid Iran war",
-      "url": "https://www.cnbc.com/2026/08/10/trump-iran-oil-jones-act-shipping.html",
-      "summary": "The Jones Act waiver extension comes after the Trump administration's latest signs of a deal to reopen the Strait of Hormuz failed to materialize.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-10T19:15:29",
-      "first_seen": "2026-08-11T04:57:15+07:00"
-    },
-    {
-      "title": "Google co-founder Sergey Brin has now spent $100 million to fight the billionaire tax",
-      "url": "https://techcrunch.com/2026/08/10/google-co-founder-sergey-brin-has-now-spent-100-million-to-fight-the-billionaire-tax/",
-      "summary": "California's Prop 40 would impose a one-time 5% tax on the net worth of the state's billionaires.",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-10T21:20:04",
-      "first_seen": "2026-08-11T04:57:15+07:00"
-    },
-    {
-      "title": "Trump Media posts $238 million second-quarter loss as crypto declines",
-      "url": "https://www.cnbc.com/2026/08/10/trump-media-djt-tmtg-earnings-truth-social-crypto.html",
-      "summary": "TMTG said it has signed more than 10 customer agreements for Truth API, the service offering faster access to President Donald Trump's posts.",
-      "source": "CNBC Tech",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-10T21:48:14",
-      "first_seen": "2026-08-11T04:57:15+07:00"
-    }
-  ],
+  "last_sent": "2026-08-11T13:03:12+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-07": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-08": [
       "morning",
       "noon",
@@ -62,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-11": [
+      "morning"
     ]
   }
 }
