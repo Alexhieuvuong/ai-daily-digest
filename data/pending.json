@@ -1,6 +1,107 @@
 {
   "last_sent": "2026-08-15T12:40:03+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Việt Nam xây dựng nhà máy cà phê được kỳ vọng lớn nhất Đông Nam Á, 1 năm nữa vận hành chạy thử",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUFFUMGtnbWNOd2dEemRYZnRFaEpJdjZuNWhuM1h3T2FDWnU2NXg3ZEZxc3EtdGVQajNtMXllemFtaS1LZkFhZFZqdGRsTEtPSzZEckdzMmk2ZXF1NG8tTXdqY2JyQVp1a3RhT01ORWQyUU5UMUh5Y1B1LUtuU0ZZa0xoRXRpUkg1el9FdzI4TlYtX1VxcHBMWHNRX2t3VHk5Y0VVeWZCUzU3QnVvLVd6MFVWV1BFY1pnQURId3dqMDJINHdnRlNDNA?oc=5",
+      "summary": "Việt Nam xây dựng nhà máy cà phê được kỳ vọng lớn nhất Đông Nam Á, 1 năm nữa vận hành chạy thử nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-08-14T15:00:01",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Russia's economy has defied the skeptics. Cracks are getting harder to hide",
+      "url": "https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html",
+      "summary": "Russia's wartime economy is under growing strain as its budget deficit widens and analysts warn pressure could intensify next year.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T05:00:01",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Extreme heat spurs earliest-ever Champagne harvest, putting its famous taste to the test",
+      "url": "https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html",
+      "summary": "Producers of the iconic French fizz face a challenge to preserve its taste profile while they also battle tariff complications and fewer drinkers.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T05:00:01",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
+      "url": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
+      "summary": "The China Passenger Car Association released data Tuesday showing penetration of new energy vehicles rose in July. Tesla's Model Y remained popular.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-13T01:31:12",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
+      "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
+      "summary": "Nvidia CEO Jensen Huang is pitching GPUs as long-term collateral to unlock $500 billion in funding. The question is how fast will his chips depreciate?",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-11T21:01:13",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Doanh số bán lẻ của Mỹ bất ngờ giảm",
+      "url": "https://vnexpress.net/doanh-so-ban-le-cua-my-bat-ngo-giam-5109449.html",
+      "summary": "Lần đầu tiên trong 9 tháng, doanh số bán lẻ của Mỹ đi xuống, cho thấy hoạt động tiêu dùng đang chậm lại.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T05:53:59",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Ông Trump bác bỏ lo ngại thủy thủ tàu sân bay Mỹ kiệt sức sau 250 ngày trên biển",
+      "url": "https://cafef.vn/ong-trump-bac-bo-lo-ngai-thuy-thu-tau-san-bay-my-kiet-suc-sau-250-ngay-tren-bien-188260815105807189.chn",
+      "summary": "Tổng thống Mỹ Donald Trump bác bỏ những lo ngại về điều kiện trên tàu sân bay USS Abraham Lincoln trong suốt thời gian thực hiện nhiệm vụ tại Trung Đông.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T06:33:00",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Kẻ trộm đột nhập bảo tàng ở Ý, đánh cắp số tranh trị giá 272 tỷ, camera ghi lại cảnh tượng khó tin",
+      "url": "https://cafef.vn/ke-trom-dot-nhap-bao-tang-o-y-danh-cap-so-tranh-tri-gia-272-ty-camera-ghi-lai-canh-tuong-kho-tin-188260815120427625.chn",
+      "summary": "Vụ trộm xảy ra tại một bảo tàng ở Ý chỉ diễn ra trong vỏn vẹn có 180 giây khiến người xem không khỏi ngỡ ngàng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T06:04:00",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Selena Gomez bị tố lừa đảo nhà đầu tư",
+      "url": "https://cafef.vn/selena-gomez-bi-to-lua-dao-nha-dau-tu-188260815104613747.chn",
+      "summary": "Nữ ca sĩ, diễn viên Selena Gomez đang phải đối mặt với cáo buộc có hành vi lừa đảo liên quan đến Wondermind Global.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T05:53:00",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    },
+    {
+      "title": "Tăng tốc thi công Vành đai 1 đoạn Hoàng Cầu - Voi Phục, mục tiêu thông tuyến trước ngày 2/9",
+      "url": "https://cafef.vn/tang-toc-thi-cong-vanh-dai-1-doan-hoang-cau-voi-phuc-muc-tieu-thong-tuyen-truoc-ngay-2-9-188260815133209944.chn",
+      "summary": "Sau hơn 8 tháng tăng tốc thi công, tuyến Vành đai 1 đoạn Hoàng Cầu - Voi Phục đang dần thành hình với mặt đường, cây xanh và hệ thống chiếu sáng được hoàn thiện. Hà Nội đặt mục tiêu thông tuyến trước ngày 2/9, mở thêm một trục giao thông quan trọng giữa nội đô.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T06:36:00",
+      "first_seen": "2026-08-15T13:56:51+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-12": [
       "morning",
