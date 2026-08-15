@@ -1,6 +1,157 @@
 {
   "last_sent": "2026-08-15T18:33:17+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Trước khi bị khởi tố, vợ Huấn Hoa Hồng là Tổng Giám đốc công ty vốn 8 tỷ, không hoạt động tại trụ sở đăng ký",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSUFSazhsYU5kcXBzNm5PNzJuTWhoanI4amwwQ0RKOWFIalRVdldETk96bXhtQnZRZ1VNNFFSOTJDUGNGZnE5WUZVemswNVJndUJ6TEMzVEN2dDNSY0t3bzRzampNeWxCTXFRNFU1Sl9PTldGNTZxWmd3a0JUbEJzVVdPNkc1V0o3VFBrS0lqemNFSU1KTlVCcFRCZmUwaEtmVWEydUJyeml3aEF2UUNzWUhoTTRzYjhaUjRtX2tpcEhVOG1zaE5xWjlGU094Slg4VnNLTDduTXBlUQ?oc=5",
+      "summary": "Trước khi bị khởi tố, vợ Huấn Hoa Hồng là Tổng Giám đốc công ty vốn 8 tỷ, không hoạt động tại trụ sở đăng ký nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-08-15T12:24:01",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Berkshire Hathaway phát tín hiệu: Dòng tiền rời 'pháo đài' tiền mặt, đổ vào Alphabet và các khoản cược mới",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR2h0UkZmNk9idWpNYkhUVEpON181azB6WFhnd3dsVEwwTDVYWk9aR2I5N01wMFVwQlZqbFJxaGFFVTExZHZfNlJFeU5UVzN6U0d6TWdueUl2azg0NDROaDFUSWFqNE5XTkVCVDBkdUxybHQxTFF3RXF5SHliT1czcUNoMEtMOEdmaXNCNC10SUtZZzQ1ZjNFY2U2NHZRV2RueElfbFlXWkRQWEJ2dWZHNGo2SmFia3d4RDNfX1J6aFM1dXRzMTBxeW5lWTNlLXp3bGN6Ng?oc=5",
+      "summary": "Berkshire Hathaway phát tín hiệu: Dòng tiền rời 'pháo đài' tiền mặt, đổ vào Alphabet và các khoản cược mới nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-08-15T07:00:01",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Berkshire adds $17 billion to Alphabet stake",
+      "url": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
+      "summary": "Google parent Alphabet is now the third largest holding in Berkshire Hathaway's equity portfolio.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T12:50:41",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market",
+      "url": "https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html",
+      "summary": "Investors have flocked to short-term investments like ultra-short bond funds in anticipation of a stock market correction and with long-term bonds broken.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T12:30:01",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
+      "url": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html",
+      "summary": "Rivian is trying to catch up to Tesla's \"hands-free\" capabilities, but with additional safety guardrails that the Elon Musk company doesn't have.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T12:00:01",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "How long will software-defined cars last? The auto industry doesn't know yet",
+      "url": "https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html",
+      "summary": "Cars that run on software offer benefits automakers and many customers say older cars cannot compete with. But some analysts worry the vehicles might not last.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T12:00:01",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "AI’s costly build-out complicates the Fed’s inflation fight",
+      "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+      "summary": "Tech leaders say AI will drive down costs. But slow corporate adoption and the data center build-out create inflation pressures that complicate the Fed’s job.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-13T15:59:16",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "New York City Council announces probe into prediction market platforms’ marketing strategies",
+      "url": "https://www.cnbc.com/2026/08/12/new-york-city-council-probes-prediction-markets-marketing-strategies.html",
+      "summary": "In letters to four prediction market platforms, City Council Speaker Julie Menin said the council was also actively considering legislation to address concerns.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-12T12:08:39",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "HDBank quay số kỳ 4 chương trình 'Tiết kiệm tỷ phú'",
+      "url": "https://vnexpress.net/hdbank-quay-so-ky-4-chuong-trinh-tiet-kiem-ty-phu-5109528.html",
+      "summary": "Khách hàng tham gia \"Tiết kiệm Tỷ phú - Hè vàng đại cát\" có cơ hội nhận sổ tiết kiệm đến 200 triệu đồng, chuyến du lịch Hàn Quốc và giải 16 lượng vàng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-15T12:00:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Chứng khoán tuần qua: Đầu tuần hồi phục, cuối tuần “lao dốc”",
+      "url": "https://cafef.vn/chung-khoan-tuan-qua-dau-tuan-hoi-phuc-cuoi-tuan-lao-doc-188260815184956685.chn",
+      "summary": "Đầu tuần hồi phục, cuối tuần “lao dốc”; Khối ngoại bán ròng hơn 2.000 tỷ đồng; Điều gì đang xảy ra với chứng khoán Việt Nam?, …",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T11:52:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Điện Máy Xanh hoạt động như 'ngân hàng ngầm'?",
+      "url": "https://cafef.vn/dien-may-xanh-hoat-dong-nhu-ngan-hang-ngam-188260815184527588.chn",
+      "summary": "Ngoài hoạt động bán lẻ, các cửa hàng của DMX còn cung cấp một số dịch vụ tiện ích như rút tiền, thanh toán tiền điện, tiền nước và các dịch vụ khác. Trong 7 tháng đầu năm, mạng lưới khoảng 3.000 cửa hàng Điện Máy Xanh đã xử lý 43 triệu lượt giao dịch, tương đương tổng giá trị giao dịch khoảng 65.000 tỷ đồng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T11:49:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Công nhân xây dựng phát hiện kho vàng triệu đô khi sửa nhà",
+      "url": "https://cafef.vn/cong-nhan-xay-dung-phat-hien-kho-vang-trieu-do-khi-sua-nha-188260815191322757.chn",
+      "summary": "Cảnh sát Bỉ đang kêu gọi những người săn tìm kho báu tránh xa một công trường xây dựng, nơi các công nhân vừa tình cờ phát hiện một kho vàng được cho là trị giá hơn 10 triệu USD.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T12:45:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Động đất mạnh làm rung chuyển Tây Ban Nha: Ô tô bị vùi lấp, vết nứt khổng lồ xé toạc mặt đường",
+      "url": "https://cafef.vn/dong-dat-manh-lam-rung-chuyen-tay-ban-nha-o-to-bi-vui-lap-vet-nut-khong-lo-xe-toac-mat-duong-18826081519122257.chn",
+      "summary": "Chính quyền đã ban bố tình trạng khẩn cấp.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T12:12:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "OpenAI mất 5 lãnh đạo chỉ trong vài tuần: Một mình Sam Altman chèo lái công ty hơn 800 tỷ USD",
+      "url": "https://cafef.vn/openai-mat-5-lanh-dao-chi-trong-vai-tuan-mot-minh-sam-altman-cheo-lai-cong-ty-hon-800-ty-usd-188260815170621962.chn",
+      "summary": "Hàng loạt lãnh đạo cấp cao ra đi đúng vào thời điểm hàng loạt sự cố đang xảy ra khi OpenAI đang khởi động cho quá trình IPO của mình.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T11:38:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    },
+    {
+      "title": "Khơi thông nguồn lực cho tăng trưởng – ngân hàng không thể “đơn thương độc mã”",
+      "url": "https://cafef.vn/khoi-thong-nguon-luc-cho-tang-truong-ngan-hang-khong-the-don-thuong-doc-ma-188260815164926067.chn",
+      "summary": "Có thể nói, ngành Ngân hàng đã phát huy tốt vai trò là một trong những kênh dẫn vốn quan trọng của nền kinh tế, góp phần khơi thông nguồn lực cho đầu tư, sản xuất, kinh doanh và thúc đẩy các động lực phát triển. Tuy nhiên, cũng cần nhìn nhận khách quan về những thách thức đối với điều hành chính sách tiền tệ, bên cạnh đó cần những giải pháp để phát triển thị trường vốn một cách bền vững.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-15T12:00:00",
+      "first_seen": "2026-08-15T19:58:08+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-12": [
       "morning",
