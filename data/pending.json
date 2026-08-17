@@ -1,6 +1,137 @@
 {
   "last_sent": "2026-08-18T03:42:50+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
+      "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+      "summary": "Berkshire owned about 106 million shares in the parent of Google, worth $37.9 billion at the end of June, according to a regulatory filing released Friday.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-14T21:06:48",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Goldman’s latest cash cow is all about funding the AI infrastructure boom",
+      "url": "https://www.cnbc.com/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
+      "summary": "Nvidia and Intel recently tapped the bank to help them meeting soaring demand for compute.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-14T20:05:57",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Regulators and banks step up scrutiny of prediction markets",
+      "url": "https://www.cnbc.com/2026/08/14/prediction-markets-scrutiny-mounts-from-regulators-and-banks.html",
+      "summary": "The CFTC is reviewing prediction betting platforms' so-called mention markets, people familiar with the matter confirmed to CNBC.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-14T19:21:49",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "ACBS: Doanh nghiệp liên quan Vinhomes phát hành hơn 2 tỷ USD trái phiếu trong một quý",
+      "url": "https://vnexpress.net/acbs-doanh-nghiep-lien-quan-vinhomes-phat-hanh-hon-2-ty-usd-trai-phieu-trong-mot-quy-5110200.html",
+      "summary": "Theo dữ liệu của ACBS, các doanh nghiệp liên quan Vinhomes đã phát hành 57.000 tỷ đồng trái phiếu, tương đương 2,1 tỷ USD trong quý II.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-17T21:04:04",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "summary": "Relay, which offered businesses workflow automation, will stop operating next month. Its CEO and some of its staff plan to get to work on Google Chrome next.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-17T21:27:05",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "OpenAI CFO Friar tells investors that enterprise business now bigger than consumer by revenue",
+      "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+      "summary": "OpenAI CFO Sarah Friar met with investors following a week of turmoil in the C-suite that included the sudden departure of revenue chief Denise Dresser.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-14T23:01:03",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "summary": "OpenAI's C-suite turnover gives investors another reason for concern as the company pushes toward a mammoth IPO.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-14T19:07:11",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Drone stocks rally after Trump orders tariffs on foreign-made components",
+      "url": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
+      "summary": "The U.S. is looking to scale defense manufacturing and chip away at China's drone dominance.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-14T20:04:28",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-08-14T16:54:16",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "You can now turn off Google Gemini’s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-08-14T16:39:32",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-08-14T16:13:40",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-08-14T15:43:28",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    },
+    {
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-08-14T14:50:11",
+      "first_seen": "2026-08-18T04:39:19+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-14": [
       "morning",
