@@ -1,53 +1,7 @@
 {
-  "last_sent": "2026-08-19T03:39:24+07:00",
-  "items": [
-    {
-      "title": "Bầu Đức thừa nhận giá IPO HGI đang ‘đắt nhất’ so với các công ty cùng ngành",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMGpqVWwzYXhtVmJYMFdQNTBXNUhlbXVPMkNSSkxQNVdOZTFRbFZOSVdzVWRxSHd0ekhadThDZ3BKamJFVmRBdkFxTlp5QVE3bHd2ejItTnRHTThnYzFiSHVtZ05FN21iUTgxSnhyRkVESEJ6RUlhVjRGUnd6aGFzYnNLUlE1cWphT3FGOWNwZFlxbEJUUmtXZEZtVDBGOHM3YjRXSlJBVk05T1E3SHc?oc=5",
-      "summary": "Bầu Đức thừa nhận giá IPO HGI đang ‘đắt nhất’ so với các công ty cùng ngành nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-18T16:10:01",
-      "first_seen": "2026-08-19T04:37:01+07:00"
-    },
-    {
-      "title": "Tuyển 2.000 công nhân cho nhà máy VinFast tại quê hương tỷ phú Phạm Nhật Vượng, cùng hàng ngàn cơ hội việc làm hấp dẫn",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeVFZYS11RTVMU2lGTENITW1XekxON0YtbWo3TVVhYnBDSUJfdlpfeHdFRDhMdmtxWWFyX2xpc2dZcTFZalZ0aEIzNmNPejU0Z3A3aXdqSTFIVF90ZTBYOE1YNVZlZm51R1ZRZzIxTlo3bjlYbW1rOVdnMTVybzlnT0dzWVhhNmk4YW5ybFVUTlZEb3RLbXpyclZId1loZGdkZUNpV0Q5cWVRZmxJTDlxNGFjcTRlZEpWbHhmOVlDYnc0LXBTdGFzdmRkRzRmX1J3SzhqdF9wTFF5aVBzaFZ0NHI5VlNDU3R6?oc=5",
-      "summary": "Tuyển 2.000 công nhân cho nhà máy VinFast tại quê hương tỷ phú Phạm Nhật Vượng, cùng hàng ngàn cơ hội việc làm hấp dẫn nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-18T09:42:02",
-      "first_seen": "2026-08-19T04:37:01+07:00"
-    },
-    {
-      "title": "OpenAI rolls out ChatGPT for Teens experience with 'stronger built-in safety protections'",
-      "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
-      "summary": "ChatGPT for Teens includes a number of educational features and applies age-appropriate safeguards, OpenAI said.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-18T21:12:06",
-      "first_seen": "2026-08-19T04:37:01+07:00"
-    },
-    {
-      "title": "We upgraded Home Depot and raised our price target. It made the best of a terrible hand",
-      "url": "https://www.cnbc.com/2026/08/18/we-upgraded-home-depot-and-raised-our-price-target-it-made-the-best-of-a-terrible-hand.html",
-      "summary": "Home Depot reported a very good quarter, executing well on things it can control.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-18T19:27:54",
-      "first_seen": "2026-08-19T04:37:01+07:00"
-    }
-  ],
+  "last_sent": "2026-08-19T12:45:37+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-15": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-16": [
       "morning",
       "noon",
@@ -62,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-19": [
+      "morning"
     ]
   }
 }
