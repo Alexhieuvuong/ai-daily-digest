@@ -1,6 +1,37 @@
 {
   "last_sent": "2026-08-21T03:45:49+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Thành phố trẻ ở miền Trung sắp hình thành tuyến đại độ dài 75km, vốn đầu tư 20.000 tỷ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjFSeW04YVUweXZ0S2JQUVE0T2h1Z0FCaXZESkw5MmxZYzdwOXJwMy1DcWdObFNWSUNaalhVbjRtanNYRGtKOU1rM2RiR3FxenpnNWNHWGhfU01YSm9iYTVVOFJWTnNMdlludWlkaldpTVN0V3NseXZ1bXFwQXlFTVZUbW50Ym5XQ2ZWWExJT1BXcGNqSlYyZkJ3UktwdUoxNUMxQUk0X1RwU1kzX1ZvN0h1MWMtb0dta01Idw?oc=5",
+      "summary": "Thành phố trẻ ở miền Trung sắp hình thành tuyến đại độ dài 75km, vốn đầu tư 20.000 tỷ nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-08-20T15:30:01",
+      "first_seen": "2026-08-21T04:42:48+07:00"
+    },
+    {
+      "title": "The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss",
+      "url": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
+      "summary": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-20T21:08:34",
+      "first_seen": "2026-08-21T04:42:48+07:00"
+    },
+    {
+      "title": "Ok, can we actually cool data centers with our pee?",
+      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- his suggestion is not completely ludicrous.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-08-20T20:53:13",
+      "first_seen": "2026-08-21T04:42:48+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-17": [
       "morning",
