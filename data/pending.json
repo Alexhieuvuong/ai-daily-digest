@@ -1,43 +1,7 @@
 {
-  "last_sent": "2026-08-22T03:40:25+07:00",
-  "items": [
-    {
-      "title": "Xe điện Trung Quốc gây sốc với cú lộn vòng 360 độ trong đường hầm ở tốc độ 130 km/h",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkZQcjUzRlJZb0NRZlRwZmRkSFRMZHIwMmIwTXF3bG45OHNOU3ZEY01GVHFXOUhWYVg0U0VsYU9KWTkwVVJZdmEzeW1EMXJQVnlaMW1WbU43NHAtLU5zMFpFV0M1WUVxSHVpRkd6MGRSUUFSbk1HakJscm81RWcyY2pCZG5zanlmUDV0RGJZeHZpaWFfdG1FaHgtQkwtX0ZzcjkyamVJUFhCSUxUOU5ORjZpdks0VHU5N3ZB?oc=5",
-      "summary": "Xe điện Trung Quốc gây sốc với cú lộn vòng 360 độ trong đường hầm ở tốc độ 130 km/h nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-21T04:45:01",
-      "first_seen": "2026-08-22T04:37:08+07:00"
-    },
-    {
-      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-      "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-21T20:58:07",
-      "first_seen": "2026-08-22T04:37:08+07:00"
-    },
-    {
-      "title": "Over one million people have clicked LinkedIn’s AI slop button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-08-21T21:25:50",
-      "first_seen": "2026-08-22T04:37:08+07:00"
-    }
-  ],
+  "last_sent": "2026-08-22T12:41:38+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-18": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-19": [
       "morning",
       "noon",
@@ -52,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-22": [
+      "morning"
     ]
   }
 }
