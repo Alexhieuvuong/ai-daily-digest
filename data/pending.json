@@ -1,6 +1,117 @@
 {
   "last_sent": "2026-08-23T12:44:21+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "China is defying the global bond yield surge, boosting its diversification appeal",
+      "url": "https://www.cnbc.com/2026/08/20/china-defies-global-bond-yield-surge-safe-haven.html",
+      "summary": "Chinese government bond yields have remained low amid a global surge.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-20T02:39:14",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Xuất khẩu vải thiều lao dốc",
+      "url": "https://vnexpress.net/xuat-khau-vai-thieu-lao-doc-5112349.html",
+      "summary": "Xuất khẩu vải thiều nửa đầu năm giảm hơn một nửa so với cùng kỳ do sản lượng sụt mạnh, giá nguyên liệu tăng và logistics đắt đỏ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-23T06:42:42",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Quốc hội chốt loạt ưu đãi nhằm tăng thu hút đầu tư dầu khí",
+      "url": "https://vnexpress.net/quoc-hoi-chot-loat-uu-dai-nham-tang-thu-hut-dau-tu-dau-khi-5112341.html",
+      "summary": "Luật Dầu khí (sửa đổi) vừa được thông qua, quy định loạt chính sách ưu đãi để thu hút đầu tư dầu khí, trong đó có tăng mức thu hồi chi phí mỏ cận biên.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-23T06:37:37",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Mua, bán hàng với nước ngoài qua sàn online phải định danh điện tử",
+      "url": "https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html",
+      "summary": "Từ 1/3/2027, tổ chức và cá nhân mua, bán hàng hóa với nước ngoài qua thương mại điện tử phải định danh, xác thực điện tử.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-08-23T03:16:18",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Động đất rung chuyển Tokyo",
+      "url": "https://cafef.vn/dong-dat-rung-chuyen-tokyo-188260823123359902.chn",
+      "summary": "Trận động đất mạnh 5,9 độ xảy ra tại khu vực Greater Tokyo (Nhật Bản), gây gián đoạn giao thông và làm hư hại một số công trình.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:56:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Chủ trạm cứu hộ động vật 33 tuổi tử vong sau khi bị chó 30 kg tấn công",
+      "url": "https://cafef.vn/chu-tram-cuu-ho-dong-vat-33-tuoi-tu-vong-sau-khi-bi-cho-30-kg-tan-cong-188260823115337956.chn",
+      "summary": "Một phụ nữ 33 tuổi ở Hong Kong (Trung Quốc) tử vong sau khi bị con chó nặng khoảng 30 kg tấn công tại trạm cứu hộ động vật do cô điều hành.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:24:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Điều hoà LG dùng 20 năm vẫn bán được giá hơn 13 triệu chỉ nhờ 1 chi tiết",
+      "url": "https://cafef.vn/dieu-hoa-lg-dung-20-nam-van-ban-duoc-gia-hon-13-trieu-chi-nho-1-chi-tiet-188260823115043712.chn",
+      "summary": "Một chiếc điều hòa LG Whisen phiên bản giới hạn ra mắt gần 20 năm trước bất ngờ trở thành tâm điểm chú ý tại Hàn Quốc, sau khi phần logo gắn phía trước máy được phát hiện làm từ vàng có độ tinh khiết lên tới 99,3%.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:06:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Lãi/lỗ bao nhiêu sau một tuần mua vàng tại SJC, DOJI, PNJ, Bảo Tín Minh Châu, Mi Hồng?",
+      "url": "https://cafef.vn/lai-lo-bao-nhieu-sau-mot-tuan-mua-vang-tai-sjc-doji-pnj-bao-tin-minh-chau-mi-hong-188260823134958457.chn",
+      "summary": "Tuần qua (17 - 23/8/2026), giá vàng trong nước đã trải qua một nhịp tăng đáng chú ý sau giai đoạn đi ngang và suy yếu nhiều tuần trước đó. Nếu một người mua vàng miếng vào cuối tuần trước (16/8) và bán ra lúc này, họ sẽ lãi hay lỗ, và mức chênh lệch giữa các thương hiệu SJC, DOJI, PNJ, Bảo Tín Minh Châu, Mi Hồng,… khác nhau ra sao?",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:49:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "\"Bầu Thụy\" đã trao 4 tỷ đồng, tiếp sức và đồng hành cùng đội tuyển Việt Nam tại ASEAN Cup 2026",
+      "url": "https://cafef.vn/bau-thuy-da-trao-4-ty-dong-tiep-suc-va-dong-hanh-cung-doi-tuyen-viet-nam-tai-asean-cup-2026-188260823123740352.chn",
+      "summary": "Chiến thắng 2-0 ngay trên sân Thái Lan giúp đội tuyển Việt Nam đặt một tay vào chiếc cúp vô địch ASEAN Cup 2026. Cùng lợi thế lớn trước trận lượt về, thầy trò HLV Kim Sang-sik còn nhận được sự động viên thiết thực từ ông Nguyễn Đức Thụy – Phó Chủ tịch Thường trực HĐQT Sacombank. Toàn bộ 4 tỷ đồng tiền thưởng trong hành trình vào chung kết đã được trao tới tận tay ban huấn luyện, các cầu thủ và sẽ còn có thêm phần thưởng lớn nếu Việt Nam bảo vệ thành công ngôi vương.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:10:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Quốc hội thông qua Luật Dầu khí sửa đổi, giao thêm quyền cho Petrovietnam",
+      "url": "https://cafef.vn/quoc-hoi-thong-qua-luat-dau-khi-sua-doi-giao-them-quyen-cho-petrovietnam-188260823133119001.chn",
+      "summary": "Luật Dầu khí (sửa đổi) tăng phân quyền cho cơ quan quản lý Nhà nước, giao quyền cho Petrovietnam, đơn giản hóa thủ tục nhằm khơi thông nguồn lực.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:38:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    },
+    {
+      "title": "Ngành thuế cắt giảm hơn 20 thủ tục hành chính",
+      "url": "https://cafef.vn/nganh-thue-cat-giam-hon-20-thu-tuc-hanh-chinh-188260822143622891.chn",
+      "summary": "Ngành thuế đã cắt giảm hơn 20 thủ tục hành chính từ đầu năm, đồng thời tiếp tục đơn giản hóa quy trình, ứng dụng công nghệ số để giảm chi phí tuân thủ.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-08-23T06:30:00",
+      "first_seen": "2026-08-23T14:00:27+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-08-20": [
       "morning",
