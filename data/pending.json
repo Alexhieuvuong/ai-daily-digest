@@ -1,103 +1,7 @@
 {
-  "last_sent": "2026-08-23T03:38:24+07:00",
-  "items": [
-    {
-      "title": "U.S. government debt passes $40 trillion, more than doubling in a decade",
-      "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
-      "summary": "",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-19T22:34:33",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-      "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
-      "summary": "As he has done in the past, Trump accused Fed officials of having political motives.",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-19T21:29:38",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "The Iran war risks bringing the G7's fastest-growing economy to a halt",
-      "url": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
-      "summary": "The U.K. economy is showing further signs of a long-awaited rebound, but the picture is complicated by the fallout from the Iran war and high energy prices.",
-      "source": "CNBC Economy",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-13T12:42:10",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-      "url": "https://www.cnbc.com/2026/08/19/fed-minutes-july-2026-officials-saw-need-for-rate-hike-if-inflation-doesnt-cool.html",
-      "summary": "The Federal Reserve on Wednesday released minutes from its July 28-29 policy meeting.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-19T18:54:50",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Carvana shares are under pressure this week as Mark Walter probe fuels investor jitters",
-      "url": "https://www.cnbc.com/2026/08/19/carvana-shares-on-pace-for-10percent-weekly-loss-as-mark-walter-probe-fuels-investor-jitters.html",
-      "summary": "The scrutiny raised questions about what could happen to Walter's Carvana position if fallout from the investigation pressures him to raise cash.",
-      "source": "CNBC Finance",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-19T21:05:31",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Google Gemini is getting a dedicated student hub",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
-      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-08-19T19:00:00",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "OpenAI hit the brakes. Now what?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-08-19T17:10:09",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Meta AI is getting a Mac app",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-08-19T17:00:00",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    },
-    {
-      "title": "Nvidia’s new financial strategy does not compute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "summary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute […]",
-      "source": "The Verge AI",
-      "category": "ai",
-      "category_label": "🤖 AI",
-      "published": "2026-08-19T12:00:00",
-      "first_seen": "2026-08-23T04:34:40+07:00"
-    }
-  ],
+  "last_sent": "2026-08-23T12:44:21+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-19": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-20": [
       "morning",
       "noon",
@@ -112,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-23": [
+      "morning"
     ]
   }
 }
