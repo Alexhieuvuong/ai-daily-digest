@@ -1,147 +1,6 @@
 {
-  "last_sent": "2026-08-24T18:43:02+07:00",
-  "items": [
-    {
-      "title": "Khởi tố Hải SAPA cùng 1 Giám đốc công ty sản xuất: Quảng cáo là 'thịt trâu sấy đặc sản Tây Bắc' nhưng thực chất lại là thịt trâu đông lạnh Ấn Độ",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNR19meldXTGVDNFJibTBnWmkzMV9oMHNYeFJ5ZVBrNG4zbEN0cHEwaXNBNlpBRVhzYkFScEtaQ09HZXR5Y0lfbjVwOS1tNGg3RzFCOHFHTGNBWjdKS2M0dDU4QUI4OERBZ1BmRlU4VkNOeFYtdHFhUjhoa0tIMXRjT1RadTltenJaWlByRU9wcFd6NU84OGJ5Q0JmUFZ1OVJKY29TRVlfYnc1RGFJeklMaHhtN1lZN0hHLURnRk5vYzhral9OVnhhemJyLWpxNVlEVWlWS3BTV1RXX1F1NmJ2TW9LVE03bVRpRkFhN1BZU1YxR0s0aEV0Tlh1S2tfb1h4VGxpUllCeWs?oc=5",
-      "summary": "Khởi tố Hải SAPA cùng 1 Giám đốc công ty sản xuất: Quảng cáo là 'thịt trâu sấy đặc sản Tây Bắc' nhưng thực chất lại là thịt trâu đông lạnh Ấn Độ nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-24T11:52:01",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Doanh nghiệp vận tải biển quy mô tài sản hơn 10.000 tỷ mở rộng đội tàu, rót vốn cho công ty liên kết mua thêm chiếc 755 tỷ đồng",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPR3daYW42Tms0R0cySHVneFB4Wk41NzNtdXlqNWJkNm5WS0pwUHFKdW1WSXpwVEpMZkV4UGVfWUNoMlZsSzVNeUVVX1J0eXNMcnZDSzlaeERBcDRmemZaMm9PN3NEZEU3WlQ2aGxxS25DRUE1anI4S1AtS0RWdUNJOTZVakYwY3drWFBBUjNsRnN1M0hhMHBiRkY0d1NoTzV5S3ROd0VHMDlheUhxelFXS2FKWThTbG9qMWFxSl9rV2JRem9MOWRGNmVfeUhqczN3VGtublVNZmdDZUVBNURTemZWVThXRjRsQlBIZDRYcEIzUDNl?oc=5",
-      "summary": "Doanh nghiệp vận tải biển quy mô tài sản hơn 10.000 tỷ mở rộng đội tàu, rót vốn cho công ty liên kết mua thêm chiếc 755 tỷ đồng nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-24T10:36:01",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Huy động 5.000 cán bộ, kỹ sư và công nhân Việt Nam làm việc suốt hơn 2 năm, xây công trình hội nghị lớn bậc nhất khu vực Đông Nam Á",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLUFIUUd3My1ESkE5V2ZSTFRrWENvMkVrb3Rid09MOEZJYnRtb0k2cEgzYkxQckF0SWZVLUhGdk5Yd1JIcW44Vzg4RVZ3b29zQ18xT0tYNUppcWVrTVRVRTZCeWZsdW9UcUFWaFpSaU1QSS1NWGRpV2RIQkY0WHVaSmg5T3h1d2xGT3VxQ01QTFVMaDZfdkFTa2J4OHl1dGM5LU4zQk5QSjVXNFh3R3htNGw5bGdhaUJHOFhvVTZvSWh4Mm5QOGd2R2V5aU5YelNVRHR5ZXNpd2dZRy1Ddk5seEVKSEl0REpkc3VqM3hrek9uUWNIS1VOTg?oc=5",
-      "summary": "Huy động 5.000 cán bộ, kỹ sư và công nhân Việt Nam làm việc suốt hơn 2 năm, xây công trình hội nghị lớn bậc nhất khu vực Đông Nam Á nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-24T07:28:01",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Một CTCK gây chú ý vì vốn chủ sở hữu thấp hơn vốn điều lệ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRTNfRDF4QmJScHZHa1JuOHE3RTRnMnZYdEJJdDdVUmxKYzNHdUJSYWF0U1J1UGdOR3BScFdjNlVCZTZ4ZWdHbVNpeEIzNHhRQ1d4STR0d0tObWNHNHlpMUVweGpLQUNwY3BnMjZXUjczSkZrZlVSbzZaNXFmVHIzU1ZyckxXRVY0R19zclVvQkNZbjJweVAyag?oc=5",
-      "summary": "Một CTCK gây chú ý vì vốn chủ sở hữu thấp hơn vốn điều lệ nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-24T02:51:01",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Lương hưu tháng 9/2026 tại 34 tỉnh thành thay đổi lịch chi trả: Người nhận lương hưu, trợ cấp BHXH cần lưu ý",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ2RnbWhrMFljWHUteXVRNVkzRVlycFo1SUZUVjhEM0c2ZzNEQVA5Zy12N25DN0dJV3BITkljdm5VR3h3MUlLV19lQjhGSTlTRTZ2OW1oZl9tcEU5TEVGdzF0UDRPVjd6ak9WbFJjYTltUEg3Vy1MeGMwZVdiRFNfWXVBZnZUampkY1M0NW1WbUFMMzlBSEpUOTlROWlQYVRuejVZZG0tZmpSVk5fcmlkUV9zRGw4VVZVUEl3OTA2dUFEcXNLT20weFdTOHpLWTJKWkV1RG8zTkRCdw?oc=5",
-      "summary": "Lương hưu tháng 9/2026 tại 34 tỉnh thành thay đổi lịch chi trả: Người nhận lương hưu, trợ cấp BHXH cần lưu ý nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-24T07:37:01",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'",
-      "url": "https://www.cnbc.com/2026/08/24/trump-canada-trade-tariffs-greer.html",
-      "summary": "Canadian negotiators left Washington Friday without a deal to prevent President Donald Trump from enacting new 50% tariffs on about $20 billion worth of goods.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T13:06:10",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Trump Media CEO defends selling faster access to president's Truth Social posts, says more have signed up",
-      "url": "https://www.cnbc.com/2026/08/24/trump-media-ceo-truth-api.html",
-      "summary": "Trump Media interim CEO Kevin McGurn defended his company offering faster access to President Donald Trump's Truth Social posts.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T12:35:50",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Santoli: Why all the fuss about bond yields is happening now",
-      "url": "https://www.cnbc.com/2026/08/24/why-all-the-fuss-about-bond-yields-is-happening-now.html",
-      "summary": "The textbooks say the cycle high in real yields should act as a restraint on economic growth and equity valuations.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T12:31:13",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "401(k) rollovers can be costly — and irreversible. What to know before moving your money",
-      "url": "https://www.cnbc.com/2026/08/24/401k-rollover-ira-fees-risks-mistakes.html",
-      "summary": "Rollovers from 401(k)-type plans to IRAs are growing more common. But there are pros and cons.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T12:15:02",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "F88 dự kiến đạt hơn 1.000 tỷ lãi trước thuế",
-      "url": "https://vnexpress.net/f88-du-kien-dat-hon-1-000-ty-lai-truoc-thue-5112896.html",
-      "summary": "F88 ước đạt 1.077 tỷ đồng lợi nhuận trước thuế sau 8 tháng, tiến gần mục tiêu cả năm 1.133 tỷ đồng.",
-      "source": "VnExpress Kinh doanh",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T12:00:00",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Miza chính thức được chấp thuận đầu tư Khu công nghiệp Miza Nghi Sơn, quy mô gần 200 ha",
-      "url": "https://cafef.vn/miza-chinh-thuc-duoc-chap-thuan-dau-tu-khu-cong-nghiep-miza-nghi-son-quy-mo-gan-200-ha-188260824193143273.chn",
-      "summary": "Đây là một bước đi chiến lược nhằm tạo dư địa phát triển dài hạn cho hệ sinh thái Miza và hiện thực hóa mục tiêu nâng công suất sản xuất giấy lên khoảng 1 triệu tấn/năm vào năm 2030.",
-      "source": "CafeF Chứng khoán",
-      "category": "chung_khoan_vn",
-      "category_label": "📈 Tài chính / Chứng khoán VN",
-      "published": "2026-08-24T12:31:00",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "VN-Index áp sát 1.800 điểm",
-      "url": "https://cafef.vn/vn-index-ap-sat-1800-diem-188260824190641201.chn",
-      "summary": "Thị trường chứng khoán khởi động tuần mới đầy hứng khởi khi VN-Index tăng 20 điểm, hướng mốc 1.800 điểm. Nhóm bất động sản, đặc biệt VIC và VHM, tiếp tục đóng vai trò đầu tàu, trong khi khối ngoại có phiên mua ròng thứ hai liên tiếp.",
-      "source": "CafeF Chứng khoán",
-      "category": "chung_khoan_vn",
-      "category_label": "📈 Tài chính / Chứng khoán VN",
-      "published": "2026-08-24T12:06:00",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Một thế lực quay đầu bán ròng gần 200 tỷ đồng cổ phiếu trong phiên đầu tuần",
-      "url": "https://cafef.vn/mot-the-luc-quay-dau-ban-rong-gan-200-ty-dong-co-phieu-trong-phien-dau-tuan-188260824184823608.chn",
-      "summary": "Tự doanh CTCK bán ròng 194 tỷ đồng trên HoSE.",
-      "source": "CafeF Chứng khoán",
-      "category": "chung_khoan_vn",
-      "category_label": "📈 Tài chính / Chứng khoán VN",
-      "published": "2026-08-24T11:48:00",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    },
-    {
-      "title": "Canada tariffs, Bessent's buyback funding, Scott Kirby's plans for United and more in Morning Squawk",
-      "url": "https://www.cnbc.com/2026/08/24/5-things-to-know-before-the-stock-market-opens.html",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "source": "CNBC Tech",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-24T12:41:21",
-      "first_seen": "2026-08-24T20:11:40+07:00"
-    }
-  ],
+  "last_sent": "2026-08-25T03:47:18+07:00",
+  "items": [],
   "sent_slots": {
     "2026-08-21": [
       "morning",
@@ -160,7 +19,8 @@
     ],
     "2026-08-24": [
       "morning",
-      "noon"
+      "noon",
+      "night"
     ]
   }
 }
