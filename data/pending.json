@@ -1,73 +1,7 @@
 {
-  "last_sent": "2026-08-25T03:47:18+07:00",
-  "items": [
-    {
-      "title": "Supreme Court allows some Trump vote-by-mail limits ahead of midterm election",
-      "url": "https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html",
-      "summary": "The unsigned order lifted an injunction covering 23 states and Washington, D.C.; the court’s three liberal justices dissented.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T21:38:59",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    },
-    {
-      "title": "Mark Walter's TWG Global hires Goldman veteran Markowitz as top lawyer amid probe of insurers",
-      "url": "https://www.cnbc.com/2026/08/24/mark-walter-twg-david-markowitz-goldman-federal-probe.html",
-      "summary": "Federal authorities are investigating how two insurers that are part of Mark Walter's business empire classified more than $20 billion in loans to his companies.",
-      "source": "CNBC Top News",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T21:37:38",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    },
-    {
-      "title": "Doanh nghiệp tăng phúc lợi 'nghỉ thai sản' cho nam",
-      "url": "https://vnexpress.net/doanh-nghiep-tang-phuc-loi-nghi-thai-san-cho-nam-5112864.html",
-      "summary": "Để tăng phúc lợi và thu hút nhân sự, một số doanh nghiệp tăng thêm số ngày \"nghỉ thai sản\" hưởng lương cho nam, có thể lên đến 6 tuần.",
-      "source": "VnExpress Kinh doanh",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T20:53:39",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    },
-    {
-      "title": "Ngành điện hợp tác quốc tế phát triển pin lưu trữ",
-      "url": "https://vnexpress.net/nganh-dien-hop-tac-quoc-te-phat-trien-pin-luu-tru-5112772.html",
-      "summary": "Liên minh Năng lượng Toàn cầu sẽ hợp tác với Cục Điện lực phát triển hệ thống pin lưu trữ (BESS) và hiện đại hóa lưới điện bằng AI.",
-      "source": "VnExpress Kinh doanh",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T20:45:31",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    },
-    {
-      "title": "Metro Bến Thành - Suối Tiên phải đạt doanh thu hơn 615 tỷ đồng năm nay",
-      "url": "https://vnexpress.net/metro-ben-thanh-suoi-tien-phai-dat-doanh-thu-hon-615-ty-dong-nam-nay-5112955.html",
-      "summary": "UBND TP HCM giao công ty vận hành Metro Bến Thành - Suối Tiên kế hoạch năm nay đạt doanh thu hơn 615 tỷ đồng, tức bình quân mỗi ngày khoảng 1,7 tỷ.",
-      "source": "VnExpress Kinh doanh",
-      "category": "kinh_te",
-      "category_label": "💰 Kinh tế / Tài chính",
-      "published": "2026-08-24T20:39:56",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    },
-    {
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-      "source": "TechCrunch",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-24T21:24:17",
-      "first_seen": "2026-08-25T04:43:00+07:00"
-    }
-  ],
+  "last_sent": "2026-08-25T12:46:47+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-21": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-22": [
       "morning",
       "noon",
@@ -82,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-25": [
+      "morning"
     ]
   }
 }
