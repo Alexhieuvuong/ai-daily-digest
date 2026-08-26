@@ -1,43 +1,7 @@
 {
-  "last_sent": "2026-08-26T03:44:48+07:00",
-  "items": [
-    {
-      "title": "Nhận định thị trường 26/8: VN-Index có thể rung lắc, 8 nhóm cổ phiếu cần chú ý",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZDZfZzFFcVFrcWVqNEc2ektkT0FzNzkzUUlFNjRLNXRuc0xHY2haZHJqcUdQMnRKVEZ5WXBFYjRFTnJEZ3gtNHVaLU5RcVRUR0ZKRWhOSzVIcVN3cWxOWnRTMWxjODQxbHUtZDFEV1VRVUZUV2VvWXpKWUVlbjlocEE3MXo1NDhWdjk0RWFKaEJvakZ0QmRZQmp2MFdobHFheUhXMXpERXJsRkJnNDFlMEdR?oc=5",
-      "summary": "Nhận định thị trường 26/8: VN-Index có thể rung lắc, 8 nhóm cổ phiếu cần chú ý nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-25T15:28:01",
-      "first_seen": "2026-08-26T04:43:26+07:00"
-    },
-    {
-      "title": "Chỉ còn 1 tuần: Đất đai, nhà ở sắp có loạt thay đổi lớn, người dân cần biết",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMWJhMW9JZ0M1VlhfVHZvZUJDUmdheGVQUEw5MHpzaUFHNG1yb0dxZXhEUkRsRkIwUHNEclg0a1hmd056VG5ZTG1pMzVmSUxYVGxEbTVwQkFuSjJvem82VS1vQjF2Ri04ck5NcG1oNE00RDd3bmFjN1d3ZkJTSTVCN1RGcW02S2FRNU1ROXBEcC1YV1Z2b1BpYWc0NTRQMS1BY3B5dG9XczZCNzJJ?oc=5",
-      "summary": "Chỉ còn 1 tuần: Đất đai, nhà ở sắp có loạt thay đổi lớn, người dân cần biết nguoiquansat.vn",
-      "source": "Người Quan Sát",
-      "category": "vietnam",
-      "category_label": "🇻🇳 Việt Nam",
-      "published": "2026-08-25T05:20:01",
-      "first_seen": "2026-08-26T04:43:26+07:00"
-    },
-    {
-      "title": "OpenAI data center chief Chris Malone is out, the latest in a string of executive exits",
-      "url": "https://www.cnbc.com/2026/08/25/openais-head-of-data-centers-chris-malone-is-out-in-latest-exec-exit.html",
-      "summary": "An OpenAI spokesperson said the company \"recently reorganized our infrastructure organization to support the scale and pace of our work.\"",
-      "source": "CNBC Tech",
-      "category": "cong_nghe",
-      "category_label": "💻 Công nghệ",
-      "published": "2026-08-25T21:26:00",
-      "first_seen": "2026-08-26T04:43:26+07:00"
-    }
-  ],
+  "last_sent": "2026-08-26T12:49:33+07:00",
+  "items": [],
   "sent_slots": {
-    "2026-08-22": [
-      "morning",
-      "noon",
-      "night"
-    ],
     "2026-08-23": [
       "morning",
       "noon",
@@ -52,6 +16,9 @@
       "morning",
       "noon",
       "night"
+    ],
+    "2026-08-26": [
+      "morning"
     ]
   }
 }
