@@ -3028,5 +3028,448 @@
       "lead": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-plann",
       "sent_at": "2026-08-31T18:35:20+07:00"
     }
+  },
+  "2026-09-01": {
+    "731266fc51a39c94": {
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWhwcmlQT2xxWTNqR0gzZmlNcEo1aXR3R0lsTEJHYkhDVXhjZFdZYTJ5eHh0c1hGRmtDdmtPQ1FXSGE2NzBiVUFCWkh6S3BsU2FzN3dMZjRlZUp4cGhNNHNwalpSdG9oelpaMXZDUHRvbDhZVXVFcndGWXo2UWd5TldKU2FpeF91YllUdXBqX2FwR0p0Z0xNaXZuVQ?oc=5",
+      "title": "Tạm giữ hình sự tài xế vụ lật xe khách ít nhất 4 người chết",
+      "source": "Người Quan Sát",
+      "lead": "Tạm giữ hình sự tài xế vụ lật xe khách ít nhất 4 người chết nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "61f3c180a481c1fa": {
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzBfMVVZek83WWM0S21zT3ZRNDE1VGJuSG9MOHhmRndrbklFRkxQMXgyaU14SUYtQjFYV3N5X3ZYWmZoQmRWbnB0NktHUWtJeWNQZGxTYVpHY2Z4M2s3d0otdHZfdE1pODRveVdEV2RMSlpqYUZtQlZsNzVmYmowYmVlQ2lIYkV5dml0VTZFMzlGUTB4SV9DSkQyTElVWF9McDdHc0thMkZXQ2pM?oc=5",
+      "title": "Hoàng Anh Gia Lai của bầu Đức 'bốc hơi' 164 tỷ đồng lợi nhuận sau soát xét",
+      "source": "Người Quan Sát",
+      "lead": "Hoàng Anh Gia Lai của bầu Đức 'bốc hơi' 164 tỷ đồng lợi nhuận sau soát xét nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "c4ea57889de810ee": {
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMHJzaEw4ZlhCVjdtMEVlYUJpMmZTVjFVQ1drU2RrWncwT0hibm1Gc3BPUHdEcmpjSWV6YmI5Y2Z5aTY2eGk2VGN0U3k2bjdNLUktdnNXYU1GZHh3NUlKZ3V6WXpLTHpGOW5hS3E3Q2NXSVZVZEZFWDNiSzYycU9ydlp0Z0EyeDVQU1N5d1FndVV5T0RGYjRxbl9qWU94ODMtMUdVMXp0NmpnVzlrMWJfdkN0NU5lbGlqYy1Xejh3T2Mwd01XemtSYjdnTkNSMDMzaGptbDRKMllDc3R6ZFQzbG9yNk9iM19YeE1R?oc=5",
+      "title": "Cổ phiếu doanh nghiệp bất động sản đang vay nợ gần 73.000 tỷ bất ngờ được gom mạnh nhất tháng 8 bởi một nhóm nhà đầu tư",
+      "source": "Người Quan Sát",
+      "lead": "Cổ phiếu doanh nghiệp bất động sản đang vay nợ gần 73.000 tỷ bất ngờ được gom mạnh nhất tháng 8 bởi một nhóm nhà đầu tư nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "ca80773226e2d9b8": {
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa3p2TElmRHk2Z1BCMDI4bzFZOTNVZnpWR0NFQmJZWVJ5NzJ2Z2kzU1c0R0ktbVdOeG1TUG40UDRrY0NzeExSVHh0dEs0SVJ2WGtoMllqZDZNMWpQTjBKTEMtS1lET2VabTd5THVRVlJELTlwMUVjQTlHYVJpWEdiaXdBSG1BRFVKTlljVXN2NlJ2aXcwWlN6TzlYYTludmJpc3FVMkdQazB2SnNZM1hR?oc=5",
+      "title": "Căn nhà bí ẩn giữa hồ mà Đặng Lê Nguyên Vũ từng ở trước căn nhà trong hang",
+      "source": "Người Quan Sát",
+      "lead": "Căn nhà bí ẩn giữa hồ mà Đặng Lê Nguyên Vũ từng ở trước căn nhà trong hang nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "f677018653c79cc3": {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2o0ekdYelVWSU9NcmhDTVZ6SjhpeHN6Y0I5TDZXWjk1V1RyOEJOZjdwMm9DajNKQmp6Z2FXX1hIYXU5N3B0X2loRnQtc1FaZlRISlc0Z0kxVHRnalcwUzdFSWxoOUNyX3g0S1JMc3c1U29QQWpRb1JIaFdsS3IxNnhEWmhPMzJDM2VfMElaR1BETlNTRktN?oc=5",
+      "title": "Đề xuất ưu tiên bồi thường bằng đất ở hoặc nhà ở tại chỗ",
+      "source": "Người Quan Sát",
+      "lead": "Đề xuất ưu tiên bồi thường bằng đất ở hoặc nhà ở tại chỗ nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "d314969ed888e3b1": {
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOW9KY3BrR2NiS1RxRmdyNnIwb19IT0JPNDVrcm1jalR6bHV3SlA2bnJrVWR3aER6azJELS1adW9Sb2dzNG9JNjRObERVNWFqMWRSQTlKVVJrVHVqUWh5dnZZTXNnU1RFakdYWG5VNmpPQmVjZXpGQm12ZDRheW5RWndYanVET3NweTdNUW5uUzM1cmNzcEFuUzJabUF6cENSX0pz?oc=5",
+      "title": "Khai khống hóa đơn, một doanh nghiệp vật liệu xây dựng bị tuýt còi",
+      "source": "Người Quan Sát",
+      "lead": "Khai khống hóa đơn, một doanh nghiệp vật liệu xây dựng bị tuýt còi nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "5f164e7cb6318f95": {
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ0ppYVJVYWhUemlWUjlXeHNnQlprVDVybDZOMmZuZElLc0VBNzBWZHc3NWJYMkZtUUNvVi00NDNfSzlkYzdrN3IxVTl6MEVIaWhIa2NJQ1EzTXRKeElLTWwyTTk1Z2Q1bkhNZEo0a19RM2hpVGdSTE9tcm10bFVqN0ZvMXRjZ3NrUEV2Q19jZ3pVMnlDdEFGZzZiRFZPc0pzMDV3M0gtSEhEcGFxSFdJM2NxOGFocGpfOWRxZVNPSThUYzhnaXc?oc=5",
+      "title": "Chỉ trong tháng 8, Huấn 'Hoa Hồng', Phú Lê và loạt YouTuber, TikToker lần lượt vướng vòng lao lý",
+      "source": "Người Quan Sát",
+      "lead": "Chỉ trong tháng 8, Huấn 'Hoa Hồng', Phú Lê và loạt YouTuber, TikToker lần lượt vướng vòng lao lý nguoiquansat.vn",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "efe2d37ec890bca0": {
+      "url": "https://www.cnbc.com/2026/08/31/trump-venezuela-oil-gas-price.html",
+      "title": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+      "source": "CNBC Top News",
+      "lead": "President Donald Trump announced Friday that the U.S. secured majority control over 65 billion barrels of Venezuela's proven oil reserves.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "9b9a01b2728ac311": {
+      "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+      "title": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+      "source": "CNBC Top News",
+      "lead": "The FTC sued Amazon, alleging the company misled advertisers through a deceptive auctioning system.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "a9fa378ed96667d0": {
+      "url": "https://www.cnbc.com/2026/08/31/bessent-druckenmiller-bond-treasury-g20.html",
+      "title": "Bessent pushes back on Druckenmiller critique of bond intervention",
+      "source": "CNBC Top News",
+      "lead": "Bessent, at a G20 finance meeting, told CNBC he spoke with Stanley Druckenmiller after his critical op-ed was published and that their conversation went \"fine.\"",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "e342eb0da6df5009": {
+      "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+      "title": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
+      "source": "CNBC Top News",
+      "lead": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "5340e30d5f2817ba": {
+      "url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
+      "title": "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
+      "source": "CNBC Top News",
+      "lead": "\"China could not be happier with this anti Data Center movement,\" Trump said as Republicans express concerns about the backlash to data centers.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "69e3b8a47ffbfc62": {
+      "url": "https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html",
+      "title": "Trump reportedly plans to announce new drug pricing deals with nearly a dozen drugmakers",
+      "source": "CNBC Top News",
+      "lead": "The string of deals builds on the Trump administration's push to link the nation's drug prices to cheaper ones abroad.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "e639c461debe9cd6": {
+      "url": "https://www.cnbc.com/2026/08/31/trump-accounts-american-airlines-matching-program.html",
+      "title": "American Airlines announces Trump Accounts matching program",
+      "source": "CNBC Top News",
+      "lead": "To help fund Trump Accounts, American Airlines said it will match the federal $1,000 contribution for employees' children.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "24404f75f9907785": {
+      "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+      "title": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+      "source": "CNBC Top News",
+      "lead": "Mortgage rates aren't expected to get much cheaper for homebuyers in 2027, especially if inflation stays high.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "ca3842c95803a9e7": {
+      "url": "https://www.cnbc.com/2026/08/31/broadcom-reports-earnings-this-week-mike-khouw-says-this-trade-could-be-a-winner.html",
+      "title": "Broadcom reports earnings this week. Mike Khouw says this trade could be a winner",
+      "source": "CNBC Top News",
+      "lead": "\"The stakes are high\" heading into Broadcom earnings, says Mike Khouw.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "78c3dea1237639d0": {
+      "url": "https://www.cnbc.com/2026/08/31/kalshi-perman.html",
+      "title": "Kalshi permanently bans former GOP Rep. George Santos over illegal trading",
+      "source": "CNBC Top News",
+      "lead": "Former GOP Rep. George Santos, of New York, has drawn fire for allegedly trading on whether he would attend this year's State of the Union address.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "1ca754d186e8e743": {
+      "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "title": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
+      "source": "CNBC Top News",
+      "lead": "OpenAI's move to serve ads in ChatGPT earlier this year drew ridicule from its chief rival, Anthropic, in the form of a Super Bowl commercial.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "e33e5a9bdbc50cfc": {
+      "url": "https://www.cnbc.com/2026/08/31/when-someone-talks-down-use-dolly-partons-simple-trick-maintain-dignity-disarm-communication-expert.html",
+      "title": "When someone talks down to you, use Dolly Parton's simple trick to 'maintain your dignity and disarm' them, says expert",
+      "source": "CNBC Top News",
+      "lead": "Communication expert Dorie Clark calls it the \"label upgrade\" strategy. \"It's a powerful move,\" she says. \"Own the truth,\" then redefine their label. Here's how.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "0253fb3c815ec6d5": {
+      "url": "https://www.cnbc.com/2026/08/31/aon-ceo-says-usi-deal-seeks-to-build-premiere-middle-market-insurance-platform.html",
+      "title": "Aon CEO says insurance broker seeks to build 'premiere middle market platform' with purchase of rival USI",
+      "source": "CNBC Finance",
+      "lead": "The insurance broker said the merger will create the premiere U.S. middle-market platform.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "e21c0fe144a7425f": {
+      "url": "https://www.cnbc.com/2026/08/31/kalshi-looks-international-partners-with-brokerage-alpaca.html",
+      "title": "Kalshi partners with brokerage Alpaca as it tries to build its international audience",
+      "source": "CNBC Finance",
+      "lead": "The prediction market platform and the financial infrastructure and brokerage startup are working to get Kalshi's event contracts to global investors.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "b7f564e54c86ab57": {
+      "url": "https://vnexpress.net/em-gai-ceo-quoc-cuong-gia-lai-cho-cong-ty-muon-gan-200-ty-dong-5115445.html",
+      "title": "Em gái CEO Quốc Cường Gia Lai cho công ty mượn gần 200 tỷ đồng",
+      "source": "VnExpress Kinh doanh",
+      "lead": "Bà Nguyễn Ngọc Huyền My cho Quốc Cường Gia Lai mượn thêm 148 tỷ đồng trong nửa năm, nâng dư nợ lên gần 200 tỷ đồng và không lấy lãi.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "66fe28d2258daeb3": {
+      "url": "https://cafef.vn/loat-thong-tin-quan-trong-sap-cong-bo-chuyen-gia-du-bao-the-nao-ve-gia-vang-tuan-toi-188260831220949221.chn",
+      "title": "Loạt thông tin quan trọng sắp công bố, chuyên gia dự báo thế nào về giá vàng tuần tới?",
+      "source": "CafeF Chứng khoán",
+      "lead": "Trong tuần tới, tâm điểm của thị trường sẽ chuyển sang loạt dữ liệu kinh tế Mỹ, đặc biệt là báo cáo việc làm, trong bối cảnh nhà đầu tư tiếp tục đánh giá khả năng Fed điều chỉnh chính sách tiền tệ.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "a2e003e0ccbb9933": {
+      "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-sau-nghi-le-2-9-ty-le-cao-nhat-16-188260831160554783.chn",
+      "title": "Lịch chốt quyền trả cổ tức trong tuần sau nghỉ lễ 2/9, tỷ lệ cao nhất 16%",
+      "source": "CafeF Chứng khoán",
+      "lead": "Sau nghỉ lễ Quốc khánh 2/9, ngày 3/9/2026 và 4/9/2026, trên các sàn chứng khoán, có khoảng 10 doanh nghiệp dự kiến trả cổ tức với tỷ lệ cao nhất là 16%.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "7760582efcd51a84": {
+      "url": "https://cafef.vn/quy-vang-lon-nhat-nhat-the-gioi-mua-manh-nhat-trong-vong-18-thang-188260831230250079.chn",
+      "title": "Quỹ vàng lớn nhất nhất thế giới mua mạnh nhất trong vòng 18 tháng",
+      "source": "CafeF Chứng khoán",
+      "lead": "Động thái cho thấy dòng vốn đầu tư toàn cầu đang có sự thay đổi đáng kể khẩu vị đối với vàng.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "3683f721ce1cb250": {
+      "url": "https://cafef.vn/ctck-chi-ten-10-co-phieu-trien-vong-trong-thang-9-188260831221210273.chn",
+      "title": "CTCK chỉ tên 10 cổ phiếu triển vọng trong tháng 9",
+      "source": "CafeF Chứng khoán",
+      "lead": "Chứng khoán Mirae Asset Việt Nam đánh giá triển vọng của loạt cổ phiếu lớn thuộc các nhóm ngân hàng, thép, công nghệ, sữa và xăng dầu.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "510249307b7ea3f1": {
+      "url": "https://cafef.vn/trung-quoc-dang-dao-tao-hang-nghin-robot-theo-cach-chua-tung-co-188260831215956848.chn",
+      "title": "Trung Quốc đang đào tạo hàng nghìn robot theo cách chưa từng có",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Robot hình người đang tiến rất nhanh về phần cứng, nhưng để chúng thực sự hữu ích vẫn còn một bài toán khó phía trước.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "9927087b71ccfb7d": {
+      "url": "https://cafef.vn/sang-tan-noi-de-xem-nguoi-ta-khen-trung-quoc-co-dung-khong-chuyen-gia-my-chi-biet-thot-len-toi-chong-het-ca-mat-18826083121572157.chn",
+      "title": "Sang tận nơi để xem người ta khen Trung Quốc có đúng không, chuyên gia Mỹ chỉ biết thốt lên: \"Tôi chóng hết cả mặt\"",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "\"Thật sự chóng mặt, Trung Quốc cho tôi cảm giác đúng như vậy\", chuyên gia Mỹ thừa nhận.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "298b83cd81ff4bfc": {
+      "url": "https://cafef.vn/tham-hoa-lu-quet-o-nepal-mat-than-cua-trung-quoc-phat-huy-tac-dung-nhin-xuyen-thau-cac-khoi-dat-da-188260831215613326.chn",
+      "title": "Thảm họa lũ quét ở Nepal: \"Mắt thần\" của Trung Quốc phát huy tác dụng nhìn xuyên thấu các khối đất đá",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Dữ liệu và dự báo về tình trạng hiện trường được gửi về liên tục để phục vụ công tác cứu hộ.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "5e5e68c39f457eca": {
+      "url": "https://cafef.vn/my-da-het-tien-de-tien-hanh-chien-tranh-voi-iran-188260831215503583.chn",
+      "title": "Mỹ đã hết tiền để tiến hành chiến tranh với Iran?",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Việc Mỹ không còn tiếp tục những cuộc tấn công Iran được giải thích là do đã cạn kiệt nguồn tiền.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "3a47b92dcd3152ac": {
+      "url": "https://cafef.vn/nepal-nghia-trang-vo-danh-ngay-cang-mo-rong-canh-tuong-am-anh-va-tu-khi-bao-trum-188260831183621689.chn",
+      "title": "Nepal: Nghĩa trang vô danh ngày càng mở rộng, cảnh tượng ám ảnh và tử khí bao trùm",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Huyện Chitwan - vùng đất nổi tiếng với rừng xanh và những dòng sông thơ mộng của Nepal, nay trở thành nơi chôn cất tập thể hàng trăm nạn nhân chưa xác định được danh tính. Thi thể của họ bị dòng lũ dữ",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "a20d3cab34dd2604": {
+      "url": "https://cafef.vn/dieu-toi-te-nhat-cac-phi-hanh-gia-phai-doi-mat-khi-bay-ra-ngoai-vu-tru-1882608311009067.chn",
+      "title": "Điều tồi tệ nhất các phi hành gia phải đối mặt khi bay ra ngoài vũ trụ",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Hành trình chinh phục không gian trở thành một trong những thử thách tàn khốc và dũng cảm nhất mà nhân loại từng thực hiện.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "4e73bb0a68c2c06b": {
+      "url": "https://cafef.vn/ngoi-mieu-180-tuoi-o-hong-kong-trung-quoc-bong-thanh-so-lao-dong-coi-tren-khi-tam-the-cau-viec-gia-18-do-kho-san-nhu-mua-ve-concert-1882608311832453.chn",
+      "title": "Ngôi miếu 180 tuổi ở Hong Kong (Trung Quốc) bỗng thành \"sở lao động cõi trên\": Khi tấm thẻ cầu việc giá 18 đô khó săn như mua vé concert",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Số vị trí toàn thời gian dành cho cử nhân Hong Kong (Trung Quốc) rơi từ 80.000 xuống 31.000 chỉ trong ba năm. Cùng lúc đó, một tấm thẻ cầu nguyện in chữ \"Offer God\" cháy hàng hai đợt liên tiếp. Hai co",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "5ece40f113219bde": {
+      "url": "https://cafef.vn/nepal-keu-goi-trung-quoc-chia-se-du-lieu-truoc-khi-xay-ra-tham-hoa-lu-quet-188260831182840775.chn",
+      "title": "Nepal kêu gọi Trung Quốc chia sẻ dữ liệu trước khi xảy ra thảm hoạ lũ quét",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Ba tháng trước khi dòng nước, bùn và đá khổng lồ lao xuống thung lũng trên dãy Himalaya giáp biên giới Nepal và Trung Quốc, các chuyên gia và quan chức hai nước đã gặp nhau tại Kathmandu, để thảo luận",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "ca46369c2f922f97": {
+      "url": "https://cafef.vn/can-canh-khoanh-khac-giai-cuu-gia-dinh-mac-ket-trong-ngoi-nha-bat-tu-giua-lu-quet-lich-su-o-nepal-188260831194027111.chn",
+      "title": "Cận cảnh khoảnh khắc giải cứu gia đình mắc kẹt trong “ngôi nhà bất tử” giữa lũ quét lịch sử ở Nepal",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "3 người gồm một người đàn ông, một phụ nữ và một bé gái bị mắc kẹt trên ban công tầng hai mà không có lối thoát, đối mặt với rủi ro bị dòng nước cuốn trôi.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "1a2cd0755238ad18": {
+      "url": "https://cafef.vn/nu-y-ta-lao-vao-bien-lua-cuu-mot-be-so-sinh-dau-long-khi-14-em-nho-khac-khong-qua-khoi-trong-vu-chay-lon-tai-benh-vien-o-pakistan-188260831182616192.chn",
+      "title": "Nữ y tá lao vào biển lửa cứu một bé sơ sinh, đau lòng khi 14 em nhỏ khác không qua khỏi trong vụ cháy lớn tại bệnh viện ở Pakistan",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Nữ y tá Razia Noreen đã liều mình lao vào khu sơ sinh đang bốc cháy, cứu sống 1 em bé trong vụ hỏa hoạn.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "17a054490ada7ce9": {
+      "url": "https://cafef.vn/co-gai-bi-quan-ly-quan-bar-cao-dau-video-lan-truyen-khap-internet-ly-do-gay-tranh-cai-188260831182322522.chn",
+      "title": "Cô gái bị quản lý quán bar cạo đầu, video lan truyền khắp Internet, lý do gây tranh cãi",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Vụ việc xảy ra tại Thái Lan khi cô gái trẻ bị một người quản lý quán bar cạo đầu. Quá trình này đã được ghi lại và nhanh chóng lan truyền trên Internet.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "25aefd0f5c676f37": {
+      "url": "https://cafef.vn/quoc-gia-giau-thu-5-the-gioi-tinh-theo-gdp-nguoi-bat-ngo-tu-choi-gia-nhap-eu-188260831181815162.chn",
+      "title": "Quốc gia giàu thứ 5 thế giới tính theo GDP/người bất ngờ từ chối gia nhập EU",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Cử tri nước này đã bác đề xuất của chính phủ về việc nối lại đàm phán gia nhập Liên minh châu Âu (EU).",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "637fb18c8ef939c9": {
+      "url": "https://cafef.vn/tu-nha-xac-den-benh-vien-hang-nghin-gia-dinh-nepal-tim-than-nhan-sau-lu-quet-188260831150852294.chn",
+      "title": "Từ nhà xác đến bệnh viện, hàng nghìn gia đình Nepal tìm thân nhân sau lũ quét",
+      "source": "CafeF Tài chính quốc tế",
+      "lead": "Sau trận lũ quét thảm khốc, hàng nghìn gia đình Nepal đi hàng trăm kilômét để tìm đến bệnh viện, nhà xác và trại cứu hộ với hy vọng tìm thấy người thân.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "d23fb6c291daf32a": {
+      "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-chieu-toi-31-8-tai-sjc-pnj-doji-bao-tin-minh-chau-va-phu-quy-188260831080512397.chn",
+      "title": "Giá vàng nhẫn trơn, vàng miếng chiều tối 31/8 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "lead": "Giá vàng trong nước chốt phiên 31/8 với vàng nhẫn được niêm yết từ 145,2 - 149,9 triệu đồng/lượng tùy thương hiệu. Đáng chú ý, giá bán vàng nhẫn giữa các nhà vàng chênh tới 1,7 triệu đồng/lượng, trong",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "2223947823294624": {
+      "url": "https://cafef.vn/hut-von-ngoai-ngan-hang-viet-gui-di-thong-diep-gi-188260831184945866.chn",
+      "title": "Hút vốn ngoại, ngân hàng Việt gửi đi thông điệp gì?",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "lead": "Nhiều ngân hàng Việt Nam đang đồng loạt triển khai các kế hoạch huy động vốn quốc tế và tìm kiếm nhà đầu tư nước ngoài. Dòng vốn này được kỳ vọng không chỉ giúp bổ sung nguồn lực cho tăng trưởng tín d",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "04cc323c0bda4424": {
+      "url": "https://cafef.vn/ngay-ngay-mai-1-9-viet-nam-chinh-thuc-co-them-thanh-pho-truc-thuoc-trung-uong-thu-8-quy-mo-kinh-te-hon-14-ty-usd-so-huu-loat-loi-the-doc-nhat-188260831220930044.chn",
+      "title": "Từ hôm nay (1/9), Việt Nam chính thức có thêm thành phố trực thuộc Trung ương thứ 8: Quy mô kinh tế hơn 14 tỷ USD, sở hữu loạt lợi thế độc nhất",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "lead": "Từ ngày 1/9/2026, Quảng Ninh chính thức trở thành thành phố trực thuộc Trung ương theo Nghị quyết số 36/2026/QH16 của Quốc hội. Đây không đơn thuần là sự thay đổi tên gọi hay cấp hành chính, mà là dấu",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "2bb1929c26bd5898": {
+      "url": "https://cafef.vn/chinh-sach-dac-thu-mien-ky-luat-chua-xu-ly-ky-luat-doi-voi-can-bo-cong-chuc-vien-chuc-luc-luong-vu-trang-188260831191802292.chn",
+      "title": "Chính sách đặc thù: Miễn kỷ luật; chưa xử lý kỷ luật đối với cán bộ, công chức, viên chức, lực lượng vũ trang",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "lead": "Tại Nghị quyết số 37/2026/QH16, Quốc hội quy định áp dụng chính sách đặc thù trong việc miễn xem xét kỷ luật, chưa xem xét xử lý kỷ luật người thuộc lực lượng vũ trang nhân dân, cán bộ, công chức, viê",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "8ee1d077b2e583e6": {
+      "url": "https://cafef.vn/mot-tinh-co-hon-15-trieu-dan-nhung-co-den-tren-12-trieu-nguoi-song-o-do-thi-188260831175226597.chn",
+      "title": "Một tỉnh có hơn 1,5 triệu dân, nhưng có đến trên 1,2 triệu người sống ở đô thị",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "lead": "Tỷ lệ đô thị hoá của địa phương này hiện đạt trên 81%.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "b7a89a1c1f0a2442": {
+      "url": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
+      "title": "Apple’s top App Store exec, Phil Schiller, follows wave of exits as CEO Tim Cook steps down",
+      "source": "TechCrunch",
+      "lead": "The longtime executive won't be leaving Apple just yet but staff at the company say it's a step closer to Schiller retiring.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "97d17fd5d0220bd4": {
+      "url": "https://techcrunch.com/2026/08/31/microsoft-tests-fix-for-latest-hours-long-outlook-outage/",
+      "title": "Microsoft tests fix for latest hours-long Outlook outage",
+      "source": "TechCrunch",
+      "lead": "Microsoft says it's testing a fix for the widespread Outlook issues that have led to email delays and failures.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "3a6f860f161577a4": {
+      "url": "https://techcrunch.com/2026/08/31/kalshi-bans-george-santos-for-life-over-state-of-the-union-bets/",
+      "title": "Kalshi bans George Santos for life over State of the Union bets",
+      "source": "TechCrunch",
+      "lead": "The disciplinary action comes two months after the Commodity Futures Trading Commission settled charges against Santos.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "d97062d11a9d94f2": {
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "source": "TechCrunch",
+      "lead": "The seed round for the app that provides real-time legal and policy guidance to officers was led by SignalFire and Las Olas VC.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "f871579bf7450eec": {
+      "url": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
+      "title": "Hackers claim millions of patient records stolen during data breach at healthcare giant McKesson",
+      "source": "TechCrunch",
+      "lead": "The company, which distributes medicines and medical devices to hospitals and healthcare practices across the U.S., said it was hacked and expects intermittent service degradation.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "9e166f1a26902f95": {
+      "url": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
+      "title": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt",
+      "source": "TechCrunch",
+      "lead": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "79ed7d40793ec10a": {
+      "url": "https://techcrunch.com/2026/08/31/tim-cooks-parting-message-apple-is-in-the-hands-of-a-product-builder/",
+      "title": "Tim Cook’s parting message: Apple is in the hands of a product builder",
+      "source": "TechCrunch",
+      "lead": "Tim Cook’s farewell memo to Apple employees offers a glimpse at how he wants John Ternus to be seen: as a product builder with deep experience across the iPhone, Mac, AirPods, and other major hardware",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "9ff9d33b44184d2e": {
+      "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+      "title": "VLC crosses 7 billion downloads",
+      "source": "TechCrunch",
+      "lead": "In our world of expensive streaming platforms, the very free and offline VLC media player has crossed 7 billion downloads.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "78faab2a190697ab": {
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "source": "TechCrunch",
+      "lead": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "8480f235c87c6f5b": {
+      "url": "https://techcrunch.com/2026/08/31/how-ai-could-make-it-harder-for-governments-to-use-hacking-tools/",
+      "title": "How AI could make it harder for governments to use hacking tools",
+      "source": "TechCrunch",
+      "lead": "AI is proving effective at finding and exploiting vulnerabilities. Some say this will make it harder for governments to use hacking tools and spyware and could reignite calls to backdoor devices.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "d565f97deb8aea5e": {
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "source": "TechCrunch",
+      "lead": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "8f2a1ac2d33dfc11": {
+      "url": "https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario/",
+      "title": "MapQuest’s app surges to No. 1 in Navigation after refusing to rename Lake Ontario",
+      "source": "TechCrunch",
+      "lead": "MapQuest is getting an unexpected boost from its decision to defy President Trump’s renaming of Lake Ontario.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "c6b2fc3435768591": {
+      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+      "source": "TechCrunch",
+      "lead": "Circleback is also introducing new pricing plans starting from $14 per month.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "6a7dc27631f20b1e": {
+      "url": "https://www.cnbc.com/2026/08/31/cramer-why-tim-cook-deserves-more-credit-for-his-accomplishments-as-apple-ceo.html",
+      "title": "Cramer: Why Tim Cook deserves more credit for his accomplishments as Apple CEO",
+      "source": "CNBC Tech",
+      "lead": "Tim Cook's defining achievement at Apple has been building an enduring consumer franchise through 15 years of changing technology and competition.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "39f3a34ea7058ad5": {
+      "url": "https://www.cnbc.com/2026/08/31/5-things-to-know-before-the-stock-market-opens.html",
+      "title": "G20 meetings, strikes on Iran, the 'alphabet soup' economy and more in Morning Squawk",
+      "source": "CNBC Tech",
+      "lead": "Here are five key things investors need to know to start the trading day.",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "33885d157d9a6853": {
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+      "title": "Debian won’t ban AI code from its Linux distribution",
+      "source": "The Verge AI",
+      "lead": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "9934db3027ab03c4": {
+      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "source": "The Verge AI",
+      "lead": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and G",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "d4156ae438fd8dcf": {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "source": "The Verge AI",
+      "lead": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is ",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    },
+    "6d3aab2b6fe01e28": {
+      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "title": "Instagram cracks down on AI accounts pretending to be human",
+      "source": "The Verge AI",
+      "lead": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it cle",
+      "sent_at": "2026-09-01T02:07:29+07:00"
+    }
   }
 }
