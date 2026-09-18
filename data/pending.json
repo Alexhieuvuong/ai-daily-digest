@@ -1,6 +1,617 @@
 {
   "last_sent": "2026-09-18T16:45:13+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Bắt giữ Nguyễn Thị Giỏi, 73 tuổi",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Bc2UxRDVJZnA4MVgyZTE0aW5MNHo4WWptT2R4VTNBQVJwQl9oZV9kWmRoRnBDUjZxQ00ybmY0SXJ4TVVqQ19PaXAyUUw1cjI4RE1Nc2NFM1I5Q0RhQTFPRi00MVVoVlFqTlJwUHhLVWRSTS1WTFE?oc=5",
+      "summary": "Bắt giữ Nguyễn Thị Giỏi, 73 tuổi nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T09:10:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Thaiholdings bất ngờ hủy đại hội cổ đông bất thường",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWUNQZGxuaEdNR0dBMGxlLURDNjhxTUFISE0xQjRGYnpWNGtUSDJJWDNwbTlFQWlXYmE1N3V6U2lHRXU0TWRmQ0xQWUFCTjNxZ1I0d2twRzZTUmhITTdzaDdDalpkR09EOFFZMzU1Xy10SHVQbGVNMDl5NTZ5SEVDUDZaYWYydmhPMENtTE5ZYVg?oc=5",
+      "summary": "Thaiholdings bất ngờ hủy đại hội cổ đông bất thường nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T08:36:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Thời khắc lịch sử của chứng khoán Việt Nam: Loạt định chế quốc tế cùng chứng kiến lễ đánh cồng nâng hạng",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHZfMGpjcG5zTFgtTnJmcHZud0hteHNIRW55azNRdEFYZ2o0aWxPREVnN0ZpbUp3VU14a2VVRzBXUWplTFVHWDlEckZ1TUQ4MGhfOG84MkRaQ0dsNjRpZUJWeXphaGhXYTdpVEJCTkRYTkhzVERHUkVrRWpZR05RcmtaOGhtOHN3MlJ3aFBVdEFYSl96WHIxbUMtay1HX09qQlRlcDZBYmU1VTRPU2tLUVBnRjhFMnE4U05EVXFmd3cyWU5HY2lUd29UV05nVFZQQXFybW93?oc=5",
+      "summary": "Thời khắc lịch sử của chứng khoán Việt Nam: Loạt định chế quốc tế cùng chứng kiến lễ đánh cồng nâng hạng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T12:35:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Bộ trưởng Bộ Tài chính: Nâng hạng chứng khoán là bước tiến mới, Việt Nam sẵn sàng cải cách mạnh hơn để hút vốn quốc tế",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYTJmdWVzWUE2WExKN25mRk9zdFNaaHNvQzRrMFpLTVBhY2pCaWlDdGhDdDdia29udmZJSm80c0oyN0JBZ3dYVktTaDZpQXVrVUZPV09FcnFPaEY3MWJkM182c01aSVpqYU43TjVIbUtGQzdEQ0lZa2xBanV5cTBHVDZTR1ZjYkZnLVY3VHplTXAtVV8wZUZhbEhzSXpDaUtDd3BUZ0dMS2xXVjhXTXI1V2N1SE5iRUhwLU1mZWxwVUx2NlA4YS1vTDZWSjdzUU96Z2dzOVVXYXNXRlJSaTRkVm9oaW9lbVU?oc=5",
+      "summary": "Bộ trưởng Bộ Tài chính: Nâng hạng chứng khoán là bước tiến mới, Việt Nam sẵn sàng cải cách mạnh hơn để hút vốn quốc tế nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T11:31:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Khám xét nơi ở, bắt khẩn cấp giang hồ mạng 'Đức Cộng'",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU082bE9EMFNwdEVxSWhnSDY4a0FLZ3d6RVZ4dlctb25xYzN6RTFscU55dXhnXzM4dUhkRE9ZUDgxSkhfYldYQ01rMkc0MllWNjNKWno3eDRRelhlc2xPTllRRGFHTUpmZlhjcUJTak83c291UHR3SE90bFRsMl9FUlNGaUlGbmJNekljd3B0MA?oc=5",
+      "summary": "Khám xét nơi ở, bắt khẩn cấp giang hồ mạng 'Đức Cộng' nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T10:12:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Đại sứ Anh: Việt Nam hướng tới hút dòng vốn dài hạn cho 5 lĩnh vực sau nâng hạng FTSE",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQamxKb1N4cTViSk84cHJlN3Z6LVVOQmdQdFgxcHFhVndSZC1sRHBJQThLbjh5X2otQ1l6SUh1c3JuODRvN1hqQXJnWUE1MmJjTG55RHdpNktuV0hCRC1QdEFmdUc2NnBnZHVsYWNtWG13NkZUMUxrS1AtWmZOZzQtQmlJTWtTNVl0S3FoR0M1bUlleVlhWkx5a2VMSmRVQ1I4c2o1TkhrZngwRFpfTUZGRUpmMFlxaW8wdzNOZQ?oc=5",
+      "summary": "Đại sứ Anh: Việt Nam hướng tới hút dòng vốn dài hạn cho 5 lĩnh vực sau nâng hạng FTSE nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T12:09:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Một đại gia bất động sản muốn huy động 230.000 tỷ cải tạo sông Đáy theo hợp đồng BT",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM0xKMVpTU0ZtbEhIaDFVOVN4aWZTWGFOZFQtMGtJcnVpdVVKckhxMmdHX29mR1h4eGdoLWlEdVRQd2RTMU1ja0d3YUFYYnZ4cVo1U3Nmc1paYUlOWWpOSGtGN3VrRC02Y19Ba0M4b2V5M0lHNXhLWEt6Zm5iZGJMRmNYUU9nRUVYUnBtSUt0cGJhbVNHTS1yTi1ENlpOM1dUSV9mWW4yY01vSElScDZoS2tHRkFaZ3lSRWIw?oc=5",
+      "summary": "Một đại gia bất động sản muốn huy động 230.000 tỷ cải tạo sông Đáy theo hợp đồng BT nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T09:57:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Được SSI hỗ trợ, Virtu Financial tiết lộ kế hoạch mới tại Việt Nam",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnRHX2JZb1ZGNXM0TUttclFPNEt5ejY5VlVwbFBZQXN6UGZaSzJRa1NaaTVGalhVamZhOEVwMmg2Qk1RVGk5ZEY1YWg1S3ZaVmZWbnFGdVJoVUxKMVFEbndwR3Y2WVVidWpORTNRNnNfa1JEdzdIMzlMaDdoTnUybng2bklmQnJyc245WHJnSGNJeTVWQ1BPdE5fSzRBT3p6bVBz?oc=5",
+      "summary": "Được SSI hỗ trợ, Virtu Financial tiết lộ kế hoạch mới tại Việt Nam nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-18T06:07:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "OpenAI's latest AI revelation is a 'serious situation,' Microsoft's Suleyman tells CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+      "summary": "Suleyman joined \"Squawk Box\" to discuss OpenAI's latest incidents of \"concerning model behavior\" disclosed earlier this week.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T14:36:55",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Warren Buffett steps down as chairman of Berkshire Hathaway: 'Father Time always wins'",
+      "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+      "summary": "Buffett's son Howard will replace him as chairman, as dictated by a long-standing succession plan, Berkshire said.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T12:04:02",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Fed staff should have known Silicon Valley Bank was vulnerable, new report finds",
+      "url": "https://www.cnbc.com/2026/09/18/fed-silicon-valley-bank.html",
+      "summary": "Fed Vice Chair for Supervision Michelle Bowman said a new report indicates the central bank's staff missed signs ahead of Silicon Valley Bank's 2023 failure.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T14:49:20",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Putin targets Nestle's Russian business as Kremlin tightens grip on Western assets",
+      "url": "https://www.cnbc.com/2026/09/18/nestle-russia-assets-putin-ukraine-war.html",
+      "summary": "Nestlé is assessing its options after Russia placed the Swiss food giant’s local assets under temporary external administration.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T12:18:55",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Rep. Chip Roy doesn't want to regulate AI, but says Congress should have an oversight role",
+      "url": "https://www.cnbc.com/2026/09/18/chip-roy-ai-congress-regulate.html",
+      "summary": "In an appearance on CNBC's \"Squawk Box,\" Rep. Chip Roy, R-Texas, said he supports congressional hearings on AI, but wasn't keen on additional regulations.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T14:20:46",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Social Security reform plans could sway voters in battleground Senate races, survey finds",
+      "url": "https://www.cnbc.com/2026/09/18/social-security-senate-races-battleground-voters-survey.html",
+      "summary": "Senators elected this November will be in office when Social Security's retirement trust fund is projected to run dry.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T13:15:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "AI stock swings could affect your 401(k). Here’s what retirement savers need to know",
+      "url": "https://www.cnbc.com/2026/09/18/ai-stock-swings-can-affect-your-401k-what-to-know.html",
+      "summary": "Retirement savers may be affected by swings in the artificial intelligence trade. Here is how to assess the risk without making a rash move.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T12:52:14",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Beauty, health and wellness are converging into one retail category",
+      "url": "https://www.cnbc.com/2026/09/18/beauty-health-wellness-consumer-spending.html",
+      "summary": "As consumers prioritize holistic retail purchases, beauty, health and wellness are increasingly converging into one category and one consumer budget.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T11:00:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "IRS tax debt agreements have plummeted: 'I've never seen a number that low,' taxpayer advocate says",
+      "url": "https://www.cnbc.com/2026/09/18/irs-offers-in-compromise.html",
+      "summary": "More taxpayers have been applying for an \"offer in compromise\" since 2023, but the IRS has accepted far fewer requests. Tax experts are unsure why.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T12:15:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "AI trade rebound sparks flurry of unusually bullish options activity",
+      "url": "https://www.cnbc.com/2026/09/18/ai-trade-rebound-sparks-flurry-of-unusually-bullish-options-activity.html",
+      "summary": "Options traders stormed into tech trades on Thursday.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T11:20:56",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+      "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+      "summary": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-14T19:47:42",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Consumer outlook plunges in September as inflation outlook worsens",
+      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
+      "summary": "The survey's headline index hit a level of 47.8, down 7.5% from the August reading and off 13.2% from a year ago.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-11T16:53:23",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Record U.S. cyclosporiasis outbreak is over, CDC says",
+      "url": "https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html",
+      "summary": "The largest outbreak, linked to shredded iceberg lettuce from Taylor Farms, sickened more than 12,000 people.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-11T15:36:45",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "summary": "The all-items consumer price index was expected to rise 0.4% in August, with core, excluding food and energy, showing a 0.2% gain, according to the Dow Jones consensus.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-11T13:46:36",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "China's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing",
+      "url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
+      "summary": "China's investment slump deepened, retail sales growth slowed further in August while industrial output blew past estimates as Beijing warns of supply-demand imbalance.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-15T09:46:14",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+      "url": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+      "summary": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-14T20:34:23",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Warsh's credibility is on the line this week as Trump policies put pressure on Fed to hike",
+      "url": "https://www.cnbc.com/2026/09/14/warshs-credibility-is-on-the-line-this-week-as-trump-policies-put-pressure-on-fed-to-hike.html",
+      "summary": "With inflation above target and no visibility on lower oil prices or stability of tariffs, the Fed chairman needs to pass the test that has faced his predecessors",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-14T20:49:03",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Prediction market traders think gas prices will hit new highs for the year",
+      "url": "https://www.cnbc.com/2026/09/14/prediction-markets-traders-think-gas-prices-will-hit-new-highs-in-2026.html",
+      "summary": "Oil prices have marched higher in recent weeks, above $100 per barrel, as tensions between the U.S. and Iran have escalated again.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-14T15:49:39",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "FTSE đề nghị Việt Nam phát triển sản phẩm phái sinh niêm yết ở nước ngoài",
+      "url": "https://vnexpress.net/ftse-de-nghi-viet-nam-phat-trien-san-pham-phai-sinh-niem-yet-o-nuoc-ngoai-5122032.html",
+      "summary": "FTSE đề nghị Việt Nam nghiên cứu các sản phẩm phái sinh dựa trên chỉ số của tổ chức này, niêm yết ở nước ngoài nhằm thu hút dòng vốn quốc tế.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T14:31:08",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Tỷ phú Warren Buffett rời chức Chủ tịch Berkshire",
+      "url": "https://vnexpress.net/ty-phu-warren-buffett-roi-chuc-chu-tich-berkshire-5121977.html",
+      "summary": "Huyền thoại đầu tư Warren Buffett rời vị trí Chủ tịch Berkshire Hathaway - tập đoàn đa ngành trị giá 1.000 tỷ USD ông đã lãnh đạo từ năm 1965.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-18T10:58:39",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Chứng khoán Việt Nam chính thức gia nhập rổ chỉ số toàn cầu FTSE Russell",
+      "url": "https://cafef.vn/chung-khoan-viet-nam-chinh-thuc-gia-nhap-ro-chi-so-toan-cau-ftse-russell-18826091820182807.chn",
+      "summary": "(Chinhphu.vn) - Ngày 21/9, thị trường chứng khoán Việt Nam sẽ chính thức mang trạng thái “thị trường mới nổi thứ cấp” theo FTSE Russell, đánh dấu bước tiến mới trong quá trình cải cách, hoàn thiện thị trường và hội nhập sâu hơn với thị trường vốn quốc tế.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:47:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Bộ trưởng Bộ Tài chính tiếp Tổng Giám đốc điều hành FTSE Russell",
+      "url": "https://cafef.vn/bo-truong-bo-tai-chinh-tiep-tong-giam-doc-dieu-hanh-ftse-russell-188260918201516328.chn",
+      "summary": "Bộ trưởng đánh giá cao sự hỗ trợ tích cực, bền bỉ của FTSE Russell đối với hành trình nâng hạng thị trường chứng khoán Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:15:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Đánh cồng ghi dấu chứng khoán Việt Nam vào nhóm thị trường mới nổi",
+      "url": "https://cafef.vn/danh-cong-ghi-dau-chung-khoan-viet-nam-vao-nhom-thi-truong-moi-noi-188260918201037525.chn",
+      "summary": "Chiều tối 18/9, Ủy ban Chứng khoán Nhà nước cùng FTSE Russell tổ chức Hội nghị “Việt Nam chính thức tham gia vào rổ chỉ số toàn cầu – FTSE Russell” (FTSE GEIS).",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:10:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Giầy Thượng Đình thay Tổng Giám đốc mới",
+      "url": "https://cafef.vn/giay-thuong-dinh-thay-tong-giam-doc-moi-188260918170532504.chn",
+      "summary": "Giầy Thượng Đình bổ nhiệm ông Vũ Minh Tuấn giữ chức vụ Tổng Giám đốc công ty thay ông Nguyễn Thành Nhơn kể từ ngày 17/9/2026.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T10:05:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Chứng khoán Thành Công trở thành cổ đông lớn tại Freco Việt Nam",
+      "url": "https://cafef.vn/chung-khoan-thanh-cong-tro-thanh-co-dong-lon-tai-freco-viet-nam-188260918170409036.chn",
+      "summary": "Chứng khoán Thành Công đã mua vào 715.000 cổ phiếu TAB trong ngày 18/9/2026, qua đó nâng sở hữu lên 13,84% vốn và trở thành cổ đông lớn tại Freco Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T10:04:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Indonesia đón tàu sân bay đầu tiên",
+      "url": "https://cafef.vn/indonesia-don-tau-san-bay-dau-tien-188260918140240465.chn",
+      "summary": "Hôm nay (18/9), Indonesia đón tàu sân bay đầu tiên của nước này. Đó là con tàu chiến cũ của Ý mà Chính phủ Indonesia cho biết sẽ giúp họ tăng cường năng lực an ninh hàng hải và ứng phó thảm họa quốc gia.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:39:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Báo Hàn: Tội phạm chi 74.000 USD tính dùng drone vượt ngục, bị lộ vì video bay thử",
+      "url": "https://cafef.vn/bao-han-toi-pham-chi-74000-usd-tinh-dung-drone-vuot-nguc-bi-lo-vi-video-bay-thu-188260918212717524.chn",
+      "summary": "Một đoạn video ghi cảnh người đàn ông treo dưới drone bay lên khỏi mặt đất được truyền thông Hàn Quốc liên hệ với kế hoạch vượt ngục của Park Wang-yeol tại Philippines. Tuy nhiên, phía Philippines nói chưa có căn cứ xác nhận mối liên hệ này và cho rằng cách vượt ngục bằng drone khó khả thi.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:27:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Mỗi tháng, Nga phá hủy 90 đầu máy xe lửa của Ukraine",
+      "url": "https://cafef.vn/moi-thang-nga-pha-huy-90-dau-may-xe-lua-cua-ukraine-188260918212534561.chn",
+      "summary": "Các cuộc tấn công liên tiếp của Lực lượng Vũ trang Nga vào hạ tầng cơ sở ngành đường sắt Ukraine đã phá hủy khoảng 90 đầu máy xe lửa mỗi tháng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:25:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Nga buộc phải ngừng sản xuất máy bay vận tải An-148",
+      "url": "https://cafef.vn/nga-buoc-phai-ngung-san-xuat-may-bay-van-tai-an-148-188260918210357021.chn",
+      "summary": "Không có sự hợp tác với Ukraine, Nga không thể tiếp tục chế tạo các dòng máy bay vận tải Antonov.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:20:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Nổ rung chuyển Zaporizhzhia, tên lửa lao vào căn cứ bí mật Ukraine – Nga tung siêu vũ khí lần đầu lộ diện sau 4 năm",
+      "url": "https://cafef.vn/no-rung-chuyen-zaporizhzhia-ten-lua-lao-vao-can-cu-bi-mat-ukraine-nga-tung-sieu-vu-khi-lan-dau-lo-dien-sau-4-nam-188260918210111702.chn",
+      "summary": "Theo thông tin ban đầu, đây là siêu vũ khí mới của Nga, có tốc độ bắn lên tới 6.000 phát/phút.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:01:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Vì sao chỉ có vài quốc gia trên thế giới sản xuất được lưỡi dao cạo râu?",
+      "url": "https://cafef.vn/vi-sao-chi-co-vai-quoc-gia-tren-the-gioi-san-xuat-duoc-luoi-dao-cao-rau-188260918173231319.chn",
+      "summary": "Chỉ có giá vài ngàn đồng nhưng đây lại là sản phẩm khó sản xuất bậc nhất thế giới.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:18:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Bố chỉ định chạy quảng cáo 20 USD, con trai 9 tuổi âm thầm “đốt” 118.000 USD để kéo view YouTube",
+      "url": "https://cafef.vn/bo-chi-dinh-chay-quang-cao-20-usd-con-trai-9-tuoi-am-tham-dot-118000-usd-de-keo-view-youtube-18826091817363252.chn",
+      "summary": "Một chiến dịch quảng cáo trị giá khoảng 20 USD đã vô tình giúp cậu bé 9 tuổi biết cách tự quảng cáo video. Chỉ ba tuần sau, người cha bị gọi lên làm việc vì hóa đơn quảng cáo lên tới 118.000 USD, toàn bộ được thanh toán bằng thẻ tín dụng của công ty.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T12:55:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "\"Xe ma không người lái\" lao thẳng vào 16 trẻ mầm non đi trên đường, nhiều em phải nhập viện",
+      "url": "https://cafef.vn/xe-ma-khong-nguoi-lai-lao-thang-vao-16-tre-mam-non-di-tren-duong-nhieu-em-phai-nhap-vien-188260918173030131.chn",
+      "summary": "Vụ tai nạn khiến 5 trẻ em (3 bé trai và 2 bé gái) phải đưa đi cấp cứu tại bệnh viện.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T12:37:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Đế chế năng lượng sở hữu 40.000 nhân viên xây \"siêu lò nhiệt hạch\" có thể xoay chuyển cục diện Trung Quốc",
+      "url": "https://cafef.vn/de-che-nang-luong-so-huu-40000-nhan-vien-xay-sieu-lo-nhiet-hach-co-the-xoay-chuyen-cuc-dien-trung-quoc-188260918112157491.chn",
+      "summary": "\"Siêu lò nhiệt hạch\" này tích hợp hơn 10 hệ thống cốt lõi hàng đầu thế giới.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T12:00:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Warren Buffett chính thức rời ghế chủ tịch Berkshire Hathaway sau hơn 60 năm: Ai là người tiếp quản?",
+      "url": "https://cafef.vn/warren-buffett-chinh-thuc-roi-ghe-chu-tich-berkshire-hathaway-sau-hon-60-nam-ai-la-nguoi-tiep-quan-188260918175636024.chn",
+      "summary": "Nhà đầu tư huyền thoại Warren Buffett chính thức rời ghế chủ tịch Berkshire Hathaway ở tuổi 96, khép lại hơn 6 thập kỷ lãnh đạo tập đoàn trị giá khoảng 1.000 tỷ USD.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T11:16:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Nga bước vào sự kiện \"tối quan trọng\" giữa thời điểm đầy thách thức",
+      "url": "https://cafef.vn/nga-buoc-vao-su-kien-toi-quan-trong-giua-thoi-diem-day-thach-thuc-188260918172628811.chn",
+      "summary": "Nga đã bắt đầu bước vào cuộc bầu cử Duma Quốc gia vào hôm nay, 18/9.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T11:00:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Lào không có biển, Trung Quốc vừa làm xong một việc lớn: “Đường ra biển” mới được khai thông?",
+      "url": "https://cafef.vn/lao-khong-co-bien-trung-quoc-vua-lam-xong-mot-viec-lon-duong-ra-bien-moi-duoc-khai-thong-188260918172518434.chn",
+      "summary": "Thoạt nhìn, Kênh đào Bình Lục có vẻ là một dự án cơ sở hạ tầng của Trung Quốc, ít liên quan trực tiếp đến Lào. Nhưng tầm quan trọng của nó vượt ra ngoài biên giới Trung Quốc.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T10:25:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Lãi suất ngân hàng 18/9 tại MB, Techcombank, VPBank, Sacombank, HDBank, Agribank, Vietcombank, BIDV, VietinBank,...",
+      "url": "https://cafef.vn/lai-suat-ngan-hang-18-9-tai-mb-techcombank-vpbank-sacombank-hdbank-agribank-vietcombank-bidv-vietinbank-1882609182132566.chn",
+      "summary": "Mặt bằng lãi suất huy động trực tuyến ngày 18/9 tiếp tục cho thấy sự phân hóa giữa các ngân hàng. Ở kỳ hạn 12 tháng, mức cao nhất là 7,8%/năm và nhiều ngân hàng đang niêm yết lãi suất từ 7%/năm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T14:30:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Tài sản tăng nhanh, Việt Nam bước vào chu kỳ chuyển giao gia sản quy mô lớn",
+      "url": "https://cafef.vn/tai-san-tang-nhanh-viet-nam-buoc-vao-chu-ky-chuyen-giao-gia-san-quy-mo-lon-188260918192346194.chn",
+      "summary": "Khoảng 60–70% doanh nghiệp tại Việt Nam vẫn do thế hệ sáng lập chi phối, trong khi tài sản tài chính tại các thị trường mới nổi tiếp tục tăng nhanh. Hai xu hướng đang hội tụ, đặt ra một bài toán mới: làm sao chuyển giao không chỉ tài sản mà cả doanh nghiệp, quyền quyết định và năng lực kiến tạo giá trị cho thế hệ tiếp theo.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:30:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Lãi suất Techcombank ngày 18/9: Gửi 10 triệu, 100 triệu và 1 tỷ đồng, tiền lãi là bao nhiêu?",
+      "url": "https://cafef.vn/lai-suat-techcombank-ngay-18-9-gui-10-trieu-100-trieu-va-1-ty-dong-tien-lai-la-bao-nhieu-18826091817414845.chn",
+      "summary": "Techcombank đang niêm yết lãi suất tiền gửi trực tuyến cao nhất 6,75%/năm dành cho khách hàng thông thường, áp dụng ở kỳ hạn 12 tháng.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T10:39:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "HDBank tiếp tục vào Top 50 Forbes Việt Nam trong bước chuyển lớn của thị trường vốn",
+      "url": "https://cafef.vn/hdbank-tiep-tuc-vao-top-50-forbes-viet-nam-trong-buoc-chuyen-lon-cua-thi-truong-von-188260918164836977.chn",
+      "summary": "HDBank (HoSE: HDB) tiếp tục được vinh danh trong Top 50 Công ty niêm yết tốt nhất Việt Nam 2026 tại Diễn đàn Kinh doanh Forbes Việt Nam, diễn ra ngày 17/9 tại TP.HCM. Sự kiện năm nay đặt dấu ấn của những doanh nghiệp hàng đầu bên cạnh bước chuyển của thị trường vốn Việt Nam.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T09:48:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Bảo đảm chuỗi cung ứng vật liệu tạo động lực phát triển phía Nam tỉnh Khánh Hòa",
+      "url": "https://cafef.vn/bao-dam-chuoi-cung-ung-vat-lieu-tao-dong-luc-phat-trien-phia-nam-tinh-khanh-hoa-188260918204140447.chn",
+      "summary": "Phía Nam Khánh Hòa đang bước vào một giai đoạn phát triển với tốc độ ngày càng rõ nét, khi các dự án năng lượng, công nghiệp, cảng biển và hạ tầng đồng loạt được thúc đẩy. Trong bối cảnh đó, bảo đảm nguồn đất, đá, cát san lấp không còn là câu chuyện riêng của từng công trường, mà đã trở thành một điều kiện quan trọng để giữ nhịp tăng trưởng.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:41:15",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Cơ quan thuế thông báo quan trọng: Người vừa được cấp mã số thuế cần kiểm tra ngay 5 thông tin",
+      "url": "https://cafef.vn/co-quan-thue-thong-bao-quan-trong-nguoi-vua-duoc-cap-ma-so-thue-can-kiem-tra-ngay-5-thong-tin-188260918171249284.chn",
+      "summary": "Sau khi được cấp mã số thuế, người nộp thuế cần kiểm tra ngay thông tin đăng ký thuế; đối với cá nhân, hộ kinh doanh, đặc biệt lưu ý thông tin định danh, nếu có thay đổi thông tin phải cập nhật kịp thời.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T13:21:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Ông Trần Thanh Lâm giữ chức Bí thư Đảng ủy Cơ quan Ban Tuyên giáo Trung ương",
+      "url": "https://cafef.vn/ong-tran-thanh-lam-giu-chuc-bi-thu-dang-uy-co-quan-ban-tuyen-giao-trung-uong-188260918191307955.chn",
+      "summary": "Phó Trưởng ban Thường trực Ban Tuyên giáo Trung ương Trần Thanh Lâm được chỉ định giữ chức Bí thư Đảng ủy Cơ quan Ban Tuyên giáo Trung ương nhiệm kỳ 2025-2030.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T12:12:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Đà Nẵng: ‘Chốt’ tiến độ các dự án giao thông, chống xói lở bờ biển",
+      "url": "https://cafef.vn/da-nang-chot-tien-do-cac-du-an-giao-thong-chong-xoi-lo-bo-bien-188260918163024843.chn",
+      "summary": "Ngày 18/9, tại buổi kiểm tra các dự án, Phó Chủ tịch UBND TP Đà Nẵng Trần Nam Hưng yêu cầu các đơn vị tập trung tháo gỡ vướng mắc, đẩy nhanh tiến độ các dự án giao thông, chống xói lở bờ biển. Trong đó, công tác giải phóng mặt bằng (GPMB) tuyến Võ Chí Công giai đoạn 2 phải được xử lý dứt điểm trước ngày 30/10.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-18T09:57:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Inertia co-founder Jeff Lawson’s next big bet is fusion: Go inside it at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/18/jeff-lawsons-next-big-bet-is-fusion-go-inside-it-at-techcrunch-disrupt-2026/",
+      "summary": "Inertia co-founder and CEO Jeff Lawson joins the Smart Systems Stage at TechCrunch Disrupt 2026. Register now to save up to $200 by September 25.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T14:30:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "summary": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T14:00:14",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+      "url": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+      "summary": "A coalition of over 100 AI experts are urging independence and transparency from Anthropic, OpenAI and other foundation model labs to conduct evaluations.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T14:25:43",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "The U.S. says China's AI progress is down to 'distillation.' But is it that clear cut?",
+      "url": "https://www.cnbc.com/2026/09/18/china-ai-progress-distillation-tech-download.html",
+      "summary": "The U.S. administration and Anthropic have accused China's AI companies of 'distillation', but a growing cohort of voices are questioning the impact.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T13:00:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Buffett steps down, Wall Street bounces back, 2027 'truck wars' and more in Morning Squawk",
+      "url": "https://www.cnbc.com/2026/09/18/5-things-to-know-before-the-stock-market-opens.html",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T12:28:25",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough",
+      "url": "https://www.cnbc.com/2026/09/18/at-dreamforce-business-leaders-say-older-ai-models-are-enough.html",
+      "summary": "At Salesforce's annual mega-conference in San Francisco, attendees said they get enough value from older AI models.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T11:00:01",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "AirAsia's Fernandes refutes financial concerns, points to new growth plans",
+      "url": "https://www.cnbc.com/2026/09/18/airasia-co-founder-tony-fernandes.html",
+      "summary": "AirAsia's Tony Fernandes pushed back against a report raising concerns over the airline’s financial health, while signaling plans to resume growth.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-18T09:44:48",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    },
+    {
+      "title": "Flash floods can strike without warning — this new technology could change that",
+      "url": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning",
+      "summary": "On the morning of June 9th, Laura Lin was working from her home in Lanesville, a rural southern Indiana town about 15 miles from the Kentucky border. She was on a Zoom call, unaware that the heavy rain outside was beginning to flood her yard. \"I look over to where the barn is over there, […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-18T11:00:00",
+      "first_seen": "2026-09-18T21:58:42+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-09-15": [
       "noon"
