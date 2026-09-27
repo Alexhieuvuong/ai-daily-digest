@@ -260,12 +260,239 @@
       "category_label": "💻 Công nghệ",
       "published": "2026-09-27T15:00:00",
       "first_seen": "2026-09-27T22:39:14+07:00"
+    },
+    {
+      "title": "Taxpayer-funded Trump ads draw bipartisan scrutiny ahead of midterms",
+      "url": "https://www.cnbc.com/2026/09/27/trump-government-funded-ads-midterms.html",
+      "summary": "TV ads featuring Trump are expanding nationally, prompting bipartisan questions over whether they comply with restrictions on taxpayer-funded publicity.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T21:38:59",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Anthropic CEO Amodei set to meet with Trump after missing state dinner",
+      "url": "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
+      "summary": "As top tech CEOs rubbed elbows at President Trump's glitzy dinner for Chinese President Xi on Thursday, Anthropic's CEO was noticeably absent.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T19:13:27",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Các phòng gym nợ thuế tiền tỷ",
+      "url": "https://vnexpress.net/cac-phong-gym-no-thue-tien-ty-5125209.html",
+      "summary": "Nhiều doanh nghiệp kinh doanh phòng gym có tên trong danh sách công khai nợ thuế của cơ quan Thuế TP HCM, dẫn đầu là Citigym với 7,53 tỷ đồng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T22:00:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Đề xuất chuyển tiền Quỹ bình ổn xăng dầu tại doanh nghiệp về Kho bạc",
+      "url": "https://vnexpress.net/de-xuat-chuyen-tien-quy-binh-on-xang-dau-tai-doanh-nghiep-ve-kho-bac-5125436.html",
+      "summary": "Bộ Công Thương đề xuất chuyển toàn bộ số dư Quỹ bình ổn xăng dầu về tài khoản tại Kho bạc Nhà nước, thay vì để tại doanh nghiệp như hiện nay.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T17:26:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Coteccons lên kế hoạch lãi cao nhất 9 năm",
+      "url": "https://vnexpress.net/coteccons-len-ke-hoach-lai-cao-nhat-9-nam-5125394.html",
+      "summary": "Coteccons lên kế hoạch lãi 1.050 tỷ đồng trong năm tài chính 2027, cao nhất từ 2018.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T17:00:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Các chuyên gia thận trọng với giá vàng tuần này",
+      "url": "https://vnexpress.net/cac-chuyen-gia-than-trong-voi-gia-vang-tuan-nay-5125368.html",
+      "summary": "Lợi suất trái phiếu chính phủ Mỹ leo dốc cùng lãi suất duy trì ở mức cao có thể khiến vàng khó bứt phá tuần này, theo các chuyên gia.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-27T17:00:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Chứng khoán Việt Nam đã phản ứng với tin nâng hạng hay chưa và câu trả lời của quỹ ngoại tỷ USD?",
+      "url": "https://cafef.vn/chung-khoan-viet-nam-da-phan-ung-voi-tin-nang-hang-hay-chua-va-cau-tra-loi-cua-quy-ngoai-ty-usd-188260927231243215.chn",
+      "summary": "Câu trả lời của người đứng đầu Pyn Elite Fund có phần gây bất ngờ.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:05:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Chứng khoán tuần qua: Hụt hơi ngắn hạn, ngóng 'trợ lực' quý III",
+      "url": "https://cafef.vn/chung-khoan-tuan-qua-hut-hoi-ngan-han-ngong-tro-luc-quy-iii-188260927205920075.chn",
+      "summary": "Trái với tâm lý kỳ vọng khi nâng hạng, diễn biến thị trường chứng khoán tuần qua không mấy khả quan khi VN-Index chịu áp lực bán mạnh, để mất mốc 1.800 điểm. Cùng nhìn lại và chờ đợi động lực mới.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:04:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Vietcap: DMX hưởng hoa hồng từ các công ty tài chính tiêu dùng mà không phải chịu rủi ro tín dụng",
+      "url": "https://cafef.vn/vietcap-dmx-huong-hoa-hong-tu-cac-cong-ty-tai-chinh-tieu-dung-ma-khong-phai-chiu-rui-ro-tin-dung-188260927220342244.chn",
+      "summary": "Vietcap cho rằng lợi thế lớn nhất của DMX nằm ở dữ liệu giao dịch và tần suất tương tác với hàng triệu khách hàng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:03:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "MBS dự báo KQKD quý 3/2026 ngành bán lẻ: Thế Giới Di Động và FPT Retail tiếp tục bứt phá, hai tên tuổi tăng trưởng đột biến 3 chữ số",
+      "url": "https://cafef.vn/mbs-du-bao-kqkd-quy-3-2026-nganh-ban-le-the-gioi-di-dong-va-fpt-retail-tiep-tuc-but-pha-hai-ten-tuoi-tang-truong-dot-bien-3-chu-so-188260927223855678.chn",
+      "summary": "CTCK này dự phóng kết quả kinh doanh của các doanh nghiệp bán lẻ và tiêu dùng niêm yết được kỳ vọng tiếp tục tăng trưởng tích cực trong quý 3/2026.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:02:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "“Thua” VN-Index vì không nắm cổ phiếu Vingroup, nhà sáng lập PYN Elite Fund thẳng thắn thừa nhận một điều",
+      "url": "https://cafef.vn/thua-vn-index-vi-khong-nam-co-phieu-vingroup-nha-sang-lap-pyn-elite-fund-thang-than-thua-nhan-mot-dieu-188260927235257843.chn",
+      "summary": "Nhà sáng lập PYN Elite Fund thừa nhận việc bỏ qua VIC và nhóm cổ phiếu dầu khí là một quyết định không thuận lợi trong ngắn hạn. Tuy nhiên, quỹ hiện vẫn chưa có kế hoạch bổ sung VIC vào danh mục.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:01:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Chứng khoán mất điểm ngay tuần đầu nâng hạng, nhà đầu tư nên hành động ra sao?",
+      "url": "https://cafef.vn/chung-khoan-mat-diem-ngay-tuan-dau-nang-hang-nha-dau-tu-nen-hanh-dong-ra-sao-188260927185051365.chn",
+      "summary": "Sau tuần đầu tiên chính thức được FTSE Russell nâng hạng lên thị trường mới nổi, VN-Index giảm 1,68%, đóng cửa tại 1.785 điểm. Giới phân tích cho rằng, triển vọng trung và dài hạn phụ thuộc đáng kể vào dòng vốn và niềm tin của nhà đầu tư.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:01:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Bí ẩn Henry Symeonis: Vì sao sinh viên Oxford phải thề \"không bao giờ tha thứ\" cho một kẻ vô danh suốt 5 thế kỷ?",
+      "url": "https://cafef.vn/bi-an-henry-symeonis-vi-sao-sinh-vien-oxford-phai-the-khong-bao-gio-tha-thu-cho-mot-ke-vo-danh-suot-5-the-ky-188260927234328288.chn",
+      "summary": "Mọi cử nhân muốn nhận bằng Thạc sĩ đều phải dĩnh đạc đọc lên một câu thề vô cùng kỳ quặc: \"Thề sẽ không bao giờ hạ mình quay lại làm Cử nhân, và tuyệt đối không bao giờ hòa giải với Henry Symeonis.\"",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:00:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Lũ lụt nghiêm trọng khiến hàng nghìn hộ gia đình Campuchia phải sơ tán",
+      "url": "https://cafef.vn/lu-lut-nghiem-trong-khien-hang-nghin-ho-gia-dinh-campuchia-phai-so-tan-188260927233855327.chn",
+      "summary": "Lũ lụt bất ngờ càn quét trên diện rộng, buộc hàng nghìn hộ gia đình ở Campuchia phải khẩn cấp rời bỏ nhà cửa.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T16:38:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Dự báo lợi nhuận ngân hàng quý III: Một nhà băng được kỳ vọng lãi gấp rưỡi cùng kỳ, MB, Techcombank, VPBank Vietcombank, VietinBank và BIDV có thể tăng trưởng hai con số",
+      "url": "https://cafef.vn/du-bao-loi-nhuan-ngan-hang-quy-iii-mot-nha-bang-duoc-ky-vong-lai-gap-ruoi-cung-ky-mb-techcombank-vpbank-vietcombank-vietinbank-va-bidv-co-the-tang-truong-hai-con-so-188260928002038834.chn",
+      "summary": "Theo dự báo của Công ty Chứng khoán Vietcombank, lợi nhuận trước thuế quý III/2026 của các ngân hàng tiếp tục phân hóa, trong đó HDBank dẫn đầu với mức tăng 53%, tiếp theo là MSB tăng 22% và MB tăng 21%. Ở chiều ngược lại, Sacombank là ngân hàng duy nhất được dự báo lợi nhuận giảm so với cùng kỳ.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:19:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Sở hữu lợi thế đặc biệt của người đi sau, chuyên gia chỉ ra 'mắt xích' Việt Nam còn thiếu để quy hoạch TOD sánh ngang với Tokyo, Singapore, Hong Kong",
+      "url": "https://cafef.vn/so-huu-loi-the-dac-biet-cua-nguoi-di-sau-chuyen-gia-chi-ra-mat-xich-viet-nam-con-thieu-de-quy-hoach-tod-sanh-ngang-voi-tokyo-singapore-hong-kong-188260927230139494.chn",
+      "summary": "Việt Nam đang đứng trước cơ hội quy hoạch các tuyến metro mới cùng với không gian đô thị xung quanh. Tuy nhiên, theo TS Nguyễn Hoàng Bình, giảng viên Khoa Kinh doanh, Đại học RMIT Việt Nam, TOD sẽ không tự động thành công chỉ bằng việc xây thêm đường sắt hay tăng mật độ bất động sản cạnh nhà ga. Bài toán quan trọng hơn là tạo ra một mạng lưới giao thông đủ mạnh và bảo đảm người dân thuộc nhiều nhóm thu nhập cùng được hưởng lợi.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-27T17:30:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-27T20:34:28",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-27T19:57:30",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "summary": "\"AI is the devil and I its maker.\"",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-27T16:30:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "TechCrunch Mobility: AV companies pick their lanes",
+      "url": "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-27T16:02:00",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Trump to have dinner with Anthropic CEO Amodei at the White House",
+      "url": "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html",
+      "summary": "Athropic CEO Dario Amodei is set to have dinner with President Donald Trump at the White House on Sunday.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-27T19:23:29",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-27T20:46:36",
+      "first_seen": "2026-09-28T06:02:20+07:00"
+    },
+    {
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-27T17:21:07",
+      "first_seen": "2026-09-28T06:02:20+07:00"
     }
   ],
   "sent_slots": {
-    "2026-09-24": [
-      "noon"
-    ],
     "2026-09-25": [
       "noon"
     ],
