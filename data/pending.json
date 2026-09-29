@@ -1,10 +1,288 @@
 {
   "last_sent": "2026-09-30T01:04:19+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Lần đầu tiên Việt Nam có cảng hàng không đạt chuẩn carbon thế giới, là sân bay quốc tế lớn bậc nhất miền Bắc",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNVptZ3l0WjM0TkVwaXBycElzUlFpQk04emxwaF9zRzNOd0ZPR3Z4aFRGYmwzZkNMcUtLU25DVWJqX0NEa29XOFM5VTVWUXBpU3BrNGk2a3UwVWhCeFMwVXhvOG9vQlhRT2JEbk5Wd2RpLVRzaFlRN0lMVk52NDhGRnBtaDBHOWFBSVJvQUxURE5TNDNtME9EUFNNSWplMHlENG5QYUlocmVKa2thaXBmcmdmUzJkT3pHZFpyYjA2cGdLS3hIR0haN2lpMHhpMktkNFNySjZUSnRpLWM?oc=5",
+      "summary": "Lần đầu tiên Việt Nam có cảng hàng không đạt chuẩn carbon thế giới, là sân bay quốc tế lớn bậc nhất miền Bắc nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-09-29T09:00:01",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+      "summary": "Trump shrugged when asked if he is concerned that his support for AI and data centers could hurt Republicans in the upcoming midterm election.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T22:42:35",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+      "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
+      "summary": "Data is expected to show ongoing price pressures and consumers who nevertheless continue to spend.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T20:51:43",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "30-year Treasury bond yield scales to highest level since 2002",
+      "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+      "summary": "U.S. Treasury yields largely rose Tuesday, adding to the gains that catapulted them to multi-year highs amid central bank monetary policy concerns.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T20:03:39",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Hedge funds now hold a record share of the $30 trillion Treasury market. What could go wrong?",
+      "url": "https://www.cnbc.com/2026/09/30/us-treasury-market-is-relying-more-on-hedge-funds.html",
+      "summary": "Hedge funds can boost Treasury market liquidity, but their growing role also risks creating financial instability.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T23:16:55",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Goldman Sachs CEO succession planning faces one big problem",
+      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
+      "summary": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T20:50:10",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "IPO postponements are accelerating in third quarter, even beyond Oura",
+      "url": "https://www.cnbc.com/2026/09/29/ipo-postponements-are-accelerating-in-third-quarter-even-beyond-oura.html",
+      "summary": "It's been a strong year for IPOs. But now, more companies are deciding to stay on the sidelines.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T21:05:26",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
+      "url": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+      "summary": "CEO Jim Farley's warning comes on the heels of a high-profile visit last week by Chinese President Xi Jinping with President Donald Trump",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T21:08:05",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
+      "url": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
+      "summary": "The higher-than-consensus expectations are a bet that the U.S. had another strong month of job growth.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T20:33:08",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Two Indian nationals charged with smuggling counterfeit Ozempic from China: DOJ",
+      "url": "https://www.cnbc.com/2026/09/29/ozempiz-counterfeit-china-smuggling-doj.html",
+      "summary": "The criminal indictment in Florida comes as the use of GLP-1 drugs such as Novo's Ozempic for weight loss has hit new highs among U.S. adults.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T20:18:32",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Mỹ làm gì để hạ nhiệt giá cả trước bầu cử giữa kỳ?",
+      "url": "https://vnexpress.net/my-lam-gi-de-ha-nhiet-gia-ca-truoc-bau-cu-giua-ky-5126295.html",
+      "summary": "Để ghìm lạm phát, giới chức Mỹ miễn thuế thịt bò xay, đề xuất phát tiền cho người dân và tìm cách hạn chế xuất khẩu dầu diesel.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-29T22:00:00",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Một chiếc Boeing đến sân bay quốc tế thì bị thu giữ vì hãng bay nợ nhà cung cấp hơn 88 tỷ đồng, tất cả hành khách phải rời máy bay",
+      "url": "https://cafef.vn/mot-chiec-boeing-den-san-bay-quoc-te-thi-bi-thu-giu-vi-hang-bay-no-nha-cung-cap-hon-88-ty-dong-tat-ca-hanh-khach-phai-roi-may-bay-188260929232531131.chn",
+      "summary": "Khoản nợ liên quan đến các dịch vụ tại sân bay.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-29T23:24:00",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Từng là 'người thầy' bán công nghệ cho Trung Quốc, cường quốc EU thừa nhận: Bắc Kinh đã vượt mặt, hệ thống của chúng tôi đã xuống cấp rất nhiều",
+      "url": "https://cafef.vn/tung-la-nguoi-thay-ban-cong-nghe-cho-trung-quoc-cuong-quoc-eu-thua-nhan-bac-kinh-da-vuot-mat-he-thong-cua-chung-toi-da-xuong-cap-rat-nhieu-188260929225534761.chn",
+      "summary": "Hơn 20 năm trước, Đức còn bán tàu cao tốc cho Trung Quốc. Đến nay, quốc gia châu Á xây dựng xong gần 50.000 km đường sắt cao tốc, trong khi chất lượng mạng lưới của Đức đã đi xuống.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-09-29T23:10:00",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+      "summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T23:30:55",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T22:20:59",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Your car and its mobile app are probably handing over all kinds of data to tech companies",
+      "url": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/",
+      "summary": "Researchers at Northeastern University found vehicles and their companion apps regularly shared detailed data with some of the largest tech companies.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T22:18:35",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "a16z-backed EliseAI raises $350M, doubles valuation to $4B",
+      "url": "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/",
+      "summary": "EliseAI raises $350M, doubles valuation in a year.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T21:51:36",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Tesla secures $30B in new credit lines as it looks to scale Cybercab, Optimus",
+      "url": "https://techcrunch.com/2026/09/29/tesla-secures-30b-in-new-credit-lines-as-it-looks-to-scale-cybercab-optimus/",
+      "summary": "The company says it won't draw on the new debt facilities this year, as it has already planned at least $25 billion in capital expenditures.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T21:20:12",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "OpenAI’s latest features take direct aim at the app store model",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T20:15:47",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T19:52:37",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "More Ways to Disrupt: New 2026 Side Events from KOTRA, WayFounder, Enterprise Ireland, SafetyWing + Descope",
+      "url": "https://techcrunch.com/2026/09/29/more-ways-to-disrupt-new-2026-side-events-from-kotra-wayfounder-enterprise-ireland-safetywing-descope/",
+      "summary": "Disrupt doesn’t end when you leave Moscone West. 👀 Founder dinners, investor meetups, happy hours, workshops, roundtables and more are taking over San Francisco during Disrupt Week. See what’s happening, find your people, and start building your calendar.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T18:48:03",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
+      "url": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+      "summary": "Some of India's largest banks are holding off on supporting Apple Pay initially.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T18:45:00",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+      "summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T18:35:00",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Muse is crushing these consumer stocks. Cramer says some may be worth a look",
+      "url": "https://www.cnbc.com/2026/09/29/jim-cramer-meta-muse-consumer-inertia.html",
+      "summary": "CNBC's Jim Cramer said investors apply AI disruption thesis too broadly, creating potential buying opportunities in remaining strong companies.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T22:24:38",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Cramer warns the narrative around AI is turning — and stocks could pay the price",
+      "url": "https://www.cnbc.com/2026/09/29/jim-cramer-ai-public-perception.html",
+      "summary": "CNBC’s Jim Cramer said the AI industry is losing the battle over public perception.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-09-29T22:20:49",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "summary": "The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of all, and it's the simplest,\" Trump said […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-29T22:25:45",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "Elon Musk’s AI-powered Grokipedia is updating again",
+      "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+      "summary": "Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the platform's live updates site is now showing various recent changes to pages - though as I write this, many are just a […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-29T21:49:09",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    },
+    {
+      "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+      "summary": "\"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen interviews with AI researchers, including current and former employees at OpenAI, Google, and Anthropic. Palisade Research, which says it's a nonprofit studying AIs' […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-09-29T17:35:03",
+      "first_seen": "2026-09-30T06:42:45+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-09-26": [
-      "noon"
-    ],
     "2026-09-27": [
       "noon"
     ],
