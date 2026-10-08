@@ -1,10 +1,228 @@
 {
   "last_sent": "2026-10-08T01:56:30+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Thông tin mới về lãi suất ngân hàng",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaZnhONEdnc3k2aW01TXVyN1gzRGt6NG10QlF4SGpyTXg0VlVVaFd0bG5NbHdQVENVek4tejJtTmtad0dJRWZXUkd1UEVhSmNYRzhoeXBRbmNKTkdoUlFndjg5SnZyLXY5Q1czMDdxbFNvdUJNRUNaWlAtaw?oc=5",
+      "summary": "Thông tin mới về lãi suất ngân hàng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-07T13:17:01",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Cổ phiếu đáng chú ý ngày 8/10: DGW, VGC, VSC",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQkQ4a3YzYmRRaGNVeW1oNEVULW1wMGctWEtpdHFrUzdDU3Y5NUpOZ1BtRThrYy04S3l2bWp5NTl5STBKYzA0eEVnSTdiYUVzRmtYOERBZGp6SFhNYUpzelNkZFdXS0lka05NeU9tYTlMYVBIbXlmU0F1eUM0UUY0T0gyRQ?oc=5",
+      "summary": "Cổ phiếu đáng chú ý ngày 8/10: DGW, VGC, VSC nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-07T17:18:01",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Samsung forecasts record third-quarter profit of $80 billion on the back of AI boom",
+      "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+      "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T22:58:05",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday",
+      "url": "https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html",
+      "summary": "Nearly 200 people were placed under medical observation earlier this week in Russia's Irkutsk region in eastern Siberia over suspected exposure to plague.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T21:20:40",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "summary": "Anthropic reportedly plans to list on the Nasdaq before Thanksgiving, and one bearish advisory firm suggests that investors sit this one out.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T22:29:41",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
+      "summary": "Levi Strauss on Wednesday posted earnings that beat expectations, though it saw benefits from tariff refunds.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T21:31:40",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K",
+      "url": "https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html",
+      "summary": "U.S. Trade Representative Jamieson Greer reported $1.17 million to $3.75 million in assets and disclosed a prior $10,000 payment from Coupang.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T23:10:54",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Trump awarding medals to Musk, Dell, Nadella and other tech execs at science summit",
+      "url": "https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html",
+      "summary": "President Trump is giving awards to a number of top tech executives at a summit on Thursday.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T22:32:14",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Lululemon poaches Athleta CEO as new chief product officer",
+      "url": "https://www.cnbc.com/2026/10/07/lululemon-athleta-ceo-maggie-gauger-chief-product-officer.html",
+      "summary": "Lululemon announced Wednesday that Athleta CEO Maggie Gauger is joining the company as its chief product officer, a newly created role.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T21:47:06",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "FCC to vote on auctioning 25MHz of 'prime spectrum' in move that could benefit Amazon, SpaceX",
+      "url": "https://www.cnbc.com/2026/10/07/fcc-spectrum-auction-spacex-amazon.html",
+      "summary": "SpaceX and Amazon have moved to expand providing direct-to-device services with networks of satellites.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T20:03:50",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Người vay mua xe lao đao vì lãi thả nổi lên 17-18%",
+      "url": "https://vnexpress.net/nguoi-vay-mua-xe-lao-dao-vi-lai-tha-noi-len-17-18-5129684.html",
+      "summary": "Hết thời gian ưu đãi, lãi suất vay mua ôtô thả nổi vọt lên 17-18% mỗi năm, thậm chí gần 20% nếu không kèm bảo hiểm thân vỏ, khiến nhiều chủ xe chịu áp lực trả nợ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-07T23:22:28",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Bê bối phản quốc nghiêm trọng nhất ở Đức trong nhiều thập kỷ",
+      "url": "https://cafef.vn/be-boi-phan-quoc-nghiem-trong-nhat-o-duc-trong-nhieu-thap-ky-188261008063634539.chn",
+      "summary": "TPO - Ngày 7/10, Azerbaijan bác bỏ thông tin rằng cựu lãnh đạo cơ quan tình báo Đức August Hanning - người bị cáo buộc đã mua các tài liệu mật và cung cấp cho cơ quan tình báo nước ngoài, từng liên hệ với điệp viên của Azerbaijan.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-07T23:59:00",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Mỹ đầu tư 27,5 tỷ USD - Trung Quốc muốn đối tác “hiểu mình nhất”: Một nước ASEAN vẫn cần biết nói “không”",
+      "url": "https://cafef.vn/my-dau-tu-275-ty-usd-trung-quoc-muon-doi-tac-hieu-minh-nhat-mot-nuoc-asean-van-can-biet-noi-khong-188261008063316581.chn",
+      "summary": "Ngoại trưởng Vivian Balakrishnan nói Singapore phải duy trì lòng tin với Washington và Bắc Kinh mà không trở thành con rối của bất kỳ bên nào.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-07T23:33:00",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Giá vàng hạ nhiệt, một ngân hàng lập tức mua 21 tấn: Tháng thứ 23 liên tiếp không ngừng tích trữ",
+      "url": "https://cafef.vn/gia-vang-ha-nhiet-mot-ngan-hang-lap-tuc-mua-21-tan-thang-thu-23-lien-tiep-khong-ngung-tich-tru-18826100723471835.chn",
+      "summary": "Ngân hàng trung ương Trung Quốc (PBOC) đã bổ sung 21 tấn vàng vào kho dự trữ, đánh dấu tháng mua ròng thứ 23 liên tiếp và là mức tăng lớn nhất trong vòng 3 năm.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-07T23:03:00",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Ngân hàng ở TPHCM bơm 5,8 triệu tỷ đồng ra thị trường",
+      "url": "https://cafef.vn/ngan-hang-o-tphcm-bom-58-trieu-ty-dong-ra-thi-truong-188261008063041129.chn",
+      "summary": "Ngân hàng Nhà nước Việt Nam (NHNN) chi nhánh Khu vực 2 vừa có báo cáo kết quả hoạt động ngân hàng trên địa bàn TP.HCM trong 9 tháng đầu năm 2026.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-07T23:30:00",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Tái cơ cấu ngành điện: Định hướng tách truyền tải điện ra khỏi EVN",
+      "url": "https://cafef.vn/tai-co-cau-nganh-dien-dinh-huong-tach-truyen-tai-dien-ra-khoi-evn-188261007203204549.chn",
+      "summary": "Chiều 7/10, tại họp báo thường kỳ do Bộ Công Thương tổ chức, đại diện Cục Điện lực thông tin về một số nội dung cơ bản của Đề án tái cơ cấu ngành điện phục vụ phát triển thị trường điện lực cạnh tranh và Đề án tái cơ cấu Tập đoàn Điện lực Việt Nam (EVN).",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-07T23:31:00",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+      "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-07T23:36:57",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders ‘elsewhere’",
+      "url": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+      "summary": "Endeavor Catalyst just raised $320 million to keep backing founders outside Silicon Valley. Half the profits go back to the nonprofit that finds them.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-07T22:59:16",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "summary": "The developer of Hermes Agent raised a $90 million Series B.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-07T20:48:45",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-07T20:22:37",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
+      "url": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
+      "summary": "Jim Cramer said higher borrowing costs are splitting the market, putting pressure on credit-sensitive sectors while AI companies remain largely insulated.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-07T22:22:32",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    },
+    {
+      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-07T19:10:42",
+      "first_seen": "2026-10-08T07:11:48+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-10-04": [
-      "noon"
-    ],
     "2026-10-05": [
       "noon"
     ],
