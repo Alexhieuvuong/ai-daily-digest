@@ -350,13 +350,179 @@
       "category_label": "💻 Công nghệ",
       "published": "2026-10-11T14:00:00",
       "first_seen": "2026-10-12T00:40:49+07:00"
+    },
+    {
+      "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
+      "url": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
+      "summary": "Ukrainian President Volodymyr Zelenskyy said he is waiting on details from Washington.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-11T19:33:51",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Justice Department investigates TV networks as White House press-access fight escalates",
+      "url": "https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html",
+      "summary": "The Justice Department said in a statement that it is examining whether the White House TV press pool violated the Sherman Act.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-11T20:18:38",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Why Japan's 7-Eleven store closures in India don’t signal an exit",
+      "url": "https://www.cnbc.com/2026/10/10/7-eleven-india-japan-reliance.html",
+      "summary": "7-Eleven store closures point to a reset of its operations in India, not to an exit.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-10T11:21:05",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+      "summary": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-08T17:31:03",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+      "url": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
+      "summary": "Moody's predicts that the world's aging populations will have fundamental impacts on the global economy and lead to difficult policy decisions.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-05T05:00:01",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "The September jobs report will be released Friday. Here's what to expect",
+      "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+      "summary": "Wall Street is looking for job growth of 84,000 to close out the summer.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-01T18:55:02",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+      "summary": "The personal consumption expenditures price index was projected to show an annual gain of 3.7% on headline and 3.3% for core, according to the Dow Jones consensus.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-30T15:14:57",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Private sector jobs rose by 90,000 in September, better than expected, ADP reports",
+      "url": "https://www.cnbc.com/2026/09/30/private-sector-jobs-rose-by-90000-in-september-better-than-expected-adp-reports.html",
+      "summary": "Private job creation picked up in September after a brief slowdown.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-09-30T14:42:04",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+      "url": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
+      "summary": "Gas prices are expected to remain above $4 per gallon on Nov. 3, according to traders on prediction market platform Kalshi.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-08T17:51:51",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Sports betting is increasingly the norm for Gen Z. Here’s why some financial and mental health experts are worried",
+      "url": "https://www.cnbc.com/2026/10/04/gen-z-sports-betting-financial-and-mental-health-risks.html",
+      "summary": "Surveys show Gen Z increasingly views sports bets as a form of investment, and those who gamble too often face mental health risks.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-04T12:57:45",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Giới chuyên gia dự báo giá vàng tăng",
+      "url": "https://vnexpress.net/gioi-chuyen-gia-du-bao-gia-vang-tang-5131013.html",
+      "summary": "Nhiều chuyên gia Wall Street đoán giá vàng tăng tuần này, nhờ lực mua quanh mốc 4.000 USD và kỳ vọng Fed không nâng lãi suất ngay trong tháng 10.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-11T21:18:28",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Phó thủ tướng: Doanh nghiệp mạnh thì nền kinh tế mới mạnh",
+      "url": "https://vnexpress.net/pho-thu-tuong-doanh-nghiep-manh-thi-nen-kinh-te-moi-manh-5131033.html",
+      "summary": "Phó thủ tướng Phạm Gia Túc cho rằng doanh nghiệp giữ vai trò quyết định với mục tiêu tăng trưởng hai chữ số, yêu cầu các cơ quan giải quyết đến cùng vướng mắc trong kinh doanh.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-11T17:43:09",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-11T21:14:40",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Aaron Sorkin’s ‘Social Reckoning’ is off to a weak start",
+      "url": "https://techcrunch.com/2026/10/11/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/",
+      "summary": "What does this mean for a fall full of movies starring villainous tech CEOs?",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-11T20:51:47",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-11T19:00:00",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "url": "https://techcrunch.com/2026/10/11/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "summary": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt Oct. 13.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-11T17:53:37",
+      "first_seen": "2026-10-12T06:39:01+07:00"
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-11T18:33:56",
+      "first_seen": "2026-10-12T06:39:01+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-08": [
-      "noon",
-      "night"
-    ],
     "2026-10-09": [
       "noon",
       "night"
