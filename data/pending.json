@@ -600,12 +600,389 @@
       "category_label": "🤖 AI",
       "published": "2026-10-16T14:02:40",
       "first_seen": "2026-10-16T22:21:42+07:00"
+    },
+    {
+      "title": "Lãnh đạo mới bị khởi tố, doanh nghiệp quy mô nghìn tỷ lập tức công bố thông tin bất thường",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUDQ3bzJTa1g5Zm5KSmpfZncxbDZNVEIxTnd2d1REV2U2eWp4NktBa0ZHZUo1N2laSG1Wa2dVTExkMGxOem9EcVFOaVk5WEhZZ1hIeXFBSFZoVlVqN1FCOWd3ekgxTmQ2cXpOdWMyQUhmcWswZTZ5OEtGZF9nekYwdjFaR21JN3ZFUWpLU2FMR0tLOWlPMFoyazdEVHpSNWloWDZBVVBwUVFMa0swazEtRXZsRkF1eklXaGpxSkVJeDk4OEE?oc=5",
+      "summary": "Lãnh đạo mới bị khởi tố, doanh nghiệp quy mô nghìn tỷ lập tức công bố thông tin bất thường nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-16T11:55:01",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Sau Châu Âu, truyền thông Trung Quốc choáng ngợp trước sân vận động lớn nhất thế giới đang được xây dựng ở Việt Nam",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTVVJU2FnT0g5aFNQYkIxQUJHQmpQN25iRWJKQTlXakM0cm1zWGJKUE1rRkw5U0Y4X2gyUHNuSXpKYzI5YllweTlrVWlFMGU1NDhob01ZQmkxM3pjSnA3VzVLdm5vZnhLNi1GLXgxQWdFS0paelNMLUtTOXNfQVR1UEVqbkFlTTZHZzMwb2NhbWhlNW5FNm93ZE9XT1lncFpFdDVSTElma29EZ0E1THR0Y2hFVGdmaFZNYU9GbXl1dy1uX1hudmd2T3BQODcwOTV5a2xNY001QjRtTG5UU2NoODM3TWw?oc=5",
+      "summary": "Sau Châu Âu, truyền thông Trung Quốc choáng ngợp trước sân vận động lớn nhất thế giới đang được xây dựng ở Việt Nam nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-15T16:00:01",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+      "summary": "U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T20:02:21",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Katie Zacharia out as Trump's White House press secretary",
+      "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+      "summary": "Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T21:26:15",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+      "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+      "summary": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T22:31:26",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+      "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
+      "summary": "The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T19:28:10",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+      "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T17:55:05",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+      "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+      "summary": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T16:46:18",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
+      "url": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+      "summary": "Ukrainian officials complained this week that SpaceX had limited internet connectivity without advance notice.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T20:28:10",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
+      "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+      "summary": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T19:40:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+      "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+      "summary": "After a 27.5% drop from last Friday's close to this Thursday morning's 52-week lows, followed by a 17% rebound, equity traders holding CoreWeave are dazed.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T18:24:35",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+      "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+      "summary": "Kalshi odds for a Tesla-SpaceX merger rose above 50% for early 2027 as Barclays outlined how a deal could work.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T17:02:40",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Debt is eating up a bigger chunk of your raise, research shows",
+      "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+      "summary": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T19:47:46",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+      "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+      "summary": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T22:34:29",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+      "summary": "Investors expect the Fed to pause rate hikes in October, but Kevin Warsh's rejection of traditional communications practices and continued concern about inflation leave the decision uncertain.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T16:27:31",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Phó thủ tướng yêu cầu giảm lãi suất cho vay 1,5-2%",
+      "url": "https://vnexpress.net/pho-thu-tuong-yeu-cau-giam-lai-suat-cho-vay-1-5-2-5133422.html",
+      "summary": "Phó thủ tướng Nguyễn Văn Thắng yêu cầu giảm lãi suất cho vay 1,5-2% với sản xuất, kinh doanh và lĩnh vực ưu tiên, hỗ trợ người dân, doanh nghiệp.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T18:30:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Thủ tướng: Sẽ thu hồi thương hiệu quốc gia nếu không còn đạt tiêu chí",
+      "url": "https://vnexpress.net/thu-tuong-se-thu-hoi-thuong-hieu-quoc-gia-neu-khong-con-dat-tieu-chi-5133406.html",
+      "summary": "Thủ tướng Lê Minh Hưng yêu cầu tăng kiểm tra sau công nhận, thu hồi danh hiệu thương hiệu quốc gia với những trường hợp không còn đáp ứng tiêu chí.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T18:17:39",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Tập đoàn dầu khí Malaysia muốn cung cấp LNG dài hạn cho Việt Nam",
+      "url": "https://vnexpress.net/tap-doan-dau-khi-malaysia-muon-cung-cap-lng-dai-han-cho-viet-nam-5133408.html",
+      "summary": "Tập đoàn Dầu khí quốc gia Malaysia (Petronas) đề xuất cung cấp khí tự nhiên hóa lỏng (LNG) theo hợp đồng dài hạn, hợp tác phát triển hạ tầng LNG tại Việt Nam.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T18:13:55",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Trái phiếu có thể thay thế cổ phiếu khi lãi suất tăng cao?",
+      "url": "https://vnexpress.net/trai-phieu-co-the-thay-the-co-phieu-khi-lai-suat-tang-cao-5132674.html",
+      "summary": "Lãi suất tăng khiến trái phiếu hấp dẫn hơn, song việc rút vốn khỏi cổ phiếu để chuyển sang kênh này chưa hẳn luôn là lựa chọn tối ưu.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T17:05:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
+      "url": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
+      "summary": "Khối ngoại tiếp tục duy trì xu hướng rút vốn khi bán ròng trong cả 5 phiên giao dịch, tạo thêm áp lực lên diễn biến chung của thị trường.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:05:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Loạt doanh nghiệp thép dồn dập báo lãi lớn trong quý 3/2026",
+      "url": "https://cafef.vn/loat-doanh-nghiep-thep-don-dap-bao-lai-lon-trong-quy-3-2026-188261016223516022.chn",
+      "summary": "Bức tranh kinh doanh ngành thép tiếp tục ghi nhận những tín hiệu tích cực khi các doanh nghiệp sớm công bố kết quả quý 3/2026 với lợi nhuận cải thiện đáng kể.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:03:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Dragon Capital chỉ ra một sự thật bất ngờ phía sau diễn biến VN-Index",
+      "url": "https://cafef.vn/dragon-capital-chi-ra-mot-su-that-bat-ngo-phia-sau-dien-bien-vn-index-188261016142500515.chn",
+      "summary": "Quỹ đầu tư này cho rằng mặt bằng định giá hiện đã phản ánh phần lớn những rủi ro liên quan đến chi phí vốn, trong khi một số tín hiệu cho thấy sự cân bằng giữa huy động và tín dụng đang dần cải thiện.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:02:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Cập nhật số liệu CTCK ngày 17/10: Xuất hiện khoản lỗ trăm tỷ đầu tiên của ngành chứng khoán quý 3/2026",
+      "url": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-17-10-xuat-hien-khoan-lo-tram-ty-dau-tien-cua-nganh-chung-khoan-quy-3-2026-188261016232341746.chn",
+      "summary": "Mùa báo cáo tài chính quý 3/2026 của ngành chứng khoán tiếp tục nóng lên khi hàng loạt doanh nghiệp công bố kết quả kinh doanh.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:01:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Một trong những nền kinh tế lớn nhất thế giới ‘lún sâu’ vào nợ nần: Gánh gần 3.900 tỷ USD, nguy cơ khủng hoảng lan rộng",
+      "url": "https://cafef.vn/mot-trong-nhung-nen-kinh-te-lon-nhat-the-gioi-lun-sau-vao-no-nan-ganh-gan-3900-ty-usd-nguy-co-khung-hoang-lan-rong-188261016160141041.chn",
+      "summary": "Chi phí vay nợ của nước này tăng lên mức cao nhất gần 25 năm, trong khi thâm hụt ngân sách lớn và bất ổn chính trị trước cuộc bầu cử tổng thống năm 2027 khiến giới đầu tư lo ngại về nguy cơ khủng hoảng tài chính lan rộng tại châu Âu.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T22:01:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Phát hiện nam sinh 19 tuổi quyết không học đại học, mỗi ngày bán hàng trăm đơn hàng, kiếm 21 tỷ đồng chỉ nhờ 1 sản phẩm",
+      "url": "https://cafef.vn/phat-hien-nam-sinh-19-tuoi-quyet-khong-hoc-dai-hoc-moi-ngay-ban-hang-tram-don-hang-kiem-21-ty-dong-chi-nho-1-san-pham-188261016233234296.chn",
+      "summary": "Chỉ 3 tháng sau khi tốt nghiệp trung học, một nam sinh bất ngờ bán được hàng trăm đơn hàng mỗi ngày và kiếm hơn 21 tỷ đồng trong năm 2025.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:05:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Mua vàng trả tiền mặt có mâu thuẫn với quy định thuế hay không?",
+      "url": "https://cafef.vn/mua-vang-tra-tien-mat-co-mau-thuan-voi-quy-dinh-thue-hay-khong-188261016065556993.chn",
+      "summary": "Mua vàng trả tiền mặt có mâu thuẫn với quy định thuế hay không là thông tin nhiều người quan tâm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T16:55:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Lãi suất chưa thể ‘hạ nhiệt’: Doanh nghiệp cần chủ động bài toán vốn",
+      "url": "https://cafef.vn/lai-suat-chua-the-ha-nhiet-doanh-nghiep-can-chu-dong-bai-toan-von-188261016213413843.chn",
+      "summary": "Nhu cầu vốn gia tăng cùng tốc độ tăng trưởng kinh tế, trong khi áp lực lạm phát và chi phí huy động tiếp tục hạn chế dư địa giảm lãi suất cho vay. Trao đổi về vấn đề này, TS. Châu Đình Linh, Trường Đại học Ngân hàng TP. Hồ Chí Minh cho rằng doanh nghiệp cần chủ động cân đối nguồn vốn, kiểm soát dòng tiền và xây dựng các kịch bản tài chính để ứng phó với biến động.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T15:33:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Sang năm 2027, những ai sử dụng thẻ Căn cước/CCCD vào việc này sẽ bị phạt tiền lên đến 10 triệu đồng",
+      "url": "https://cafef.vn/sang-nam-2027-nhung-ai-su-dung-the-can-cuoc-cccd-vao-viec-nay-se-bi-phat-tien-len-den-10-trieu-dong-1882610162126019.chn",
+      "summary": "Điều 11 Nghị định 282 quy định chi tiết mức các mức phạt cho hành vi vi phạm quy định về cấp, quản lý, sử dụng thẻ căn cước, căn cước công dân (CCCD), căn cước điện tử hoặc giấy chứng nhận căn cước.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-16T17:01:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T21:22:28",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Porsche’s electric Macan Turbo is an automotive existential crisis",
+      "url": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis/",
+      "summary": "The 2026 Porsche Macan Turbo EV is a two-row crossover with 630 horsepower and a 100-kilowatt-hour battery.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T19:40:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T17:52:24",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T16:30:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Waymo’s robotaxis are headed to Canada",
+      "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "summary": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T16:06:38",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T16:01:37",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+      "url": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/",
+      "summary": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T16:00:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "In ‘You Can See Everything,’ Elizabeth Holmes meets her equal in comedian Nathan Fielder",
+      "url": "https://techcrunch.com/2026/10/16/in-you-can-see-everything-elizabeth-holmes-meets-her-equal-in-comedian-nathan-fielder/",
+      "summary": "Nathan Fielder's documentary about disgraced Theranos CEO Elizabeth Holmes has created a constellation of colliding personas that interrogate the very nature of authenticity.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T16:00:00",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T15:33:49",
+      "first_seen": "2026-10-17T05:50:26+07:00"
+    },
+    {
+      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+      "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+      "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-16T21:49:13",
+      "first_seen": "2026-10-17T05:50:26+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-13": [
-      "noon"
-    ],
     "2026-10-14": [
       "noon"
     ],
