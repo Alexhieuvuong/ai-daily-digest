@@ -710,12 +710,459 @@
       "category_label": "🤖 AI",
       "published": "2026-10-20T13:06:44",
       "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Nóng: Sự cố tại cảng do Hòa Phát quản lý khiến một tàu chở hơn 170.000 tấn quặng sắt rách 5m mũi tàu",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTzEwSzg2VEdtWEFBVzRpYWxwcGhCTUx5Zkc4SURycVIxT2txLTFYd1RrbDhsUUFkMnAwQ0Zfd1pRMEFiRTBmcDJmTzQwZnRScjZDeWdkTFlyWkRIVUZlSmlxZFR0NzQzUlQ1QU9Wb1oxa3ZlenEydmhpN3gzZ3Fvakp5d1BpZy1rR0ttcWtOZVBJcmhmRDNFWlhvcXctV19TR1RuQVAxU01WclRsclNBN2N2T3UxVklFb0ViRGMzOGpKQ2lHOHhEMVpkUFVjcnZD?oc=5",
+      "summary": "Nóng: Sự cố tại cảng do Hòa Phát quản lý khiến một tàu chở hơn 170.000 tấn quặng sắt rách 5m mũi tàu nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-20T15:17:01",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
+      "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "summary": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T22:29:45",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster",
+      "url": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
+      "summary": "The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T22:01:11",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+      "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
+      "summary": "United Airlines cut its profit outlook for the year as fuel prices continued to climb.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T20:23:58",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "summary": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T19:28:43",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "summary": "A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T18:06:13",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT",
+      "url": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html",
+      "summary": "Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T18:30:53",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Traders are betting Netflix's stock drama may be coming to an end",
+      "url": "https://www.cnbc.com/2026/10/20/traders-are-betting-netflixs-stock-drama-may-be-coming-to-an-end.html",
+      "summary": "Current options prices are implying a 9% post-earnings move for Netflix, which is the highest since its Q3 2022 report, when it was priced for an 11% move.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T18:10:13",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+      "url": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html",
+      "summary": "Speculators on Kalshi see higher odds that Marine Le Pen will win France 2027 presidential contest amid growing unrest in the country.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T20:34:23",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Chi phí sinh hoạt áp lực với người Pháp thế nào",
+      "url": "https://vnexpress.net/chi-phi-sinh-hoat-ap-luc-voi-nguoi-phap-the-nao-5134595.html",
+      "summary": "Vật giá tăng nhanh hơn tiền lương, chênh lệch mức sống giữa các tầng lớp ngày càng rộng, góp phần khiến người Pháp xuống đường.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T22:00:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Lãi suất trái phiếu doanh nghiệp gần vùng đỉnh",
+      "url": "https://vnexpress.net/lai-suat-trai-phieu-doanh-nghiep-gan-vung-dinh-5134769.html",
+      "summary": "So với mức đáy vào năm 2025, lãi suất phát hành mới trái phiếu doanh nghiệp quý III đã tăng 2,5%, lên gần 9,5% mỗi năm và tiến dần đến mức đỉnh của giai đoạn 2022-2023.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T20:26:25",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Thảo Cầm Viên báo lãi nhờ đón gần 2 triệu lượt khách",
+      "url": "https://vnexpress.net/thao-cam-vien-bao-lai-nho-don-gan-2-trieu-luot-khach-5134815.html",
+      "summary": "9 tháng đầu năm, Thảo Cầm Viên có gần 2 triệu lượt khách, cả bán vé lẫn miễn phí, giúp doanh nghiệp này lãi sau thuế hơn 5,6 tỷ đồng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T20:00:08",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Petronas muốn đưa điện gió Việt Nam sang Malaysia và Singapore",
+      "url": "https://vnexpress.net/petronas-muon-dua-dien-gio-viet-nam-sang-malaysia-va-singapore-5134797.html",
+      "summary": "Tập đoàn dầu khí quốc gia Malaysia Petronas muốn hợp tác phát triển dự án truyền tải điện gió ngoài khơi của Việt Nam qua nước này và Singapore.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T19:17:49",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Cách nào củng cố sức chống chịu doanh nghiệp mùa cuối năm",
+      "url": "https://vnexpress.net/cach-nao-cung-co-suc-chong-chiu-doanh-nghiep-mua-cuoi-nam-5133383.html",
+      "summary": "Doanh nghiệp lạc quan hơn về triển vọng kinh doanh mùa cuối năm nhưng vẫn cần thêm giải pháp củng cố sức chống chịu, theo các chuyên gia.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T17:00:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Chủ tịch Quốc hội: Tính toán kỹ nếu áp giá điện theo khung giờ",
+      "url": "https://vnexpress.net/chu-tich-quoc-hoi-tinh-toan-ky-neu-ap-gia-dien-theo-khung-gio-5134823.html",
+      "summary": "Chủ tịch Quốc hội Trần Thanh Mẫn yêu cầu đánh giá tác động cụ thể với việc áp giá điện sinh hoạt theo khung giờ và lộ trình xóa bỏ bù chéo giá điện.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T15:55:33",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Loạt thỏa thuận hợp tác năng lượng, logistics, công nghệ của Việt Nam - Đan Mạch",
+      "url": "https://vnexpress.net/loat-thoa-thuan-hop-tac-nang-luong-logistics-cong-nghe-cua-viet-nam-dan-mach-5134816.html",
+      "summary": "Dưới sự chứng kiến của Tổng Bí thư, Chủ tịch nước Tô Lâm và Nhà vua Frederik X, Việt Nam và Đan Mạch trao 16 văn kiện hợp tác trong nhiều lĩnh vực, như điện gió ngoài khơi, logistics, hàng không và công nghệ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T15:36:26",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Vietcap điều chỉnh loạt dự báo về FPT",
+      "url": "https://cafef.vn/vietcap-dieu-chinh-loat-du-bao-ve-fpt-188261020145848592.chn",
+      "summary": "Vietcap dự báo lợi nhuận sau thuế thuộc cổ đông công ty mẹ của FPT tăng trưởng bình quân 14% mỗi năm trong giai đoạn 2026–2029, thấp hơn đáng kể so với mức 22% ghi nhận trong giai đoạn 2021–2024.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:05:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Loạt doanh nghiệp lại “khất” cổ tức tiền mặt, cổ đông chờ hơn 10 năm vẫn chưa nhận được tiền",
+      "url": "https://cafef.vn/loat-doanh-nghiep-lai-khat-co-tuc-tien-mat-co-dong-cho-hon-10-nam-van-chua-nhan-duoc-tien-188261020111740904.chn",
+      "summary": "Việc doanh nghiệp chốt quyền nhưng sau đó liên tục lùi ngày thanh toán cổ tức không phải câu chuyện mới trên thị trường chứng khoán.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:05:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Dư nợ margin lập kỷ lục gần nửa triệu tỷ, nhóm CTCK có ngân hàng hậu thuẫn bứt phá mạnh",
+      "url": "https://cafef.vn/du-no-margin-lap-ky-luc-gan-nua-trieu-ty-nhom-ctck-co-ngan-hang-hau-thuan-but-pha-manh-188261020224610491.chn",
+      "summary": "Dư nợ margin toàn thị trường ước tính khoảng 440.000 tỷ đồng vào cuối quý 3, tăng 5.000 tỷ sau một quý và cũng là con số cao nhất trong lịch sử chứng khoán Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:01:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "'Quả bom hẹn giờ' tại nền kinh tế nghìn tỷ USD duy nhất ở Đông Nam Á: Chứng khoán thê thảm, nhà đầu tư tháo chạy, thanh niên thất nghiệp đi làm xe ôm, cựu bộ trưởng cảnh báo kinh tế đang sát bờ vực",
+      "url": "https://cafef.vn/qua-bom-hen-gio-tai-nen-kinh-te-nghin-ty-usd-duy-nhat-o-dong-nam-a-chung-khoan-the-tham-nha-dau-tu-thao-chay-thanh-nien-that-nghiep-di-lam-xe-om-cuu-bo-truong-canh-bao-kinh-te-dang-sat-bo-vuc-188261020144237949.chn",
+      "summary": "Từng là hình mẫu về sự ổn định kinh tế, nền kinh tế này hiện đang đối mặt với một loạt khó khăn khi niềm tin của nhà đầu tư lung lay.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T23:04:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Hơn 283.000 ca bệnh hô hấp: Vì sao Indonesia vẫn chưa công bố thảm họa quốc gia?",
+      "url": "https://cafef.vn/hon-283000-ca-benh-ho-hap-vi-sao-indonesia-van-chua-cong-bo-tham-hoa-quoc-gia-188261020220043793.chn",
+      "summary": "Hơn 283.000 ca nhiễm trùng đường hô hấp cấp được ghi nhận tại 7 tỉnh của Indonesia trong bối cảnh khói mù từ cháy rừng bao phủ nhiều khu vực Đông Nam Á.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:00:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Khoản tiền 350 tỷ USD sẽ bị chặn nếu ông Trump không gia tăng áp lực lên Nga",
+      "url": "https://cafef.vn/khoan-tien-350-ty-usd-se-bi-chan-neu-ong-trump-khong-gia-tang-ap-luc-len-nga-18826102021563257.chn",
+      "summary": "Một số nghị sĩ Đảng Cộng hòa tại Hạ viện Mỹ cảnh báo ông Trump sẵn sàng ngăn chặn việc cấp thêm kinh phí cho Lầu Năm Góc.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T16:04:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Chân dung đại gia cảng biển vừa xuất hiện tại Eximbank: Rót hơn 700 tỷ đồng vào cổ phiếu GEX và VIX, vay Eximbank 2.800 tỷ đồng, thâu tóm doanh nghiệp BĐS có nhiều dự án hợp tác với GELEX",
+      "url": "https://cafef.vn/chan-dung-dai-gia-cang-bien-vua-xuat-hien-tai-eximbank-rot-hon-700-ty-dong-vao-co-phieu-gex-va-vix-vay-eximbank-2800-ty-dong-thau-tom-doanh-nghiep-bds-co-nhieu-du-an-hop-tac-voi-gelex-188261020222232639.chn",
+      "summary": "Viconship vừa xuất hiện trong danh sách cổ đông sở hữu trên 1% vốn Eximbank, đồng thời đang nắm giữ lượng lớn cổ phiếu GELEX và VIX. Đại gia cảng biển này còn dự kiến nhận chuyển nhượng toàn bộ vốn tại một công ty bất động sản có các dự án hạ tầng hợp tác với GELEX.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:30:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Giữa làn sóng giảm lãi suất, ngân hàng hút vốn cách nào?",
+      "url": "https://cafef.vn/giua-lan-song-giam-lai-suat-ngan-hang-hut-von-cach-nao-188261020212713212.chn",
+      "summary": "Sau yêu cầu của Chính phủ và Ngân hàng Nhà nước về giảm lãi suất, thị trường tiền gửi nhanh chóng ghi nhận làn sóng điều chỉnh. Trong khi các nhà băng bắt đầu hạ lãi suất niêm yết, cuộc đua huy động vốn vẫn diễn ra sôi động.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:26:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Ngành tài chính tham vấn đối tác Trung Quốc, Hoa Kỳ trước thềm APEC 2027",
+      "url": "https://cafef.vn/nganh-tai-chinh-tham-van-doi-tac-trung-quoc-hoa-ky-truoc-them-apec-2027-18826102021202332.chn",
+      "summary": "Ngày 20/10, bên lề Hội nghị Bộ trưởng Tài chính APEC (FMM) năm 2026 tại Hồng Kông (Trung Quốc), Bộ trưởng Bộ Tài chính Ngô Văn Tuấn có các cuộc làm việc song phương với Bộ trưởng Tài chính Trung Quốc Lan Fo’an và bà Erin Browne, Thứ trưởng Bộ Tài chính Hoa Kỳ phụ trách các vấn đề quốc tế.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T16:19:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Thay đổi đáng lưu ý về kỳ chi trả lương hưu tháng 11/2026: Người nhận lương hưu, trợ cấp BHXH cần biết",
+      "url": "https://cafef.vn/thay-doi-dang-luu-y-ve-ky-chi-tra-luong-huu-thang-11-2026-nguoi-nhan-luong-huu-tro-cap-bhxh-can-biet-188261020164146307.chn",
+      "summary": "Những mốc thời gian quan trọng người dân cần nắm rõ trong kỳ chi trả lương hưu tháng 11/2026.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T17:01:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T23:01:23",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+      "summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T22:57:57",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T22:24:02",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T21:25:22",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T20:40:41",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T20:35:10",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+      "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+      "summary": "Google is bringing Gemini's Personal Intelligence feature to cars, allowing its AI assistant to draw on information from Gmail, Calendar, Maps, YouTube, and other Google services to deliver more personalized responses while driving.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T20:00:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "GM to close Detroit battery assembly plant, but not for reasons you might think",
+      "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
+      "summary": "GM is shuttering the Brownstown Battery Assembly Plant, though the closure has nothing to do with the automaker's electrification strategy.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T19:32:43",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T18:38:24",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "ChatGPT now lets you lock your chats",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T18:36:53",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T17:55:12",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T17:12:48",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T16:20:06",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Streaming guide JustWatch becomes a streamer itself",
+      "url": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself/",
+      "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T16:01:24",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T16:00:00",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "What Amazon must do to get its stumbling stock back to record highs and beyond",
+      "url": "https://www.cnbc.com/investingclub/2026/10/20/what-amazon-must-do-to-get-its-stumbling-stock-back-to-record-highs-and-beyond.html",
+      "summary": "The performance of Amazon Web Services is the key.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T16:49:28",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-20T23:04:19",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-20T22:11:34",
+      "first_seen": "2026-10-21T06:10:35+07:00"
+    },
+    {
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-20T18:07:34",
+      "first_seen": "2026-10-21T06:10:35+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-17": [
-      "noon"
-    ],
     "2026-10-18": [
       "noon"
     ],
