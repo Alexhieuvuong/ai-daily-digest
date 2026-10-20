@@ -1,6 +1,717 @@
 {
   "last_sent": "2026-10-20T17:02:46+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Thuế xuất khẩu về 0%, hai doanh nghiệp phân bón đứng trước cơ hội gia tăng lợi nhuận hàng trăm tỷ/năm",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMk5oa2dvSmV4SHJjR2hiak5LNVl5MHgycm9aaHJVano3NWtMNm1NMEc0UmJDaGY0MlRieUItZUx4UE5YZG1OS1dCYXBWVEdkcVp0dEhXMy1BNjZ1UDJoVUJBbUxYQXV2NFJ1WWU0c19JbU9VZGV6VGZNQ0N6eU85Yl85R0RmZExTVWhHMVNKZ3QzRnNuNXpDeFdjX01La3BQdzhfa2dWZGxoaGpiSFI2NlFOZ3BNVkcxMUxaNGxuR2xMOXdkX280dGMxQUR4Qy1M?oc=5",
+      "summary": "Thuế xuất khẩu về 0%, hai doanh nghiệp phân bón đứng trước cơ hội gia tăng lợi nhuận hàng trăm tỷ/năm nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-20T08:00:01",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "HDBank tung gói tín dụng 10.000 tỷ đồng với lãi suất giảm tới 1,5%",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdkFoeFhiMzRfRmxfSXdVSWVVMlhUcTFFazVCQXg3cXNwaExQVWhoOThLUzB5Um9uNU5fZmkzeHFWenRFR2ZpZ2h5S1JGU2ROaENUMkJ1UWZYVGQtNDlnUEYxa0NSc0J2Y3JJNjBtdVNBZU9VZFZ0dk1TeVEtZ2J0alhhc1NvMWdpTzdRRUlycG5qSV9GU0tRNHFqc3V0NzB2WTAw?oc=5",
+      "summary": "HDBank tung gói tín dụng 10.000 tỷ đồng với lãi suất giảm tới 1,5% nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-20T07:29:01",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Doanh nghiệp khai thác vàng duy nhất trên sàn chốt ngày trả cổ tức tiền mặt tỷ lệ 30%",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRW84aEpwcDd6cXJmVlFGQ0NsOWtNS0t0RVJrM2xNT3NmOUYtbkxrVE45UXk5eWxEMU5DRzZkVXRVQ1k3SVM0UnBBdy1veEMzTWw0WWdtLWlVNXNFUVMtOWJSY1drbUk2SmRnS1hhV2tkMlRRTVVuZHJ6b2pDdjV4eWVmTkJTV0FENjFnbnhXa0NKT3pPSjlYZDU3cXVZRjhDZ3k3U1pPeXMya1ZjZ1hFWWE0Q2pXdV9Lb0trQg?oc=5",
+      "summary": "Doanh nghiệp khai thác vàng duy nhất trên sàn chốt ngày trả cổ tức tiền mặt tỷ lệ 30% nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-20T09:59:01",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "September data shows housing market in a deep freeze",
+      "url": "https://www.cnbc.com/2026/10/20/september-data-shows-housing-market-in-a-deep-freeze.html",
+      "summary": "New data on the housing market's performance in September is bleak, with sales, construction and sentiment all falling more than expected.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T14:18:58",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
+      "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
+      "summary": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:52:29",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
+      "url": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
+      "summary": "Anthropic and Nscale previously inked a similar deal for a data center on the same site in the U.S.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T14:12:38",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
+      "url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+      "summary": "Former OpenAI executive Bob McGrew is launching Arda at a $1.5 billion.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T13:03:31",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%",
+      "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+      "summary": "The company's latest acquisition is expected to close in fiscal 2028, and will see Braze shareholders receive $47.50 in cash per share.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T14:09:16",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Novo's next-generation obesity drug shows 25% weight loss in women in late-stage analysis",
+      "url": "https://www.cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html",
+      "summary": "Novo released new evidence that its experimental CagriSema injection can improve upon the weight loss with its blockbuster GLP-1 obesity injection, Wegovy.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:50:24",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "What options traders expect from SpaceX earnings after the bell",
+      "url": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+      "summary": "It's been a busy three months for SpaceX. Traders think that means more gains for the stock after it reports earnings after the bell today.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T14:01:49",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Walmart launches joint membership with Sam's Club as it leans into delivery, gas discounts",
+      "url": "https://www.cnbc.com/2026/10/20/walmart-sams-club-plus-membership.html",
+      "summary": "Walmart is now offering a joint membership with Sam's Club for $120 per year as the retailer further leans into convenience.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T10:00:01",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Best Buy launches new gaming hub ahead of 'Zelda' and 'Grand Theft Auto VI'",
+      "url": "https://www.cnbc.com/2026/10/20/best-buy-gamers-beta-ign.html",
+      "summary": "Best Buy is launching a new gaming experience for customers as it leans into the business ahead of this fall's big launches.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:45:30",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "summary": "Neocloud stocks are falling again following the sector's troubles last week",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T13:50:24",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+      "summary": "Developments in the Middle East remain in focus, with attacks on commercial ships transiting the Strait of Hormuz escalating in recent weeks.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T15:32:49",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
+      "url": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
+      "summary": "The U.K.'s Royal Air Force will deploy jets to assist with defensive operations, but will not engage in offensive strikes.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:58:24",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Apple shares aren't cheap. Here's how to get long for less",
+      "url": "https://www.cnbc.com/2026/10/20/apple-shares-arent-cheap-heres-how-to-get-long-for-less.html",
+      "summary": "The primary headwind for Apple is valuation.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T13:43:53",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+      "summary": "Data center campuses house the servers that power AI and cloud computing.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T10:39:17",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Giá dầu Brent lên cao nhất 5 tháng",
+      "url": "https://vnexpress.net/gia-dau-brent-len-cao-nhat-5-thang-5134807.html",
+      "summary": "Dầu Brent hiện có giá 111 USD một thùng, trong khi dầu WTI cũng tăng vọt hơn 5% lên 110 USD.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:52:11",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Thủ tướng: Phát triển nguồn điện thì giá vẫn phải 'hợp lý với người dân'",
+      "url": "https://vnexpress.net/thu-tuong-phat-trien-nguon-dien-thi-gia-van-phai-hop-ly-voi-nguoi-dan-5134773.html",
+      "summary": "Với nhu cầu điện ngày một cao, cần thu hút nguồn vốn lớn để phát triển nguồn điện, nhưng Thủ tướng lưu ý phải tính toán sao cho giá điện \"hợp lý với người dân\".",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:47:43",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Việt Nam muốn các tập đoàn Đan Mạch mở rộng đầu tư năng lượng, logistics",
+      "url": "https://vnexpress.net/viet-nam-muon-cac-tap-doan-dan-mach-mo-rong-dau-tu-nang-luong-logistics-5134789.html",
+      "summary": "Tổng Bí thư, Chủ tịch nước Tô Lâm đề nghị các tập đoàn Đan Mạch mở rộng đầu tư vào năng lượng sạch, cảng biển, logistics.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T12:02:58",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Hơn 13 tỷ USD sắp rót vào TP HCM",
+      "url": "https://vnexpress.net/hon-13-ty-usd-sap-rot-vao-tp-hcm-5134752.html",
+      "summary": "Khoảng 13,5 tỷ USD vốn đầu tư vào TP HCM sắp được công bố cuối tháng này, nhân dịp Diễn đàn Kinh tế Mùa thu 2026.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T11:15:34",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Trung Quốc giữ nguyên lãi suất 17 tháng liên tiếp",
+      "url": "https://vnexpress.net/trung-quoc-giu-nguyen-lai-suat-17-thang-lien-tiep-5134662.html",
+      "summary": "Ngày 20/10, giới chức Trung Quốc thông báo giữ nguyên lãi suất cho vay tham chiếu (LPR) kỳ hạn một năm tại 3%.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T11:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Nghiên cứu tính giá điện sinh hoạt theo khung giờ sử dụng",
+      "url": "https://vnexpress.net/nghien-cuu-tinh-gia-dien-sinh-hoat-theo-khung-gio-su-dung-5134693.html",
+      "summary": "Chính phủ đề xuất bổ sung lộ trình áp dụng giá bán lẻ điện sinh hoạt theo giờ cao điểm, thấp điểm và bình thường khi điều kiện kỹ thuật cho phép.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-20T10:22:53",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "9 tháng đầu năm, DNSE đạt hơn 1.300 tỷ đồng doanh thu hoạt động, tăng hơn 27%",
+      "url": "https://cafef.vn/9-thang-dau-nam-dnse-dat-hon-1300-ty-dong-doanh-thu-hoat-dong-tang-hon-27-188261020183528353.chn",
+      "summary": "Lũy kế 9 tháng đầu năm 2026, Chứng khoán DNSE đạt 1.302,9 tỷ đồng doanh thu hoạt động, tăng 27,3% so với cùng kỳ. Lãi từ các khoản cho vay và phải thu tăng gần 33%, dư nợ cho vay ký quỹ cuối quý III đạt 6.445 tỷ đồng, đồng thời tiếp tục tăng trưởng về thị phần và quy mô khách hàng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T12:30:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Chứng khoán HSC: Lợi nhuận trước thuế quý 3.2026 đạt 371 tỷ đồng, lũy kế 9 tháng tương đương cùng kỳ",
+      "url": "https://cafef.vn/chung-khoan-hsc-loi-nhuan-truoc-thue-quy-32026-dat-371-ty-dong-luy-ke-9-thang-tuong-duong-cung-ky-188261020183432942.chn",
+      "summary": "Công ty Cổ phần Chứng khoán TP.HCM (HSC) vừa công bố báo cáo tài chính Quý 3.2026 với doanh thu đạt 1,182 tỷ đồng và lợi nhuận trước thuế đạt 371 tỷ đồng, lần lượt giảm 15% và 33% so với mức nền kết quả kinh doanh cao của cùng kỳ năm 2025.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T12:30:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "CEO Tiệm vàng HanaGold cập nhật việc rút tiền của khách hàng: Đã chi trả gần 40%, không yêu cầu nạp thêm",
+      "url": "https://cafef.vn/ceo-tiem-vang-hanagold-cap-nhat-viec-rut-tien-cua-khach-hang-da-chi-tra-gan-40-khong-yeu-cau-nap-them-188261020182000724.chn",
+      "summary": "Lãnh đạo doanh nghiệp cho biết vẫn còn khoảng 60% tài sản HanaGold bị hạn chế sử dụng, doanh nghiệp đang nỗ lực thu xếp nguồn lực để tiếp tục hoàn trả cho khách hàng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:29:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "VinFast bán ra hơn 70.000 ô tô điện trên toàn cầu, ông Phạm Nhật Quân Anh hé lộ kế hoạch đưa xe mới ra quốc tế năm 2027",
+      "url": "https://cafef.vn/vinfast-ban-ra-hon-70000-o-to-dien-tren-toan-cau-ong-pham-nhat-quan-anh-he-lo-ke-hoach-dua-xe-moi-ra-quoc-te-nam-2027-188261020181854798.chn",
+      "summary": "Vinfast ghi nhận doanh thu quý II tăng 85,5% so với cùng kỳ, đồng thời cho biết sẽ mở rộng tại các thị trường quốc tế trọng điểm bao gồm Philippines, Indonesia và Ấn Độ, có những bước đi chiến lược ở các thị trường như Mỹ và châu Âu.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:29:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Hé lộ lợi nhuận Chứng khoán SSI trong quý 3/2026",
+      "url": "https://cafef.vn/he-lo-loi-nhuan-chung-khoan-ssi-trong-quy-3-2026-188261020181143663.chn",
+      "summary": "Riêng quý 3/2026, SSI ước đạt 3.219 tỷ đồng doanh thu và 1.388 tỷ đồng lãi trước thuế.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:14:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "PNJ tăng trần, VN-Index thoát sắc đỏ",
+      "url": "https://cafef.vn/pnj-tang-tran-vn-index-thoat-sac-do-188261020170746654.chn",
+      "summary": "VN-Index đảo chiều tăng nhẹ trong phiên giao dịch ngày 20/10, chấm dứt đà giảm sau phần lớn thời gian giao dịch dưới tham chiếu. Cổ phiếu PNJ bất ngờ tăng trần trước thềm đại hội cổ đông bất thường, trong khi nhóm cổ phiếu thép đồng loạt bứt phá.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:49:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Masan High-Tech Materials sắp chi gần 2.210 tỷ đồng tạm ứng cổ tức",
+      "url": "https://cafef.vn/masan-high-tech-materials-sap-chi-gan-2210-ty-dong-tam-ung-co-tuc-188261020163910348.chn",
+      "summary": "Ngày 2/11/2026 tới đây, Masan High-Tech Materials sẽ chốt danh sách cổ đông để tạm ứng lần 1 cổ tức đợt 2026 bằng tiền mặt với tỷ lệ 20%.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:29:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Có gần 7.800 tỷ đồng tiền mặt vẫn đi vay hơn 4.000 tỷ, Coteccons nói gì về chuyện 'có tiền giấu trong túi'?",
+      "url": "https://cafef.vn/co-gan-7800-ty-dong-tien-mat-van-di-vay-hon-4000-ty-coteccons-noi-gi-ve-chuyen-co-tien-giau-trong-tui-188261020172020875.chn",
+      "summary": "Tại ĐHĐCĐ thường niên năm tài chính 2026, lãnh đạo Coteccons lý giải việc duy trì lượng tiền mặt lớn song song với các khoản vay là một phần trong chiến lược tái cơ cấu nguồn vốn, xây dựng uy tín trên thị trường vốn và mở rộng khả năng huy động vốn quốc tế.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:20:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Một cá nhân nâng sở hữu lên 6,8% vốn Bất động sản An Gia",
+      "url": "https://cafef.vn/mot-ca-nhan-nang-so-huu-len-68-von-bat-dong-san-an-gia-188261020163749916.chn",
+      "summary": "Sau 5 lần mua gom cổ phiếu AGG kể từ đầu tháng 10, bà Nguyễn Thị Ngọc Lợi đã nâng sở hữu từ 0% lên 6,84% vốn Bất động sản An Gia.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:15:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Đặc phái viên Tổng thống Mỹ dự kiến gặp Tổng thống Nga bàn về vấn đề Ukraine",
+      "url": "https://cafef.vn/dac-phai-vien-tong-thong-my-du-kien-gap-tong-thong-nga-ban-ve-van-de-ukraine-188261020215729805.chn",
+      "summary": "Đặc phái viên Tổng thống Mỹ Donald Trump, Steve Witkoff, dự kiến gặp các nhà lãnh đạo Ukraine và châu Âu tại Na Uy để thảo luận về đề xuất hòa bình, trước khi tới Nga gặp Tổng thống Vladimir Putin nhằm tìm kiếm giải pháp chấm dứt xung đột.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T15:31:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Mỹ xúc tiến bán tàu chở dầu thuộc 'hạm đội bóng tối' tịch thu của Nga",
+      "url": "https://cafef.vn/my-xuc-tien-ban-tau-cho-dau-thuoc-ham-doi-bong-toi-tich-thu-cua-nga-188261020215438725.chn",
+      "summary": "Chính quyền Mỹ sẽ cho phép bán các tàu chở dầu bị trừng phạt cho các nhà đầu tư để đưa chúng trở lại hoạt động vận tải hợp pháp.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T14:54:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "TT Putin bất ngờ đề xuất thượng đỉnh Nga–Mỹ–Trung về chấm dứt xung đột Ukraine: Trung Quốc phản hồi thế nào?",
+      "url": "https://cafef.vn/tt-putin-bat-ngo-de-xuat-thuong-dinh-ngamytrung-ve-cham-dut-xung-dot-ukraine-trung-quoc-phan-hoi-the-nao-188261020201640975.chn",
+      "summary": "Một cựu quan chức tình báo Nga cho biết ông Putin đã nêu ý tưởng này trong cuộc điện đàm với Tổng thống Mỹ Donald Trump vào ngày 9/10.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T14:16:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Người đàn ông chưa tốt nghiệp cấp 3, từng làm phụ hồ có tài sản hàng chục nghìn tỷ đồng",
+      "url": "https://cafef.vn/nguoi-dan-ong-chua-tot-nghiep-cap-3-tung-lam-phu-ho-co-tai-san-hang-chuc-nghin-ty-dong-188261020185747619.chn",
+      "summary": "Ngoài ra, ông còn làm phu kéo xe và người giao gạo dạo.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:38:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Tổng thống Zelensky vận động các thượng nghị sĩ Mỹ gây áp lực lên ông Trump",
+      "url": "https://cafef.vn/tong-thong-zelensky-van-dong-cac-thuong-nghi-si-my-gay-ap-luc-len-ong-trump-188261020185644776.chn",
+      "summary": "Tổng thống Ukraine Vladimir Zelensky được cho là đã kêu gọi một nhóm thượng nghị sĩ lưỡng đảng của Mỹ gây áp lực lên Tổng thống Donald Trump.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:11:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Thủ tướng Đức: Viện trợ Ukraine là 'gánh nặng khổng lồ' cho ngân sách châu Âu",
+      "url": "https://cafef.vn/thu-tuong-duc-vien-tro-ukraine-la-ganh-nang-khong-lo-cho-ngan-sach-chau-au-188261020185507494.chn",
+      "summary": "Thủ tướng Đức Friedrich Merz thừa nhận việc hỗ trợ Ukraine đang tạo ra gánh nặng ngân sách khổng lồ cho các quốc gia châu Âu.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T12:43:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Campuchia điều chỉnh hàng loạt cột mốc trên tuyến Kênh đào Funan Techo: Tỉnh trưởng trực tiếp giám sát",
+      "url": "https://cafef.vn/campuchia-dieu-chinh-hang-loat-cot-moc-tren-tuyen-kenh-dao-funan-techo-tinh-truong-truc-tiep-giam-sat-188261020185309891.chn",
+      "summary": "Đội ngũ kỹ thuật viên đã di dời 19 cột mốc cũ để căn chỉnh lại và tối ưu hóa tuyến đường thủy này.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T12:18:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Dừng hẳn dự án siêu sân bay rộng gấp 3 lần Nội Bài: \"Đắp chiếu\" vì phạm đến hàng nghìn hecta đất canh tác",
+      "url": "https://cafef.vn/dung-han-du-an-sieu-san-bay-rong-gap-3-lan-noi-bai-dap-chieu-vi-pham-den-hang-nghin-hecta-dat-canh-tac-18826102016491207.chn",
+      "summary": "Sau hơn nửa thế kỷ bàn tới, bàn lùi, chính phủ nước này mới có thể ra quyết định cuối cùng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:45:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Bí ẩn những đỉnh núi từng cao hơn cả Everest",
+      "url": "https://cafef.vn/bi-an-nhung-dinh-nui-tung-cao-hon-ca-everest-188261020164824055.chn",
+      "summary": "Những dấu tích địa chất cho thấy Trái Đất từng có các dãy núi khổng lồ, nhưng liệu đỉnh núi nào trong số đó cao hơn Everest vẫn là bí ẩn.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:16:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "NATO bắt đầu xem xét kế hoạch quân sự chống lại Nga mà không cần dựa vào Mỹ",
+      "url": "https://cafef.vn/nato-bat-dau-xem-xet-ke-hoach-quan-su-chong-lai-nga-ma-khong-can-dua-vao-my-188261020164436412.chn",
+      "summary": "NATO đã bắt đầu đàm phán về việc phân bổ lực lượng trong trường hợp xảy ra chiến tranh với Nga.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:44:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Cách tính giờ của cả thế giới sẽ thay đổi vào năm 2027?",
+      "url": "https://cafef.vn/cach-tinh-gio-cua-ca-the-gioi-se-thay-doi-vao-nam-2027-18826102016432623.chn",
+      "summary": "Chúng ta có thể tái định hình thời gian?",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:09:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Lãi suất cho vay mới nhất của các ngân hàng",
+      "url": "https://cafef.vn/lai-suat-cho-vay-moi-nhat-cua-cac-ngan-hang-188261020211837231.chn",
+      "summary": "Việt Nam có 46 ngân hàng thương mại. Tính đến ngày 20/10 mới có 15 ngân hàng giảm lãi suất cho vay bình quân từ 1,5 - 2% theo chỉ đạo của Ngân hàng Nhà nước. Hiện có ngân hàng đưa mức lãi suất cho vay bình quân xuống thấp nhất 4,1%/năm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T15:17:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "HDBank và Vikki Digital Bank nối dài “Kết nối yêu thương”, gửi trao hy vọng đến phụ nữ và trẻ em",
+      "url": "https://cafef.vn/hdbank-va-vikki-digital-bank-noi-dai-ket-noi-yeu-thuong-gui-trao-hy-vong-den-phu-nu-va-tre-em-188261020214645699.chn",
+      "summary": "Nhân Ngày Phụ nữ Việt Nam 20/10, HDBank và Vikki Digital Bank cùng gửi một món quà từ trái tim: chung tay chăm lo cho những người phụ nữ, những em nhỏ đang cần được chở che, để thêm một gia đình vơi lo âu, thêm một cuộc đời được nâng đỡ.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T14:47:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Sếp Coteccons lý giải việc gửi ngân hàng 7.800 tỷ đồng nhưng vẫn đi vay tiền",
+      "url": "https://cafef.vn/sep-coteccons-ly-giai-viec-gui-ngan-hang-7800-ty-dong-nhung-van-di-vay-tien-18826102021235131.chn",
+      "summary": "Coteccons gửi ngân hàng gần 7.800 tỷ đồng nhưng vẫn đi vay ngắn hạn hơn 4.000 tỷ đồng nhằm tạo ra hồ sơ cho Coteccons trên thị trường tài chính.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T14:23:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Lãi suất tiết kiệm ngày 20/10 tại Agribank, Vietcombank, VietinBank và BIDV: Chênh lệch lớn ở kỳ hạn 12 - 24 tháng",
+      "url": "https://cafef.vn/lai-suat-tiet-kiem-ngay-20-10-tai-agribank-vietcombank-vietinbank-va-bidv-chenh-lech-lon-o-ky-han-12-24-thang-188261020210034116.chn",
+      "summary": "Sau khi Agribank và Vietcombank giảm lãi suất tiền gửi, mặt bằng lãi suất tại nhóm Big4 có sự phân hóa rõ hơn. Ở kỳ hạn 12 tháng, BIDV và VietinBank cùng niêm yết 5,9%/năm, cao hơn mức 5,4%/năm của hai ngân hàng còn lại.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:58:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Cập nhật lợi nhuận ngân hàng tối 20/10: Thêm nhà băng lãi hơn 10.000 tỷ trong quý 3, một ngân hàng cao gấp đôi cùng kỳ",
+      "url": "https://cafef.vn/cap-nhat-loi-nhuan-ngan-hang-toi-20-10-them-nha-bang-lai-hon-10000-ty-trong-quy-3-mot-ngan-hang-cao-gap-doi-cung-ky-188261020202307258.chn",
+      "summary": "Tính đến tối 20/10, nhiều ngân hàng đã công bố kết quả kinh doanh 9 tháng đầu năm 2026 với lợi nhuận tăng so với cùng kỳ. Đáng chú ý, VPBank lãi hợp nhất gần 30.000 tỷ đồng, Techcombank đạt 28.900 tỷ đồng trong 9 tháng; riêng lợi nhuận quý III của hai ngân hàng lần lượt vượt 11.000 tỷ đồng và đạt 10.400 tỷ đồng. SHB ước lãi 14.300 tỷ đồng sau 9 tháng, tăng 17% so với cùng kỳ.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:21:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Kết thúc quý III, PGBank lãi trước thuế 630 tỷ đồng, tăng 27% so với cùng kỳ",
+      "url": "https://cafef.vn/ket-thuc-quy-iii-pgbank-lai-truoc-thue-630-ty-dong-tang-27-so-voi-cung-ky-188261020184510907.chn",
+      "summary": "Ngân hàng TMCP Thịnh Vượng và Phát triển (PGBank) công bố kết quả kinh doanh 9 tháng đầu năm 2026 với nhiều chỉ tiêu ghi nhận chuyển biến tích cực. Quy mô hoạt động được mở rộng, năng lực tài chính được củng cố, trong khi các nguồn thu ngoài lãi có bước tiến đáng kể, góp phần đưa lợi nhuận trước thuế tăng 27% so với cùng kỳ năm 2025.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T11:45:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "SACOMBANK giảm 0,5%/năm lãi suất huy động, hưởng ứng chủ trương của Chính phủ",
+      "url": "https://cafef.vn/sacombank-giam-05-nam-lai-suat-huy-dong-huong-ung-chu-truong-cua-chinh-phu-188261020175227405.chn",
+      "summary": "Hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước Việt Nam (NHNN) về giảm mặt bằng lãi suất, góp phần hỗ trợ hoạt động sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế, SACOMBANK điều chỉnh giảm 0,5%/năm lãi suất huy động đối với các kỳ hạn từ 6 tháng trở lên, áp dụng từ ngày 20/10/2026.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:47:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Gửi tiền ở VietinBank kỳ hạn 6 tháng trở lên hiện được lãi suất bao nhiêu?",
+      "url": "https://cafef.vn/gui-tien-o-vietinbank-ky-han-6-thang-tro-len-hien-duoc-lai-suat-bao-nhieu-188261020152407888.chn",
+      "summary": "Biểu lãi suất huy động ở các ngân hàng, đặc biệt là ngân hàng thu hút nhiều tiền gửi như VietinBank, đang được người dân quan tâm khi mới đây Ngân hàng Nhà nước yêu cầu điều chỉnh giảm với các kỳ hạn từ 6 tháng trở lên.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:44:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Nguồn thu dịch vụ tăng 40%, Techcombank củng cố vị thế dẫn đầu, lợi nhuận quý 3 lập kỉ lục mới",
+      "url": "https://cafef.vn/nguon-thu-dich-vu-tang-40-techcombank-cung-co-vi-the-dan-dau-loi-nhuan-quy-3-lap-ki-luc-moi-188261020173703973.chn",
+      "summary": "Lợi nhuận trước thuế quý 3/2026 của Techcombank đạt 10,4 nghìn tỷ đồng, mức cao nhất theo quý từ trước đến nay, đưa lợi nhuận 9 tháng lên 28,9 nghìn tỷ đồng, tăng 23,7% so với cùng kỳ nhờ tăng trưởng đa dạng các nguồn thu nhập.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:36:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Bộ trưởng Nội vụ: Không có chủ trương tiếp tục sáp nhập đồng loạt xã, phường",
+      "url": "https://cafef.vn/bo-truong-noi-vu-khong-co-chu-truong-tiep-tuc-sap-nhap-dong-loat-xa-phuong-188261020210037541.chn",
+      "summary": "\"Trung ương không có chủ trương tất cả địa phương phải tiếp tục nhập hoặc tách xã, phường. Tinh thần chung hiện tại là giữ ổn định các đơn vị hành chính cấp xã, tập trung nâng cao năng lực vận hành\", Bộ trưởng Bộ Nội vụ Nguyễn Tiến Hải nhấn mạnh.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T14:04:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Lộ diện “tay chơi” ngoại rót hơn 100 tỷ USD vào Việt Nam",
+      "url": "https://cafef.vn/lo-dien-tay-choi-ngoai-rot-hon-100-ty-usd-vao-viet-nam-188261020205554991.chn",
+      "summary": "Trong 9 tháng đầu năm, đối tác này đã rót gần 13 tỷ USD vào Việt Nam.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:59:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Chủ tịch Bolat Duisenov bật mí những người hiếm khi có tên trong báo cáo, nhưng đóng vai trò cực quan trọng với Coteccons",
+      "url": "https://cafef.vn/chu-tich-bolat-duisenov-bat-mi-nhung-nguoi-hiem-khi-co-ten-trong-bao-cao-nhung-dong-vai-tro-cuc-quan-trong-voi-coteccons-188261020210014862.chn",
+      "summary": "Bài toán nhân lực trong ngành xây dựng không chỉ là việc thu hút đủ nhân lực cho các dự án, mà còn là tạo điều kiện để người lao động yên tâm làm việc và phát triển lâu dài. Tại Đại hội đồng cổ đông thường niên ngày 20/10, lãnh đạo Coteccons đã chia sẻ cách doanh nghiệp tiếp cận bài toán này, từ an toàn lao động, đào tạo đến việc ghi nhận những đóng góp ít được chú ý trong môi trường công trường.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T13:31:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Toàn cảnh lắp ghép những phiến dầm ngang đầu tiên cầu Hồng Hà",
+      "url": "https://cafef.vn/toan-canh-lap-ghep-nhung-phien-dam-ngang-dau-tien-cau-hong-ha-188261020155726051.chn",
+      "summary": "Sau một năm khởi công, dự án cầu Hồng Hà thuộc đường Vành đai 4 - Vùng Thủ đô Hà Nội đang chuyển sang giai đoạn thi công kết cấu nhịp. Những phiến dầm đầu tiên được lao lắp tại khu vực cầu cạn phía xã Ô Diên và xã Mê Linh.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:30:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Chống chuyển giá, trốn thuế: Nâng ngưỡng lập hồ sơ từ 200 lên 500 tỷ - Không phải cứ \"chuyển giá\" là \"trốn thuế\"",
+      "url": "https://cafef.vn/chong-chuyen-gia-tron-thue-nang-nguong-lap-ho-so-tu-200-len-500-ty-khong-phai-cu-chuyen-gia-la-tron-thue-18826102015535928.chn",
+      "summary": "Tập đặc biệt Quốc Dân Hiểu Thuế phát sóng ngày 11/10/2026 phân tích vấn đề chống chuyển giá, trốn thuế và đề xuất nâng ngưỡng lập hồ sơ lên trên 500 tỷ đồng.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-20T10:15:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "TikTok staff raised child safety concerns, but executives reportedly failed to act",
+      "url": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/",
+      "summary": "Court documents show TikTok employees were frustrated with how executives responded to their concerns about risks to children.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T15:03:41",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T14:13:32",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+      "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+      "summary": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T13:17:36",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T13:07:24",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T13:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Inspired Capital closes $450M fourth fund as New York pushes back on Silicon Valley’s gravitational pull",
+      "url": "https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/",
+      "summary": "The raise comes as venture dollars pile up on the West Coast.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T13:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Spotify launches paid podcast memberships with perks beyond bonus content",
+      "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/",
+      "summary": "Spotify's new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T12:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Oura adds new fitness metrics to show how workouts impact your body",
+      "url": "https://techcrunch.com/2026/10/20/oura-is-launching-two-new-ways-to-track-and-understand-activity/",
+      "summary": "While Oura has largely dominated the smart ring market for years, rivals like RingConn and Ultrahuman are emerging to dethrone it, putting pressure on the company to keep innovating. By launching more advanced workout metrics, Oura is looking to differentiate itself from competitors as the smart ring market gets more crowded.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T12:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T11:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. […]",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T11:00:00",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+      "url": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html",
+      "summary": "Apple is adding a U.S. titanium supplier for its new iPhone Duo and expanding domestic production of camera components for the iPhone 18 Pro.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T12:29:26",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
+      "url": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
+      "summary": "Here are the key things investors need to know to start the trading day.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-20T11:34:03",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday, which says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-20T14:18:37",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    },
+    {
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "summary": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-20T13:06:44",
+      "first_seen": "2026-10-20T22:38:38+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-10-17": [
       "noon"
