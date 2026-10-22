@@ -1,6 +1,737 @@
 {
   "last_sent": "2026-10-22T17:09:43+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Từ 15h chiều nay giá xăng giảm mạnh",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tNjZjOE1Udms2elcyOUxLcHVnQllmZDdwSC1TeHV4RXFKRnNiNjAxWHdMa09sanBaM1Rmb2dUcDZ4NGRnSjczZTZiZ0lFV1VsbW5lWndPQmZNdEZXczhBay1RbVh0SWZMOXZ4UVlELXN1NldON3VHdzZmYw?oc=5",
+      "summary": "Từ 15h chiều nay giá xăng giảm mạnh nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-22T08:25:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Ngân hàng có vợ chồng tỷ phú Phạm Nhật Vượng nắm gần 10% vốn tăng mạnh thu nhập nhân viên",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRmRjVXFrdVJvOGVMY212SzNoUTZwMk50T29uZmJ0dGhKLURRRGpLQkIzb2YyUFMzRkxkNTJGY2tnc2M2bm1aYkp1NWlJYW9kSzU1NTRoTjhrR3RldFpod19NTnhqdE9yQkJXenVSVm5ZSnpuaFpUWUcxNUJKbWJ4djBHS0FqWjVFS3pjMThtTXQzU205aUg5czF6ZGNzOG0yVk4xMDFxR1ExX2xGSEpuSkZxdllNUkxFdVd5Wnhaa3dLUQ?oc=5",
+      "summary": "Ngân hàng có vợ chồng tỷ phú Phạm Nhật Vượng nắm gần 10% vốn tăng mạnh thu nhập nhân viên nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-22T07:06:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Từ trại giam, bà Trương Mỹ Lan nhận tin khối bất động sản hơn 480 tỷ đồng có liên quan đang chờ đấu giá",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeWlhNS1uREEyNVFPcE50X3I0Q2FJOS0yektReVV4anktSHVrLUplbG9xOXd2TlR3MTVlYjBPWEpxS3I5NTlHUkpEb3pLWGQ3bGVTUkc4a2xsMkZnQnQ1LXhRbGVBUzBzZkF5MFd4OURFNkhMZXZxY1M1TUZYb0JZU0lCbVVFeGZ2VW9NZ2xHUjZvVUY2VE5GY2xGWDd6TFB1VWtJYWl3a3BuUTIyMjJ4dkdYSEhFQXJFV1Y5V19ncVQzYlRIa1dQUHhXVE5ndWxVZVB3UA?oc=5",
+      "summary": "Từ trại giam, bà Trương Mỹ Lan nhận tin khối bất động sản hơn 480 tỷ đồng có liên quan đang chờ đấu giá nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-22T09:46:29",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Không để tái thiết Vĩnh Hưng đi vào ‘vết xe đổ’ hạ tầng quá tải: PGS.TS Trần Đình Thiên chỉ cách huy động nguồn lực",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaUd0N2dvM1BlX2tLM0hldm5GTWN2MzYybTBSU1hIM3h0N3IxUDVSdTVSQXJlME91TmNUWDFqVmVkUE44VGtxZEJic2szSWZUS1ZZOTd0Z0puS3hwWG1wQlZYRHNtamJZS3ZRWDcxQkR2SlNvNWlCcGVYYnRsY3BXS2plZV9uTnYybUUta3h3QURBZmxubm1aMGdJcFlxME1MMkRycFphNDk3dUlfY2lWc21aaGM5ak5hZVk5UE9SRUhQcUh0djUwQWVCXy1FS2c1dlpZZjNLQXdkUmNsREdRRzd3?oc=5",
+      "summary": "Không để tái thiết Vĩnh Hưng đi vào ‘vết xe đổ’ hạ tầng quá tải: PGS.TS Trần Đình Thiên chỉ cách huy động nguồn lực nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-21T23:36:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Masan Consumer (MCH) tăng trưởng doanh thu cao nhất 3 năm, lợi nhuận 9 tháng vượt 5.200 tỷ đồng",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSDlLYmlqSUJ1cEtjZEZrU0k3dUlXSXRiY0xROXBGLVo4Y3NWSlJZeXVyYkJJeUZEbHJEay1wUFA5aDBOWW5YSS01RVBJdzRPLUNSdDBub1REY3A0V1hwa21DQUVnaWwtUUlWbnF2U3ByTGFlSGdCMjRicG1YWk1nWnFFdE5UUk93Wmc4aTZ3N0swZUxSZDRQU3o5NkpwZHItWEhDemUzZTZmYjBSVkZrRGxIZzJKcXhZTnBkWXBjMmFPOFM5R1Mw?oc=5",
+      "summary": "Masan Consumer (MCH) tăng trưởng doanh thu cao nhất 3 năm, lợi nhuận 9 tháng vượt 5.200 tỷ đồng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-22T02:33:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Xe điện trở thành biến số, Petrolimex (PLX) vẫn được dự báo lãi hơn 2.800 tỷ đồng",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ1FhT0J1eGNncW9NSWc4YmNDdmJLRzBuUldQOFdPRElRZnJoRUVUeTh2aUtEZHdWczNCN3lOMXNPdHRmdTZDSXlqYWdEZFhIX1VwZVpnZjFsZ1p0SExCNDY4N0dnMHA1U1o0YmxaSHVVaXVFanlEOFBuZU4xMDU0d19HenpBMnZadjdGRGhaQjluaVZlU3pJVVRGMjZtS0F2dThaVUh2cnlGQ0trU3FPV29obWc?oc=5",
+      "summary": "Xe điện trở thành biến số, Petrolimex (PLX) vẫn được dự báo lãi hơn 2.800 tỷ đồng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-22T00:36:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+      "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
+      "summary": "Prices for the social media giant's 5-year credit default swaps are reaching all-time highs as investors signal growing credit concerns.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:45:57",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+      "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
+      "summary": "Governments or companies looking for an alternative to SpaceX's Starlink are faced with few options, as Amazon, Eutelsat and others are far behind.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:08:47",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+      "summary": "Eight out of 10 Americans now rate the economy as fair or poor, one of several findings in a CNBC poll that show why Republican candidates face uphill battles.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T13:18:36",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
+      "summary": "Initial filings for unemployment insurance slipped to a seasonally adjusted 194,000.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T14:28:10",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+      "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html",
+      "summary": "Iran is going to grow more desperate as oil money dries up, which makes the country even more dangerous.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:16:05",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "summary": "\"We're going to have an amazing 2027,\" he said.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:48:37",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Third-party evaluators find vulnerabilities in OpenAI monitoring system during test pilot",
+      "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
+      "summary": "OpenAI CEO Sam Altman pledged to grant independent evaluators \"employee-like access\" to the company to help address mounting safety concerns.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:35:50",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Cruise lines chase luxury travelers with suites for up to $25,000 a night",
+      "url": "https://www.cnbc.com/2026/10/22/luxury-cruise-suites-regent-seven-seas.html",
+      "summary": "CNBC got a tour of the Regent Suite, a top-of-the-line offering on Regent's Seven Seas Splendor that goes for $15,000 a night.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:16:48",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+      "url": "https://www.cnbc.com/2026/10/22/american-express-airbnb-travel-platform.html",
+      "summary": "More than 1 million Airbnb listings are now available to book through Amex Travel, allowing customers to earn membership points on prepaid bookings.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T12:00:02",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Virginia state Sen. L. Louise Lucas, a Trump critic, charged in marijuana racketeering case",
+      "url": "https://www.cnbc.com/2026/10/22/lucas-trump-virginia-marijuana-racketeering.html",
+      "summary": "The investigation into the Democrat predates the current Trump administration. But the timing of the indictment before the midterms has raised eyebrows.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:20:12",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "FIFA launches tender of 2030 men's World Cup U.S. media rights, plans to choose winner by end of year",
+      "url": "https://www.cnbc.com/2026/10/22/fifa-launches-tender-of-us-world-cup-media-rights-for-2030.html",
+      "summary": "FIFA is formally auctioning its U.S. media rights and wants bids by Nov. 19.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:34:44",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Blackstone's Jon Gray says CoreWeave can 'find a way through' financing pressure",
+      "url": "https://www.cnbc.com/2026/10/22/blackstone-jon-gray-coreweave-financing.html",
+      "summary": "Blackstone COO Jon Gray says CoreWeave's underlying business is strong despite concerns over its mounting debt.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T14:11:14",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "India’s finance minister says market liquidity makes it easier for investors to exit",
+      "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+      "summary": "Sitharaman identified fuel, fertilizer and access to capital as risks for India’s economy in 2027.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-19T08:23:33",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Economists: Hot PPI shows Fed's work is not done",
+      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+      "summary": "'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T15:37:59",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+      "summary": "The exchange comes as U.S. debt exceeds $40 trillion and 10-year Treasury yields remain above 5%, intensifying scrutiny of the fiscal outlook.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T13:42:32",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+      "summary": "September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T16:15:44",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+      "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-16T22:33:05",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "China indicates rare earths will keep flowing to EU, regardless of U.S. trade deal expiration",
+      "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
+      "summary": "European trade commissioner Maroš Sefčovič met with Chinese Commerce Minister Wang Wentao in Beijing last week.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T09:02:31",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "UK economy grew 0.1% in August, beating expectations",
+      "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
+      "summary": "The U.K. is grappling with a cost-of-living crisis sparked by sticky inflation and surging energy costs.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T08:44:17",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
+      "summary": "With $5 billion already deployed off its balance sheet, JPMorgan Chase is racing ahead on direct investments in defense tech, hardware and supply chains.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-19T12:34:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "People in China are spending nearly as much of their income as Americans on healthcare",
+      "url": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html",
+      "summary": "Increasing government spending on healthcare could help boost consumption in China, the International Monetary Fund said.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T23:00:01",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
+      "url": "https://www.cnbc.com/2026/10/15/harvards-endowment-jumps-27percent-with-spacex-as-top-holding.html",
+      "summary": "The latest 12-month period marked the strongest return for the university's fund since 2021.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-15T19:53:49",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "summary": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic’s Mythos, offering a rare look at costs involved in defending against AI.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-14T20:06:28",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "summary": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-14T20:22:09",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "summary": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-14T20:20:46",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Nhà sản xuất các show 'Say Hi' được lên sàn HoSE",
+      "url": "https://vnexpress.net/nha-san-xuat-cac-show-say-hi-duoc-len-san-hose-5135777.html",
+      "summary": "Sở Giao dịch Chứng khoán TP HCM (HoSE) mới chấp thuận niêm yết hơn 111,4 triệu cổ phiếu DVV của DatVietVAC - nhà sản xuất các show \"Say Hi\".",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:25:07",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Việt Nam đề nghị doanh nghiệp châu Âu đầu tư hạ tầng, năng lượng sạch",
+      "url": "https://vnexpress.net/viet-nam-de-nghi-doanh-nghiep-chau-au-dau-tu-ha-tang-nang-luong-sach-5135759.html",
+      "summary": "Tổng Bí thư, Chủ tịch nước Tô Lâm đề nghị doanh nghiệp châu Âu cùng thiết kế, đầu tư và chuyển giao công nghệ trong các dự án hạ tầng, logistics, năng lượng sạch tại Việt Nam.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T15:16:23",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Doanh nghiệp tư nhân vẫn khó tiếp cận vốn, đất đai và chuỗi cung ứng",
+      "url": "https://vnexpress.net/doanh-nghiep-tu-nhan-van-kho-tiep-can-von-dat-dai-va-chuoi-cung-ung-5135745.html",
+      "summary": "Sức khỏe khu vực tư nhân chưa cải thiện rõ, cần thêm hỗ trợ về vốn, chuỗi cung ứng, năng lực chuyển đổi xanh - số, theo chuyên gia.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T14:52:35",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Thủ tướng: Giá đất cao gây hệ lụy rất lớn với phát triển kinh tế",
+      "url": "https://vnexpress.net/thu-tuong-gia-dat-cao-gay-he-luy-rat-lon-voi-phat-trien-kinh-te-5135718.html",
+      "summary": "Theo Thủ tướng Lê Minh Hưng, Nhà nước phải quản lý, điều tiết giá đất, vì giá bất động sản cao gây hệ lụy rất lớn cho phát triển kinh tế.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-22T11:31:48",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Tàu hàng 182.000 tấn đâm va cầu cảng Dung Quất bị bắt giữ",
+      "url": "https://cafef.vn/tau-hang-182000-tan-dam-va-cau-cang-dung-quat-bi-bat-giu-188261022215017704.chn",
+      "summary": "Tàu Aquacharm (quốc tịch Marshall Islands) trọng tải hơn 182.000 tấn chở hơn 170.000 tấn quặng sắt từ Úc về Quảng Ngãi đã va vào cầu cảng ở Dung Quất khiến một phần cầu cảng bị hư hỏng. Mũi con tàu này cũng bị rách khoảng 5 m.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T14:50:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Chứng khoán VIX còn 1.000 tỷ đồng vốn huy động từ chào bán cổ phiếu chưa giải ngân",
+      "url": "https://cafef.vn/chung-khoan-vix-con-1000-ty-dong-von-huy-dong-tu-chao-ban-co-phieu-chua-giai-ngan-188261022200758994.chn",
+      "summary": "Chứng khoán VIX đã chi hơn 10.026 tỷ đồng trong tổng số hơn 11.026 tỷ đồng huy động từ đợt chào bán gần 919 triệu cổ phiếu, còn lại 1.000 tỷ đồng chưa giải ngân.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T13:07:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Chứng khoán tiếp tục tăng 22 điểm, lên mức cao nhất hơn nửa năm",
+      "url": "https://cafef.vn/chung-khoan-tiep-tuc-tang-22-diem-len-muc-cao-nhat-hon-nua-nam-18826102220063376.chn",
+      "summary": "Chỉ số VN-Index hôm nay 22/10 tiếp tục tăng mạnh 22 điểm lên mức 1.760, đây là mức cao nhất kể từ tháng 4.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T13:06:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Sau khi ông Lê Việt Cường bị bắt, công ty báo lãi quý 3 gấp đôi cùng kỳ",
+      "url": "https://cafef.vn/sau-khi-ong-le-viet-cuong-bi-bat-cong-ty-bao-lai-quy-3-gap-doi-cung-ky-188261022175144545.chn",
+      "summary": "Lũy kế 9 tháng đầu năm 2026, doanh nghiệp ghi nhận lợi nhuận trước thuế gần 750 tỷ đồng và lợi nhuận sau thuế 600 tỷ đồng, cùng tăng khoảng 51% so với cùng kỳ năm trước.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T12:28:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "CAEX hoàn tất thẩm định An toàn hệ thống thông tin cấp độ 4",
+      "url": "https://cafef.vn/caex-hoan-tat-tham-dinh-an-toan-he-thong-thong-tin-cap-do-4-188261022192155989.chn",
+      "summary": "Công ty Cổ phần Sàn giao dịch Tài sản mã hóa Việt Nam Thịnh Vượng (CAEX), thành viên trong hệ sinh thái tài chính Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank), công bố đã được Cục An ninh mạng (Bộ Công an) thẩm định và đồng ý với đề xuất cấp tiêu chuẩn An toàn hệ thống thông tin cấp độ 4.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T12:23:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "VN-Index bứt phá gần 70 điểm, vì sao tài khoản vẫn âm?",
+      "url": "https://cafef.vn/vn-index-but-pha-gan-70-diem-vi-sao-tai-khoan-van-am-188261022183332454.chn",
+      "summary": "VN-Index tăng gần 70 điểm sau hai phiên hồi phục, nhưng không phải nhà đầu tư nào cũng hưởng lợi. Đà tăng tập trung ở nhóm cổ phiếu vốn hóa lớn, trong khi nhiều mã vẫn giảm giá, khiến tài khoản không kịp hồi phục theo chỉ số.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T11:33:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "PNJ cạn tiền: Thời gian thử lửa cho 'ông vua' ngành trang sức, kim hoàn",
+      "url": "https://cafef.vn/pnj-can-tien-thoi-gian-thu-lua-cho-ong-vua-nganh-trang-suc-kim-hoan-188261022162414489.chn",
+      "summary": "Từ một doanh nghiệp trang sức, kim hoàn có nguồn tiền dồi dào, PNJ rơi vào cảnh cạn kiệt tiền mặt sau cú sốc thu đổi kim cương chưa từng có.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T10:23:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bí mật bị chôn vùi hơn 2.200 năm trong lăng mộ Tần Thủy Hoàng dần được giải mã nhờ dấu vân tay",
+      "url": "https://cafef.vn/bi-mat-bi-chon-vui-hon-2200-nam-trong-lang-mo-tan-thuy-hoang-dan-duoc-giai-ma-nho-dau-van-tay-188261022223922594.chn",
+      "summary": "Những dấu vân tay còn lưu lại trên các bức tượng trong lăng mộ Tần Thủy Hoàng đang giúp các nhà khảo cổ giải mã một bí ẩn lâu nay: Ai là những người thực sự tạo nên đội quân đất nung nổi tiếng của Trung Quốc?",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T15:47:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Armenia kêu gọi EAEU dỡ bỏ các hạn chế thương mại với Nga",
+      "url": "https://cafef.vn/armenia-keu-goi-eaeu-do-bo-cac-han-che-thuong-mai-voi-nga-188261022221034199.chn",
+      "summary": "Armenia mới đây đã kêu gọi Liên minh Kinh tế Á Âu (EAEU) xem xét các biện pháp hạn chế thương mại ngày càng tăng của Nga đối với hàng hóa Armenia.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T15:10:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "‘Chuyến bay địa ngục’ khi nhiều hành khách nôn ói giữa không trung, nhân viên y tế mặc đồ bảo hộ lên máy bay",
+      "url": "https://cafef.vn/chuyen-bay-dia-nguc-khi-nhieu-hanh-khach-non-oi-giua-khong-trung-nhan-vien-y-te-mac-do-bao-ho-len-may-bay-188261022184007528.chn",
+      "summary": "Chuyến bay từ đảo Rhodes (Hy Lạp) đến Düsseldorf (Đức) phải hạ cánh ưu tiên sau khi nhiều hành khách bất ngờ xuất hiện triệu chứng đường tiêu hóa. Khi máy bay đáp xuống, hàng loạt xe cứu thương và nhân viên y tế đã chờ sẵn trên đường băng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T14:34:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bảng xếp hạng các quốc gia có trình độ học vấn cao nhất thế giới: Mỹ đứng thứ 8, Trung Quốc xếp thứ 44, cái tên dẫn đầu gây bất ngờ",
+      "url": "https://cafef.vn/bang-xep-hang-cac-quoc-gia-co-trinh-do-hoc-van-cao-nhat-the-gioi-my-dung-thu-8-trung-quoc-xep-thu-44-cai-ten-dan-dau-gay-bat-ngo-188261022181025646.chn",
+      "summary": "Bảng xếp hạng 47 quốc gia hé lộ nhiều bất ngờ về trình độ học vấn, khi những nền kinh tế hàng đầu thế giới không phải lúc nào cũng đứng ở vị trí cao nhất.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T14:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "DeepSeek hoàn tất vòng gọi vốn gần 15 tỷ USD, lớn nhất từ trước tới nay tại Trung Quốc",
+      "url": "https://cafef.vn/deepseek-hoan-tat-vong-goi-von-gan-15-ty-usd-lon-nhat-tu-truoc-toi-nay-tai-trung-quoc-188261022180904596.chn",
+      "summary": "Startup AI DeepSeek của Trung Quốc đang hoàn tất vòng gọi vốn gần 15 tỷ USD, với sự tham gia của Tencent, CATL cùng hơn 15 nhà đầu tư. Thương vụ đưa định giá doanh nghiệp lên khoảng 75 tỷ USD trước đầu tư, đồng thời mở đường cho kế hoạch IPO tiềm năng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T13:35:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "'Hòn đảo sầu riêng' của Trung Quốc đang phát triển thần tốc chỉ sau vài năm",
+      "url": "https://cafef.vn/hon-dao-sau-rieng-cua-trung-quoc-dang-phat-trien-than-toc-chi-sau-vai-nam-188261022180558633.chn",
+      "summary": "Chỉ sau vài năm, diện tích trồng sầu riêng trên đảo Hải Nam, Trung Quốc đã đạt con số 4.000ha. Các công ty chế biến sâu sầu riêng cũng đã cho ra thành phẩm.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T13:08:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Ô tô tông nát cửa kính Big C, lao thẳng vào loạt khách hàng khiến nhiều người bị thương, trong đó có bé gái 6 tuổi",
+      "url": "https://cafef.vn/o-to-tong-nat-cua-kinh-big-c-lao-thang-vao-loat-khach-hang-khien-nhieu-nguoi-bi-thuong-trong-do-co-be-gai-6-tuoi-188261022180253558.chn",
+      "summary": "Một chiếc Toyota Vios màu trắng bất ngờ lao xuyên qua cửa kính siêu thị Big C trên đường On Nut, Bangkok (Thái Lan), khiến 6 người bị thương, trong đó có một bé gái 6 tuổi.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T12:28:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Phòng trọ 6,5m2 thuê giá 9,3 triệu/tháng của một nữ sinh viên",
+      "url": "https://cafef.vn/phong-tro-65m2-thue-gia-93-trieu-thang-cua-mot-nu-sinh-vien-188261022180104629.chn",
+      "summary": "Khoảng trống duy nhất còn lại trong phòng chỉ đủ cho một người đứng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T12:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Làng du lịch tốt nhất thế giới cấm xe chở khách vào thôn: Du khách di chuyển thế nào?",
+      "url": "https://cafef.vn/lang-du-lich-tot-nhat-the-gioi-cam-xe-cho-khach-vao-thon-du-khach-di-chuyen-the-nao-188261022175657869.chn",
+      "summary": "Nơi này được vinh danh là một trong những Làng du lịch tốt nhất thế giới năm 2025.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T11:29:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "3 giờ sau cánh cửa khóa kín: Ông Putin \"tò mò\" về điều Mỹ mang tới - Nga bất ngờ chốt bước đi mới về Ukraine",
+      "url": "https://cafef.vn/3-gio-sau-canh-cua-khoa-kin-ong-putin-to-mo-ve-dieu-my-mang-toi-nga-bat-ngo-chot-buoc-di-moi-ve-ukraine-188261022175425553.chn",
+      "summary": "Cuộc gặp kín kéo dài 3 giờ giữa Tổng thống Nga Vladimir Putin và đặc phái viên Mỹ Steve Witkoff tại St. Petersburg hé lộ những trao đổi đáng chú ý về Ukraine.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T10:54:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "ĐBQH Nguyễn Việt Hà: Không để người mua nhà mất đi lớp bảo vệ từ bảo lãnh ngân hàng",
+      "url": "https://cafef.vn/dbqh-nguyen-viet-ha-khong-de-nguoi-mua-nha-mat-di-lop-bao-ve-tu-bao-lanh-ngan-hang-188261022193934667.chn",
+      "summary": "Người mua nhà hình thành trong tương lai thường phải thanh toán tiền trước khi nhận nhà, nhưng khó đánh giá đầy đủ năng lực tài chính và khả năng hoàn thành dự án của chủ đầu tư. Góp ý dự thảo Luật Kinh doanh bất động sản (sửa đổi) ngày 22/10, đại biểu Nguyễn Việt Hà (Đoàn Tuyên Quang) đề nghị cân nhắc quy định cho phép từ chối bảo lãnh ngân hàng, đồng thời hoàn thiện cơ chế thanh toán, xử lý tiền đặt cọc và công khai thông tin để bảo vệ quyền lợi người mua.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T12:39:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Hà Nội thúc tiến độ 3 dự án giao thông trọng điểm",
+      "url": "https://cafef.vn/ha-noi-thuc-tien-do-3-du-an-giao-thong-trong-diem-188261022113546531.chn",
+      "summary": "Lãnh đạo Thành ủy Hà Nội yêu cầu đẩy nhanh giải phóng mặt bằng, tháo gỡ vướng mắc, huy động nguồn lực thi công, phấn đấu hoàn thành 3 dự án giao thông trọng điểm đúng kế hoạch.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T11:35:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Phó Thủ tướng Nguyễn Văn Thắng chủ trì phiên họp thứ tư của Hội đồng điều hành Trung tâm Tài chính quốc tế",
+      "url": "https://cafef.vn/pho-thu-tuong-nguyen-van-thang-chu-tri-phien-hop-thu-tu-cua-hoi-dong-dieu-hanh-trung-tam-tai-chinh-quoc-te-188261022165754241.chn",
+      "summary": "Hôm nay (22/10), tại trụ sở Chính phủ, Hội đồng điều hành Trung tâm Tài chính Quốc tế (TTTCQT) đã họp phiên thứ tư, dưới sự chủ trì của Phó Thủ tướng Nguyễn Văn Thắng, Chủ tịch Hội đồng điều hành.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T11:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Hà Nội: Làm rõ trách nhiệm, kiên quyết thu hồi dự án chậm triển khai",
+      "url": "https://cafef.vn/ha-noi-lam-ro-trach-nhiem-kien-quyet-thu-hoi-du-an-cham-trien-khai-188261022170048296.chn",
+      "summary": "Phó Bí thư Thường trực Thành ủy Hà Nội Nguyễn Trọng Đông yêu cầu phân công cán bộ theo sát từng dự án chậm triển khai, xác định rõ trách nhiệm và thời hạn xử lý; kiên quyết chấm dứt, thu hồi dự án đối với nhà đầu tư không phối hợp, không thực hiện đúng cam kết.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-22T10:30:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Tesla is prepping a Cybercab onslaught",
+      "url": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
+      "summary": "The company is looking to roll the gold two-seater robotaxis out to other U.S. cities this year, even as it goes mum on the number of paid rides.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T15:44:39",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
+      "url": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
+      "summary": "Spotify told investors its roll out of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T15:24:32",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Investors break down how founders can raise a Series A today",
+      "url": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
+      "summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T15:15:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T15:03:58",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+      "summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T14:59:28",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Developer platform Railway urges ‘all users’ to revoke secret keys after cyberattack",
+      "url": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/",
+      "summary": "The vibe-coding platform said all of its customers should revoke and rotate their private keys, after hackers were able to decrypt some customer secrets.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T14:03:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "summary": "Claude Duet is available through waitlist for Pro and Max plan users",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T13:53:26",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Nirva raises $33M for a pendant that only listens to you",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T13:26:52",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "DeepSeek reportedly raises $15B days after US restrictions",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T13:11:13",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
+      "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
+      "summary": "Nvidia's Jensen Huang told CNBC that a surplus of memory supply is unlikely by 2029, as memory stocks have taken a beating in the past week.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T13:12:38",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Why governments pulled websites offline over the decades-old PHP programming language",
+      "url": "https://www.cnbc.com/2026/10/22/php2shell-vulnerability-what-is-it-and-is-your-data-at-risk.html",
+      "summary": "Servers that use the popular PHP programming language were exposed to a critical security bug. Millions of websites have their data at risk.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T12:35:08",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Sellers are back in tech, while bear market grips Chinese stocks",
+      "url": "https://www.cnbc.com/2026/10/22/sellers-are-back-in-tech-while-bear-market-grips-chinese-stocks.html",
+      "summary": "Here are the key things investors need to know to start the trading day.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-22T11:50:48",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "summary": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-22T14:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "1Password lets AI agents use your passwords without seeing them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "summary": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should make it […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-22T13:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "AI agents are ready to shop. Some retailers are wary.",
+      "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+      "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-22T12:30:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Claude did not invent scorpion antivenom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-22T12:21:07",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    },
+    {
+      "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "summary": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-22T11:00:00",
+      "first_seen": "2026-10-22T22:52:18+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-10-19": [
       "noon"
