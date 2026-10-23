@@ -590,12 +590,419 @@
       "category_label": "🤖 AI",
       "published": "2026-10-23T12:00:00",
       "first_seen": "2026-10-23T22:44:03+07:00"
+    },
+    {
+      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "summary": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T21:26:59",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+      "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+      "summary": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T22:27:06",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T22:49:42",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+      "url": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+      "summary": "Apple's global launch of the foldable iPhone Duo brought scalpers to the Beijing flagship store looking to pay big for the already pricey devices.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T20:06:37",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+      "url": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+      "summary": "Meta shares just had their worst week in four years. Here's why Mike Khouw is buying now",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T19:25:18",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "summary": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T19:19:08",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+      "summary": "With SpaceX imposing speed limits on Starlink in Ukraine and hampering military operations, Kyiv is looking for alternatives.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T20:52:23",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+      "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T19:50:26",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Investors are starting to find opportunities in the battered bond market",
+      "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+      "summary": "Some market participants see reason for hope in a market bludgeoned this year.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T20:09:36",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Doctors call Moderna, Merck cancer vaccine data a major advancement — despite Wall Street reaction",
+      "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+      "summary": "Six melanoma specialists said the Moderna and Merck vaccine results represent a clinically meaningful result for melanoma patients who underwent surgery.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T17:15:08",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Các dự án trọng điểm vùng Đông Nam Bộ cần vay 757.000 tỷ đồng",
+      "url": "https://vnexpress.net/cac-du-an-trong-diem-vung-dong-nam-bo-can-vay-757-000-ty-dong-5136194.html",
+      "summary": "15 dự án trọng điểm ở khu vực Đông Nam Bộ có nhu cầu vốn vay 757.000 tỷ đồng và đã được các ngân hàng giải ngân hơn 39.000 tỷ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T17:10:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Hầm chôn chất thải hạt nhân đầu tiên trên thế giới được cấp phép hoạt động",
+      "url": "https://vnexpress.net/ham-chon-chat-thai-hat-nhan-dau-tien-tren-the-gioi-duoc-cap-phep-hoat-dong-5136186.html",
+      "summary": "Hầm chôn chất thải hạt nhân trong 100.000 năm được Phần Lan cấp phép hoạt động, sau 22 năm xây dựng và thử nghiệm.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T17:03:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Anh chật vật với 83.000 tủ lạnh hỏng chất đống",
+      "url": "https://vnexpress.net/anh-chat-vat-voi-83-000-tu-lanh-hong-chat-dong-5135932.html",
+      "summary": "Khoảng 83.000 tủ lạnh phế thải đang chất đống khắp nước Anh do hoạt động tái chế ngưng trệ, còn cơ sở lưu trữ quá tải.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-23T17:00:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Ông Lê Hoàng Khánh Nhựt bị khởi tố, doanh nghiệp công bố tài liệu quan trọng",
+      "url": "https://cafef.vn/ong-le-hoang-khanh-nhut-bi-khoi-to-doanh-nghiep-cong-bo-tai-lieu-quan-trong-188261023145645061.chn",
+      "summary": "Vào ngày 16/10, DRC công bố thông tin bất thường về việc ông Lê Hoàng Khánh Nhựt, Thành viên HĐQT kiêm Tổng Giám đốc công ty, bị khởi tố về tội \"Tham ô tài sản\".",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:05:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Một tiến sĩ liên tục bị bán giải chấp cổ phiếu",
+      "url": "https://cafef.vn/mot-tien-si-lien-tuc-bi-ban-giai-chap-co-phieu-188261023223123903.chn",
+      "summary": "Đây là lần thứ hai vị này bị bán giải chấp trong chưa đầy một tháng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:04:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Khối ngoại bán ròng gần 1.000 tỷ đồng tuần 19-23/10, ngược chiều tung tiền \"gom\" mạnh một cổ phiếu mạnh",
+      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-1000-ty-dong-tuan-19-23-10-nguoc-chieu-tung-tien-gom-manh-mot-co-phieu-manh-188261023232333074.chn",
+      "summary": "Khối ngoại ghi nhận tín hiệu tích cực khi bất ngờ trở lại mua ròng vào 2 phiên giữa tuần qua. Tuy nhiên, đà mua không duy trì lâu, nhà đầu tư nước ngoài đã quay đầu bán ròng vào ngày cuối tuần.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:02:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Tiến sĩ Nguyễn Thị Phương Thảo vừa có thêm 57 triệu USD, nhưng không còn là người giàu thứ 2 Việt Nam",
+      "url": "https://cafef.vn/tien-si-nguyen-thi-phuong-thao-vua-co-them-57-trieu-usd-nhung-khong-con-la-nguoi-giau-thu-2-viet-nam-188261023171006045.chn",
+      "summary": "Tài sản trên sàn chứng khoán của tỷ phú Nguyễn Thị Phương Thảo chủ yếu là giá trị cổ phần nắm giữ tại Vietjet và HDBank.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:01:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Hệ thống phòng không độc đáo của Phần Lan đánh chặn mọi tên lửa hành trình Nga?",
+      "url": "https://cafef.vn/he-thong-phong-khong-doc-dao-cua-phan-lan-danh-chan-moi-ten-lua-hanh-trinh-nga-188261023233331796.chn",
+      "summary": "Ukraine đã nhận được phiên bản hệ thống phòng không Crotale của Phần Lan để đánh chặn máy bay không người lái và tên lửa Nga.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T22:01:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Một cường quốc EU bị nhà đầu tư quay lưng, nguy cơ khủng hoảng lan sang các nước láng giềng?",
+      "url": "https://cafef.vn/mot-cuong-quoc-eu-bi-nha-dau-tu-quay-lung-nguy-co-khung-hoang-lan-sang-cac-nuoc-lang-gieng-188261023231629837.chn",
+      "summary": "Lợi suất trái phiếu Pháp vượt 5%, chênh lệch chi phí vay với Đức lên mức cao nhất kể từ khủng hoảng nợ công châu Âu.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:00:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "72h căng thẳng: Nga - Trung Quốc điều tàu và máy bay, một nước bị \"kẹp chặt\", lần này không phải Ukraine",
+      "url": "https://cafef.vn/72h-cang-thang-nga-trung-quoc-dieu-tau-va-may-bay-mot-nuoc-bi-kep-chat-lan-nay-khong-phai-ukraine-188261023214540507.chn",
+      "summary": "“Trong vòng 72 giờ, Trung Quốc và Nga đã có những hành động nối tiếp nhau” - ABN24 cho hay.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T15:51:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Ngân hàng đầu tiên báo lãi quý 3 tăng trưởng âm",
+      "url": "https://cafef.vn/ngan-hang-dau-tien-bao-lai-quy-3-tang-truong-am-188261023203732713.chn",
+      "summary": "Chi phí trả lãi tăng nhanh hơn thu nhập lãi trong khi trích lập dự phòng gấp gần 4 lần cùng kỳ đã khiến lợi nhuận trước thuế quý 3/2026 của ngân hàng này giảm mạnh. Sau 9 tháng, ngân hàng mới thực hiện được khoảng 21% kế hoạch lợi nhuận cả năm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:02:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Công an sẽ điều tra khi phát hiện tài khoản ngân hàng có giao dịch nhận tiền, chuyển tiền như sau",
+      "url": "https://cafef.vn/cong-an-se-dieu-tra-khi-phat-hien-tai-khoan-ngan-hang-co-giao-dich-nhan-tien-chuyen-tien-nhu-sau-188261022153139678.chn",
+      "summary": "Cơ quan công an khuyến cáo người dân tuyệt đối không mở tài khoản ngân hàng theo yêu cầu của người lạ để nhận tiền, chuyển tiền hoặc thực hiện các giao dịch không rõ mục đích.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T16:59:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Từ nay đến 17h00 ngày 25/10, hơn 8 triệu người dân Hà Nội cần hoàn thành việc đặc biệt quan trọng sau",
+      "url": "https://cafef.vn/tu-nay-den-17h00-ngay-25-10-hon-8-trieu-nguoi-dan-ha-noi-can-hoan-thanh-viec-dac-biet-quan-trong-sau-188261024003752625.chn",
+      "summary": "Triển khai Kế hoạch số 409/KH-UBND, ngày 21/10/2026 của UBND Thành phố, trong 5 ngày, từ 21/10 đến hết 17h00 ngày 25/10/2026, Hà Nội triển khai thực hiện công tác lấy ý kiến Nhân dân 126 xã, phường đối với Đề án điều chỉnh địa giới đơn vị hành chính giữa thành phố Hà Nội và tỉnh Phú Thọ.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:37:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Hơn 2 tuần nữa, Việt Nam sẽ có thêm một TTTM AEON đi vào hoạt động: Rộng 130.000 m2, tạo việc làm cho khoảng 3.700 người",
+      "url": "https://cafef.vn/hon-2-tuan-nua-viet-nam-se-co-them-mot-tttm-aeon-di-vao-hoat-dong-rong-130000-m2-tao-viec-lam-cho-khoang-3700-nguoi-188261023233257412.chn",
+      "summary": "Theo kế hoạch, trung tâm thương mại (TTTM) Aeon Mall này sẽ chính thức mở cửa, đón những khách hàng đầu tiên vào ngày 11/11/2026.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:32:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Sang năm 2027, người lao động có thu nhập 50 triệu đồng phải đóng thuế TNCN bao nhiêu?",
+      "url": "https://cafef.vn/sang-nam-2027-nguoi-lao-dong-co-thu-nhap-50-trieu-dong-phai-dong-thue-tncn-bao-nhieu-188261024002505814.chn",
+      "summary": "Luật Thuế thu nhập cá nhân (TNCN) 2025, số 109/2025/QH15 đã quy định chi tiết cách tính thuế TNCN từ tiền lương, tiền công của cá nhân cư trú áp dụng từ năm 2026.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T17:24:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Hà Nội: Khẩn trương lấy ý kiến nhân dân về điều chỉnh địa giới hành chính",
+      "url": "https://cafef.vn/ha-noi-khan-truong-lay-y-kien-nhan-dan-ve-dieu-chinh-dia-gioi-hanh-chinh-188261023220233209.chn",
+      "summary": "Ngay sau khi thành phố Hà Nội ban hành kế hoạch lấy ý kiến nhân dân về Đề án điều chỉnh địa giới hành chính giữa Hà Nội và tỉnh Phú Thọ, nhiều xã, phường đã chủ động tổ chức triển khai, phân công lực lượng xuống cơ sở. Yêu cầu xuyên suốt là bảo đảm tiến độ, đồng thời phát huy quyền tham gia ý kiến của người dân.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-23T15:40:00",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Startups don’t need to go viral to win customers",
+      "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
+      "summary": "At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T23:07:45",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T23:05:49",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T21:59:19",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "VCs, Superhuman Mail founder share red flags about product-market fit",
+      "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
+      "summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T20:57:13",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now",
+      "url": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+      "summary": "TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions, live pitching, networking, and smaller roundtables built for deeper discussion.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T20:03:14",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+      "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
+      "summary": "A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T19:25:13",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T19:06:23",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T16:26:29",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
+      "url": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
+      "summary": "Top-funded fusion startup Commonwealth Fusion Systems received an $85 million award from the federal government to advance conductors for fusion power plants.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T16:20:28",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "What some of Anthropic’s backers are worth before its IPO",
+      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+      "summary": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T16:02:43",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-23T22:49:04",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-23T21:11:07",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-23T19:32:39",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-23T17:00:18",
+      "first_seen": "2026-10-24T06:07:41+07:00"
+    },
+    {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-23T16:52:55",
+      "first_seen": "2026-10-24T06:07:41+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-20": [
-      "noon"
-    ],
     "2026-10-21": [
       "noon"
     ],
