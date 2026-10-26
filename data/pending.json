@@ -600,12 +600,279 @@
       "category_label": "🤖 AI",
       "published": "2026-10-26T13:15:00",
       "first_seen": "2026-10-27T00:22:04+07:00"
+    },
+    {
+      "title": "Phát hiện thành phố ngầm 18 tầng nằm sâu 85m dưới lòng đất, từng là nơi sinh sống của khoảng 20.000 người",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbXJLN1lIdkFzQnpFTThzMHFHdDNOdWNpV2ppYkdfeklXeDZZMXNVVjU0aXNWQ0pMNkVHY29nQWRJMENnaXNyU1UwZnY3QUVaenJWbnA1Q2ZnSlNRcmFpRVpub3p6Yy1Kei1vUTVyNkcwSVhnaXZJeHZsejZqV2NFdWM4UTJtSnBGUUR6akxfcTE5SmFVSHh4ZzBYbmVKTHR5cDE2MFY2YWFCLWxqcGlEQlJmemNycmg4bU9xcVhMNkZfa0tReVJpYk14aERZWVBEcnlPd3VWdw?oc=5",
+      "summary": "Phát hiện thành phố ngầm 18 tầng nằm sâu 85m dưới lòng đất, từng là nơi sinh sống của khoảng 20.000 người nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-10-26T14:18:01",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T22:50:07",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "DOJ charges ex-FBI Director James Comey in new case",
+      "url": "https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html",
+      "summary": "Comey for years has been targeted by President Donald Trump, who fired him as FBI director in 2017.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T22:24:36",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "The arc of Trump: How the president lost the coalition that put him in the White House",
+      "url": "https://www.cnbc.com/2026/10/26/trump-approval-midterms-cnbc-survey.html",
+      "summary": "President Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T17:36:55",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Bessent dines at Cheesecake Factory, slams Obama over Trump joke",
+      "url": "https://www.cnbc.com/2026/10/26/bessent-obama-cheesecake-trump-election.html",
+      "summary": "Cheesecake Factory has emerged as a campaign talking point before next week's election, with Treasury Secretary Scott Bessent dining there Monday.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T21:38:17",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+      "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "summary": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T21:18:07",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Israeli election draws tens of thousands of citizens flying back to vote",
+      "url": "https://www.cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html",
+      "summary": "Tens of thousands of Israelis are returning home to vote in a tight election.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T22:46:35",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+      "url": "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html",
+      "summary": "Apple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T18:43:25",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Jim Cramer warns this overlooked danger could threaten the market rally",
+      "url": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
+      "summary": "CNBC’s Jim Cramer warned that a flood of massive IPOs could threaten the bull market's rally.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T22:09:35",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
+      "url": "https://www.cnbc.com/2026/10/27/china-fiscal-debt-gdp-imf-real-estate-.html",
+      "summary": "Beijing has room to borrow, but heavily indebted local governments are cutting back, raising the stakes for growth and for how China manages its local debt.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T23:10:16",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+      "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+      "summary": "Anthropic on Monday filed its Form S-1 with the Securities and Exchange Commission.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T20:08:57",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Lãi suất tiết kiệm thế nào sau chỉ đạo của Ngân hàng Nhà nước",
+      "url": "https://vnexpress.net/lai-suat-tiet-kiem-the-nao-sau-chi-dao-cua-ngan-hang-nha-nuoc-5136844.html",
+      "summary": "Lãi suất niêm yết đồng loạt giảm, mức ưu đãi thực tế tại nhiều ngân hàng \"hạ nhiệt\" nhưng vẫn neo cao phổ biến 8-9% một năm.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T17:06:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Người bán nhà tại Mỹ dần yếu thế",
+      "url": "https://vnexpress.net/nguoi-ban-nha-tai-my-dan-yeu-the-5137055.html",
+      "summary": "Thị trường nhà ở Mỹ đang đảo chiều khi người bán phải hạ giá, thậm chí hỗ trợ bên mua để chốt giao dịch.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-26T17:03:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Gần 300 nhân viên tại một công ty chứng khoán nghỉ việc trong quý 3",
+      "url": "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn",
+      "summary": "Chỉ sau 3 tháng, số lượng nhân sự tại Chứng khoán VPS ghi nhận giảm mạnh",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-26T17:35:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "\"Sóng ngầm\" giáng đòn NATO: Thổ Nhĩ Kỳ chặn hạm đội đồng minh, để lộ thứ Nga nhận được",
+      "url": "https://cafef.vn/song-ngam-giang-don-nato-tho-nhi-ky-chan-ham-doi-dong-minh-de-lo-thu-nga-nhan-duoc-188261026213959154.chn",
+      "summary": "Chìa khóa đang nằm trong tay Thổ Nhĩ Kỳ. Cánh cửa Ankara giữ chặt khiến toan tính của đồng minh mắc kẹt.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-26T23:48:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Fed có thể gây bất ngờ với quyết định lãi suất tuần này?",
+      "url": "https://cafef.vn/fed-co-the-gay-bat-ngo-voi-quyet-dinh-lai-suat-tuan-nay-188261027000325187.chn",
+      "summary": "Cục Dự trữ Liên bang Mỹ (Fed) được dự báo sẽ giữ nguyên lãi suất trong tuần này, dù các số liệu lạm phát mới nhất cho thấy áp lực giá cả vẫn dai dẳng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-26T23:28:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Quân Nga đổ bộ, chiến dịch quy mô lớn nhất ngã ngũ: Bí ẩn báo cáo trình ông Putin về Medvezhy Ugol",
+      "url": "https://cafef.vn/quan-nga-do-bo-chien-dich-quy-mo-lon-nhat-nga-ngu-bi-an-bao-cao-trinh-ong-putin-ve-medvezhy-ugol-188261026145305914.chn",
+      "summary": "Ông Degtyaryov đánh giá đây là chiến dịch thành công nhất của Nga trong năm nay, đồng thời là một trong những chiến dịch nổi bật nhất trong 4 năm giao tranh.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-26T23:13:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Bi kịch sau bức ảnh ám ảnh bậc nhất lịch sử thế giới hiện đại: Vì sao nhiếp ảnh gia đã tự vẫn 1 năm sau đó?",
+      "url": "https://cafef.vn/bi-kich-sau-buc-anh-am-anh-bac-nhat-lich-su-the-gioi-hien-dai-vi-sao-nhiep-anh-gia-da-tu-van-1-nam-sau-do-188261026135751788.chn",
+      "summary": "Chuyện gì đã xảy ra với đứa trẻ suy dinh dưỡng đang cố gắng bò tới trung tâm cứu trợ lương thực dưới sự chực chờ của một con kền kền?",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-26T22:44:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "url": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
+      "summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T22:00:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+      "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+      "summary": "After years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T21:05:11",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+      "url": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+      "summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T19:22:40",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Fusion startups are giving the government shares in exchange for awards. Is it worth it?",
+      "url": "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/",
+      "summary": "Fusion startups face a new challenge, one unrelated to plasma physics: Give the government shares in exchange for funding awards or go it alone?",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T18:59:52",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+      "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "summary": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T17:45:00",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "BlackBerry reinvented: CEO sees big opportunities AI-powered robots",
+      "url": "https://www.cnbc.com/2026/10/26/blackberry-qnx-physical-ai-robots.html",
+      "summary": "BlackBerry CEO John Giamatteo sees AI-powered robots as a major growth opportunity.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-26T22:34:19",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-26T23:34:58",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\" […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-26T21:45:31",
+      "first_seen": "2026-10-27T06:51:59+07:00"
+    },
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-26T17:30:55",
+      "first_seen": "2026-10-27T06:51:59+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-23": [
-      "noon"
-    ],
     "2026-10-24": [
       "noon"
     ],
