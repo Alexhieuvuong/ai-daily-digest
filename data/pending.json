@@ -700,12 +700,319 @@
       "category_label": "🤖 AI",
       "published": "2026-10-29T13:30:00",
       "first_seen": "2026-10-30T01:27:04+07:00"
+    },
+    {
+      "title": "Người quan sát | Tin tức tài chính, kinh doanh, bất động sản, hàng hóa",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE80TFR2M1B2dG93cXk1U1Z6bnIxNk92aFItcUJ3T0lEN3V6TEc5dEo1V2oxSFV6SmdJcC01Tw?oc=5",
+      "summary": "Người quan sát | Tin tức tài chính, kinh doanh, bất động sản, hàng hóa nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2021-08-06T07:07:36",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+      "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+      "summary": "Intel has been a Wall Street darling this year due to its emergence as a player in AI, but the company is being weighed down by a struggling PC market.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T22:37:54",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Circle, Tether freeze funds impacted by potential Binance 'security issue'",
+      "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+      "summary": "Binance, the world's largest crypto exchange, said it was actively investigating the matter and that funds are \"completley safe.\"",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T22:47:32",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+      "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+      "summary": "Reddit posts third-quarter earnings and reveals plans to require all users to create official accounts as Google search traffic shrinks",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T23:01:02",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+      "url": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
+      "summary": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T21:52:27",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
+      "url": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
+      "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T21:29:59",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities",
+      "url": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
+      "summary": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T23:16:11",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Thẻ tín dụng bị trừ gần 100 triệu sau khi đặt hàng qua fanpage giả mạo",
+      "url": "https://vnexpress.net/the-tin-dung-bi-tru-gan-100-trieu-sau-khi-dat-hang-qua-fanpage-gia-mao-5137415.html",
+      "summary": "Đặt mua ba thùng giấy giảm giá hơn 200.000 đồng qua fanpage giả mạo siêu thị, thẻ tín dụng của chị Hạnh bị trừ hơn 92 triệu đồng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T23:20:29",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Nợ vay của Hòa Phát lần đầu vượt 100.000 tỷ đồng",
+      "url": "https://vnexpress.net/no-vay-cua-hoa-phat-lan-dau-vuot-100-000-ty-dong-5138556.html",
+      "summary": "Trong bối cảnh lãi suất vẫn ở mức cao, Hòa Phát tiếp tục tăng nợ vay lên mức 105.736 tỷ đồng, cao nhất từ trước đến nay.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T23:06:53",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Hóa chất Đức Giang thu gần 2 tỷ đồng mỗi ngày nhờ gửi tiền ngân hàng",
+      "url": "https://vnexpress.net/hoa-chat-duc-giang-thu-gan-2-ty-dong-moi-ngay-nho-gui-tien-ngan-hang-5138552.html",
+      "summary": "Hóa chất Đức Giang thu về khoảng 528 tỷ đồng từ tiền gửi ngân hàng trong 9 tháng, tương ứng 1,9 tỷ đồng một ngày, tăng 18% so với năm ngoái.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T22:49:50",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Đăk Lăk phát triển 75.000 ha cà phê thích ứng biến đổi khí hậu",
+      "url": "https://vnexpress.net/dak-lak-phat-trien-75-000-ha-ca-phe-thich-ung-bien-doi-khi-hau-5138317.html",
+      "summary": "Đăk Lăk lên kế hoạch phát triển vùng trồng cà phê bền vững khoảng 75.000 ha đến 2030, hướng đến giảm phát thải, thích ứng biến đổi khí hậu và đáp ứng yêu cầu xanh của thị trường xuất khẩu.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-10-29T17:00:31",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Danh tính nữ kỹ sư phần mềm Amazon đột ngột qua đời ở tuổi 31 do tin lời ChatGPT: Hơn 270.000 tin nhắn, tự ý cắt giảm thuốc điều trị",
+      "url": "https://cafef.vn/danh-tinh-nu-ky-su-phan-mem-amazon-dot-ngot-qua-doi-o-tuoi-31-do-tin-loi-chatgpt-hon-270000-tin-nhan-tu-y-cat-giam-thuoc-dieu-tri-188261029225003588.chn",
+      "summary": "Bowen Wan, 31 tuổi, là kỹ sư phần mềm tại Amazon, được cho là đã trao đổi với ChatGPT hơn 270.000 tin nhắn trước khi qua đời vào tháng 2. Gia đình cô khởi kiện OpenAI, cáo buộc chatbot hướng dẫn giảm thuốc điều trị động kinh và che giấu việc này với bác sĩ.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-29T23:13:00",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Ngân hàng Nhà nước xem xét cơ chế giao dịch vốn cho Trung tâm Tài chính quốc tế",
+      "url": "https://cafef.vn/ngan-hang-nha-nuoc-xem-xet-co-che-giao-dich-von-cho-trung-tam-tai-chinh-quoc-te-188261030064427379.chn",
+      "summary": "Trong thời gian chưa có ngân hàng thành viên ở Trung tâm Tài chính quốc tế Việt Nam tại TP. Hồ Chí Minh (VIFC-HCMC), Ngân hàng Nhà nước dự kiến xem xét cho phép thực hiện một số giao dịch vốn thông qua tài khoản tại các ngân hàng đang hoạt động trong nước. Giải pháp nhằm tháo gỡ vướng mắc cho nhà đầu tư, và bảo đảm kiểm soát dòng tiền và tuân thủ quy định pháp luật.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-29T23:44:00",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Giá vàng miếng, vàng nhẫn hôm nay (30/10) tại SJC, DOJI, Phú Quý, PNJ, Bảo Tín Minh Châu,....: Bao nhiêu một chỉ?",
+      "url": "https://cafef.vn/gia-vang-mieng-vang-nhan-hom-nay-30-10-tai-sjc-doji-phu-quy-pnj-bao-tin-minh-chau-bao-nhieu-mot-chi-188261030064119129.chn",
+      "summary": "Giá vàng trong nước chưa có sự thay đổi so với mức chốt phiên hôm trước.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-29T23:41:00",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Xuất nhập khẩu Việt Nam lần đầu vượt 1.000 tỷ USD",
+      "url": "https://cafef.vn/xuat-nhap-khau-viet-nam-lan-dau-vuot-1000-ty-usd-18826103006404939.chn",
+      "summary": "Đến ngày 29/10, kim ngạch xuất nhập khẩu hàng hóa của Việt Nam lần đầu vượt mốc 1.000 tỷ USD. Với con số này, Việt Nam hiện đứng thứ 18 thế giới về xuất khẩu, thứ 20 về nhập khẩu.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-10-29T23:40:00",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+      "url": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+      "summary": "The success of blockbuster hits like Project Hail Mary and Verity is only part of the story, Amazon's CEO says.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T23:44:56",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T23:42:22",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "summary": "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T22:27:23",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
+      "url": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
+      "summary": "Putin said that he and Musk are in \"close contact\" about Rassvet, Russia's Starlink-like satellite connectivity project.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T21:51:29",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+      "url": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+      "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T21:20:47",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "GM reaches $220M settlement over selling drivers’ private data",
+      "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+      "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T21:01:04",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Fan-fiction site Archive of Our Own could be offline for up to 4 weeks",
+      "url": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+      "summary": "The site has such a passionate user base that, within two hours of the announcement, its status page's posts had garnered millions of views (and much panicked commentary) across social media.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T20:43:56",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T20:08:31",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T20:05:47",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "The R2 SUV is already Rivian’s best-selling vehicle",
+      "url": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+      "summary": "Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T20:02:03",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T19:56:19",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Where was my invite to the — wait, what? Airbnb had a gala?",
+      "url": "https://techcrunch.com/2026/10/29/where-was-my-invite-to-the-wait-what-airbnb-had-a-gala/",
+      "summary": "Airbnb’s nonprofit held its inaugural gala on Wednesday in Los Angeles, and the internet had one reaction — the *what* gala?",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T19:17:49",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T19:14:36",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+      "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+      "summary": "Disappointing results from one company don't necessarily signal trouble for an entire industry.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T23:00:01",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
+      "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+      "summary": "Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-10-29T21:59:31",
+      "first_seen": "2026-10-30T06:56:06+07:00"
+    },
+    {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-10-29T18:45:31",
+      "first_seen": "2026-10-30T06:56:06+07:00"
     }
   ],
   "sent_slots": {
-    "2026-10-26": [
-      "noon"
-    ],
     "2026-10-27": [
       "noon"
     ],
