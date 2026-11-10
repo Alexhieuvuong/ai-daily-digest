@@ -1,6 +1,947 @@
 {
   "last_sent": "2026-11-09T20:52:57+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "UBCKNN phát cảnh báo nóng đến hơn chục triệu nhà đầu tư, yêu cầu làm thêm 1 việc quan trọng",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdHgwcW0wOFpqMV9FOEVVeUpfNWFoQU53RVdIMkh3MGxRZ1VrVFctNXNqNnRwMW5Jb0hsVERkVE50dVZBbHByQkdzdlRTSE8zSzUxRkk5Tk4yd2xQVldyS05hbEQyQURLWjI0Ukg2T2JOcldxemZvOGtFSkhPWXVid0xwU2tJSDFrcnA4aFd5ZHdBYkxlSDFKeG5ZLXVPYVJ2QTRaQzhISUl5Y09sT3BOOVdoSHMxaHJUZkkzQ2tDVllBZHRn?oc=5",
+      "summary": "UBCKNN phát cảnh báo nóng đến hơn chục triệu nhà đầu tư, yêu cầu làm thêm 1 việc quan trọng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-09T14:52:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Sập cầu Tân Thành ở Tây Ninh, nhiều phương tiện rơi xuống kênh",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT19rbnJGM2ctRzI2QXpoSG1aX1VqSW1QT0Rnc3V6WFJUYTNHSTIyeVBGUFZvV3JlTDlWUzhpazFmN3J4OFYtbE1sT3R6VVo3SW16R3h3SmhGWVk4VUV5NnZRVnlzQTRVdFVRekFfS3pxSFo0YnJ1aWRlZ1hVdURSOWV2TjE2bXg3RlIwYmpJd2pYMjZ0UjhScFZWbWRJUQ?oc=5",
+      "summary": "Sập cầu Tân Thành ở Tây Ninh, nhiều phương tiện rơi xuống kênh nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-09T07:13:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Chủ tịch Hà Nội đích thân thị sát công trường, loạt dự án 184.000 tỷ của Sunshine, Hòa Phát nhận chỉ đạo nóng",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWmQ4dTFWdkpRdXEtS09sVVhkMGVnS3gyYy1iLXl1NTFZNzA2Q1E2djMxTXdiaTE1aGl0VkRsbjBxdGR5ZGdXTHdSRVVnN1NETEJGc05xVU5iMU5namJDd3BTX3NITUR0M1M2X2hFRG1EaGZwVDlPNUg5dlNTTF84c3BNNGdfSWY4Q0J4clRNelhYZURJT2xiY21EY21OLW1CV2NObnkyYkRlVUlGeks0SVdsVjdXWEwwaEhBX0FXdHNsTTNhcDNudldVQlRpWWxBMDl6OWZlTjlhRUE?oc=5",
+      "summary": "Chủ tịch Hà Nội đích thân thị sát công trường, loạt dự án 184.000 tỷ của Sunshine, Hòa Phát nhận chỉ đạo nóng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-09T17:25:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "TS. Bùi Ngọc Sơn: Làm sao để người dân chỉ mất 10-15% thu nhập cho tiền thuê nhà?",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeHZ2SzRFY2xpUzFFaVRJSV9MZWdWZnJaUXFBMFhxcXpnaEZZaDFzbG85TWFuUVdtUlFhbkp5LThPc2JYSTl6VkNwWEMtWGp5dFBwOWk0YWNfSFk0TVpfeGZuM203RUhRVHRzbEdjdzBXRjBaYnRfekVHTzdhc01LZERKZ2p0Z0R2YzU4eGVKM3dKcEdnMW9GNTJhelBvRV9CMlpUb09HZXVaQjFiRUpVdlNURQ?oc=5",
+      "summary": "TS. Bùi Ngọc Sơn: Làm sao để người dân chỉ mất 10-15% thu nhập cho tiền thuê nhà? nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-09T02:58:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Danh tính người phụ nữ bị tố 'gài bẫy tình' ông chủ Nvidia Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmYxeXRSU1pwX3AtN3hOeHJPQWFiVkJPQUI0bGZldUNqclpGeEJHR21qamhDMWk2b0ozSEdNRG0xV3p4QmtHcWJPUnk4V0NSNmg4RVVINlNoTGF3SmZ5VjhQMkxYeDExZ1JYVTg5TWV6aUFHR0czemNuQ2p2WjVWYXN4QmtvOTZISGxzVzZNdlZpOWhYMXIzRkVhMXAyaUtoZ2J2OTBkbnQ?oc=5",
+      "summary": "Danh tính người phụ nữ bị tố 'gài bẫy tình' ông chủ Nvidia Jensen Huang nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-09T08:24:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+      "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+      "summary": "Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T22:56:39",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Trump says Jensen Huang told him Monday he didn't know paramour 'was a spy'",
+      "url": "https://www.cnbc.com/2026/11/09/trump-jensen-huang-nvidia-chinese-spy.html",
+      "summary": "President Donald Trump suggested he had only recently learned of allegations that Alice Huang was a Chinese spy.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-10T01:43:47",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Hegseth impeachment articles introduced by Rep. Massie",
+      "url": "https://www.cnbc.com/2026/11/09/pete-hegseth-impeachment-articles-massie.html",
+      "summary": "The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T22:41:12",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "SoftBank Group shares surge 11% as Asian tech stocks track Wall Street rebound",
+      "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "summary": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-10T01:50:57",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "summary": "The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T21:03:55",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "3 unexpected reasons the October jobs report was so strong",
+      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "summary": "October's jobs report blew past economist forecasts. Here are three reasons.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T22:23:56",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
+      "url": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html",
+      "summary": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T23:14:38",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
+      "url": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
+      "summary": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T23:31:17",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Trump questions midterm election results, revives voting-machine conspiracy",
+      "url": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html",
+      "summary": "President Trump's questioning of the legitimacy of his loss in the 2020 election culminated with an attack on the U.S. Capitol by a mob of his supporters.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T22:40:09",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
+      "url": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
+      "summary": "Following the latest Trump-Xi summit, China pledged further opening of its financial market to companies from all countries, including the U.S.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T23:00:02",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Children’s Place files for bankruptcy protection, seeks buyer",
+      "url": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html",
+      "summary": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T20:57:46",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
+      "summary": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T23:54:21",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+      "url": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+      "summary": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T21:24:13",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+      "url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
+      "summary": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T23:05:53",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+      "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "summary": "Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-10T02:42:30",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
+      "url": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html",
+      "summary": "Prediction markets traders price relatively low odds that the Nvidia CEO will depart in the near term.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T18:46:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+      "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+      "summary": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T18:14:47",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang mất gần 7 tỷ USD vì bê bối ngoại tình",
+      "url": "https://vnexpress.net/jensen-huang-mat-gan-7-ty-usd-vi-be-boi-ngoai-tinh-5142690.html",
+      "summary": "Cổ phiếu mất giá khiến vốn hóa Nvidia bốc hơi gần 200 tỷ USD, còn tài sản của CEO sụt gần 7 tỷ USD một phiên.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-10T01:52:35",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Giá vàng thế giới tăng mạnh, giá dầu lao dốc",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-tang-manh-gia-dau-lao-doc-5142686.html",
+      "summary": "Mỗi ounce vàng tăng gần 70 USD, nhờ đôla Mỹ yếu đi và giá dầu Brent giảm gần 6 USD một thùng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-10T00:41:58",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Công ty địa ốc của ông Trần Bá Dương lãi hơn 1.000 tỷ đồng",
+      "url": "https://vnexpress.net/cong-ty-dia-oc-cua-ong-tran-ba-duong-lai-hon-1-000-ty-dong-5142554.html",
+      "summary": "Đại Quang Minh, công ty địa ốc của ông Trần Bá Dương, báo lãi ròng nửa đầu năm nay trên 1.043 tỷ đồng, gấp 6 lần so với cùng kỳ năm ngoái.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T21:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "VDSC: Mức tăng trưởng lợi nhuận của các doanh nghiệp quý IV có thể thấp nhất một năm",
+      "url": "https://vnexpress.net/vdsc-muc-tang-truong-loi-nhuan-cua-cac-doanh-nghiep-quy-iv-co-the-thap-nhat-mot-nam-5142669.html",
+      "summary": "Lợi nhuận ròng quý IV của các doanh nghiệp trên sàn HoSE có thể tăng 24%, con số thấp nhất kể từ quý III/2025, theo dự báo của VDSC.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T20:06:11",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Khung giá điện mặt trời cao nhất hơn 2.120 đồng một kWh",
+      "url": "https://vnexpress.net/khung-gia-dien-mat-troi-cao-nhat-hon-2-120-dong-mot-kwh-5142638.html",
+      "summary": "Mức giá phát điện tối đa của các nhà máy điện mặt trời cao nhất là 2.120 đồng một kWh áp dụng với hệ thống nổi có pin lưu trữ ở miền Bắc.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T17:00:19",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Cổ phiếu Nvidia lao dốc sau bê bối ngoại tình của Jensen Huang",
+      "url": "https://vnexpress.net/co-phieu-nvidia-lao-doc-sau-be-boi-ngoai-tinh-cua-jensen-huang-5142650.html",
+      "summary": "Cổ phiếu Nvidia giảm hơn 6% ngay đầu phiên giao dịch, khiến vốn hóa mất hơn 300 tỷ USD.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T15:08:46",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Bộ Công Thương yêu cầu không để gián đoạn nguồn cung xăng dầu ở Phú Quốc",
+      "url": "https://vnexpress.net/bo-cong-thuong-yeu-cau-khong-de-gian-doan-nguon-cung-xang-dau-o-phu-quoc-5142617.html",
+      "summary": "Sau khi một số cây xăng ở Dương Đông hết hàng, Bộ Công Thương yêu cầu các doanh nghiệp duy trì bán hàng, tránh để nguồn cung gián đoạn do nguyên nhân chủ quan.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T14:27:20",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 10/11/2026 bao nhiêu 1 chỉ?",
+      "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-10-11-2026-bao-nhieu-1-chi-188261110080258983.chn",
+      "summary": "Giá vàng hôm nay 10/11/2026, cập nhật mới nhất giá vàng 9999 tại Bảo Tín Minh Châu và nhiều thương hiệu lớn trên thị trường.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:12:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Giám đốc cấp cao phụ trách tài chính của PNJ từ nhiệm",
+      "url": "https://cafef.vn/giam-doc-cap-cao-phu-trach-tai-chinh-cua-pnj-tu-nhiem-188261110080205957.chn",
+      "summary": "Ông Hải sẽ thôi giữ chức Giám đốc cấp cao phụ trách tài chính tại PNJ từ ngày 17/11 theo nguyện vọng cá nhân; ông mới đã đảm nhiệm vị trí này từ đầu năm 2025.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:01:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Loạt thương hiệu Việt về tay nước ngoài: Cuộc đi săn ngầm giữa cơn bão bán ròng hàng trăm nghìn tỷ trên sàn chứng khoán",
+      "url": "https://cafef.vn/loat-thuong-hieu-viet-ve-tay-nuoc-ngoai-cuoc-di-san-ngam-giua-con-bao-ban-rong-hang-tram-nghin-ty-tren-san-chung-khoan-188261109230616695.chn",
+      "summary": "Trong khi khối ngoại liên tục bán ròng trên thị trường chứng khoán, nhiều tập đoàn nước ngoài vẫn mạnh tay chi hàng nghìn tỷ đồng để thâu tóm hoặc gia tăng sở hữu tại những doanh nghiệp sản xuất hàng đầu Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:03:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Vợ chồng bầu Kiên vẫn đều đặn nhận hàng trăm tỷ đồng mỗi năm từ ACB",
+      "url": "https://cafef.vn/vo-chong-bau-kien-van-deu-dan-nhan-hang-tram-ty-dong-moi-nam-tu-acb-188261109230112292.chn",
+      "summary": "Đã hơn 14 năm kể từ ngày ông Nguyễn Đức Kiên (bầu Kiên) bị bắt, khối cổ phiếu ACB đứng tên ông và vợ hiện có giá trị hàng nghìn tỷ đồng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:01:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "5.000 tỷ \"biến mất\" khỏi danh mục tự doanh CTCK sau một quý, điều gì đang diễn ra?",
+      "url": "https://cafef.vn/5000-ty-bien-mat-khoi-danh-muc-tu-doanh-ctck-sau-mot-quy-dieu-gi-dang-dien-ra-188261109225759707.chn",
+      "summary": "Danh mục tự doanh của 42 công ty chứng khoán giảm hơn 5.000 tỷ đồng trong quý III/2026, trong đó trái phiếu chiếm gần 66% mức giảm. Diễn biến này xuất hiện khi phát hành trái phiếu doanh nghiệp hạ nhiệt, trong khi lãi suất phát hành của nhóm ngân hàng vẫn ở vùng cao nhất ba năm.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:01:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "HOSE bất ngờ ngắt kết nối giao dịch với một công ty chứng khoán từ ngày 9/11",
+      "url": "https://cafef.vn/hose-bat-ngo-ngat-ket-noi-giao-dich-voi-mot-cong-ty-chung-khoan-tu-ngay-9-11-188261109221513496.chn",
+      "summary": "Trước đó, doanh nghiệp này đã liên tiếp bị áp dụng các biện pháp hạn chế hoạt động.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T15:18:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Chứng khoán TCBS: \"Áp lực chi phí vốn của ngành chưa được chuyển sang khách vay margin\"",
+      "url": "https://cafef.vn/chung-khoan-tcbs-ap-luc-chi-phi-von-cua-nganh-chua-duoc-chuyen-sang-khach-vay-margin-18826110922082544.chn",
+      "summary": "Mảng cho vay ký quỹ (margin) duy trì vai trò đóng góp lợi nhuận lớn nhất của ngành chứng khoán nhưng đà tăng của chi phí vốn lại đặt các công ty trước một bài toán khó: Chí phí đầu vào tăng, trong khi lãi suất cho vay khách hàng chưa thể điều chỉnh tương ứng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T15:08:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Bộ trưởng Chiến tranh Mỹ Pete Hegseth đối mặt 8 điều khoản luận tội",
+      "url": "https://cafef.vn/bo-truong-chien-tranh-my-pete-hegseth-doi-mat-8-dieu-khoan-luan-toi-188261110075846908.chn",
+      "summary": "Ông Pete Hegseth tự gọi mình là Bộ trưởng Chiến tranh. Đây là một phần trong nỗ lực đổi mới hình ảnh quân đội Mỹ mà ông cho rằng quá yếu đuối và bị ảnh hưởng bởi tư tưởng “thức tỉnh” khi ông nhậm chức vào năm ngoái. Ông đối mặt với cuộc bỏ phiếu luận tội tại Hạ viện dự kiến diễn ra trong tuần này.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T02:17:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Nga báo tin bất ngờ về 300 tỷ USD tài sản bị đóng băng: 'Đã lấy lại một phần đáng kể'",
+      "url": "https://cafef.vn/nga-bao-tin-bat-ngo-ve-300-ty-usd-tai-san-bi-dong-bang-da-lay-lai-mot-phan-dang-ke-188261109224724581.chn",
+      "summary": "Nga đã thu hồi được một phần đáng kể tài sản của các nhà đầu tư từng bị mắc kẹt do các biện pháp trừng phạt của phương Tây.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:46:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Thủ tướng Merz cảnh báo phép thử lịch sử với nước Đức",
+      "url": "https://cafef.vn/thu-tuong-merz-canh-bao-phep-thu-lich-su-voi-nuoc-duc-188261110075737782.chn",
+      "summary": "Thủ tướng Friedrich Merz nói rằng nước Đức đang phải đối mặt với phép thử lịch sử, đồng thời lên án hình ảnh “kinh hoàng” khi các trường mẫu giáo và giáo đường Do Thái được bảo vệ bằng kính chống đạn và lực lượng cảnh sát vũ trang.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:29:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Campuchia trục xuất 163 công dân Trung Quốc",
+      "url": "https://cafef.vn/campuchia-truc-xuat-163-cong-dan-trung-quoc-18826111006574062.chn",
+      "summary": "Việc trục xuất này nằm trong khuôn khổ nỗ lực của chính phủ Campuchia nhằm thực thi nghiêm ngặt luật di trú và đấu tranh chống tội phạm xuyên quốc gia.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:59:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Phái đoàn Nga - Ukraine lên đường đến địa điểm đàm phán",
+      "url": "https://cafef.vn/phai-doan-nga-ukraine-len-duong-den-dia-diem-dam-phan-188261110070230389.chn",
+      "summary": "Tối 9/11, truyền thông Nga và Ukraine đưa tin, phái đoàn của hai nước đã lên đường đến Abu Dhabi (Các Tiểu vương quốc Ả-rập Thống nhất) - nơi dự kiến sẽ diễn ra các cuộc đàm phán ba bên giữa Nga, Mỹ và Ukraine về một thỏa thuận hòa bình tiềm năng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:24:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Nga chiếm quyền kiểm soát tài sản của một 'con gà đẻ trứng vàng', nền kinh tế hàng đầu châu Á như 'ngồi trên đống lửa' vì sắp mất 164 triệu USD",
+      "url": "https://cafef.vn/nga-chiem-quyen-kiem-soat-tai-san-cua-mot-con-ga-de-trung-vang-nen-kinh-te-hang-dau-chau-a-nhu-ngoi-tren-dong-lua-vi-sap-mat-164-trieu-usd-188261109220510378.chn",
+      "summary": "Việc Nga thu giữ tài sản của Japan Tobacco (JT) tại nước này có nguy cơ làm giảm một nguồn thu của chính phủ Nhật Bản, đúng thời điểm Thủ tướng Sanae Takaichi theo đuổi chương trình chi tiêu và đầu tư quy mô lớn.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:03:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Nga tấn công “những vị khách quan trọng”, Kiev lập tức giữ kín thông tin - Chuyện gì đã xảy ra ở Kremenchug?",
+      "url": "https://cafef.vn/nga-tan-cong-nhung-vi-khach-quan-trong-kiev-lap-tuc-giu-kin-thong-tin-chuyen-gi-da-xay-ra-o-kremenchug-188261110065505415.chn",
+      "summary": "Ông Lebedev cho rằng Nga đã triển khai tên lửa hành trình S-8000 Banderol trong cuộc tấn công này.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T23:54:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Nga vừa tạo \"địa chấn hàng hải\" ở Bắc Cực: Siêu tàu nắm công nghệ độc quyền hoàn thành sứ mệnh chiến lược",
+      "url": "https://cafef.vn/nga-vua-tao-dia-chan-hang-hai-o-bac-cuc-sieu-tau-nam-cong-nghe-doc-quyen-hoan-thanh-su-menh-chien-luoc-188261109224857191.chn",
+      "summary": "Tại vùng đất có điều kiện khắc nghiệt nhất của Trái Đất, siêu tàu \"Sibir\" của Nga hoàn thành xuất sắc sứ mệnh chiến lược.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Tỷ phú Elon Musk bênh vực CEO Jensen Huang sau bê bối ngoại tình",
+      "url": "https://cafef.vn/ty-phu-elon-musk-benh-vuc-ceo-jensen-huang-sau-be-boi-ngoai-tinh-188261109232024585.chn",
+      "summary": "Giám đốc điều hành (CEO) Nvidia - Jensen Huang - đã nhận được sự ủng hộ từ tỷ phú Elon Musk và Bill Ackman sau khi ông thừa nhận ngoại tình với một phụ nữ bị tình nghi là gián điệp.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T16:41:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Máy bay của quân đội Nga đáp xuống Israel?",
+      "url": "https://cafef.vn/may-bay-cua-quan-doi-nga-dap-xuong-israel-188261109231639104.chn",
+      "summary": "Theo dữ liệu theo dõi chuyến bay từ FlightRadar24, một chiếc máy bay của quân đội Nga đã hạ cánh xuống sân bay Ben-Gurion của Israel, giữa lúc Mỹ và Israel được cho là đang cân nhắc nối lại các cuộc tấn công vào Iran.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T16:23:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Máy bay A320 với phần mũi của tiêm kích Eurofighter gây ngạc nhiên lớn",
+      "url": "https://cafef.vn/may-bay-a320-voi-phan-mui-cua-tiem-kich-eurofighter-gay-ngac-nhien-lon-188261109220656813.chn",
+      "summary": "Phòng thí nghiệm radar bay của Tập đoàn Airbus đã hoàn thành các chuyến bay nghiệm thu, đánh dấu giai đoạn phát triển quan trọng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T16:01:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Dự báo không mong muốn về năm 2026",
+      "url": "https://cafef.vn/du-bao-khong-mong-muon-ve-nam-2026-18826110922015119.chn",
+      "summary": "Thậm chí các dự đoán cho biết năm 2027 cũng sẽ không có dấu hiệu hạ nhiệt.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T15:37:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Đế chế Nvidia rung chuyển, chiếc ghế của 'ông vua' AI Jensen Huang có lung lay?",
+      "url": "https://cafef.vn/de-che-nvidia-rung-chuyen-chiec-ghe-cua-ong-vua-ai-jensen-huang-co-lung-lay-188261109200809429.chn",
+      "summary": "Ở cương vị giám đốc điều hành của Nvidia, ông Jensen Huang nắm quyền kiểm soát chặt chẽ công ty của mình. Điều này khiến hội đồng quản trị Nvidia gặp thách thức lớn khi điều tra mối quan hệ tình cảm của ông với nữ doanh nhân bị nghi ngờ là gián điệp.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T15:07:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Warren Buffett và CEO Berkshire Hathaway bán ròng cổ phiếu 15/16 quý, gióng cảnh báo 377 tỷ đô tới Phố Wall",
+      "url": "https://cafef.vn/warren-buffett-va-ceo-berkshire-hathaway-ban-rong-co-phieu-15-16-quy-giong-canh-bao-377-ty-do-toi-pho-wall-188261109215428674.chn",
+      "summary": "Dù đã có người kế nhiệm Warren Buffett, \"đế chế\" nghìn tỷ USD vẫn chọn tích trữ tiền mặt thay vì xuống tiền, và một con số trong báo cáo quý mới nhất khiến giới đầu tư không thể làm ngơ.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T14:55:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Ngân hàng giảm lãi suất, người vay nào được lợi?",
+      "url": "https://cafef.vn/ngan-hang-giam-lai-suat-nguoi-vay-nao-duoc-loi-188261110081310833.chn",
+      "summary": "Bạn đọc Hoàng Hà (Hưng Yên) hỏi: Tôi đang vay ngân hàng để mua nhà và vẫn trả nợ gốc, lãi hằng tháng. Gần đây, ngân hàng thông báo giảm lãi suất cho vay. Xin hỏi, khoản vay của tôi có được áp dụng mức lãi suất mới hay vẫn phải tiếp tục trả lãi theo hợp đồng đã ký?",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:27:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Giá vàng miếng, vàng nhẫn trơn 9999 sáng 10/11",
+      "url": "https://cafef.vn/gia-vang-mieng-vang-nhan-tron-9999-sang-10-11-188261109220025556.chn",
+      "summary": "Trên thị trường quốc tế, giá vàng vừa có nhịp hồi phục khoảng hơn 50 USD/ounce.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:35:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "ACB nhận 6 giải thưởng từ Visa, nổi bật về thanh toán và tăng trưởng đa phân khúc",
+      "url": "https://cafef.vn/acb-nhan-6-giai-thuong-tu-visa-noi-bat-ve-thanh-toan-va-tang-truong-da-phan-khuc-188261109214424383.chn",
+      "summary": "Ngày 5/11/2026, Ngân hàng TMCP Á Châu (ACB) được Visa vinh danh tại 6 hạng mục giải thưởng trong khuôn khổ Hội nghị Khách hàng Visa 2026, diễn ra vào ngày 5/11 tại TP. Huế với chủ đề \"Powering Infinite Possibilities\", ghi nhận những thành tích nổi bật trong hoạt động thanh toán thẻ, tăng trưởng trên nhiều phân khúc khách hàng và đổi mới trải nghiệm dịch vụ tài chính.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:30:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Bị xử vắng mặt, cựu giám đốc chi nhánh gửi đơn đề nghị làm rõ trách nhiệm của hội sở",
+      "url": "https://cafef.vn/bi-xu-vang-mat-cuu-giam-doc-chi-nhanh-gui-don-de-nghi-lam-ro-trach-nhiem-cua-hoi-so-188261110070845827.chn",
+      "summary": "Cựu giám đốc chi nhánh ngân hàng - Nguyễn Thị Hương Giang bị cáo buộc lập hồ sơ tín dụng khống, cho khách vay 30 tỷ đồng không tài sản đảm bảo từ năm 2011. Đang trốn truy nã, bị xét xử vắng mặt, bị cáo gửi đơn đề nghị tòa làm rõ trách nhiệm của hội sở.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:08:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Ngày 10/11, gửi dưới 1 tỷ đồng kỳ hạn 15 tháng tại MB, VPBank, Techcombank, Sacombank, SHB, HDBank và ACB nhận được bao nhiêu tiền lãi?",
+      "url": "https://cafef.vn/ngay-10-11-gui-duoi-1-ty-dong-ky-han-15-thang-tai-mb-vpbank-techcombank-sacombank-shb-hdbank-va-acb-nhan-duoc-bao-nhieu-tien-lai-188261109224318997.chn",
+      "summary": "Lãi suất tiết kiệm kỳ hạn 15 tháng tại 7 ngân hàng đang có sự chênh lệch đáng kể, với mức cao nhất lên tới 7,4%/năm khi gửi online. Với cùng khoản tiền gửi 500 triệu đồng, số tiền lãi nhận được sau 15 tháng có thể chênh lệch hơn 12 triệu đồng tùy ngân hàng lựa chọn.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T18:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "TS Đào Minh Tú: \"Người dân mình ít ai gửi tiền kỳ hạn vài năm mà chỉ độ một năm thôi, nhưng ngân hàng cho vay dài hạn tới 5 năm, 10 năm và hơn nữa\"",
+      "url": "https://cafef.vn/ts-dao-minh-tu-nguoi-dan-minh-it-ai-gui-tien-ky-han-vai-nam-ma-chi-do-mot-nam-thoi-nhung-ngan-hang-cho-vay-dai-han-toi-5-nam-10-nam-va-hon-nua-188261109230834075.chn",
+      "summary": "Người dân chủ yếu gửi tiền kỳ hạn khoảng một năm, trong khi ngân hàng phải cho vay những dự án kéo dài 5-10 năm, thậm chí hàng chục năm. Sự lệch kỳ hạn này đẩy rủi ro và chi phí của ngân hàng lên, kéo theo lãi suất cho vay.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:15:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Dài cổ chờ nâng cấp tỉnh lộ nát bươm nối cao tốc ở Huế",
+      "url": "https://cafef.vn/dai-co-cho-nang-cap-tinh-lo-nat-buom-noi-cao-toc-o-hue-188261110081816877.chn",
+      "summary": "Là tuyến huyết mạch nối Quốc lộ 1 với cao tốc Cam Lộ - La Sơn, tỉnh lộ 9 tại Huế xuống cấp nhiều năm, sửa chữa chắp vá, là mối nguy hiểm thường trực đối với người đi đường, nay tiếp tục chờ dự án nâng cấp.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T02:30:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Ngày 10/11, Quốc hội thảo luận về dự án Luật Phát triển công nghiệp văn hóa",
+      "url": "https://cafef.vn/ngay-10-11-quoc-hoi-thao-luan-ve-du-an-luat-phat-trien-cong-nghiep-van-hoa-188261110083646623.chn",
+      "summary": "Quốc hội họp phiên toàn thể tại hội trường thảo luận về các dự án Luật: Luật Phát triển công nghiệp văn hóa; Luật Văn bản quy phạm pháp luật...",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T02:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Phó Thủ tướng Thường trực Phạm Gia Túc: Hoàn thiện cơ chế phối hợp để tháo gỡ các dự án tồn đọng, kéo dài",
+      "url": "https://cafef.vn/pho-thu-tuong-thuong-truc-pham-gia-tuc-hoan-thien-co-che-phoi-hop-de-thao-go-cac-du-an-ton-dong-keo-dai-188261110082637984.chn",
+      "summary": "Chiều 9/11, Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc chủ trì cuộc họp về việc xây dựng quy trình phối hợp liên ngành giữa các cơ quan hành pháp, tư pháp và địa phương trong tháo gỡ khó khăn, vướng mắc, gắn với xem xét, xử lý trách nhiệm và khắc phục hậu quả.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T01:26:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Việt Nam - Nhật Bản ký kết 11 văn kiện hợp tác về năng lượng, giáo dục, khoa học - công nghệ",
+      "url": "https://cafef.vn/viet-nam-nhat-ban-ky-ket-11-van-kien-hop-tac-ve-nang-luong-giao-duc-khoa-hoc-cong-nghe-188261110000103903.chn",
+      "summary": "Tổng Bí thư, Chủ tịch nước Tô Lâm và Thủ tướng Nhật Bản Takaichi Sanae đã chứng kiến lễ trao các văn kiện hợp tác giữa hai nước, tập trung vào các lĩnh vực năng lượng, giáo dục, khoa học - công nghệ, môi trường và pháp luật.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-10T00:30:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "ĐBQH đề xuất cấm bán và sử dụng thuốc lá đối với người sinh năm 2010 trở về sau, Bộ trưởng Bộ Y tế Đào Hồng Lan nói gì?",
+      "url": "https://cafef.vn/dbqh-de-xuat-cam-ban-va-su-dung-thuoc-la-doi-voi-nguoi-sinh-nam-2010-tro-ve-sau-bo-truong-bo-y-te-dao-hong-lan-noi-gi-188261109211127681.chn",
+      "summary": "Tiếp tục chương trình Kỳ họp thứ 2, Quốc hội khóa XVI, chiều 9/11, Quốc hội họp phiên toàn thể tại hội trường cho ý kiến dự án Luật sửa đổi, bổ sung một số điều của Luật Phòng, chống tác hại của thuốc lá.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T18:11:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Tất cả người dân đi hát karaoke chú ý thông báo mới nhất của công an về mức phạt lên đến 80 triệu đồng",
+      "url": "https://cafef.vn/tat-ca-nguoi-dan-di-hat-karaoke-chu-y-thong-bao-moi-nhat-cua-cong-an-ve-muc-phat-len-den-80-trieu-dong-188261109233143775.chn",
+      "summary": "Để tránh nguy cơ bị xử phạt lên đến 80 triệu đồng cũng như đảm bảo điều kiện vận hành, các cơ sở kinh doanh karaoke cần đặc biệt chú ý những quy định dưới dây.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-09T17:01:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-10T01:27:12",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T23:28:37",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Hotel giant Wyndham exposed customer data after app security lapse",
+      "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "summary": "Exclusive: Wyndham left a hardcoded credential in its customer app, allowing anyone to access customer data. The hotel giant wouldn't say if it has the ability to check for any past unauthorized access.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T23:03:46",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T22:46:09",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "summary": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T22:23:42",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
+      "summary": "Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T20:55:34",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T20:09:06",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "YouTube streaming data returns to Billboard charts, ending major disagreement",
+      "url": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
+      "summary": "YouTube will resume sharing streaming data with Billboard in 2027 after changes to the chart formula give more weight to free, ad-supported music streams.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:39:41",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:24:51",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "AI hardware startup Nominal triples valuation to $3B in 8 months",
+      "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+      "summary": "Nominal, a startup that offers an AI platform for hardware engineering and claims Anduril as a major customer, has raised another big round of financing that triples its valuation.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:21:46",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks",
+      "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+      "summary": "France's foreign minister blamed Iran for launching at least two waves of cyberattacks targeting industrial refrigerated and freezer units across France and wider Europe.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:19:24",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T18:09:52",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T18:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "summary": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T17:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T16:56:54",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "summary": "Anthropic's initial public offering could be a crucial test of investor confidence in the AI trade, CNBC's Jim Cramer said.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T23:30:15",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "As Nvidia probes Jensen Huang affair, here's the board member likely to play a big role",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+      "summary": "Stephen Neal is the board's lead independent director and head of corporate governance. Experts say how Nvidia handles the probe is crucial to retaining its reputation.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T21:54:40",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+      "url": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
+      "summary": "Sen. Elizabeth Warren telegraphed her agenda for the Senate banking committee as Congress transfers to Democratic control",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:34:43",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "summary": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T19:00:01",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Jim Cramer says this is the stock to buy as data center development slows",
+      "url": "https://www.cnbc.com/investingclub/2026/11/09/cramer-says-this-is-the-stock-to-buy-as-data-center-development-slows.html",
+      "summary": "Jim Cramer says a slowdown in data center construction gives Amazon an edge.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-09T17:22:48",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-10T00:28:49",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T23:51:58",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T23:47:46",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T23:07:59",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T19:09:58",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T19:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T18:07:23",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T17:36:08",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T15:50:38",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Disney and Adobe are building generative AI tools together",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T15:38:56",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T16:12:28",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    },
+    {
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-09T14:00:00",
+      "first_seen": "2026-11-10T09:43:53+07:00"
+    }
+  ],
   "sent_slots": {
     "2026-11-09": [
       "noon"
