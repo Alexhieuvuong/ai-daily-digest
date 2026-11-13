@@ -1,10 +1,968 @@
 {
   "last_sent": "2026-11-12T20:44:59+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Ôm loạt cổ phiếu giảm sâu, tự doanh VIX có thể lỗ lớn ngay trong tháng đầu quý IV",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXhxcVdvMlNnUlMycUxiY3lEeFI0VHNNZV9RSEdXODdITktEZmtpMjJ3YTdZVjM3VS0zTldjYU5Udm5vT0VNMmozR2hlMUxrcFNBQ0tpUnkteU1MZE9VWDgyemVnVjdwTlotTXVkaU40UXhtZS1LSFhZMTlnY1l1TlAtR2ItaWtYbVNTZExPSGNCc1pod3RYdHJLOEIyWk56NWpKekxLbG94QVpwelNyeHFBcHlVdDA?oc=5",
+      "summary": "Ôm loạt cổ phiếu giảm sâu, tự doanh VIX có thể lỗ lớn ngay trong tháng đầu quý IV nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T13:54:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cổ phiếu Coteccons (CTD) liên tục ngược dòng VN-Index, chuyện gì đang diễn ra?",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1FtYjg0S2NMUlZ5Z1hpTFVwY3ZyRXBjb01hUTZYUGNxWXVRc2wxMWJzMEg4dll0NXVLbVZtVXJwTTJ1REpKQVFBNV9aXzE2YXlTUFlTMl9RajdQSWppQS16TzllZkFlTFJVR3h3LVJteWh3cEZVSjlpeHJuTnY2RGlzMlVheURwNTA2N3JFWk5TWW44cWdmeTBJR3Y0NjI0WDVuTEZtOFR4bUdibEpz?oc=5",
+      "summary": "Cổ phiếu Coteccons (CTD) liên tục ngược dòng VN-Index, chuyện gì đang diễn ra? nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T13:00:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nhận định thị trường 13/11: Các quỹ ETF nội hoàn tất cơ cấu danh mục, VN-Index diễn biến ra sao?",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTXBHaUZsdXIxYjVtVUc3WEJLa0FJZVNoLTZDOXV3dkoyMnQxR2FOaHZiSkZvUWs1QTVUS0JFV2hSbHhSYzFybWFwY1E5eE4wT2FpRFVOYWVFX0dxQTBJWDlheVg5aWF3eE03cGZfdndyclZ4OUdPU2xTTlR2cF9oenhiSlc1UTNYcVl6QlRWQTRiRDNvRmt0UnU0emN0eDJPcGk5VW5XWE5iWmppWGlSQ3Jwa1NjZVJkamZwODZWRVhmV0sxMHFsUw?oc=5",
+      "summary": "Nhận định thị trường 13/11: Các quỹ ETF nội hoàn tất cơ cấu danh mục, VN-Index diễn biến ra sao? nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T15:53:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Hơn 45 triệu cổ phiếu doanh nghiệp bất động sản của TS Nguyễn Việt Cường bị bán giải chấp",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNHdlWnI2ZWZnbWVhQU1jdGt0WV9jNFVQMndsR2xfVjJDamtlVUJXc2V5YUpUY2RxcnQyZlhma3pyVVZQSmo3UTJ4dk1hb1pqOEFQY2NpNGRBdzFXcHJWelJCSnZZa21XV3pKd3RHV2FwMW1BQnZKUXZyV1ZhV1UwaFIwRWU3SXd0ekQ1cFRfcm5hQmZOQ0tQRjBGc2JONmViUGYydk5NSkE2NmlPaVVCR2U3S1dEdjdNaS0xbnZfR2NEdGs?oc=5",
+      "summary": "Hơn 45 triệu cổ phiếu doanh nghiệp bất động sản của TS Nguyễn Việt Cường bị bán giải chấp nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-11T02:34:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Hòa Phát (HPG) được Hải Phòng cho thuê thêm hơn 91ha đất làm khu công nghiệp gần 3.400 tỷ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN01kM3NyQ0ZiUnNyUGlyeXoydUxwaUFUbmxnWWtmNmVXZ0hsUnV2a2J6N2ppdktpRkQ0SjlGcWtqb3VuYlhCSmJ1ck12ckxnaDNacE9rS08wMFI3d3NROExBeG1NTUhicGNQNmppS3I0dmJUUl9LUS1yaGRYSmo0cUM1R1FOckV0eUtKN0Q3bTlhSXJiT2F6YmotSDFSMmdmMzJhMTdFVXFXUFBvQ21HWm12cHQ4WU1GVXFiWFJlYnk?oc=5",
+      "summary": "Hòa Phát (HPG) được Hải Phòng cho thuê thêm hơn 91ha đất làm khu công nghiệp gần 3.400 tỷ nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T07:04:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Dự báo lợi nhuận 2026 của Vinamilk (VNM) lập đỉnh lịch sử, thách thức gì khiến chuyên gia dè chừng triển vọng năm tới?",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaThkODF5cGF3SXBsVEl3WGVVSVFTMWd4YU1SbW9NLVpwbmV5MkZhSVhYekpVek10ZEwtcVQ2bHFPd0lxNFZ3NUtvWTJyczYxTTN5eHhocjA1bTB6S3Jib25SSDctbXdyT0gySWRHbklCZTFKSmFGSzNNRktRd3FEd01tSjUwNm1IV25EMWJuXzZLM09xWnFKSlRlU29GUUVlaVp4cUtYckZFRkttUnBzQ1VBeTFKZU96SWJSQnFIcDhXaXdIVjh4NmtGWGV2dXE5bVFoS3JGV3gzZUZ5bjhXMVlLc2Y?oc=5",
+      "summary": "Dự báo lợi nhuận 2026 của Vinamilk (VNM) lập đỉnh lịch sử, thách thức gì khiến chuyên gia dè chừng triển vọng năm tới? nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T07:18:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "AMY được chấp thuận niêm yết trên HOSE, chào sàn 20/11 với vốn hóa gần 7.900 tỷ đồng",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNjdvMEo3MzZDMS1qSk93aF90QnBpMlQ4SUd1MDVLZ3BBNWZnNndET2wyLWYxSF9IZkRRZ25MaGJLZmN0YW5kOWdMT0QzbDR1eTdacXZHT1Y3N3RhTWlDSXNBVzU1cm10NHg0dVgzV0hVNERNTFVMSlE5YmhwNXdIMjY2MWkzVWw2eG9EallQUHZBQWtjWXpuOW03VGZNOElxSEs3SWNuM0dzRzQtVS1Cc3lpYnFiZ0I5ZEJr?oc=5",
+      "summary": "AMY được chấp thuận niêm yết trên HOSE, chào sàn 20/11 với vốn hóa gần 7.900 tỷ đồng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-12T09:23:01",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+      "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+      "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T22:47:28",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T22:24:12",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+      "url": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
+      "summary": "The IRS has announced higher 401(k) contribution limits for 2027. Here’s what retirement savers need to know.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T17:23:14",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T22:48:26",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T21:20:35",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+      "summary": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T20:01:29",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+      "summary": "The retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T19:58:11",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+      "summary": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T19:42:41",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "The world's super-rich are piling into alternative investments. Here's why",
+      "url": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+      "summary": "Alternative investments now account for 60% of single-family office portfolios, surpassing traditional assets for the first time, according to BNY Wealth.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T03:36:44",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
+      "summary": "Without Huang, Cramer said Thursday, \"There won't be a better Nvidia, just a different one.\"",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T23:14:56",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Without Jensen Huang, Nvidia's organizational structure isn't 'built to last,' management expert says",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-jensen-huang-management-structure.html",
+      "summary": "Nvidia's flat management structure could pose challenges for Huang's successor, according to experts.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T22:06:08",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+      "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+      "summary": "The president's son will no longer serve as an advisor at Kalshi.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T20:03:57",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "summary": "The PPI for October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-09T02:50:22",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "summary": "The average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-06T20:11:17",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "summary": "Nonfarm payrolls were expected to increase by 59,000 in October as the unemployment rate was expected to hold steady at 4.2%.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-06T16:06:59",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "The October jobs report is out Friday. Here's everything to expect",
+      "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+      "summary": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-05T21:32:52",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+      "url": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
+      "summary": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-05T14:33:32",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+      "summary": "One policymaker voted to raise the bank's key interest rate to 4.25%.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-05T16:01:47",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
+      "summary": "Participants in the CNBC Voter Poll ranked the economy the most important issue facing the country, ahead of topics tied to democracy and immigration.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-05T16:07:59",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+      "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+      "summary": "The next debt-ceiling confrontation could reverse Washington's traditional political roles, raising the possibility of spending concessions, market volatility and a damaging default.",
+      "source": "CNBC Economy",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-04T22:46:43",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+      "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T19:05:25",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+      "url": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+      "summary": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-07T16:02:33",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "summary": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-07T15:23:46",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "summary": "San Francisco Fed President Mary Daly called Friday's jobs report \"good news for American workers,\" but noted the pressure inflation is exerting on household finances",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-06T19:05:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "summary": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-06T17:09:53",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Giá vé máy bay Tết Đinh Mùi nhiều chặng tăng nhanh",
+      "url": "https://vnexpress.net/gia-ve-may-bay-tet-dinh-mui-nhieu-chang-tang-nhanh-5143344.html",
+      "summary": "Vé máy bay Tết từ TP HCM đi nhiều tỉnh miền Trung, miền Bắc đã lên 4-5 triệu đồng một chiều, khiến nhiều gia đình phải đổi kế hoạch về quê.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T22:43:05",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Công ty ông Trần Bá Dương chốt đơn xuất khẩu chuối gần nửa tỷ USD",
+      "url": "https://vnexpress.net/cong-ty-ong-tran-ba-duong-chot-don-xuat-khau-chuoi-gan-nua-ty-usd-5144068.html",
+      "summary": "Thaco Agri, công ty nông nghiệp của ông Trần Bá Dương, vừa chốt đơn xuất khẩu hơn 680.000 tấn chuối trong năm 2027 với giá trị khoảng 498 triệu USD.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T21:44:48",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "VCCI kiến nghị giảm tỷ lệ tái chế với điện thoại di động từ 15% xuống 3%",
+      "url": "https://vnexpress.net/vcci-kien-nghi-giam-ty-le-tai-che-voi-dien-thoai-di-dong-tu-15-xuong-3-5144035.html",
+      "summary": "VCCI kiến nghị giảm tỷ lệ tái chế bắt buộc với điện thoại cũ trong 2026-2028, bởi người Việt quen cho tặng hoặc bán ra thị trường thiết bị cũ, thay vì thải bỏ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T21:24:45",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "SGI Capital: Chứng khoán vẫn còn nguy cơ vỡ nợ margin",
+      "url": "https://vnexpress.net/sgi-capital-chung-khoan-van-con-nguy-co-vo-no-margin-5144031.html",
+      "summary": "Dư nợ margin toàn thị trường lập kỷ lục 457.500 tỷ đồng, với một bộ phận cổ đông vay rồi rút vốn ra ngoài, tiềm ẩn nguy cơ vỡ nợ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T21:01:03",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Loạt 'ông lớn' xây dựng Trung Quốc muốn tăng đầu tư tại Việt Nam",
+      "url": "https://vnexpress.net/loat-ong-lon-xay-dung-trung-quoc-muon-tang-dau-tu-tai-viet-nam-5144057.html",
+      "summary": "Nhiều doanh nghiệp hàng đầu Trung Quốc muốn đẩy mạnh hợp tác đầu tư vào các lĩnh vực chiến lược của Việt Nam như đường sắt đô thị, năng lượng, khu công nghiệp.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T20:49:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Giá vàng thế giới lao dốc, xuống thấp nhất hơn một năm",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-lao-doc-xuong-thap-nhat-hon-mot-nam-5144060.html",
+      "summary": "Tuyên bố \"không cần thỏa thuận với Iran\" của ông Trump khiến mỗi ounce vàng giảm hơn 130 USD.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T16:15:23",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "CEO tạm quyền của Nvidia là ai?",
+      "url": "https://vnexpress.net/ceo-tam-quyen-cua-nvidia-la-ai-5144046.html",
+      "summary": "Colette Kress gia nhập Nvidia năm 2013 và là lãnh đạo được biết đến nhiều nhất tại công ty, sau Jensen Huang.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T15:45:18",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang từng nói gì về chuyện kế nhiệm?",
+      "url": "https://vnexpress.net/jensen-huang-tung-noi-gi-ve-chuyen-ke-nhiem-5144038.html",
+      "summary": "Vài tuần trước bê bối ngoại tình khiến CEO Nvidia Jensen Huang phải từ chức, ông từng phát biểu về chuyện sa thải và kế nhiệm.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T15:00:15",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang từ chức CEO Nvidia",
+      "url": "https://vnexpress.net/jensen-huang-tu-chuc-ceo-nvidia-5143768.html",
+      "summary": "Hãng chip giá trị nhất thế giới lần đầu thay CEO sau 33 năm, vì bê bối ngoại tình của Jensen Huang.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-12T14:01:10",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Doanh nghiệp vừa thay dàn lãnh đạo cấp cao, cổ phiếu bất ngờ “có biến”",
+      "url": "https://cafef.vn/doanh-nghiep-vua-thay-dan-lanh-dao-cap-cao-co-phieu-bat-ngo-co-bien-188261112214752138.chn",
+      "summary": "Sau loạt thay đổi nhân sự cấp cao, cổ phiếu TV1 bất ngờ tăng kịch trần trong phiên 12/11, thanh khoản cũng tăng mạnh so với những phiên trước.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:07:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Phát hiện 2 người phụ nữ Việt Nam cùng có 111 nghìn tỷ",
+      "url": "https://cafef.vn/phat-hien-2-nguoi-phu-nu-viet-nam-cung-co-111-nghin-ty-188261112224722157.chn",
+      "summary": "Bên cạnh khối tài sản khổng lồ, 2 nữ doanh nhân này còn có những điểm chung thú vị trong quá trình khởi nghiệp.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:05:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Chuyên gia Đào Phúc Tường nói về cơ hội \"đổi đời\" trên sàn chứng khoán Việt Nam",
+      "url": "https://cafef.vn/chuyen-gia-dao-phuc-tuong-noi-ve-co-hoi-doi-doi-tren-san-chung-khoan-viet-nam-188261112214055338.chn",
+      "summary": "Trong bối cảnh mặt bằng định giá đã trở nên hấp dẫn, chuyên gia cho rằng sự trở lại của dòng tiền có thể tạo động lực để thị trường bước vào một quá trình tái định giá mạnh mẽ.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:03:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Chứng khoán Việt Nam đi xuống sau nâng hạng, Chủ tịch VSDC chỉ ra điều còn thiếu để hút dòng vốn ngoại",
+      "url": "https://cafef.vn/chung-khoan-viet-nam-di-xuong-sau-nang-hang-chu-tich-vsdc-chi-ra-dieu-con-thieu-de-hut-dong-von-ngoai-188261112164924677.chn",
+      "summary": "Đi sâu vào những điều kiện cần cải thiện sau nâng hạng, ông Nguyễn Sơn đặc biệt lưu ý đến nguồn cung cổ phiếu chất lượng cao trên thị trường Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:03:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "PNJ thua lỗ, giá giảm sàn, tại sao vẫn lọt rổ chỉ số quan trọng của MSCI?",
+      "url": "https://cafef.vn/pnj-thua-lo-gia-giam-san-tai-sao-van-lot-ro-chi-so-quan-trong-cua-msci-188261112225231116.chn",
+      "summary": "Giữa lúc cổ phiếu PNJ trải qua một trong những giai đoạn khó khăn nhất lịch sử, việc bất ngờ được bổ sung vào rổ MSCI Frontier Markets Index trở thành thông tin tích cực.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:02:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang từng \"tiên đoán\" về việc có thể bị sa thải, có người khác thay thế vị trí CEO Nvidia",
+      "url": "https://cafef.vn/jensen-huang-tung-tien-doan-ve-viec-co-the-bi-sa-thai-co-nguoi-khac-thay-the-vi-tri-ceo-nvidia-188261112225353263.chn",
+      "summary": "Chỉ vài tuần trước bê bối ngoại tình, ông Jensen Huang từng lên tiếng về việc có thể bị sa thải và chuyện người kế kiệm ở Nvidia.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T15:53:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Toàn văn thông báo chính thức của Nvidia về việc Jensen Huang từ chức CEO, công bố người tạm quyền thay thế",
+      "url": "https://cafef.vn/toan-van-thong-bao-chinh-thuc-cua-nvidia-ve-viec-jensen-huang-tu-chuc-ceo-cong-bo-nguoi-tam-quyen-thay-the-188261112225140272.chn",
+      "summary": "Nvidia thông báo sự thay đổi này có hiệu lực ngay lập tức.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T15:51:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Vợ ông Đỗ Thành Nhân xin nghỉ do không sắp xếp được thời gian làm việc",
+      "url": "https://cafef.vn/vo-ong-do-thanh-nhan-xin-nghi-do-khong-sap-xep-duoc-thoi-gian-lam-viec-188261112183355869.chn",
+      "summary": "Bà Ngô Thị Như Phượng, vợ ông Đỗ Thành Nhân, bất ngờ xin rời Hội đồng quản trị Tập đoàn Bất động sản Quốc gia sau hơn 4 tháng được bầu vào vị trí này.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T11:33:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Phát hiện 7 tấn cua lông Trung Quốc nhiễm dioxin",
+      "url": "https://cafef.vn/phat-hien-7-tan-cua-long-trung-quoc-nhiem-dioxin-188261113074723676.chn",
+      "summary": "Một lô 7 tấn cua lông từ tỉnh An Huy (Trung Quốc) đến Đài Loan (Trung Quốc) vừa bị phát hiện chứa dioxin vượt ngưỡng cho phép. Đáng chú ý, độc tố này có xu hướng tích tụ nhiều nhất ở phần gạch và gan tụy của cua.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:47:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cánh đồng trống biến thành căn cứ UAV, 8 bệ phóng xuất hiện sau vài tuần: Nga đang 'cược lớn' cho điều gì?",
+      "url": "https://cafef.vn/canh-dong-trong-bien-thanh-can-cu-uav-8-be-phong-xuat-hien-sau-vai-tuan-nga-dang-cuoc-lon-cho-dieu-gi-188261113072946813.chn",
+      "summary": "Những hình ảnh vệ tinh gần đây cho thấy Nga đã biến một cánh đồng trống thành căn cứ máy bay không người lái tấn công chỉ trong vài tuần.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:29:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Ông Zelensky vừa tuyên bố: Tôi không có nhiệm vụ làm ông Trump vui",
+      "url": "https://cafef.vn/ong-zelensky-vua-tuyen-bo-toi-khong-co-nhiem-vu-lam-ong-trump-vui-18826111221591582.chn",
+      "summary": "Ông cũng nói rõ điều Ukraine cần từ Mỹ.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T15:22:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Ukraine đối mặt với mối đe dọa tệ hơn cả chiến tranh",
+      "url": "https://cafef.vn/ukraine-doi-mat-voi-moi-de-doa-te-hon-ca-chien-tranh-188261112215709551.chn",
+      "summary": "Ukraine không thể ước tính chính xác dân số cả nước, trong khi một số ước tính con số này chỉ còn khoảng 18 triệu người.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T15:00:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Cổ phiếu Nvidia lao dốc 12% sau khi CEO Jensen Huang từ chức",
+      "url": "https://cafef.vn/co-phieu-nvidia-lao-doc-12-sau-khi-ceo-jensen-huang-tu-chuc-188261112212507334.chn",
+      "summary": "Cổ phiếu Nvidia giảm gần 12% trong phiên giao dịch trước giờ mở cửa ngày 12/11, sau khi CEO Jensen Huang tuyên bố rời vị trí lãnh đạo tập đoàn.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T14:28:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Vì sao Ấn Độ lại đổi dầu của Nga lấy dầu thô Trung Đông?",
+      "url": "https://cafef.vn/vi-sao-an-do-lai-doi-dau-cua-nga-lay-dau-tho-trung-dong-188261112205602814.chn",
+      "summary": "Hành động của Ấn Độ đối với dầu thô của Nga đang gây ra thắc mắc trên thị trường thế giới.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T14:25:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nóng: Jensen Huang từ chức",
+      "url": "https://cafef.vn/nong-jensen-huang-tu-chuc-188261112211309069.chn",
+      "summary": "Jensen Huang rời ghế CEO Nvidia sau 33 năm đồng sáng lập và dẫn dắt hãng chip trở thành doanh nghiệp có vốn hóa 4.000 tỷ USD, giữ vai trò trung tâm trong làn sóng bùng nổ trí tuệ nhân tạo (AI).",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T14:12:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Khoản vay 182 triệu USD cho dự án chưa từng có: Trung Quốc và các ngân hàng giúp Campuchia tính chuyện lớn",
+      "url": "https://cafef.vn/khoan-vay-182-trieu-usd-cho-du-an-chua-tung-co-trung-quoc-va-cac-ngan-hang-giup-campuchia-tinh-chuyen-lon-188261112205407543.chn",
+      "summary": "\"Campuchia hiện đã nằm trong số các quốc gia xanh nhất về cơ cấu năng lượng\", Thống đốc Ngân hàng Quốc gia Campuchia nói. \"Tuy nhiên, chúng tôi đang hướng tới mục tiêu cao hơn.\"",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T13:54:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "ACB vượt mốc thương hiệu 1,4 tỷ USD, vào Top 3 ngân hàng tư nhân giá trị nhất Việt Nam",
+      "url": "https://cafef.vn/acb-vuot-moc-thuong-hieu-14-ty-usd-vao-top-3-ngan-hang-tu-nhan-gia-tri-nhat-viet-nam-188261112233717134.chn",
+      "summary": "ACB vừa được Forbes Việt Nam vinh danh trong danh sách Top 50 Thương hiệu dẫn đầu Việt Nam 2026 với giá trị thương hiệu đạt 1,403 tỷ USD.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:30:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Giá vàng miếng, vàng nhẫn trơn sáng 13/11 tại SJC, DOJI, PNJ, Bảo Tín Minh Châu",
+      "url": "https://cafef.vn/gia-vang-mieng-vang-nhan-tron-sang-13-11-tai-sjc-doji-pnj-bao-tin-minh-chau-188261112231426077.chn",
+      "summary": "Giá vàng thế giới giảm mạnh hơn 3% trong tối 12/11, lùi sâu dưới ngưỡng 3.900 USD/ounce. Trong nước, vàng miếng SJC kết thúc ngày giao dịch 12/11 ở mức bán ra 139 triệu đồng/lượng, giảm 1 triệu đồng so với cuối ngày trước.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T20:06:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Tỷ phú xuất thân từ quê lúa: Sau 16 năm ghép gan vẫn quyết tái thiết ngân hàng, làm chip bán dẫn, robot ở tuổi 67",
+      "url": "https://cafef.vn/ty-phu-xuat-than-tu-que-lua-sau-16-nam-ghep-gan-van-quyet-tai-thiet-ngan-hang-lam-chip-ban-dan-robot-o-tuoi-67-188261112230124179.chn",
+      "summary": "Ở tuổi 67, vị doanh nhân vẫn nhiệt huyết với những mục tiêu kinh doanh lớn, từ việc đưa ngân hàng tăng trưởng đột phá đến những tham vọng mới với công nghệ cao mới.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:15:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Giá vàng lao dốc tối 12/11, mất tiếp mốc 3.900 USD/ounce",
+      "url": "https://cafef.vn/gia-vang-lao-doc-toi-12-11-mat-tiep-moc-3900-usd-ounce-188261112214947313.chn",
+      "summary": "Giá vàng thế giới giảm mạnh trong tối 12/11, mất mốc 3.900 USD/ounce trong bối cảnh đồng USD tăng giá và kỳ vọng Mỹ tiếp tục nâng lãi suất gây sức ép lên kim loại quý.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T14:49:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Agribank rao bán khoản nợ hơn 40 tỷ đồng",
+      "url": "https://cafef.vn/agribank-rao-ban-khoan-no-hon-40-ty-dong-188261112111301531.chn",
+      "summary": "Agribank Chi nhánh Tây Hồ đang tìm tổ chức đấu giá khoản nợ hơn 40 tỷ đồng của Công ty cổ phần Bizmedia, doanh nghiệp do bà Bùi Thị Thu Hồng thành lập. Đáng chú ý, khoản nợ này hiện không còn tài sản bảo đảm.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T13:47:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Chậm hoàn thuế: Doanh nghiệp có thể đòi bồi thường?",
+      "url": "https://cafef.vn/cham-hoan-thue-doanh-nghiep-co-the-doi-boi-thuong-188261113071859291.chn",
+      "summary": "Bộ trưởng Bộ Tài chính Ngô Văn Tuấn khẳng định cán bộ thuế phải chịu trách nhiệm, kể cả bồi thường vật chất nếu chậm xử lý hồ sơ hoàn thuế đầy đủ, đúng quy định. Tuy nhiên, khi cơ chế trả lãi 0,03% mỗi ngày khi chậm ban hành quyết định hoàn thuế đã bị bãi bỏ, doanh nghiệp có thể dựa vào đâu để đòi quyền lợi.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:51:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Người dân thêm lựa chọn di chuyển khi không bắt buộc chuyển sang xe thuần điện",
+      "url": "https://cafef.vn/nguoi-dan-them-lua-chon-di-chuyen-khi-khong-bat-buoc-chuyen-sang-xe-thuan-dien-188261113071551707.chn",
+      "summary": "Người dùng xe máy cho rằng quyền chủ động lựa chọn phương tiện giúp họ cân đối tốt hơn giữa chi phí, hạ tầng sạc và nhu cầu đi lại thực tế.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:20:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Để Việt Nam thực hiện hóa tham vọng lớn chưa từng có trong lịch sử, PGS.TS Trần Đình Thiên nhấn mạnh: Chúng ta phải “thoát chính chúng ta”!",
+      "url": "https://cafef.vn/de-viet-nam-thuc-hien-hoa-tham-vong-lon-chua-tung-co-trong-lich-su-pgsts-tran-dinh-thien-nhan-manh-chung-ta-phai-thoat-chinh-chung-ta-1882611122248247.chn",
+      "summary": "Tham vọng tăng trưởng GDP từ 10% mỗi năm trong giai đoạn 2026–2030 đòi hỏi Việt Nam chuyển sang mô hình phát triển mới, với khu vực tư nhân giữ vai trò lớn hơn. Theo PGS.TS Trần Đình Thiên, nguyên Viện trưởng Viện Kinh tế Việt Nam, bài toán không chỉ là tạo điều kiện để doanh nghiệp trong nước triển khai dự án lớn, xây dựng tập đoàn đủ sức cạnh tranh quốc tế, mà còn phải biến sự bứt phá của doanh nghiệp dẫn đầu thành động lực phát triển cho toàn khu vực tư nhân.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-13T00:18:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Sang năn 2027, mức đóng BHXH tự nguyện có thay đổi quan trọng: Toàn bộ người dân lưu ý!",
+      "url": "https://cafef.vn/sang-nan-2027-muc-dong-bhxh-tu-nguyen-co-thay-doi-quan-trong-toan-bo-nguoi-dan-luu-y-188261112231820631.chn",
+      "summary": "Từ ngày 1/1/2027, mức chuẩn nghèo khu vực nông thôn tăng lên 2,2 triệu đồng/tháng kéo theo mức đóng BHXH tự nguyện tối thiểu và tối đa có sự điều chỉnh đáng kể.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-12T17:01:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T22:42:51",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T22:22:28",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T21:27:10",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T20:26:47",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T19:27:45",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T19:11:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Microsoft’s Outlook email hit by new outage",
+      "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
+      "summary": "Microsoft hasn't yet given a cause for the outage, which is affecting Outlook email users.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T19:03:39",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T18:39:23",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T17:36:40",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T17:17:58",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T17:00:52",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T17:00:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T16:36:37",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T16:32:33",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+      "url": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html",
+      "summary": "Jim Cramer identified three lingering questions about Anthropic ahead of its highly anticipated IPO.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T23:45:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Nscale updates IPO prospectus that shows widening loss",
+      "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+      "summary": "Nvidia-backed neocloud Nscale on Thursday released updated paperwork for a U.S. initial public offering showing a widening loss.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T23:12:15",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+      "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+      "summary": "Nvidia CEO Jensen Huang has been a singular figure in the development of the AI industry, which suddenly has to survive without him.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T20:32:21",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+      "url": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
+      "summary": "Colette Kress joined Nvidia in 2013 after nearly 25 years in finance roles at Cisco, Microsoft and other tech companies.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T18:36:30",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Coinbase CEO says industry collaboration can help contain fallout from hacks like Binance breach",
+      "url": "https://www.cnbc.com/2026/11/12/coinbase-ceo-brian-armstrong-talks-binance-hack-democrats-sweep.html",
+      "summary": "Coinbase CEO Brian Armstrong joined \"Squawk Box\" for his first TV interview since the Binance hack to share his perspective on cybersecurity.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T17:00:49",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
+      "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
+      "summary": "Trump's tariffs, which have ignited trade wars with multiple U.S. economic partners, will likely be a top target for Democrats once they take control of Congress.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-12T20:59:04",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T21:55:32",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T19:42:40",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T18:06:54",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T17:44:33",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T17:00:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T17:00:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T16:30:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T15:48:12",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "I reviewed the Apple HomeView, ask me anything",
+      "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+      "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T14:10:00",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    },
+    {
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-12T16:12:44",
+      "first_seen": "2026-11-13T08:03:33+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-11-09": [
-      "noon"
-    ],
     "2026-11-10": [
       "noon"
     ],
