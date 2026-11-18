@@ -1,10 +1,838 @@
 {
   "last_sent": "2026-11-17T21:21:56+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Lộ diện 10 doanh nghiệp lớn nhất Việt Nam: Samsung dẫn đầu, Vingroup xếp thứ 4",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGpQU3NJYjdFZDEtcngydENDZGhvOEtQOFE5Q2haNHl5UW5BT0g3QmZHd1YyejlLMFJwWjdTT19jekFVcWxYOENPYlV4Uml3UVRfOXFqbktZWHk2YWZMY0w4R2NHQTFOSjRBRTh0cGcxeGp5dGNzbXJsMkZuTExBalJxRThDZWVfeVlsUjVJOVJUR0NsMlM3azlNNDFLaTNrN1gyX1NZM1NNZjI5aDdrY0NB?oc=5",
+      "summary": "Lộ diện 10 doanh nghiệp lớn nhất Việt Nam: Samsung dẫn đầu, Vingroup xếp thứ 4 nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-17T17:01:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Trung tâm dữ liệu AI có thể ngốn điện ngang một lò phản ứng hạt nhân: Hóa chất Đức Giang, CSV, HT1 đối mặt rủi ro mới",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM1V6TGNSRXloWUljbGpNS2s0T2tURWJ3bEhIZFJpN2U1WTVYVlEyWkpXNEpzdUprMlFKZExkN2RDU1I4WWpZYl9FLWIyUEROLTlTYU9xNmdoMFZPZnY1YkVDSmV6Tm04V0VMUVFSUHFlQ000Q2xVcWlNbXl0M2VITmNsVDlkSXJXdmlFVXFtY1dYNlZHb2NyS3l4Yi1XNTRfUS1vVWUyMlJYLU9OUnh4OC1YdS1yc01vdW9PNVJKU3pvRkZrZXk3a0RVcFJkV2YyckhJZ2dFRnNzeDI1NXdxVVlWakQ?oc=5",
+      "summary": "Trung tâm dữ liệu AI có thể ngốn điện ngang một lò phản ứng hạt nhân: Hóa chất Đức Giang, CSV, HT1 đối mặt rủi ro mới nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-17T08:26:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Phản hồi đề xuất của Vingroup về tổ hợp đường sắt gần 30.000 tỷ đồng, Phó Thủ tướng ra chỉ đạo quan trọng",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQnRLQXYtSlRvQlhOUlRCeUpXUGFkbGdDS3FIUkVQM3pmdUpqN2U2OTEtX25VNS1RTzExMDJqRHBvMFd4Z2M1bTNjdEEwa0dDOEppRlVwMmxYZFBsZG9TTXdSRXlRNWhNMC1OSklwRVN4NHRxdEVTMW1UaG1OcHBKdDE1NFMtYkE4MzRrMUw0SVF6YVRLRkF2TS1iZXpHOWN6V2xEZVpZTmpEVU5uWHlUbEUwX0o5RTRocFA0elJMOU9nRWZTZFRKcXUta0hSUTdNaVp1dER0cw?oc=5",
+      "summary": "Phản hồi đề xuất của Vingroup về tổ hợp đường sắt gần 30.000 tỷ đồng, Phó Thủ tướng ra chỉ đạo quan trọng nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-16T15:26:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Hàng loạt tỷ phú âm thầm bán tháo cổ phiếu Nvidia trước cú sốc tại đế chế chip của Jensen Huang",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOEtFT25aN1NxRHRPSk81bG96V1JzdmhUS1hzbktLaXdTN0oyM293dEUtaVdZcm1tYmlFTU5TVGNjZ1dkdkpobFZIMmRVVmlINkdxSl9aMlp4ekpqTllabjFHV0xVZTlkYjNaTXh1cExPd1VYbmIwVFpnVDMxQjhDYk9rcHVteGQzVkRocVd5YUxLeWFrRUNyS2xhS3NXY180U1FZOU9qczVpcS1PdlRGdm1BeEx3cEZiN0xoY3RmR2tNZGtoVGRraXRvNA?oc=5",
+      "summary": "Hàng loạt tỷ phú âm thầm bán tháo cổ phiếu Nvidia trước cú sốc tại đế chế chip của Jensen Huang nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-17T09:55:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T01:23:29",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+      "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+      "summary": "Major outages showcase the risks of interconnected tech in the age of AI.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T22:03:57",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "LeBron James sues startup over viral AI ad allegedly exploiting his likeness",
+      "url": "https://www.cnbc.com/2026/11/18/lebron-james-startup-ai-lawsuit.html",
+      "summary": "LeBron James sued an AI-powered sports betting startup over alleged unauthorized use of his likeness.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T02:02:02",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "OpenAI bugging case defendant Alfozan set for trial in January",
+      "url": "https://www.cnbc.com/2026/11/17/openai-spy-alfozan-trial-saudi.html",
+      "summary": "Abdulrahman Alfozan has been held without bail since his arrest in October, after prosecutors said he planted a listening device in an OpenAI conference room.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T01:31:37",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+      "url": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html",
+      "summary": "VIX up four days in a row as options traders show fear unseen since April",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T20:28:07",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
+      "summary": "Semiconductor shipments spiked almost 50% year on year.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T00:35:31",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock",
+      "url": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html",
+      "summary": "",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T01:18:41",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
+      "url": "https://www.cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html",
+      "summary": "Homebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials. That caused more builder price cuts.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T15:36:43",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+      "summary": "The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T22:02:05",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+      "url": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
+      "summary": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T17:49:45",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "FAA pauses installation of new routers after ground stop",
+      "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
+      "summary": "Problems with the overwhelmed technology led the agency to issue a rare nationwide ground stop on Friday.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T20:53:24",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request",
+      "url": "https://www.cnbc.com/2026/11/17/kalshi-takes-down-trump-mention-markets.html",
+      "summary": "Some Trump-related Kalshi mention contracts have been taken down as the CFTC warns the contract type carries heightened manipulation risk.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T19:29:27",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
+      "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "summary": "JPMorgan and Hyundai Card are looking to expand the use of AI agents in financial transactions.",
+      "source": "CNBC Finance",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T23:30:13",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Quyền lực Nvidia ra sao khi không còn Jensen Huang?",
+      "url": "https://vnexpress.net/quyen-luc-nvidia-ra-sao-khi-khong-con-jensen-huang-5145629.html",
+      "summary": "Việc Jensen Huang không còn là CEO không chỉ đặt dấu hỏi cho tương lai của Nvidia mà có thể làm thay đổi ảnh hưởng của hãng với Washington lẫn chính sách AI của Mỹ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T23:32:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Doanh thu Nvidia tăng hơn gấp đôi​",
+      "url": "https://vnexpress.net/doanh-thu-nvidia-tang-hon-gap-doi-5145883.html",
+      "summary": "Hãng chip Mỹ đã có 17 quý liên tiếp đạt doanh thu cao hơn dự báo, với hơn 110 tỷ USD quý trước.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T23:01:52",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Việt Nam đề xuất ba ưu tiên thúc đẩy hành động khí hậu tại COP31",
+      "url": "https://vnexpress.net/viet-nam-de-xuat-ba-uu-tien-thuc-day-hanh-dong-khi-hau-tai-cop31-5145865.html",
+      "summary": "Phó thủ tướng Hồ Quốc Dũng đề nghị các nước phát triển huy động 1.300 tỷ USD tài chính khí hậu mỗi năm vào năm 2035, tạo thuận lợi chuyển giao công nghệ và bảo đảm chuyển đổi xanh công bằng.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T17:16:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Các tỷ phú công nghệ có bao nhiêu cổ phần ở công ty mình sáng lập?",
+      "url": "https://vnexpress.net/cac-ty-phu-cong-nghe-co-bao-nhieu-co-phan-o-cong-ty-minh-sang-lap-5145778.html",
+      "summary": "Không phải tỷ phú công nghệ nào cũng nắm quyền chi phối doanh nghiệp do mình sáng lập, dù tên tuổi của họ gắn liền với thương hiệu.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T17:03:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Mỗi ha dừa có thể mang về 150 triệu đồng mỗi năm",
+      "url": "https://vnexpress.net/moi-ha-dua-co-the-mang-ve-150-trieu-dong-moi-nam-5145781.html",
+      "summary": "Mỗi ha dừa tại Vĩnh Long có thể mang lại thu nhập 100-150 triệu đồng một năm, cao hơn nhiều mô hình trồng lúa, trong khi cây cần ít công chăm sóc hơn.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T17:01:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Công ty chứng khoán thứ ba có vốn điều lệ vượt mốc tỷ USD",
+      "url": "https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html",
+      "summary": "Sau khi hoàn thành việc phát hành gần 844 triệu cổ phiếu thưởng, VPBankS sẽ có vốn điều lệ đạt mức 27.187 tỷ đồng, tương đương hơn 1 tỷ USD, trở thành công ty chứng khoán thứ ba đạt cột mốc này.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-18T01:09:57",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Jensen Huang lần đầu lên tiếng sau khi từ chức",
+      "url": "https://vnexpress.net/jensen-huang-lan-dau-len-tieng-sau-khi-tu-chuc-5145860.html",
+      "summary": "Trong lá thư công khai đầu tiên sau khi từ chức, Jensen Huang thể hiện sự hối hận và khẳng định Nvidia là tâm huyết cả đời, sẵn sàng trở lại nếu được đồng ý.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-17T16:16:28",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "FPT công bố thông tin quan trọng",
+      "url": "https://cafef.vn/fpt-cong-bo-thong-tin-quan-trong-188261118090644835.chn",
+      "summary": "10 tháng đầu năm 2026, doanh thu và lợi nhuận của FPT tăng trưởng ở mức hai chữ số. Riêng tháng 10, doanh thu Dịch vụ CNTT nước ngoài tăng khoảng 17% so với cùng kỳ.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T02:09:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "VPBankS chốt ngày chia cổ phiếu thưởng tỷ lệ 45%",
+      "url": "https://cafef.vn/vpbanks-chot-ngay-chia-co-phieu-thuong-ty-le-45-188261118083858704.chn",
+      "summary": "Ngày 30/11/2026, VPBankS sẽ chốt danh sách cổ đông để phát hành 843,75 triệu cổ phiếu, tương đương 45% tổng lượng cổ phiếu đang lưu hành.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:38:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Loạt cá nhân và tổ chức liên quan lãnh đạo Novaland giao dịch cổ phiếu NVL",
+      "url": "https://cafef.vn/loat-ca-nhan-va-to-chuc-lien-quan-lanh-dao-novaland-giao-dich-co-phieu-nvl-188261118083752248.chn",
+      "summary": "Novaland vừa ghi nhận loạt giao dịch cổ phiếu NVL của lãnh đạo, người nhà và tổ chức liên quan Chủ tịch Bùi Cao Nhật Quân với cả chiều mua vào và bán ra hàng triệu cổ phiếu.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:37:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Bất ngờ sở hữu khối ngoại tại FPT khi thị giá \"thủng đáy\" 3 năm",
+      "url": "https://cafef.vn/bat-ngo-so-huu-khoi-ngoai-tai-fpt-khi-thi-gia-thung-day-3-nam-188261117221031335.chn",
+      "summary": "Áp lực bán của nhà đầu tư nước ngoài tại FPT chưa có dấu hiệu dừng lại.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:09:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Khởi tố, bắt tạm giam đối tượng sinh năm 2001 trục lợi GSM",
+      "url": "https://cafef.vn/khoi-to-bat-tam-giam-doi-tuong-sinh-nam-2001-truc-loi-gsm-188261117222049298.chn",
+      "summary": "Không chấp nhận các đơn giao đồ ăn, giao hàng chậm, một tài xế xe ôm công nghệ đã tìm cách chỉnh sửa mã nguồn ứng dụng Xanh SM Driver, vô hiệu hóa cơ chế bắt buộc cập nhật để tiếp tục sử dụng trái phép hệ thống.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:08:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Loại nhóm Vingroup, định giá chứng khoán Việt Nam thấp ngang thời kỳ “thảm hoạ”",
+      "url": "https://cafef.vn/loai-nhom-vingroup-dinh-gia-chung-khoan-viet-nam-thap-ngang-thoi-ky-tham-hoa-188261117232125905.chn",
+      "summary": "P/E của VN-Index dưới 10 lần nếu loại nhóm cổ phiếu Vingroup là mức định giá rất thấp nếu đặt trong tương quan lịch sử. Cơ hội đầu tư đang dần xuất hiện, nhưng thị trường vẫn thiếu những chất xúc tác đủ mạnh để kích hoạt một chu kỳ dòng tiền mới.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:05:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Vietjet tuyển tiếp viên, tốt nghiệp THPT có thể ứng tuyển, thu nhập tới 65 triệu đồng/tháng, có vé bay miễn phí cho cả gia đình",
+      "url": "https://cafef.vn/vietjet-tuyen-tiep-vien-tot-nghiep-thpt-co-the-ung-tuyen-thu-nhap-toi-65-trieu-dong-thang-co-ve-bay-mien-phi-cho-ca-gia-dinh-188261117224656204.chn",
+      "summary": "Vietjet công bố mức thu nhập lên tới 30 triệu đồng/tháng đối với tiếp viên mới và 65 triệu đồng/tháng đối với tiếp viên trưởng, cùng nhiều chính sách đãi ngộ dành cho người thân.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:05:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Tiền vào chứng khoán bất ngờ rơi xuống thấp nhất 21 tháng, chuyện gì đang xảy ra?",
+      "url": "https://cafef.vn/tien-vao-chung-khoan-bat-ngo-roi-xuong-thap-nhat-21-thang-chuyen-gi-dang-xay-ra-188261117232353138.chn",
+      "summary": "Thanh khoản khớp lệnh bình quân tháng 10/2026 chỉ đạt hơn 12.000 tỷ, thấp nhất kể từ tháng 1/2025.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:03:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Lãi 9 tháng vượt 50% kế hoạch năm, \"ông lớn\" vốn hóa 170.000 tỷ đón cú hích từ siêu dự án 12 tỷ USD",
+      "url": "https://cafef.vn/lai-9-thang-vuot-50-ke-hoach-nam-ong-lon-von-hoa-170000-ty-don-cu-hich-tu-sieu-du-an-12-ty-usd-188261117104727968.chn",
+      "summary": "CTCK nâng dự báo doanh thu thuần năm 2026 có thể đạt hơn 168.000 tỷ đồng, tăng 24%, trong khi lợi nhuận ròng đạt gần 15.800 tỷ đồng, tăng 37% so với cùng kỳ.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:03:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Tổng Giám đốc Phan Quốc Công tạm lỗ 20 tỷ sau cú \"bắt đáy\" PNJ",
+      "url": "https://cafef.vn/tong-giam-doc-phan-quoc-cong-tam-lo-20-ty-sau-cu-bat-day-pnj-188261117225619976.chn",
+      "summary": "Chỉ khoảng 3 tháng sau khi hoàn tất mua 1 triệu cổ phiếu PNJ, khoản đầu tư của ông Phan Quốc Công ước tính đã mất gần 60% giá trị.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:02:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Chứng khoán xuất hiện mức định giá hiếm thấy, CTCK chỉ điểm 8 cổ phiếu tiềm năng",
+      "url": "https://cafef.vn/chung-khoan-xuat-hien-muc-dinh-gia-hiem-thay-ctck-chi-diem-8-co-phieu-tiem-nang-188261117110310154.chn",
+      "summary": "Theo SHS, mặt bằng định giá giảm trong khi kết quả kinh doanh của nhiều doanh nghiệp vẫn duy trì đà tăng trưởng tích cực.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:02:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Mỹ treo thưởng hàng triệu USD để truy thu tài sản từ các trung tâm lừa đảo",
+      "url": "https://cafef.vn/my-treo-thuong-hang-trieu-usd-de-truy-thu-tai-san-tu-cac-trung-tam-lua-dao-188261118060616561.chn",
+      "summary": "Mỹ vẫn tiếp tục đẩy mạnh chiến dịch trấn áp các mạng lưới lừa đảo trực tuyến.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:42:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Tổng thống Mỹ Trump gặp các đồng minh Bộ Tứ trước thềm hội nghị APEC",
+      "url": "https://cafef.vn/tong-thong-my-trump-gap-cac-dong-minh-bo-tu-truoc-them-hoi-nghi-apec-18826111805550644.chn",
+      "summary": "Tổng thống Mỹ Donald Trump ngày 17/11 đã gặp lãnh đạo các nước đồng minh Ấn Độ, Nhật Bản và Úc tại Philippines, mở đầu chuyến công du châu Á. Chuyến đi lần này cũng bao gồm cuộc gặp ba bên được mong đợi giữa ông Trump với các nhà lãnh đạo Trung Quốc và Nga.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:34:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Mạng lưới liên lạc tuyệt mật của tình báo Mỹ bất ngờ tê liệt",
+      "url": "https://cafef.vn/mang-luoi-lien-lac-tuyet-mat-cua-tinh-bao-my-bat-ngo-te-liet-188261118065952804.chn",
+      "summary": "Mạng lưới liên lạc tuyệt mật mà Cơ quan An ninh Quốc gia Mỹ (NSA) sử dụng cho hoạt động liên lạc nội bộ đã ngừng hoạt động, CNN dẫn nhiều nguồn tin cho biết.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:20:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Phát hiện 1.800 lượt xe liên tục di chuyển để đổ 15.000 m3 bê tông cùng 10.000 tấn thép, toà nhà cao gần gấp đôi Landmark 72 dự kiến hoàn thành vào năm 2027",
+      "url": "https://cafef.vn/phat-hien-1800-luot-xe-lien-tuc-di-chuyen-de-do-15000-m3-be-tong-cung-10000-tan-thep-toa-nha-cao-gan-gap-doi-landmark-72-du-kien-hoan-thanh-vao-nam-2027-188261117230556394.chn",
+      "summary": "Tòa nhà dự kiến cao khoảng 557 m, hướng tới kỷ lục tòa nhà ở cao nhất thế giới. Riêng quá trình thi công móng bè được công bố sử dụng khoảng 15.000 m3 bê tông và 10.000 tấn thép.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:04:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Từ Đệ nhất phu nhân Pháp đến Tổng thống Mexico, nữ vệ sĩ 'ngôi sao' Trung Quốc luôn có mặt ở nơi đặc biệt",
+      "url": "https://cafef.vn/tu-de-nhat-phu-nhan-phap-den-tong-thong-mexico-nu-ve-si-ngoi-sao-trung-quoc-luon-co-mat-o-noi-dac-biet-188261118071236982.chn",
+      "summary": "Được xác định là Từ Cẩn của Bộ Công an Trung Quốc - chuyên bảo vệ các nữ nhân vật quan trọng, cô gây ấn tượng mạnh nhờ thần thái đĩnh đạc cùng tác phong dứt khoát, chuyên nghiệp.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:50:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Bộ Quốc phòng Nga xác nhận 19 người thiệt mạng trong vụ rơi máy bay An-12",
+      "url": "https://cafef.vn/bo-quoc-phong-nga-xac-nhan-19-nguoi-thiet-mang-trong-vu-roi-may-bay-an-12-188261118070831378.chn",
+      "summary": "Vụ rơi máy bay vận tải quân sự An-12 đã gây thiệt hại lớn cho Quân đội Nga cả về phương tiện lẫn nhân lực.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:37:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Jensen Huang viết tâm thư mong trở lại Nvidia, Hội đồng quản trị chính thức nói: Không",
+      "url": "https://cafef.vn/jensen-huang-viet-tam-thu-mong-tro-lai-nvidia-hoi-dong-quan-tri-chinh-thuc-noi-khong-18826111807134794.chn",
+      "summary": "Chỉ vài giờ sau khi ông Jensen Huang công khai nói sẵn sàng quay lại làm CEO, hội đồng quản trị Nvidia đã đóng lại cánh cửa đó.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:21:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "3 tàu sân bay Mỹ tới Trung Đông, tập trung lực lượng lớn nhất 2 thập kỷ",
+      "url": "https://cafef.vn/3-tau-san-bay-my-toi-trung-dong-tap-trung-luc-luong-lon-nhat-2-thap-ky-188261118070624596.chn",
+      "summary": "Với 3 nhóm tác chiến tàu sân bay, Mỹ đã tập trung lực lượng hải quân lớn nhất của mình gần vùng biển Iran kể từ cuộc xâm lược Iraq năm 2003.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:20:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Ngỡ ngàng Thâm Quyến: Thành phố Trung Quốc đi trước tương lai tới 60 năm",
+      "url": "https://cafef.vn/ngo-ngang-tham-quyen-thanh-pho-trung-quoc-di-truoc-tuong-lai-toi-60-nam-188261118070420359.chn",
+      "summary": "Thâm Quyến phô diễn diện mạo đô thị tương lai với robot nấu ăn, drone giao đồ uống trước thềm Hội nghị Thượng đỉnh APEC.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:04:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Ông Trump cảnh báo Iran 'trả giá khủng khiếp chưa từng thấy' nếu điều này xảy ra",
+      "url": "https://cafef.vn/ong-trump-canh-bao-iran-tra-gia-khung-khiep-chua-tung-thay-neu-dieu-nay-xay-ra-188261117215636501.chn",
+      "summary": "Tổng thống Mỹ ngày 17/11 cảnh báo Iran sẽ phải đối mặt với sự trả đũa chưa từng có tiền lệ, sau khi xuất hiện thông tin về khả năng Tehran nhằm vào Washington.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T16:39:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Cuộc gặp 3 bên lịch sử ở Trung Quốc bị so sánh với Hội nghị Yalta, Điện Kremlin lên tiếng",
+      "url": "https://cafef.vn/cuoc-gap-3-ben-lich-su-o-trung-quoc-bi-so-sanh-voi-hoi-nghi-yalta-dien-kremlin-len-tieng-188261117201437728.chn",
+      "summary": "Ông Peskov mô tả cuộc hội đàm là \"một cuộc gặp vô cùng quan trọng và chưa từng có tiền lệ\".",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T15:53:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Tỷ phú nước đóng chai: 'Tôi không thích kết bạn với những người làm kinh doanh'",
+      "url": "https://cafef.vn/ty-phu-nuoc-dong-chai-toi-khong-thich-ket-ban-voi-nhung-nguoi-lam-kinh-doanh-188261117202750244.chn",
+      "summary": "Zhong Shanshan có biệt danh \"sói cô độc\", bỏ học năm 12 tuổi, từng làm công nhân xây dựng trước khi khởi nghiệp kinh doanh.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T15:27:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Microsoft 365 sập hàng chục tiếng mới khôi phục được, nguyên nhân từ một lỗi tồn tại suốt 3 tháng nay",
+      "url": "https://cafef.vn/microsoft-365-sap-hang-chuc-tieng-moi-khoi-phuc-duoc-nguyen-nhan-tu-mot-loi-ton-tai-suot-3-thang-nay-188261117202534394.chn",
+      "summary": "Vào lúc đỉnh điểm, 80% máy chủ dành cho các dịch vụ Microsoft 365 đã không thể hoạt động được.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T14:50:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "BIDV thiết lập chuẩn mực Private Banker, hướng tới năng lực quản lý gia sản toàn diện",
+      "url": "https://cafef.vn/bidv-thiet-lap-chuan-muc-private-banker-huong-toi-nang-luc-quan-ly-gia-san-toan-dien-188261117211116336.chn",
+      "summary": "Trong chiến lược phát triển Private Banking, BIDV xác định đội ngũ Private Banker là một trong những nền tảng cốt lõi. Ngân hàng đã chủ động đầu tư từ sớm vào khung đào tạo chuyên biệt, hợp tác với các tổ chức uy tín quốc tế và từng bước hình thành chuẩn nghề phù hợp với xu hướng phát triển của ngành trong khu vực và trên thế giới.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:30:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Agribank cảnh báo khách hàng dùng Wi-Fi công cộng, chỉ rõ 6 thủ đoạn chiếm đoạt tiền trong tài khoản ngân hàng",
+      "url": "https://cafef.vn/agribank-canh-bao-khach-hang-dung-wi-fi-cong-cong-chi-ro-6-thu-doan-chiem-doat-tien-trong-tai-khoan-ngan-hang-188261117065649844.chn",
+      "summary": "Theo Agribank, ngoài chiêu tráo chip ngay tại quầy, kẻ gian còn dựng website giả chỉ khác bản thật một ký tự để lấy số thẻ, CVV và mã OTP của khách hàng.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T15:25:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Chủ động kiểm tra nghĩa vụ thuế - bảo vệ quyền lợi của chính mình trước khi xuất cảnh",
+      "url": "https://cafef.vn/chu-dong-kiem-tra-nghia-vu-thue-bao-ve-quyen-loi-cua-chinh-minh-truoc-khi-xuat-canh-188261118081631233.chn",
+      "summary": "Theo Luật Quản lý thuế số 108/2025/QH15 và Nghị định số 252/2026/NĐ-CP có hiệu lực từ ngày 01/7/2026, việc áp dụng biện pháp tạm hoãn xuất cảnh được thực hiện theo đúng đối tượng, điều kiện, trình tự và thủ tục quy định.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T02:00:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Xóa bỏ địa giới hành chính khi thực hiện 3 thủ tục BHXH, BHYT",
+      "url": "https://cafef.vn/xoa-bo-dia-gioi-hanh-chinh-khi-thuc-hien-3-thu-tuc-bhxh-bhyt-188261118073637823.chn",
+      "summary": "Người tham gia BHXH, BHYT có thể thực hiện ba thủ tục gắn trực tiếp với quyền lợi an sinh, nhờ cơ chế không phụ thuộc vào địa giới hành chính trong phạm vi toàn quốc. Việc thực hiện thủ tục không bị giới hạn bởi địa bàn góp phần giảm thời gian, chi phí đi lại, nhất là với người đang sinh sống, làm việc ở địa phương khác.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:30:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Có giới hạn số gói thầu được chỉ định cho một nhà thầu trong cùng dự án?",
+      "url": "https://cafef.vn/co-gioi-han-so-goi-thau-duoc-chi-dinh-cho-mot-nha-thau-trong-cung-du-an-188261118073342918.chn",
+      "summary": "Công ty của ông Nguyễn Hoàng Giang (Hưng Yên) đã được chỉ định thầu thực hiện gói thầu tư vấn thiết kế thuộc một dự án đầu tư công.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T01:01:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Hà Nội: Thư Lâm đặt mục tiêu hoàn thành 48/54 tiêu chí xã XHCN vào năm 2030",
+      "url": "https://cafef.vn/ha-noi-thu-lam-dat-muc-tieu-hoan-thanh-48-54-tieu-chi-xa-xhcn-vao-nam-2030-188261118073224594.chn",
+      "summary": "Ngày 17/11, tại Hội nghị tổng kết Chiến dịch “100 ngày hành động vì Thư Lâm phát triển - Vì hạnh phúc của nhân dân”, xã Thư Lâm (Hà Nội) công bố kết quả hoàn thành 86/108 công trình, phần việc đã đăng ký.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:41:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Gần 4 triệu tỷ đồng: Hé lộ quy mô dòng tiền khổng lồ của TP.HCM",
+      "url": "https://cafef.vn/gan-4-trieu-ty-dong-he-lo-quy-mo-dong-tien-khong-lo-cua-tphcm-18826111807375445.chn",
+      "summary": "Con số này tăng 13% so với cuối năm 2025.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:37:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "TPHCM họp dân, khởi động ‘siêu dự án’ gần 49.000 tỷ đồng",
+      "url": "https://cafef.vn/tphcm-hop-dan-khoi-dong-sieu-du-an-gan-49000-ty-dong-188261118072836745.chn",
+      "summary": "TPHCM vừa chính thức khởi động dự án đầu tiên trong 4 dự án chỉnh trang đô thị khu vực bờ Nam kênh Đôi, với tổng vốn gần 48.980 tỷ đồng từ ngân sách thành phố sau khi được HĐND TPHCM khóa XI, nhiệm kỳ 2026-2031 thông qua chủ trương đầu tư tại kỳ họp thứ 5.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-18T00:28:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Sang năm 2027, những trường hợp sau sẽ được hưởng 100% BHYT, người dân cần biết tránh bỏ lỡ quyền lợi",
+      "url": "https://cafef.vn/sang-nam-2027-nhung-truong-hop-sau-se-duoc-huong-100-bhyt-nguoi-dan-can-biet-tranh-bo-lo-quyen-loi-188261117232945008.chn",
+      "summary": "Luật Bảo hiểm y tế (BHYT) sửa đổi 2024 quy định rõ 11 nhóm đối tượng được hưởng mức thanh toán 100% chi phí khám, chữa bệnh. Tuy nhiên, người dân cần nắm rõ phạm vi chi trả thực tế để tránh hiểu lầm về các khoản phí phát sinh ngoài danh mục.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-17T17:01:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-18T01:44:21",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-18T00:16:50",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Stripe backer Atomico calls for Europe to own its success stories",
+      "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+      "summary": "Europe is home to many of the world's fastest growing companies of all time, veteran VC firm Atomico highlighted in its latest annual State of European Tech report.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-18T00:01:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T23:37:48",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T23:04:35",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T22:42:27",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T22:29:05",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T21:48:07",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T21:34:50",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Waymo suspends freeway rides nationwide after California DMV order",
+      "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+      "summary": "The DMV said Waymo's freeway operations pose an imminent hazard to public safety. Restrictions will remain in place until Waymo can demonstrate that it has taken \"effective corrective actions\" to address the deficiencies.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T19:49:41",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T19:32:11",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T19:02:20",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+      "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+      "summary": "Apple's status page confirms its services are facing outages, but has not confirmed the cause.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T18:55:40",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T18:48:23",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T18:10:00",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia's Colette Kress tells Cramer: Employees and customers are not going anywhere",
+      "url": "https://www.cnbc.com/2026/11/17/nvidias-colette-kress-tells-cramer-customers-and-employees-are-not-going-anywhere.html",
+      "summary": "Interim CEO Colette Kress said exclusively on \"Mad Money\" that the chipmaker's customers and employees remain committed to the company.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-18T01:02:38",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "summary": "He said he had seen support from investors and employees and was willing to come back as CEO.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-17T18:21:03",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T23:41:18",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T21:40:59",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T21:00:55",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T18:58:01",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T16:19:03",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T16:09:57",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T18:04:16",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T17:32:25",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    },
+    {
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-17T17:20:41",
+      "first_seen": "2026-11-18T09:25:17+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-11-14": [
-      "noon"
-    ],
     "2026-11-15": [
       "noon"
     ],
