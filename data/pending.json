@@ -1,10 +1,708 @@
 {
   "last_sent": "2026-11-19T21:24:45+07:00",
-  "items": [],
+  "items": [
+    {
+      "title": "Nhận định thị trường 20/11: Chỉ báo kỹ thuật phát tín hiệu xấu, rủi ro thủng nền 1.680 điểm chực chờ",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYXlIMWxZanoxVFlZS3l1SXZnTWsyVEZ2VlZPLUxZa25SMlZjejhnbm4xdnZDVFVSWDUzeWgwUzRCU0FLQTlyeEZOZkxaMGkxcVpFNFYxMmpLd0NQdWxpTlF2VE9MZVdSTzVULWpFNXgxSUpCSWNuRmcyWmlPN2tWakJRRGhSbmhPU0MtVFlHVHF4UWdkVXlvY0ZwdE1hajIyX0ZzeG1tLUh3dHl2QU5WaWpnU2dzZm9PVVloWWI3UGo1VllhTElXb2dRNE9iLUE?oc=5",
+      "summary": "Nhận định thị trường 20/11: Chỉ báo kỹ thuật phát tín hiệu xấu, rủi ro thủng nền 1.680 điểm chực chờ nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-19T16:10:01",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Sắp lộ diện kiến trúc siêu cầu dây văng gần 30.000 tỷ kết nối 2 tỉnh thành Đồng bằng sông Cửu Long",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTGxZVmlNYmdIeUhtSk1iOWN3ZjdfLVdrTGExbE8tYjFsVDNBTmMtZmZuTTRTZGQ3b01oNTBwNVpDb3NyeF9mUDlmQ29OMHJfdVZjXzdVOTl1VHlURTI1Vko5VGUtbjRXSU9lOWd4RlZPWmhZUnppV3VCOEhYZU9zdHFrLTVxNV92WW1jWnhpREFfdUQwMU1tMnNheWJMLVJkSDRWMFlwb21HV2tWRkdRYTNvWVR2MW1NN1I4TzFRZ19makQwM1ROM0ZoTkpKVTA?oc=5",
+      "summary": "Sắp lộ diện kiến trúc siêu cầu dây văng gần 30.000 tỷ kết nối 2 tỉnh thành Đồng bằng sông Cửu Long nguoiquansat.vn",
+      "source": "Người Quan Sát",
+      "category": "vietnam",
+      "category_label": "🇻🇳 Việt Nam",
+      "published": "2026-11-19T05:31:33",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "AMD dives on short seller report of alleged China exposure",
+      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "summary": "AMD closed down over 7% after a short seller alleged that its firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T00:08:34",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+      "summary": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T23:21:23",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+      "summary": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T00:53:55",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+      "summary": "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T00:52:17",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "summary": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T00:00:38",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "summary": "SoftBank shares plunged over 16% on Friday as Japanese and South Korean technology stocks fell sharply.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T01:34:19",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Congress passes bill to protect older investors from financial fraud",
+      "url": "https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html",
+      "summary": "Both chambers of Congress have now approved the Financial Exploitation Prevention Act of 2025, which is aimed at protecting vulnerable investors from fraud.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T22:23:29",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+      "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+      "summary": "President Trump disclosed purchases of Nvidia stock, SpaceX debt and Tesla shares in September, alongside millions of dollars in other investments.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T19:43:08",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Jensen Huang's — and Nvidia's — legal exposure balloons",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+      "summary": "\"It's not going to get any better for Jensen Huang; it's going to get far worse,\" said Salvatore Graziano, a New York securities litigation attorney.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T18:44:34",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+      "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
+      "summary": "Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T21:40:31",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
+      "url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+      "summary": "Amazon has lobbied heavily against the proposed legislation, while New York City Mayor Zohran Mamdani backed the bill earlier this year.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T20:46:23",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "summary": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T21:00:57",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Amid recent banking outages, should you start carrying cash again? Top advisors weigh in",
+      "url": "https://www.cnbc.com/2026/11/19/banking-outages-emergency-cash.html",
+      "summary": "Recent outages are prompting a rethink of cash. At the very least, your money should be diversified, top advisors say.",
+      "source": "CNBC Top News",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T19:06:56",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Giá vàng thế giới mất mốc 3.600 USD",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-mat-moc-3-600-usd-5146847.html",
+      "summary": "Kim loại quý lao dốc phiên thứ ba liên tiếp vì sức ép từ lãi suất và đồng đôla Mỹ, có lúc về 3.589 USD.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-20T00:49:44",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Nhiều nhà băng có quy mô tài sản vượt một triệu tỷ đồng",
+      "url": "https://vnexpress.net/nhieu-nha-bang-co-quy-mo-tai-san-vuot-mot-trieu-ty-dong-5146562.html",
+      "summary": "Một nửa ngân hàng niêm yết có quy mô tài sản trên 500.000 tỷ đồng, dự kiến thuộc nhóm quy mô lớn theo tiêu chí mới của Ngân hàng Nhà nước, trong đó có 9 nhà băng vượt mốc một triệu tỷ.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T21:00:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Loạt giám đốc cấp cao PNJ từ nhiệm",
+      "url": "https://vnexpress.net/loat-giam-doc-cap-cao-pnj-tu-nhiem-5146804.html",
+      "summary": "PNJ thông qua đơn từ nhiệm của 3 giám đốc cấp cao phụ trách chiến lược, nhân sự và khách hàng - bán lẻ, hiệu lực từ cuối tháng này.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T20:13:28",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Đề xuất đánh giá kỹ mục đích đầu tư các trung tâm dữ liệu",
+      "url": "https://vnexpress.net/de-xuat-danh-gia-ky-muc-dich-dau-tu-cac-trung-tam-du-lieu-5146786.html",
+      "summary": "Phó tổng giám đốc Điện lực Miền Nam khuyến nghị đánh giá kỹ các dự án trung tâm dữ liệu, tránh việc tận dụng điện giá rẻ chỉ để khách ngoại thuê.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T17:00:12",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Một cá nhân Singapore nâng sở hữu tại công ty tài sản số liên quan VPBank",
+      "url": "https://vnexpress.net/mot-ca-nhan-singapore-nang-so-huu-tai-cong-ty-tai-san-so-lien-quan-vpbank-5146771.html",
+      "summary": "Cheng Tan Feng, một cá nhân có địa chỉ tại Singapore, vừa chi ra hơn trăm tỷ để tăng sở hữu tại CAEX, công ty tài sản số liên quan VPBank.",
+      "source": "VnExpress Kinh doanh",
+      "category": "kinh_te",
+      "category_label": "💰 Kinh tế / Tài chính",
+      "published": "2026-11-19T15:17:53",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Chuyên gia lý giải nguyên nhân giá vàng giảm sốc",
+      "url": "https://cafef.vn/chuyen-gia-ly-giai-nguyen-nhan-gia-vang-giam-soc-188261120014541813.chn",
+      "summary": "Giá vàng giảm mạnh, mất khoảng 11% sau 2 tuần qua đó xuống mức thấp nhất trong vòng 14 tháng.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T18:44:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Khối ngoại bán ròng 126.000 tỷ từ đầu năm 2026, kỷ lục chưa từng có",
+      "url": "https://cafef.vn/khoi-ngoai-ban-rong-126000-ty-tu-dau-nam-2026-ky-luc-chua-tung-co-188261119230654276.chn",
+      "summary": "Có nhiều lý do khiến khối ngoại bán ròng mạnh tay cổ phiếu Việt Nam, đến từ cả nội tại lẫn yếu tố tác động bên ngoài.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:05:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Bán ròng hàng triệu cổ phiếu mỗi ngày, khối ngoại còn nắm bao nhiêu FPT?",
+      "url": "https://cafef.vn/ban-rong-hang-trieu-co-phieu-moi-ngay-khoi-ngoai-con-nam-bao-nhieu-fpt-188261119215103655.chn",
+      "summary": "Từng là cổ phiếu kín room ngoại trong hàng trăm ngày, FPT hiện chứng kiến sự đảo chiều mạnh về cơ cấu sở hữu khi tỷ lệ nắm giữ của nhà đầu tư nước ngoài giảm xuống còn 25,38%.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:05:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Nắm \"núi\" tiền gửi hơn 22.000 tỷ, lợi suất cổ tức lên tới 18%, một doanh nghiệp được dự báo lãi lớn trong 5 năm tới",
+      "url": "https://cafef.vn/nam-nui-tien-gui-hon-22000-ty-loi-suat-co-tuc-len-toi-18-mot-doanh-nghiep-duoc-du-bao-lai-lon-trong-5-nam-toi-188261119163934757.chn",
+      "summary": "Tính đến cuối quý 3/2026, lượng tiền và các khoản đầu tư ngắn hạn của DN đạt 22.600 tỷ đồng, tăng 54% so với đầu năm sau khi nhận cổ tức từ Honda Việt Nam.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:03:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Cổ phiếu \"thủng đáy\", FPT bất ngờ hé lộ kế hoạch mới",
+      "url": "https://cafef.vn/co-phieu-thung-day-fpt-bat-ngo-he-lo-ke-hoach-moi-188261119214257171.chn",
+      "summary": "Việc ứng dụng AI đang tạo điều kiện để FPT cải thiện đơn giá dịch vụ, thay vì chỉ cạnh tranh bằng chi phí nhân công.",
+      "source": "CafeF Chứng khoán",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:01:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Thông điệp của Thủ tướng Nhật Bản Sanae Takaichi sau khi gặp Chủ tịch Trung Quốc Tập Cận Bình",
+      "url": "https://cafef.vn/thong-diep-cua-thu-tuong-nhat-ban-sanae-takaichi-sau-khi-gap-chu-tich-trung-quoc-tap-can-binh-188261120071423777.chn",
+      "summary": "Thủ tướng Nhật Bản Sanae Takaichi nhấn mạnh sự cần thiết phải thúc đẩy “mối quan hệ mang tính xây dựng và ổn định” với Trung Quốc, sau hai lần tiếp xúc với Chủ tịch Trung Quốc Tập Cận Bình bên lề Hội nghị cấp cao APEC tại Thâm Quyến.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:59:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Iran báo tin không vui cho Trung Quốc",
+      "url": "https://cafef.vn/iran-bao-tin-khong-vui-cho-trung-quoc-188261119223029455.chn",
+      "summary": "Các nhà máy lọc dầu tư nhân Trung Quốc đang phải mua dầu từ Iraq, Qatar, Brazil và nhiều thị trường khác với mức giá cao hơn sau khi nguồn cung Iran suy giảm mạnh.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:30:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Hội nghị Thượng đỉnh chỉ kéo dài đúng 81 phút, ông Trump, ông Tập và ông Putin đều đã có thứ mình cần",
+      "url": "https://cafef.vn/hoi-nghi-thuong-dinh-chi-keo-dai-dung-81-phut-ong-trump-ong-tap-va-ong-putin-deu-da-co-thu-minh-can-188261119222550471.chn",
+      "summary": "Cuộc họp kéo dài 81 phút bên lề APEC không tạo ra đột phá, song mỗi nhà lãnh đạo đều thu được điều mình cần.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:07:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Đoàn tàu dài gần gấp đôi đường Láng, khiến người dân chờ gần 15 phút ở barie mỗi khi đi qua",
+      "url": "https://cafef.vn/doan-tau-dai-hon-76-km-khien-nguoi-dan-cho-gan-15-phut-o-barie-nhung-ca-696-toa-deu-trong-rong-ly-do-phia-sau-gay-bat-ngo-188261119221024427.chn",
+      "summary": "Đoàn tàu được công bố là dài nhất thế giới vừa lăn bánh qua hai vùng của Nam Phi, nhưng kỷ lục chỉ là một phần của câu chuyện.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:00:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Trụ sở quỹ đầu tư quốc gia Ả rập Xê út trúng tên lửa, biểu tượng tài chính của đại gia vùng Vịnh rung lắc",
+      "url": "https://cafef.vn/tru-so-quy-dau-tu-quoc-gia-a-rap-xe-ut-trung-ten-lua-bieu-tuong-tai-chinh-cua-dai-gia-vung-vinh-rung-lac-18826111922463462.chn",
+      "summary": "Đây là lần thứ hai trong chưa đầy hai tuần một công trình biểu tượng ở khu tài chính thủ đô Saudi Arabia (Ả rập Xê út) bị tấn công, khi xung đột tại Yemen ngày càng lan rộng.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:10:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Lãnh đạo Trung - Nga - Mỹ thống nhất những vấn đề gì tại Thâm Quyến?",
+      "url": "https://cafef.vn/lanh-dao-trung-nga-my-thong-nhat-nhung-van-de-gi-tai-tham-quyen-188261119225306486.chn",
+      "summary": "Bản tường thuật về cuộc gặp ba bên do đài truyền hình nhà nước Trung Quốc CCTV công bố cho biết, Tổng thống Mỹ Donald Trump, Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình đã trao đổi quan điểm về nhiều vấn đề, bao gồm các dòng chảy năng lượng toàn cầu, vấn đề phổ biến vũ khí hạt nhân và hệ thống pháp luật quốc tế.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T16:23:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Những đồng tiền lâu đời nhất còn lưu hành trên thế giới",
+      "url": "https://cafef.vn/nhung-dong-tien-lau-doi-nhat-con-luu-hanh-tren-the-gioi-188261119211906167.chn",
+      "summary": "Một đồng tiền có thể thay đổi hình dáng, màu sắc, chất liệu và mệnh giá qua từng thời kỳ, nhưng đơn vị tiền tệ mà người dân sử dụng vẫn được duy trì qua nhiều thế hệ. Đó là câu chuyện của những đồng tiền lâu đời nhất còn lưu hành trên thế giới hiện nay.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T15:22:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Toàn cảnh cuộc hội đàm ba bên lần đầu tiên trong lịch sử của lãnh đạo Trung - Nga - Mỹ",
+      "url": "https://cafef.vn/toan-canh-cuoc-hoi-dam-ba-ben-lan-dau-tien-trong-lich-su-cua-lanh-dao-trung-nga-my-18826111921340321.chn",
+      "summary": "Cuộc hội đàm ba bên của Chủ tịch Trung Quốc Tập Cận Bình, Tổng thống Nga Vladimir Putin và Tổng thống Mỹ Donald Trump chiều 19/11 kéo dài khoảng một tiếng rưỡi. Trong đó, các nhà lãnh đạo thảo luận về nhiều vấn đề quan trọng, bao gồm cả việc giải trừ vũ khí hạt nhân.",
+      "source": "CafeF Tài chính quốc tế",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T14:56:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Chuyện chưa kể về những nhà giáo rời bục giảng để lập nên một ngân hàng tầm cỡ, người kế nghiệp là Tiến sĩ Trần Hùng Huy",
+      "url": "https://cafef.vn/chuyen-chua-ke-ve-nhung-nha-giao-roi-buc-giang-de-lap-nen-mot-ngan-hang-tam-co-nguoi-ke-nghiep-la-tien-si-tran-hung-huy-188261120074333086.chn",
+      "summary": "Ít ai biết ACB ra đời trong căn nhà riêng của một người thầy, nơi phòng ngủ trở thành phòng kế toán, bàn ăn thành bàn họp và hơn 20 con người cùng gây dựng một ngân hàng.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T01:15:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "F88 tiếp tục được vinh danh Top 100 nơi làm việc tốt nhất Việt Nam 2026",
+      "url": "https://cafef.vn/f88-tiep-tuc-duoc-vinh-danh-top-100-noi-lam-viec-tot-nhat-viet-nam-2026-188261120031908566.chn",
+      "summary": "Trong lễ công bố ngày 18/11 tại TP.HCM, F88 tiếp tục được Anphabe vinh danh trong Top 100 nơi làm việc tốt nhất Việt Nam, xếp thứ 4 trong nhóm doanh nghiệp quy mô vừa thuộc ngành Dịch vụ tài chính, tăng 2 bậc so với năm 2025.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T01:00:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Giá vàng hôm nay 20/11: Vàng miếng SJC bán ra 136,2 triệu đồng/lượng, vàng thế giới giảm sâu",
+      "url": "https://cafef.vn/gia-vang-hom-nay-20-11-vang-mieng-sjc-ban-ra-1362-trieu-dong-luong-vang-the-gioi-giam-sau-188261120072539601.chn",
+      "summary": "Vàng miếng SJC được niêm yết ở mức 133,2 triệu đồng/lượng mua vào và 136,2 triệu đồng/lượng bán ra. Trong khi đó, giá vàng thế giới tiếp tục giảm mạnh, lùi về quanh ngưỡng 3.600 USD/ounce.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:25:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Khi bảng điện không nói lên tất cả: Cổ phiếu ngân hàng nào được nhà đầu tư yêu thích nhất?",
+      "url": "https://cafef.vn/khi-bang-dien-khong-noi-len-tat-ca-co-phieu-ngan-hang-nao-duoc-nha-dau-tu-yeu-thich-nhat-188261119233021691.chn",
+      "summary": "Thị trường chứng khoán đang chứng kiến sự phân hóa mạnh của nhóm cổ phiếu ngân hàng khi chỉ 9/28 mã tăng giá so với cuối năm 2025, trong khi nhiều cổ phiếu của các ngân hàng đầu ngành lại sụt giảm. Giữa những diễn biến trái chiều đó, đâu sẽ là cái tên được cộng đồng nhà đầu tư yêu thích nhất tại FChoice 2026?",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T23:26:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Ủy ban Basel lưu ý một số rủi ro đối với hệ thống ngân hàng",
+      "url": "https://cafef.vn/uy-ban-basel-luu-y-mot-so-rui-ro-doi-voi-he-thong-ngan-hang-188261120032332332.chn",
+      "summary": "Tại cuộc họp ngày 18/11/2026 tại Basel (Thụy Sĩ), Ủy ban Basel về Giám sát ngân hàng (BCBS) đã trao đổi về những rủi ro và điểm dễ tổn thương của hệ thống ngân hàng toàn cầu trong bối cảnh bất ổn kinh tế và địa chính trị còn nhiều bất định.",
+      "source": "CafeF Tài chính - Ngân hàng",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T20:23:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Hôm nay, Quốc hội bắt đầu đợt 2, kỳ họp thứ 2",
+      "url": "https://cafef.vn/hom-nay-quoc-hoi-bat-dau-dot-2-ky-hop-thu-2-188261120075126977.chn",
+      "summary": "Ngày 20/11, kỳ họp thứ 2, Quốc hội khóa XVI sẽ bước vào đợt 2 với trọng tâm là thảo luận, thông qua nhiều nhiều luật, nghị quyết quan trọng",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T01:22:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Bên trong ‘bộ não’ điều khiển hệ thống chống ngập 10.000 tỷ ở TPHCM",
+      "url": "https://cafef.vn/ben-trong-bo-nao-dieu-khien-he-thong-chong-ngap-10000-ty-o-tphcm-188261120063309357.chn",
+      "summary": "Dự án chống ngập 10.000 tỷ đồng ở TPHCM đang hoàn tất những công đoạn cuối cùng, chuẩn bị vận hành toàn hệ thống vào ngày 25/11. Nhà điều hành trung tâm - nơi được ví như “bộ não” của toàn hệ thống đã cơ bản hoàn thiện, sẵn sàng giám sát và điều khiển hoạt động của các cống ngăn triều.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-20T00:21:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Bắt đầu từ hôm nay (20/11), Quốc hội sẽ biểu quyết thông qua nhiều luật, nghị quyết về thuế sử dụng đất phi nông nghiệp, thuế TNCN, doanh nghiệp...",
+      "url": "https://cafef.vn/bat-dau-tu-hom-nay-20-11-quoc-hoi-se-bieu-quyet-thong-qua-nhieu-luat-nghi-quyet-ve-thue-su-dung-dat-phi-nong-nghiep-thue-tncn-doanh-nghiep-188261119223842643.chn",
+      "summary": "Đợt 2 của Kỳ họp thứ Hai, Quốc hội khóa XVI sẽ tiếp tục trong 2 ngày (20-21/11/2026) tại Nhà Quốc hội. Dự kiến, Quốc hội sẽ biểu quyết thông qua nhiều luật, nghị quyết quan trọng, đồng thời tiếp tục thảo luận tại hội trường đối với một số dự án luật.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T17:01:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Thủ tướng: Trình Quốc hội xem xét miễn thuế TNDN, không tính tiền sử dụng đất đối với các cơ sở giáo dục không vì mục tiêu lợi nhuận, kể cả công và tư",
+      "url": "https://cafef.vn/thu-tuong-trinh-quoc-hoi-xem-xet-mien-thue-tndn-khong-tinh-tien-su-dung-dat-doi-voi-cac-co-so-giao-duc-khong-vi-muc-tieu-loi-nhuan-ke-ca-cong-va-tu-188261119223118597.chn",
+      "summary": "Chính phủ đang trình Quốc hội xem xét miễn thuế thu nhập doanh nghiệp, không tính tiền sử dụng đất đối với cơ sở giáo dục không vì mục tiêu lợi nhuận, kể cả công và tư. Với doanh nghiệp cung cấp suất ăn vào trường học, Chính phủ cũng đang báo cáo để trình Quốc hội xem xét thông qua chủ trương miễn thuế thu nhập doanh nghiệp.",
+      "source": "CafeF Vĩ mô - Đầu tư",
+      "category": "chung_khoan_vn",
+      "category_label": "📈 Tài chính / Chứng khoán VN",
+      "published": "2026-11-19T15:30:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-20T00:56:01",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-20T00:43:50",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+      "summary": "On the day Anthropic went public, Fireworks AI’s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers’ trust.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-20T00:26:03",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T23:37:56",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+      "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+      "summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T22:33:26",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T21:58:06",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T21:42:31",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Uber tests rides for kids as young as 10, with extra pay for drivers",
+      "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+      "summary": "Uber is testing the new program in three U.S. cities.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T21:33:24",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T20:18:49",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T19:10:45",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T18:09:11",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T17:38:40",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T17:00:00",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T16:59:23",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "source": "TechCrunch",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T16:19:41",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Cramer: My favorite chartist sees two major signs of a rally brewing in Alphabet stock",
+      "url": "https://www.cnbc.com/2026/11/19/alphabet-stock-larry-williams-rally-signals.html",
+      "summary": "Jim Cramer said that veteran chartist Larry Williams sees bullish signals in Alphabet’s charts.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T23:38:35",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Here's how big Anthropic’s record-setting IPO is: Visualization",
+      "url": "https://www.cnbc.com/2026/11/19/ant-stock-anthropic-record-setting-ipo.html",
+      "summary": "The AI company sold 930 million shares at $83 each, the biggest initial public offering on record.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T23:32:18",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Cramer says Nvidia’s woes are trumping Anthropic excitement for the rest of the AI trade",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-anthropic-ipo-ai-trade.html",
+      "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T23:22:53",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+      "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+      "summary": "Payward, the owner of crypto exchange Kraken, is pushing into private markets with its purchase of venture capital and asset management provider Tribe Capital.",
+      "source": "CNBC Tech",
+      "category": "cong_nghe",
+      "category_label": "💻 Công nghệ",
+      "published": "2026-11-19T20:33:05",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T22:31:41",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T21:59:35",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T20:22:17",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T20:05:06",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T18:21:13",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T16:52:01",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T15:16:45",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]",
+      "source": "The Verge AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T14:25:37",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    },
+    {
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "category_label": "🤖 AI",
+      "published": "2026-11-19T14:54:39",
+      "first_seen": "2026-11-20T08:45:56+07:00"
+    }
+  ],
   "sent_slots": {
-    "2026-11-16": [
-      "noon"
-    ],
     "2026-11-17": [
       "noon"
     ],
